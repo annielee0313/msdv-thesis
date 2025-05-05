@@ -1,0 +1,226 @@
+[
+  {
+    "name": "Charlie",
+    "year": 1990,
+    "gender": "women",
+    "brand": "Revlon",
+    "ad-image": "images/aa/1990-revlon.jpg",
+    "copy": "the gorgeous, sexy young fragrance by Revlon",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1990-revlon.jpg",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement features three images of the same woman in a sparkling blue dress, showcasing lively movement and energy, with the perfume bottle prominently displayed.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "smiling",
+            "pose_action": "walking",
+            "emotion_tags": [
+              "happy",
+              "confident",
+              "energetic",
+              "playful",
+              "stylish"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "glamorous",
+          "vibrant",
+          "fashionable",
+          "fun",
+          "confident"
+        ]
+      }
+    },
+    "unique_id": "Charlie_1990_1990-revlon.jpg"
+  },
+  {
+    "name": "Charlie",
+    "year": 1990,
+    "gender": "women",
+    "brand": "Revlon",
+    "ad-image": "images/aa/1990-charlie.jpg",
+    "copy": "",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1990-charlie.jpg",
+    "analysis": {
+      "vision": {
+        "description": "A man and a woman are walking together, with the woman reaching out to touch the man's backside. They are both dressed in business attire.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "hidden face",
+            "pose_action": "walking and touching the man",
+            "emotion_tags": [
+              "playful",
+              "confident",
+              "bold",
+              "assertive",
+              "cheerful"
+            ]
+          },
+          {
+            "gender": "man",
+            "facial_expression": "hidden face",
+            "pose_action": "walking",
+            "emotion_tags": [
+              "surprised",
+              "intrigued",
+              "neutral",
+              "composed",
+              "engaged"
+            ]
+          }
+        ],
+        "people_count": 2,
+        "nudity": "no",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "romantic",
+        "mood_tags": [
+          "professional",
+          "playful",
+          "assertive",
+          "confident",
+          "intriguing"
+        ]
+      }
+    },
+    "unique_id": "Charlie_1990_1990-charlie.jpg"
+  },
+  {
+    "name": "Bond Street",
+    "year": 1958,
+    "gender": "women",
+    "brand": "Yardley",
+    "ad-image": "images/aa/1958-newyardley.jpg",
+    "copy": "the better to scent you with... New Yardley Spray Mist",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1958-newyardley.jpg",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement shows a hand holding a Yardley Bond Street spray mist against a dark background, with colorful dangling earrings visible.",
+        "people": [
+          {
+            "gender": "unclear",
+            "facial_expression": "hidden face",
+            "pose_action": "holding perfume bottle",
+            "emotion_tags": [
+              "elegant",
+              "sophisticated",
+              "glamorous",
+              "fashionable",
+              "stylish"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "classy",
+          "luxurious",
+          "chic",
+          "refined",
+          "polished"
+        ]
+      }
+    },
+    "unique_id": "Bond Street_1958_1958-newyardley.jpg"
+  },
+  {
+    "name": "Lauren",
+    "year": 1987,
+    "gender": "women",
+    "brand": "Ralph Lauren",
+    "ad-image": "images/aa/1987-lauren.jpg",
+    "copy": "She has her own spirit, and it graces everyone she comes near.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1987-lauren.jpg",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement shows a woman with a serious expression and a boy with his face leaning against her shoulder. A bottle of perfume is displayed prominently.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "serious",
+            "pose_action": "sitting",
+            "emotion_tags": [
+              "calm",
+              "thoughtful",
+              "serene",
+              "composed",
+              "graceful"
+            ]
+          },
+          {
+            "gender": "boy",
+            "facial_expression": "neutral",
+            "pose_action": "leaning",
+            "emotion_tags": [
+              "calm",
+              "close",
+              "tender",
+              "gentle",
+              "comforting"
+            ]
+          }
+        ],
+        "people_count": 2,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "group",
+        "mood_tags": [
+          "elegant",
+          "intimate",
+          "refined",
+          "classic",
+          "emotional"
+        ]
+      }
+    },
+    "unique_id": "Lauren_1987_1987-lauren.jpg"
+  },
+  {
+    "name": "Tosca",
+    "year": 1962,
+    "gender": "women",
+    "brand": "4711",
+    "ad-image": "images/aa/1962-4711.jpg",
+    "copy": "There is magic in the nature of women - delicate and full of charm like the scent of youthful grace",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1962-4711.jpg",
+    "analysis": {
+      "vision": {
+        "description": "A woman with styled red hair is holding a card beside her face, while a decorative perfume bottle is shown below.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "neutral",
+            "pose_action": "holding card",
+            "emotion_tags": [
+              "elegant",
+              "thoughtful",
+              "composed",
+              "glamorous",
+              "serene"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "vintage",
+          "sophisticated",
+          "classic",
+          "graceful",
+          "stylish"
+        ]
+      }
+    },
+    "unique_id": "Tosca_1962_1962-4711.jpg"
+  }
+]

@@ -1,0 +1,220 @@
+[
+  {
+    "name": "Opium Parfum",
+    "year": 1980,
+    "gender": "women",
+    "brand": "Yves Saint Laurent",
+    "country": "france",
+    "ad-image": "images/aa/1980-opium.png",
+    "copy": "Never has a perfume provoked such emotion.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1980-opium.png",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement features a woman reclining with her head back, surrounded by flowers and a perfume bottle prominently displayed.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "seductive",
+            "pose_action": "reclining",
+            "emotion_tags": [
+              "elegant",
+              "sensual",
+              "luxurious",
+              "relaxed",
+              "alluring"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "partial",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "luxurious",
+          "sensual",
+          "elegant",
+          "intimate",
+          "alluring"
+        ]
+      }
+    },
+    "unique_id": "Opium Parfum_1980_1980-opium.png"
+  },
+  {
+    "name": "Classique",
+    "year": 1993,
+    "gender": "women",
+    "brand": "Jean Paul Gaultier",
+    "country": "united-kingdom",
+    "bottle-image": "images/bottle/classique.jpg",
+    "ad-image": "images/aa/2003-classique.jpg",
+    "copy": "",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/2003-classique.jpg",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement features a close-up of two people embracing intimately with a perfume bottle in the foreground.",
+        "people": [
+          {
+            "gender": "man",
+            "facial_expression": "hidden face",
+            "pose_action": "embracing",
+            "emotion_tags": [
+              "intimate",
+              "romantic",
+              "gentle",
+              "secure",
+              "loving"
+            ]
+          },
+          {
+            "gender": "woman",
+            "facial_expression": "neutral",
+            "pose_action": "standing, embracing",
+            "emotion_tags": [
+              "confident",
+              "calm",
+              "seductive",
+              "poised",
+              "alluring"
+            ]
+          }
+        ],
+        "people_count": 2,
+        "nudity": "partial",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "romantic",
+        "mood_tags": [
+          "intimacy",
+          "sensuality",
+          "elegance",
+          "passion",
+          "grace"
+        ]
+      }
+    },
+    "unique_id": "Classique_1993_2003-classique.jpg"
+  },
+  {
+    "name": "Rock'n Rose",
+    "year": 2008,
+    "gender": "women",
+    "brand": "Valentino",
+    "country": "united-kingdom",
+    "ad-image": "images/aa/2008-valentino.png",
+    "copy": "",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/2008-valentino.png",
+    "analysis": {
+      "vision": {
+        "description": "A woman reclines on a leather sofa, with a seductive expression, alongside a perfume bottle in the lower right corner.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "seductive",
+            "pose_action": "reclining",
+            "emotion_tags": [
+              "alluring",
+              "confident",
+              "sensual",
+              "relaxed",
+              "intimate"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "partial",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "luxurious",
+          "elegant",
+          "romantic",
+          "mysterious",
+          "glamorous"
+        ]
+      }
+    },
+    "unique_id": "Rock'n Rose_2008_2008-valentino.png"
+  },
+  {
+    "name": "Fuel for Life",
+    "year": 2007,
+    "gender": "men",
+    "brand": "Diesel",
+    "country": "united-kingdom",
+    "ad-image": "images/aa/2007-diesel.png",
+    "copy": "Fuel for life, finally legalized, use with caution",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/2007-diesel.png",
+    "analysis": {
+      "vision": {
+        "description": "A woman in a seductive pose wearing a sheer dress sits on a bed, with a playful smile and a perfume bottle image below her.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "seductive",
+            "pose_action": "sitting",
+            "emotion_tags": [
+              "confident",
+              "seductive",
+              "playful",
+              "inviting",
+              "alluring"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "partial",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "luxurious",
+          "seductive",
+          "playful",
+          "confident",
+          "stylish"
+        ]
+      }
+    },
+    "unique_id": "Fuel for Life_2007_2007-diesel.png"
+  },
+  {
+    "name": "Fuel for Life",
+    "year": 2007,
+    "gender": "men",
+    "brand": "Diesel",
+    "country": "united-kingdom",
+    "ad-image": "images/aa/2007-diesel-2.png",
+    "copy": "Fuel for life, finally legalized, use with caution",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/2007-diesel-2.png",
+    "analysis": {
+      "vision": {
+        "description": "A man in an open shirt and vest holds a perfume bottle, suggestively posed against a muted background.",
+        "people": [
+          {
+            "gender": "man",
+            "facial_expression": "seductive",
+            "pose_action": "standing, holding perfume bottle",
+            "emotion_tags": [
+              "confident",
+              "alluring",
+              "intimate",
+              "mysterious",
+              "bold"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "partial",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "bold",
+          "mysterious",
+          "intense",
+          "seductive",
+          "stylish"
+        ]
+      }
+    },
+    "unique_id": "Fuel for Life_2007_2007-diesel-2.png"
+  }
+]

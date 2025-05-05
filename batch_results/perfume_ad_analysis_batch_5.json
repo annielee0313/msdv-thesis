@@ -1,0 +1,231 @@
+[
+  {
+    "name": "Pure Attraction",
+    "year": 2009,
+    "gender": "women",
+    "brand": "Police",
+    "country": "italy",
+    "ad-image": "images/aa/2009-police.png",
+    "copy": "Police Be Younique. Pure Attraction",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/2009-police.png",
+    "analysis": {
+      "vision": {
+        "description": "The perfume advertisement features a woman embracing a humanoid robot on a bed, with two perfume bottles placed below them.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "neutral",
+            "pose_action": "reclining and embracing robot",
+            "emotion_tags": [
+              "intimate",
+              "calm",
+              "content",
+              "connected",
+              "relaxed"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "partial",
+        "sexual_suggestiveness": "intimate",
+        "interaction_type": "none",
+        "mood_tags": [
+          "futuristic",
+          "intimate",
+          "modern",
+          "luxurious",
+          "soft"
+        ]
+      }
+    },
+    "unique_id": "Pure Attraction_2009_2009-police.png"
+  },
+  {
+    "name": "Gucci Guilty",
+    "year": 2010,
+    "gender": "women",
+    "brand": "Gucci",
+    "country": "italy",
+    "ad-image": "images/aa/2010-gucci.png",
+    "copy": "Gucci Guilty, the new fragrance for her",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/2010-gucci.png",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement features a close-up of two people in an intimate pose. A man is holding a woman, with their faces close together, promoting a perfume.",
+        "people": [
+          {
+            "gender": "man",
+            "facial_expression": "hidden face",
+            "pose_action": "embracing",
+            "emotion_tags": [
+              "intimate",
+              "passionate",
+              "sensual",
+              "close",
+              "connected"
+            ]
+          },
+          {
+            "gender": "woman",
+            "facial_expression": "seductive",
+            "pose_action": "reclining",
+            "emotion_tags": [
+              "seductive",
+              "alluring",
+              "intense",
+              "confident",
+              "captivating"
+            ]
+          }
+        ],
+        "people_count": 2,
+        "nudity": "partial",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "romantic",
+        "mood_tags": [
+          "intimate",
+          "romantic",
+          "sensual",
+          "luxurious",
+          "passionate"
+        ]
+      }
+    },
+    "unique_id": "Gucci Guilty_2010_2010-gucci.png"
+  },
+  {
+    "name": "Shem-el-Dessim",
+    "year": 1907,
+    "gender": "unisex",
+    "brand": "J Grossmith and Son",
+    "country": "united-kingdom",
+    "ad-image": "images/aa/1907-jgrossmith.png",
+    "copy": "Shem-el-Dessim THE SCENT ARABY. TREASURE FROM THE MYSTIC EAST. SAMPLES & PERFUME & SOAP in a dainty box with presentation copy GROSSMITH'S TOILET GUIDE sent on receipt ",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1907-jgrossmith.png",
+    "analysis": {
+      "vision": {
+        "description": "A vintage perfume advertisement featuring a person riding a camel, with palm trees and a desert background.",
+        "people": [
+          {
+            "gender": "unclear",
+            "facial_expression": "neutral",
+            "pose_action": "riding camel",
+            "emotion_tags": [
+              "adventurous",
+              "mysterious",
+              "serene",
+              "regal",
+              "poised"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "exotic",
+          "mystical",
+          "elegant",
+          "historical",
+          "intriguing"
+        ]
+      }
+    },
+    "unique_id": "Shem-el-Dessim_1907_1907-jgrossmith.png"
+  },
+  {
+    "name": "Jules",
+    "year": 1980,
+    "gender": "men",
+    "brand": "Dior",
+    "country": "france",
+    "ad-image": "images/aa/1980-dior.png",
+    "copy": "Christian Dior FOR MEN. Jules For Pleasure",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1980-dior.png",
+    "analysis": {
+      "vision": {
+        "description": "A perfume advertisement showing two people embracing, with the product image and brand text at the top.",
+        "people": [
+          {
+            "gender": "unclear",
+            "facial_expression": "hidden face",
+            "pose_action": "embracing",
+            "emotion_tags": [
+              "intimate",
+              "romantic",
+              "close",
+              "connected",
+              "warm"
+            ]
+          },
+          {
+            "gender": "unclear",
+            "facial_expression": "hidden face",
+            "pose_action": "embracing",
+            "emotion_tags": [
+              "intimate",
+              "romantic",
+              "close",
+              "connected",
+              "warm"
+            ]
+          }
+        ],
+        "people_count": 2,
+        "nudity": "no",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "romantic",
+        "mood_tags": [
+          "intimate",
+          "romantic",
+          "close",
+          "stylish",
+          "luxurious"
+        ]
+      }
+    },
+    "unique_id": "Jules_1980_1980-dior.png"
+  },
+  {
+    "name": "Jules",
+    "year": 1980,
+    "gender": "men",
+    "brand": "Dior",
+    "country": "france",
+    "ad-image": "images/aa/1980-dior-2.png",
+    "copy": "Christian Dior FOR MEN. Jules For Pleasure",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1980-dior-2.png",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement features a man viewed from the back, wearing a black jacket with 'Jules' in red letters.",
+        "people": [
+          {
+            "gender": "man",
+            "facial_expression": "hidden face",
+            "pose_action": "standing",
+            "emotion_tags": [
+              "confident",
+              "strong",
+              "masculine",
+              "bold",
+              "mysterious"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "bold",
+          "stylish",
+          "masculine",
+          "sophisticated",
+          "mysterious"
+        ]
+      }
+    },
+    "unique_id": "Jules_1980_1980-dior-2.png"
+  }
+]

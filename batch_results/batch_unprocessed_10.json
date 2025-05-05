@@ -1,0 +1,274 @@
+[
+  {
+    "name": "Cachet",
+    "year": 1970,
+    "gender": "women",
+    "brand": "Prince Matchabelli",
+    "ad-image": "images/aa/1970-cachet-2.png",
+    "copy": "THE PERFUME NO TWO WOMEN CAN SHARE. Cachet is different on every woman who wears it. You see, the moment it touches your body, Cachet blends with your own special chemistry. And suddenly, it's you. Other women may wear Cachet, but you make it yours alone.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1970-cachet-2.png",
+    "analysis": {
+      "vision": {
+        "description": "A collage-style perfume advertisement with images of three women posing differently, along with a bottle of perfume. Each woman is styled uniquely, and the ad emphasizes individuality.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "neutral",
+            "pose_action": "sitting and touching her face",
+            "emotion_tags": [
+              "confident",
+              "poised",
+              "calm",
+              "elegant",
+              "refined"
+            ]
+          },
+          {
+            "gender": "woman",
+            "facial_expression": "serious",
+            "pose_action": "standing with arms crossed",
+            "emotion_tags": [
+              "confident",
+              "strong",
+              "self-assured",
+              "independent",
+              "elegant"
+            ]
+          },
+          {
+            "gender": "woman",
+            "facial_expression": "smiling",
+            "pose_action": "resting her head on her hand",
+            "emotion_tags": [
+              "happy",
+              "friendly",
+              "warm",
+              "content",
+              "approachable"
+            ]
+          }
+        ],
+        "people_count": 3,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "none",
+        "mood_tags": [
+          "individuality",
+          "elegance",
+          "confidence",
+          "femininity",
+          "style"
+        ]
+      }
+    },
+    "unique_id": "Cachet_1970_1970-cachet-2.png"
+  },
+  {
+    "name": "Un Air Embaume",
+    "year": 1920,
+    "gender": "women",
+    "brand": "Rigaud",
+    "ad-image": "images/aa/1920-rigaud.png",
+    "copy": "the exclusive perfume with a touch of the Orient- and a clinging atmosphere of distinction all its own.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1920-rigaud.png",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement shows a luxurious and exotic setting with a central figure surrounded by people, highlighting a perfume bottle in the foreground.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "neutral",
+            "pose_action": "sitting",
+            "emotion_tags": [
+              "calm",
+              "mysterious",
+              "elegant",
+              "contemplative",
+              "serene"
+            ]
+          },
+          {
+            "gender": "man",
+            "facial_expression": "hidden face",
+            "pose_action": "standing",
+            "emotion_tags": [
+              "formal",
+              "observant",
+              "stoic",
+              "reserved",
+              "calm"
+            ]
+          },
+          {
+            "gender": "man",
+            "facial_expression": "hidden face",
+            "pose_action": "standing",
+            "emotion_tags": [
+              "formal",
+              "observant",
+              "stoic",
+              "reserved",
+              "calm"
+            ]
+          },
+          {
+            "gender": "man",
+            "facial_expression": "hidden face",
+            "pose_action": "sitting",
+            "emotion_tags": [
+              "relaxed",
+              "quiet",
+              "calm",
+              "serene",
+              "peaceful"
+            ]
+          }
+        ],
+        "people_count": 4,
+        "nudity": "partial",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "group",
+        "mood_tags": [
+          "exotic",
+          "luxurious",
+          "mystical",
+          "elegant",
+          "enchanting"
+        ]
+      }
+    },
+    "unique_id": "Un Air Embaume_1920_1920-rigaud.png"
+  },
+  {
+    "name": "Un Air Embaume",
+    "year": 1920,
+    "gender": "women",
+    "brand": "Rigaud",
+    "ad-image": "images/aa/1920-rigaud-2.png",
+    "copy": "the exclusive perfume with a touch of the Orient",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1920-rigaud-2.png",
+    "analysis": {
+      "vision": {
+        "description": "A woman in exotic attire stands by a curtain with a peacock, with a perfume bottle image above.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "neutral",
+            "pose_action": "standing by a curtain",
+            "emotion_tags": [
+              "elegant",
+              "calm",
+              "serene",
+              "graceful",
+              "mysterious"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "luxurious",
+          "exotic",
+          "opulent",
+          "oriental",
+          "classic"
+        ]
+      }
+    },
+    "unique_id": "Un Air Embaume_1920_1920-rigaud-2.png"
+  },
+  {
+    "name": "Curious",
+    "year": 2004,
+    "gender": "women",
+    "brand": "Britney Spears",
+    "ad-image": "images/aa/2004-britney.png",
+    "copy": "Do you dare?",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/2004-britney.png",
+    "analysis": {
+      "vision": {
+        "description": "A woman in a light dress stands prominently in the foreground, while a man appears in the background. The advertisement features a perfume bottle in the lower corner.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "seductive",
+            "pose_action": "standing",
+            "emotion_tags": [
+              "confident",
+              "enticing",
+              "bold",
+              "curious",
+              "alluring"
+            ]
+          },
+          {
+            "gender": "man",
+            "facial_expression": "neutral",
+            "pose_action": "standing",
+            "emotion_tags": [
+              "unrevealed",
+              "intrigued",
+              "mysterious",
+              "reserved",
+              "calm"
+            ]
+          }
+        ],
+        "people_count": 2,
+        "nudity": "partial",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "romantic",
+        "mood_tags": [
+          "mysterious",
+          "alluring",
+          "curious",
+          "enticing",
+          "bold"
+        ]
+      }
+    },
+    "unique_id": "Curious_2004_2004-britney.png"
+  },
+  {
+    "name": "Jontue",
+    "year": 1980,
+    "gender": "women",
+    "brand": "Revlon",
+    "ad-image": "images/aa/1980-revlon.jpg",
+    "copy": "sensual, but not too far from innocence",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1980-revlon.jpg",
+    "analysis": {
+      "vision": {
+        "description": "A person is lying on a white horse amid a field of red flowers, promoting a perfume.",
+        "people": [
+          {
+            "gender": "unclear",
+            "facial_expression": "hidden face",
+            "pose_action": "reclining on horse",
+            "emotion_tags": [
+              "calm",
+              "serene",
+              "dreamy",
+              "relaxed",
+              "peaceful"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "romantic",
+          "natural",
+          "elegant",
+          "sensual",
+          "tranquil"
+        ]
+      }
+    },
+    "unique_id": "Jontue_1980_1980-revlon.jpg"
+  }
+]

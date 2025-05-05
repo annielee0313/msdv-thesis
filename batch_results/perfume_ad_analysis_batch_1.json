@@ -1,0 +1,194 @@
+[
+  {
+    "name": "Betsey Johnson",
+    "year": 2006,
+    "gender": "women",
+    "brand": "Betsy Johnson",
+    "country": "united-states",
+    "bottle-image": "images/bottle/betsy-johnson.jpg",
+    "ad-image": "images/aa/2006-betsy-johnson.jpg",
+    "copy": "",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/2006-betsy-johnson.jpg",
+    "analysis": {
+      "vision": {
+        "description": "A woman in a playful pose surrounded by oversized bird wings against a pink sky, with a perfume bottle and brand name visible.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "smiling",
+            "pose_action": "leaning on large bird wing",
+            "emotion_tags": [
+              "playful",
+              "joyful",
+              "dreamy",
+              "fanciful",
+              "carefree"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "partial",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "whimsical",
+          "fantasy",
+          "glamorous",
+          "romantic",
+          "vibrant"
+        ]
+      }
+    },
+    "unique_id": "Betsey Johnson_2006_2006-betsy-johnson.jpg"
+  },
+  {
+    "name": "Signature for Him",
+    "year": 2008,
+    "gender": "men",
+    "brand": "David Beckham",
+    "country": "united-kingdom",
+    "bottle-image": "images/bottle/2008-beckham-him.jpg",
+    "ad-image": "images/aa/2011-beckham.jpg",
+    "copy": "",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/2011-beckham.jpg",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement features two individuals, a man and a woman, positioned in a suggestive layout, highlighting a perfume bottle.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "seductive",
+            "pose_action": "reclining",
+            "emotion_tags": [
+              "elegant",
+              "alluring",
+              "confident",
+              "chic",
+              "relaxed"
+            ]
+          },
+          {
+            "gender": "man",
+            "facial_expression": "serious",
+            "pose_action": "close-up view",
+            "emotion_tags": [
+              "intense",
+              "focused",
+              "brooding",
+              "serious",
+              "bold"
+            ]
+          }
+        ],
+        "people_count": 2,
+        "nudity": "partial",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "romantic",
+        "mood_tags": [
+          "sophisticated",
+          "luxurious",
+          "sensual",
+          "intimate",
+          "stylish"
+        ]
+      }
+    },
+    "unique_id": "Signature for Him_2008_2011-beckham.jpg"
+  },
+  {
+    "name": "Signature for Her",
+    "year": 2008,
+    "gender": "women",
+    "brand": "David Beckham",
+    "country": "united-kingdom",
+    "bottle-image": "images/bottle/2008-beckham-her.jpg",
+    "ad-image": "images/aa/2011-beckham.jpg",
+    "copy": "",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/2011-beckham.jpg",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement features two people and two perfume bottles adjacent to each other.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "seductive",
+            "pose_action": "reclining",
+            "emotion_tags": [
+              "alluring",
+              "sultry",
+              "elegant",
+              "mysterious",
+              "confident"
+            ]
+          },
+          {
+            "gender": "man",
+            "facial_expression": "serious",
+            "pose_action": "reclining",
+            "emotion_tags": [
+              "intense",
+              "brooding",
+              "chic",
+              "confident",
+              "bold"
+            ]
+          }
+        ],
+        "people_count": 2,
+        "nudity": "partial",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "none",
+        "mood_tags": [
+          "luxurious",
+          "romantic",
+          "intimate",
+          "sensual",
+          "elegant"
+        ]
+      }
+    },
+    "unique_id": "Signature for Her_2008_2011-beckham.jpg"
+  },
+  {
+    "name": "Opium Parfum",
+    "year": 1977,
+    "gender": "women",
+    "brand": "Yves Saint Laurent",
+    "country": "france",
+    "bottle-image": "images/bottle/1977-ysl.jpg",
+    "ad-image": "images/aa/2006-ysl.jpg",
+    "copy": "",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/2006-ysl.jpg",
+    "analysis": {
+      "vision": {
+        "description": "A woman is positioned within a circular backdrop, surrounded by flowers and a perfume bottle, suggesting an elegant and sophisticated theme.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "seductive",
+            "pose_action": "reclining",
+            "emotion_tags": [
+              "alluring",
+              "confident",
+              "mysterious",
+              "glamorous",
+              "bold"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "partial",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "opulent",
+          "mystical",
+          "luxurious",
+          "sensual",
+          "elegant"
+        ]
+      }
+    },
+    "unique_id": "Opium Parfum_1977_2006-ysl.jpg"
+  }
+]

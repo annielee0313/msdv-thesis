@@ -1,0 +1,238 @@
+[
+  {
+    "name": "Miracle Homme",
+    "year": 2002,
+    "gender": "men",
+    "brand": "Lancome",
+    "ad-image": "images/aa/2002-lancome.png",
+    "copy": "Matthieu Kassovitz You make it happen",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/2002-lancome.png",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement shows a man standing with a serious expression beside a perfume bottle labeled 'MIRACLE HOMME'.",
+        "people": [
+          {
+            "gender": "man",
+            "facial_expression": "serious",
+            "pose_action": "standing",
+            "emotion_tags": [
+              "confident",
+              "intense",
+              "focused",
+              "strong",
+              "determined"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "elegant",
+          "masculine",
+          "luxurious",
+          "powerful",
+          "sophisticated"
+        ]
+      }
+    },
+    "unique_id": "Miracle Homme_2002_2002-lancome.png"
+  },
+  {
+    "name": "Lance Perfumes",
+    "year": 1890,
+    "gender": "women",
+    "brand": "Lancome",
+    "ad-image": "images/aa/1890-lance.png",
+    "copy": "LANCE Perfumes. These concentrated perfume sprays give a delightful refreshing coolness and every lady ought to have them.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1890-lance.png",
+    "analysis": {
+      "vision": {
+        "description": "An advertisement features a man in a top hat and a woman in a large hat and coat, promoting Lance Perfumes.",
+        "people": [
+          {
+            "gender": "man",
+            "facial_expression": "neutral",
+            "pose_action": "standing with a hand gesture",
+            "emotion_tags": [
+              "formal",
+              "stylish",
+              "composed",
+              "traditional",
+              "engaging"
+            ]
+          },
+          {
+            "gender": "woman",
+            "facial_expression": "neutral",
+            "pose_action": "leaning slightly forward",
+            "emotion_tags": [
+              "elegant",
+              "curious",
+              "intrigued",
+              "fashionable",
+              "interested"
+            ]
+          }
+        ],
+        "people_count": 2,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "none",
+        "mood_tags": [
+          "vintage",
+          "classic",
+          "sophisticated",
+          "fashionable",
+          "nostalgic"
+        ]
+      }
+    },
+    "unique_id": "Lance Perfumes_1890_1890-lance.png"
+  },
+  {
+    "name": "So...?",
+    "year": 1990,
+    "gender": "women",
+    "brand": "So...?",
+    "ad-image": "images/aa/1990-so.png",
+    "copy": "So...? doesnt everyone have their feet massaged? fragrance with a certain attitude.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1990-so.png",
+    "analysis": {
+      "vision": {
+        "description": "A woman is standing on the back of a crouching man against a pink background in a provocative perfume advertisement.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "smiling",
+            "pose_action": "standing on man's back",
+            "emotion_tags": [
+              "confident",
+              "playful",
+              "cheerful",
+              "dominant",
+              "bold"
+            ]
+          },
+          {
+            "gender": "man",
+            "facial_expression": "hidden face",
+            "pose_action": "crouching",
+            "emotion_tags": [
+              "submissive",
+              "neutral",
+              "calm",
+              "supportive",
+              "still"
+            ]
+          }
+        ],
+        "people_count": 2,
+        "nudity": "partial",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "romantic",
+        "mood_tags": [
+          "playful",
+          "bold",
+          "provocative",
+          "confident",
+          "intriguing"
+        ]
+      }
+    },
+    "unique_id": "So...?_1990_1990-so.png"
+  },
+  {
+    "name": "Royal Vinolia Perfume",
+    "year": 1912,
+    "gender": "women",
+    "brand": "Vinolia",
+    "ad-image": "images/aa/1912-royal.png",
+    "copy": "presents the finest essences of flowers and sweet grasses in a form to charm and delight discriminating users. Royal Vinolia Perfume is free from heavy odour, even when freshly taken from the bottle, and its delicate fragrance lingers long after application.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1912-royal.png",
+    "analysis": {
+      "vision": {
+        "description": "A vintage advertisement for Royal Vinolia Perfume featuring a woman in an elegant gown surrounded by ornate floral decorations.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "neutral",
+            "pose_action": "standing",
+            "emotion_tags": [
+              "elegant",
+              "composed",
+              "graceful",
+              "serene",
+              "poised"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "none",
+        "mood_tags": [
+          "classic",
+          "sophisticated",
+          "luxurious",
+          "timeless",
+          "refined"
+        ]
+      }
+    },
+    "unique_id": "Royal Vinolia Perfume_1912_1912-royal.png"
+  },
+  {
+    "name": "Tommy",
+    "year": 2003,
+    "gender": "unisex",
+    "brand": "Tommy Hilfiger",
+    "ad-image": "images/aa/2003-tommy.png",
+    "copy": "Twice as tempting. for her, for him.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/2003-tommy.png",
+    "analysis": {
+      "vision": {
+        "description": "A man and woman are standing close together, smiling in front of an American flag background with perfume bottles in the foreground.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "smiling",
+            "pose_action": "leaning towards man",
+            "emotion_tags": [
+              "happy",
+              "affectionate",
+              "playful",
+              "content",
+              "joyful"
+            ]
+          },
+          {
+            "gender": "man",
+            "facial_expression": "smiling",
+            "pose_action": "hugging woman",
+            "emotion_tags": [
+              "excited",
+              "joyful",
+              "warm",
+              "content",
+              "playful"
+            ]
+          }
+        ],
+        "people_count": 2,
+        "nudity": "no",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "romantic",
+        "mood_tags": [
+          "patriotic",
+          "romantic",
+          "cheerful",
+          "inviting",
+          "youthful"
+        ]
+      }
+    },
+    "unique_id": "Tommy_2003_2003-tommy.png"
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Eau Sauvage",
+    "year": 1970,
+    "gender": "men",
+    "brand": "Dior",
+    "ad-image": "images/aa/1970-dior-4.png",
+    "copy": "Togetherness with Eau Sauvage",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1970-dior-4.png",
+    "analysis": {
+      "vision": {
+        "description": "An advertisement for Eau Sauvage perfume features two people embracing in a bed, with a bottle of perfume shown prominently.",
+        "people": [
+          {
+            "gender": "unclear",
+            "facial_expression": "hidden face",
+            "pose_action": "reclining, embracing",
+            "emotion_tags": [
+              "intimate",
+              "romantic",
+              "relaxed",
+              "close",
+              "warm"
+            ]
+          },
+          {
+            "gender": "unclear",
+            "facial_expression": "hidden face",
+            "pose_action": "reclining, embracing",
+            "emotion_tags": [
+              "intimate",
+              "romantic",
+              "relaxed",
+              "close",
+              "warm"
+            ]
+          }
+        ],
+        "people_count": 2,
+        "nudity": "partial",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "romantic",
+        "mood_tags": [
+          "romantic",
+          "intimate",
+          "warm",
+          "sensual",
+          "tender"
+        ]
+      }
+    },
+    "unique_id": "Eau Sauvage_1970_1970-dior-4.png"
+  },
+  {
+    "name": "Eau Sauvage",
+    "year": 1967,
+    "gender": "men",
+    "brand": "Dior",
+    "ad-image": "images/aa/1967-dior.png",
+    "copy": "cool, distinguished, discreet.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1967-dior.png",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement features a graphic illustration of a person's lower legs and feet standing next to a box and bottle of the Eau Sauvage perfume by Christian Dior.",
+        "people": [
+          {
+            "gender": "unclear",
+            "facial_expression": "hidden face",
+            "pose_action": "standing",
+            "emotion_tags": [
+              "stylish",
+              "classic",
+              "sophisticated",
+              "mysterious",
+              "elegant"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "retro",
+          "masculine",
+          "refined",
+          "vintage",
+          "luxurious"
+        ]
+      }
+    },
+    "unique_id": "Eau Sauvage_1967_1967-dior.png"
+  },
+  {
+    "name": "Miss Dior",
+    "year": 1970,
+    "gender": "women",
+    "brand": "Dior",
+    "ad-image": "images/aa/1970-dior-2.png",
+    "copy": "Miss Dior. Definitely very Dior.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1970-dior-2.png",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement features an artistic depiction of a person with a fur coat and a large perfume bottle of Miss Dior.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "neutral",
+            "pose_action": "partially hidden by a fur coat",
+            "emotion_tags": [
+              "elegant",
+              "mysterious",
+              "sophisticated",
+              "luxurious",
+              "poised"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "luxurious",
+          "elegant",
+          "refined",
+          "sophisticated",
+          "artistic"
+        ]
+      }
+    },
+    "unique_id": "Miss Dior_1970_1970-dior-2.png"
+  }
+]

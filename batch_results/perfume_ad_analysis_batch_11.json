@@ -1,0 +1,226 @@
+[
+  {
+    "name": "Fragrance",
+    "year": 1935,
+    "gender": "women",
+    "brand": "Yardley",
+    "ad-image": "images/aa/1935-yardley.png",
+    "copy": "HER GOWN-her wrap-her jewels may be reported in international society columns. the night after you've seen her dancing in London's smartest hideaway. But you will find never a word of the aura of glamour that surrounded her. Perhaps, because such matters are too subtle entirely for the mundane pen. Time and again in these Mayfair rendez-vous you've been conscious of that sudden catching breath of brilliance an elusive sparkle that seemed to characterize some lovely creature as poignant, beautiful, wist-fully perfect and divinely gay. That's when you recognized the spell of Yardley's formal Fragrance perfume. And made a note to trace it down and have it for your own some day. Now you need not go to London to surround yourself with this charmingly sophisticated brilliance. For now America has Fragrance by Yard-ley, London's smartest perfume also. As well as Fragrance powder, a great perfumer's contribution to your skin's per-petual radiance. (In subtle colors, it is soft and very lasting.) Will you go on explor-ing... and have the bath salts, and pow-der, tale, compact in the same entrancing fragrance? If you're perfectionist enough, it's what you're bound to so we've placed them all (at no great price) nearby at your disposall At any fine cosmetics counter for sparkling occasions when you want to sparkle tool",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1935-yardley.png",
+    "analysis": {
+      "vision": {
+        "description": "A vintage perfume advertisement featuring an elegantly dressed woman with 1920s style hair and clothing, surrounded by multiple people in a social setting.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "neutral",
+            "pose_action": "standing",
+            "emotion_tags": [
+              "elegant",
+              "poised",
+              "sophisticated",
+              "calm",
+              "refined"
+            ]
+          }
+        ],
+        "people_count": 3,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "group",
+        "mood_tags": [
+          "elegant",
+          "vintage",
+          "social",
+          "sophisticated",
+          "classic"
+        ]
+      }
+    },
+    "unique_id": "Fragrance_1935_1935-yardley.png"
+  },
+  {
+    "name": "Gemey",
+    "year": 1937,
+    "gender": "women",
+    "brand": "Richard Hudnut",
+    "ad-image": "images/aa/1937-gemey.png",
+    "copy": "Fly with the spirit of Christmas as it speeds on its merry way to Nassau or Nice or Naples, to Paris or far Bombay. Look for the loveliest women, the perfume they adore. It's gay and young and joyous... it's fragrance Gemey. Fragrance Gemey, her choice for Christmas me world around! Fragrance Gemey, now presented in America by Richard Hudnut in distinguished glamour gifts. Here are casual trifles for the toe of her stock-ing, intimate enchantments for her skin, her hair, charm chests of alluring luxury. Through them all suns this single thread of fragrance. It's flattery, it's sorcery, it's the gay, Continental way to say Merry Christmas... the gift that's welcome the world around... fragrance Gemeyl",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1937-gemey.png",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement shows a romantic and festive scene with a woman in evening attire reaching up to a man in a horse-drawn carriage, set against a snowy city backdrop.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "smiling",
+            "pose_action": "reaching up",
+            "emotion_tags": [
+              "festive",
+              "joyful",
+              "elegant",
+              "celebratory",
+              "romantic"
+            ]
+          },
+          {
+            "gender": "man",
+            "facial_expression": "unclear",
+            "pose_action": "leaning towards woman",
+            "emotion_tags": [
+              "festive",
+              "engaged",
+              "chivalrous",
+              "romantic",
+              "seasonal"
+            ]
+          }
+        ],
+        "people_count": 2,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "romantic",
+        "mood_tags": [
+          "festive",
+          "romantic",
+          "christmas",
+          "joyful",
+          "elegant"
+        ]
+      }
+    },
+    "unique_id": "Gemey_1937_1937-gemey.png"
+  },
+  {
+    "name": "Yanky Clover",
+    "year": 1945,
+    "gender": "women",
+    "brand": "Richard Hudnut",
+    "ad-image": "images/aa/1945-yankyclover.png",
+    "copy": "Yanky Clover Blooms in New Packages. They're the gayest, prettiest packages. the new dress-up wrappings for Yanky Clover! Wrappings with the same light-hearted lilt of an old-time folk tune... the meadow-sweet, nostalgic breath of new-mown fields that's made Yanky Clover one of America's best-loved fragrances. Perfume...toilet water...dusting powder, $1 each...",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1945-yankyclover.png",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement features a woman sitting under a tree surrounded by floral designs and perfume bottles.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "neutral",
+            "pose_action": "sitting",
+            "emotion_tags": [
+              "calm",
+              "relaxed",
+              "serene",
+              "content",
+              "peaceful"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "floral",
+          "vintage",
+          "elegant",
+          "nature",
+          "feminine"
+        ]
+      }
+    },
+    "unique_id": "Yanky Clover_1945_1945-yankyclover.png"
+  },
+  {
+    "name": "Emeraude the Jewel Fragrance",
+    "year": 1945,
+    "brand": "Coty.",
+    "gender": "women",
+    "ad-image": "images/aa/1945-coty-1.jpg",
+    "copy": "The jewel fragrance.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1945-coty-1.jpg",
+    "analysis": {
+      "vision": {
+        "description": "An elegant woman in a green gown poses next to a perfume bottle in a vintage advertisement.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "neutral",
+            "pose_action": "standing",
+            "emotion_tags": [
+              "elegant",
+              "poised",
+              "sophisticated",
+              "refined",
+              "graceful"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "vintage",
+          "glamorous",
+          "luxurious",
+          "classic",
+          "stylish"
+        ]
+      }
+    },
+    "unique_id": "Emeraude the Jewel Fragrance_1945_1945-coty-1.jpg"
+  },
+  {
+    "name": "Emeraude the Jewel Fragrance",
+    "year": 1947,
+    "gender": "women",
+    "brand": "Coty",
+    "ad-image": "images/aa/1947-coty-1.jpg",
+    "copy": "Emeraude the jewel fragrance imparts its lustrous charm to a series of lovely beauty and bath accessories..",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1947-coty-1.jpg",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement features a woman in a formal dress ascending a staircase with perfume bottles displayed prominently in the foreground.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "neutral",
+            "pose_action": "ascending staircase",
+            "emotion_tags": [
+              "elegant",
+              "confident",
+              "poised",
+              "graceful",
+              "formal"
+            ]
+          },
+          {
+            "gender": "man",
+            "facial_expression": "hidden face",
+            "pose_action": "seated",
+            "emotion_tags": [
+              "curious",
+              "inquisitive",
+              "focused",
+              "attentive",
+              "observant"
+            ]
+          }
+        ],
+        "people_count": 2,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "romantic",
+        "mood_tags": [
+          "elegant",
+          "sophisticated",
+          "classic",
+          "romantic",
+          "luxurious"
+        ]
+      }
+    },
+    "unique_id": "Emeraude the Jewel Fragrance_1947_1947-coty-1.jpg"
+  }
+]

@@ -1,0 +1,226 @@
+[
+  {
+    "name": "Toiletries",
+    "year": 1930,
+    "gender": "unisex",
+    "brand": "Old South",
+    "ad-image": "images/aa/1930-oldsouth.png",
+    "copy": "The Romance that Lives Forever. Only once in the world has there been the loveliness, the easy grandeur of the Old South, whose romance lives again in these exquisite toilet luxuries.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1930-oldsouth.png",
+    "analysis": {
+      "vision": {
+        "description": "A romantic perfume advertisement depicting a couple in an embrace with a display of perfume bottles nearby.",
+        "people": [
+          {
+            "gender": "man",
+            "facial_expression": "serious",
+            "pose_action": "standing and embracing",
+            "emotion_tags": [
+              "romantic",
+              "affectionate",
+              "serious",
+              "involved",
+              "gentle"
+            ]
+          },
+          {
+            "gender": "woman",
+            "facial_expression": "gazing",
+            "pose_action": "standing and embracing",
+            "emotion_tags": [
+              "romantic",
+              "affectionate",
+              "serene",
+              "loving",
+              "invested"
+            ]
+          }
+        ],
+        "people_count": 2,
+        "nudity": "no",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "romantic",
+        "mood_tags": [
+          "romantic",
+          "elegant",
+          "nostalgic",
+          "classic",
+          "dreamy"
+        ]
+      }
+    },
+    "unique_id": "Toiletries_1930_1930-oldsouth.png"
+  },
+  {
+    "name": "Hypnotique",
+    "year": 1960,
+    "gender": "women",
+    "brand": "Max Factor",
+    "ad-image": "images/aa/1960-maxfactor.png",
+    "copy": "Make him concentrate... concentrate on you. For the women who was born to enchant men. The new fragrance that's captured the very essence of a women's power over man. A magnetic new fragrance by Max Factor.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1960-maxfactor.png",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement features a woman with elegant makeup and hairstyle against a backdrop of large eyes and a whimsical design, promoting a perfume called Hypnotique by Max Factor.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "neutral",
+            "pose_action": "standing",
+            "emotion_tags": [
+              "elegant",
+              "poised",
+              "refined",
+              "alluring",
+              "composed"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "none",
+        "mood_tags": [
+          "sophisticated",
+          "mysterious",
+          "captivating",
+          "glamorous",
+          "classic"
+        ]
+      }
+    },
+    "unique_id": "Hypnotique_1960_1960-maxfactor.png"
+  },
+  {
+    "name": "That Man",
+    "year": 1960,
+    "gender": "men",
+    "brand": "Revlon",
+    "ad-image": "images/aa/1960-revlon.png",
+    "copy": "Women dig it! That man by Revlon. A gentleman's cologne",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1960-revlon.png",
+    "analysis": {
+      "vision": {
+        "description": "Surreal illustration with mirrored figures above a perfume bottle.",
+        "people": [
+          {
+            "gender": "unclear",
+            "facial_expression": "hidden face",
+            "pose_action": "abstract pose",
+            "emotion_tags": [
+              "enigmatic",
+              "mirrored",
+              "artistic",
+              "stylized",
+              "balanced"
+            ]
+          }
+        ],
+        "people_count": 2,
+        "nudity": "partial",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "none",
+        "mood_tags": [
+          "artistic",
+          "bold",
+          "mysterious",
+          "sophisticated",
+          "intriguing"
+        ]
+      }
+    },
+    "unique_id": "That Man_1960_1960-revlon.png"
+  },
+  {
+    "name": "Oriental Spice",
+    "year": 1970,
+    "gender": "men",
+    "brand": "Oriental Spice",
+    "ad-image": "images/aa/1970-oriental.png",
+    "copy": "Oriental Spice gives a man an unfair advantage.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1970-oriental.png",
+    "analysis": {
+      "vision": {
+        "description": "A perfume advertisement shows a man's arm draped over a woman's bare back, both with elegant accessories.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "hidden face",
+            "pose_action": "back turned",
+            "emotion_tags": [
+              "sensual",
+              "intimate",
+              "enticing",
+              "seductive",
+              "alluring"
+            ]
+          },
+          {
+            "gender": "man",
+            "facial_expression": "hidden face",
+            "pose_action": "hand on woman's back",
+            "emotion_tags": [
+              "strong",
+              "assertive",
+              "protective",
+              "engaged",
+              "sensual"
+            ]
+          }
+        ],
+        "people_count": 2,
+        "nudity": "partial",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "romantic",
+        "mood_tags": [
+          "intimate",
+          "sensual",
+          "luxurious",
+          "alluring",
+          "elegant"
+        ]
+      }
+    },
+    "unique_id": "Oriental Spice_1970_1970-oriental.png"
+  },
+  {
+    "name": "Morny",
+    "year": 1960,
+    "gender": "women",
+    "brand": "Morny",
+    "ad-image": "images/aa/1960-morny.png",
+    "copy": "",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1960-morny.png",
+    "analysis": {
+      "vision": {
+        "description": "A vintage-style advertisement with a woman holding a green box surrounded by colorful labels of fragrances.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "neutral",
+            "pose_action": "holding box",
+            "emotion_tags": [
+              "curious",
+              "calm",
+              "elegant",
+              "poised",
+              "focused"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "vintage",
+          "fragrant",
+          "elegant",
+          "colorful",
+          "classic"
+        ]
+      }
+    },
+    "unique_id": "Morny_1960_1960-morny.png"
+  }
+]

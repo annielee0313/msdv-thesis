@@ -1,0 +1,34 @@
+[
+    {
+        "start_year": 1900,
+        "end_year": 1949,
+        "era": "Idealized Femininity",
+        "core_identity": "Fantasy, romance, tradition",
+        "gender_approach": "Binary (soft feminine)",
+        "description": "Perfume advertised as a symbol of femininity, grace, and social ritual, reinforcing romantic and domestic ideals through ornate, pastel visuals."
+      },
+      {
+        "start_year": 1950,
+        "end_year": 1989,
+        "era": "Binary Boom",
+        "core_identity": "Power, seduction, identity roles",
+        "gender_approach": "Hyper-binary",
+        "description": "Perfume used to reinforce strict gender roles: glamorous housewives, alpha businessmen, seductresses. Visuals were bold, polished, and status-driven."
+      },
+      {
+        "start_year": 1990,
+        "end_year": 2009,
+        "era": "Fluidity Emerges",
+        "core_identity": "Androgyny vs. celebrity branding",
+        "gender_approach": "Mixed",
+        "description": "Advertising split between minimalist unisex rebellion (e.g., CK One) and hyper-gendered celebrity fragrances, reflecting a cultural tug-of-war around gender norms."
+      },
+      {
+        "start_year": 2010,
+        "end_year": 2025,
+        "era": "Age of Expression",
+        "core_identity": "Storytelling, mood, sensory identity",
+        "gender_approach": "Fluid",
+        "description": "Perfume shifted toward self-expression, emotion, and personal storytelling. Visuals embraced editorial minimalism, poetic neutrality, and niche-driven aesthetics focused on personal meaning."
+      }
+]

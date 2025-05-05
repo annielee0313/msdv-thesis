@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Old Spice",
+    "year": 1970,
+    "gender": "men",
+    "brand": "Old Spice",
+    "ad-image": "images/aa/1970-oldspice.png",
+    "copy": "Joan Daly says she likes it when guys wear Old Spice. Girls like it. Is there a better reason to wear Old Spice?",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1970-oldspice.png",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement features a woman in a seated pose with her hand near her face, set against a wooden backdrop.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "neutral",
+            "pose_action": "sitting",
+            "emotion_tags": [
+              "calm",
+              "thoughtful",
+              "poised",
+              "composed",
+              "elegant"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "vintage",
+          "classic",
+          "sophisticated",
+          "elegant",
+          "stylish"
+        ]
+      }
+    },
+    "unique_id": "Old Spice_1970_1970-oldspice.png"
+  },
+  {
+    "name": "Burley",
+    "year": 1960,
+    "gender": "men",
+    "brand": "Old Spice",
+    "ad-image": "images/aa/1960-oldspice.png",
+    "copy": "The whole idea of a man's cologne is to start a kind of fire in a women. Burley starts the kind of fire a women can't put out.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1960-oldspice.png",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement shows a close-up of a woman's face with a moody, reddish tint, paired with text about a men's cologne.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "neutral",
+            "pose_action": "close-up",
+            "emotion_tags": [
+              "moody",
+              "intense",
+              "mysterious",
+              "sensual",
+              "alluring"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "none",
+        "mood_tags": [
+          "passionate",
+          "bold",
+          "intimate",
+          "intriguing",
+          "fiery"
+        ]
+      }
+    },
+    "unique_id": "Burley_1960_1960-oldspice.png"
+  },
+  {
+    "name": "Eau Sauvage",
+    "year": 1970,
+    "gender": "men",
+    "brand": "Dior",
+    "ad-image": "images/aa/1970-dior.png",
+    "copy": "",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1970-dior.png",
+    "analysis": {
+      "vision": {
+        "description": "A perfume advertisement featuring a partially undressed person looking into a mirror with products displayed below.",
+        "people": [
+          {
+            "gender": "unclear",
+            "facial_expression": "neutral",
+            "pose_action": "standing",
+            "emotion_tags": [
+              "calm",
+              "confident",
+              "introspective",
+              "stylish",
+              "contemplative"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "partial",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "elegant",
+          "bold",
+          "sophisticated",
+          "artistic",
+          "mysterious"
+        ]
+      }
+    },
+    "unique_id": "Eau Sauvage_1970_1970-dior.png"
+  }
+]

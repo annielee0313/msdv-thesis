@@ -1,0 +1,158 @@
+[
+  {
+    "name": "Goya",
+    "year": 1950,
+    "gender": "women",
+    "brand": "Goya",
+    "ad-image": "images/aa/1950-goya-1.png",
+    "copy": "Goya reduces the world to two ...for you. With young brilliant entice",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1950-goya-1.png",
+    "analysis": {
+      "vision": {
+        "description": "A man and a woman are leaning towards each other, gazing intently in a dimly lit, lively setting, suggesting a romantic atmosphere.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "serious",
+            "pose_action": "leaning towards man",
+            "emotion_tags": [
+              "romantic",
+              "focused",
+              "intimate",
+              "connected",
+              "intrigued"
+            ]
+          },
+          {
+            "gender": "man",
+            "facial_expression": "serious",
+            "pose_action": "leaning towards woman",
+            "emotion_tags": [
+              "romantic",
+              "focused",
+              "intimate",
+              "connected",
+              "intrigued"
+            ]
+          }
+        ],
+        "people_count": 2,
+        "nudity": "no",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "romantic",
+        "mood_tags": [
+          "romantic",
+          "intimate",
+          "focused",
+          "connected",
+          "intriguing"
+        ]
+      }
+    },
+    "unique_id": "Goya_1950_1950-goya-1.png"
+  },
+  {
+    "name": "Wanna-Ranee",
+    "year": 1919,
+    "gender": "women",
+    "brand": "J Grossmith and Son",
+    "ad-image": "images/aa/1919-wana.png",
+    "copy": "highly valued for its own sake and remaining a fragrant reminder of the giver if it is Wana Ranee, the Perfume of Ceylon. Wana Ranee has a mystic charm entirely its own, and is a Dream of Oriental Fragrance. wonderfully lasting and refreshing. Every requifited for the perfect harmonious toilet which distinguishes the of taste is provided in the dainty series below.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1919-wana.png",
+    "analysis": {
+      "vision": {
+        "description": "The ad features a vintage-style illustration with Asian influences, including an elephant and palm trees, alongside text promoting Wana Ranee perfume.",
+        "people": [
+          {
+            "gender": "unclear",
+            "facial_expression": "neutral",
+            "pose_action": "standing",
+            "emotion_tags": [
+              "formal",
+              "traditional",
+              "calm",
+              "cultural",
+              "decorative"
+            ]
+          },
+          {
+            "gender": "unclear",
+            "facial_expression": "neutral",
+            "pose_action": "sitting on elephant",
+            "emotion_tags": [
+              "formal",
+              "decorative",
+              "cultural",
+              "calm",
+              "traditional"
+            ]
+          }
+        ],
+        "people_count": 3,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "group",
+        "mood_tags": [
+          "traditional",
+          "exotic",
+          "ornamental",
+          "festive",
+          "historic"
+        ]
+      }
+    },
+    "unique_id": "Wanna-Ranee_1919_1919-wana.png"
+  },
+  {
+    "name": "Imperial Leather Cologne",
+    "year": 1949,
+    "gender": "men",
+    "brand": "Goya",
+    "ad-image": "images/aa/1949-cussons.png",
+    "copy": "",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1949-cussons.png",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement features two historical figures in an elegant setting, with a perfume bottle prominently in the foreground.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "neutral",
+            "pose_action": "standing",
+            "emotion_tags": [
+              "elegant",
+              "composed",
+              "graceful",
+              "poised",
+              "refined"
+            ]
+          },
+          {
+            "gender": "man",
+            "facial_expression": "neutral",
+            "pose_action": "standing",
+            "emotion_tags": [
+              "polite",
+              "attentive",
+              "calm",
+              "gentlemanly",
+              "respectful"
+            ]
+          }
+        ],
+        "people_count": 2,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "romantic",
+        "mood_tags": [
+          "romantic",
+          "vintage",
+          "elegant",
+          "sophisticated",
+          "charming"
+        ]
+      }
+    },
+    "unique_id": "Imperial Leather Cologne_1949_1949-cussons.png"
+  }
+]

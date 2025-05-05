@@ -1,0 +1,106 @@
+[
+  {
+    "name": "Aramis",
+    "year": 1975,
+    "gender": "men",
+    "brand": "Aramis",
+    "ad-image": "images/aa/1975-aramis.png",
+    "copy": "Aramis has convinced some very discerning men to wear cologne. Aramis is more than just a rich peppery, potent fragrance. Aramis is a complete collection of seventy grooming aids all designed to create a feeling of well-being",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1975-aramis.png",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement features a man and a woman sitting on the back of a car in an outdoor setting, with a horse and rider visible in the background.",
+        "people": [
+          {
+            "gender": "man",
+            "facial_expression": "neutral",
+            "pose_action": "standing at the back of the car, holding a pipe",
+            "emotion_tags": [
+              "calm",
+              "relaxed",
+              "thoughtful",
+              "poised",
+              "composed"
+            ]
+          },
+          {
+            "gender": "woman",
+            "facial_expression": "neutral",
+            "pose_action": "sitting on the back of the car",
+            "emotion_tags": [
+              "calm",
+              "relaxed",
+              "thoughtful",
+              "poised",
+              "composed"
+            ]
+          }
+        ],
+        "people_count": 2,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "group",
+        "mood_tags": [
+          "elegant",
+          "sophisticated",
+          "outdoor",
+          "classic",
+          "luxurious"
+        ]
+      }
+    },
+    "unique_id": "Aramis_1975_1975-aramis.png"
+  },
+  {
+    "name": "Old Spice",
+    "year": 1970,
+    "gender": "men",
+    "brand": "Old Spice",
+    "ad-image": "images/aa/1970-oldspice-2.png",
+    "copy": "Very convincing. our new aftershave comes across with the same unmistakable intentions as our cologne. A different kind of musk for a sensuous man. Deep, mysterious, and long lasting. And above all. definitely male.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1970-oldspice-2.png",
+    "analysis": {
+      "vision": {
+        "description": "A man and woman are close together in an embrace, with the woman's face partly visible over the man's shoulder.",
+        "people": [
+          {
+            "gender": "man",
+            "facial_expression": "seriously",
+            "pose_action": "standing",
+            "emotion_tags": [
+              "confident",
+              "serious",
+              "strong",
+              "intense",
+              "focused"
+            ]
+          },
+          {
+            "gender": "woman",
+            "facial_expression": "neutral",
+            "pose_action": "embracing the man",
+            "emotion_tags": [
+              "calm",
+              "serene",
+              "affectionate",
+              "gentle",
+              "content"
+            ]
+          }
+        ],
+        "people_count": 2,
+        "nudity": "partial",
+        "sexual_suggestiveness": "intimate",
+        "interaction_type": "romantic",
+        "mood_tags": [
+          "sensual",
+          "intimate",
+          "romantic",
+          "mysterious",
+          "alluring"
+        ]
+      }
+    },
+    "unique_id": "Old Spice_1970_1970-oldspice-2.png"
+  }
+]

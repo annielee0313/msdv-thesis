@@ -1,0 +1,1441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fragrance Advertisement Gallery</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        h1 {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            margin-top: 30px;
+        }
+        
+        .viz-container {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .treemap-section {
+            width: 100%;
+        }
+        
+        .treemap-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .treemap-wrapper {
+            width: 32%;
+            position: relative;
+        }
+        
+        .treemap-title {
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 5px;
+            font-size: 16px;
+        }
+        
+        .breadcrumb {
+            text-align: center;
+            font-size: 12px;
+            margin-bottom: 8px;
+        }
+        
+        .back-button {
+            position: absolute;
+            top: 5px;
+            left: 5px;
+            padding: 3px 8px;
+            font-size: 12px;
+            border-radius: 3px;
+            border: 1px solid #ccc;
+            background: #f5f5f5;
+            cursor: pointer;
+            display: none;
+            z-index: 10;
+        }
+
+        .filters-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .filter-tag {
+            padding: 5px 10px;
+            background-color: #f0f0f0;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 14px;
+        }
+
+        .remove-filter {
+            cursor: pointer;
+            font-weight: bold;
+            color: #666;
+        }
+
+        .gallery-section {
+            width: 100%;
+        }
+        
+        .gallery-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        
+        .gallery-title {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        
+        .gallery-count {
+            font-size: 16px;
+            color: #666;
+        }
+        
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        
+        .gallery-item {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+        
+        .gallery-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .gallery-item img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+        
+        .gallery-item-info {
+            padding: 10px;
+        }
+        
+        .gallery-item-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .gallery-item-meta {
+            font-size: 12px;
+            color: #666;
+        }
+
+        .category-label {
+            display: inline-block;
+            font-size: 12px;
+            padding: 2px 5px;
+            border-radius: 3px;
+            margin-right: 5px;
+            color: white;
+        }
+
+        .women-label {
+            background-color: #A18888;
+        }
+
+        .men-label {
+            background-color: #515E6B;
+        }
+
+        .unisex-label {
+            background-color: #74705F;
+        }
+
+        .clickable-title.women {
+            color: #A18888;
+        }
+
+        .clickable-title.men {
+            color: #515E6B;
+        }
+
+        .clickable-title.unisex {
+            color: #74705F;
+        }
+
+        .clickable-title:hover {
+            opacity: 0.8;
+            text-decoration: underline;
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 50px;
+            color: #666;
+            font-style: italic;
+        }
+
+        .dropdown-container {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .dropdown-container select {
+            padding: 8px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+
+        .page-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .theme-label {
+            display: inline-block;
+            font-size: 12px;
+            padding: 2px 5px;
+            border-radius: 3px;
+            margin-right: 5px;
+        }
+
+        .clickable-title {
+            transition: color 0.2s;
+        }
+        .clickable-title:hover {
+            color: #0066cc;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="viz-container">
+        <div class="page-header">
+            <h1>Explore who appears in each ad -- and how they're portrayed.</h1>
+            <div class="dropdown-container">
+                <select id="era-filter">
+                    <option value="all">All Eras</option>
+                    <!-- Will be populated from summary.json -->
+                </select>
+                <select id="decade-filter">
+                    <option value="all">All Decades</option>
+                    <!-- Decades options -->
+                </select>
+            </div>
+        </div>
+
+        <div class="treemap-section">
+            <div class="treemap-container" id="treemap-container">
+                <!-- Treemaps will be inserted here -->
+            </div>
+        </div>
+
+        <div class="filters-container" id="active-filters">
+            <!-- Active filters will appear here -->
+        </div>
+
+        <div class="gallery-section">
+            <div class="gallery-header">
+                <div class="gallery-title">Gallery</div>
+                <div class="gallery-count"><span id="ad-count">0</span> ads</div>
+            </div>
+            <div class="gallery-grid" id="gallery-grid">
+                <!-- Gallery items will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Load and process data
+        let adsData = [];
+        let filteredAds = [];
+        let eras = [];
+        let activeFilters = [];
+        
+        // Helper functions
+        function capitalizeFirstLetter(string) {
+            if (!string) return '';
+            return string.charAt(0).toUpperCase() + string.slice(1);
+        }
+        
+        function formatCategory(category) {
+            switch(category) {
+                case "women_only": return "Women Only";
+                case "men_only": return "Men Only";
+                case "both": return "Both";
+                case "none": return "No People";
+                default: return category;
+            }
+        }
+
+        function resetCellOpacity(svg) {
+            const cells = svg.querySelectorAll("g > g");
+            cells.forEach(cell => {
+                cell.style.opacity = 1;
+            });
+        }
+
+        // Use consistent color palette
+        const genderColors = {
+            women: "#A18888",
+            men: "#515E6B",
+            unisex: "#74705F",
+            unclear: "#74705F"  // Using unisex color for unclear gender
+        };
+
+        // Add this function to create treemaps with the character data
+        function createTreemaps() {
+            const treemapContainer = document.getElementById('treemap-container');
+            treemapContainer.innerHTML = '';
+            
+            // Get counts for each gender
+            const genderCounts = {
+                women: { women_only: 0, men_only: 0, both: 0, unclear_gender: 0, none: 0, total: 0 },
+                men: { women_only: 0, men_only: 0, both: 0, unclear_gender: 0, none: 0, total: 0 },
+                unisex: { women_only: 0, men_only: 0, both: 0, unclear_gender: 0, none: 0, total: 0 },
+                unclear: { women_only: 0, men_only: 0, both: 0, unclear_gender: 0, none: 0, total: 0 }
+            };
+            
+            // Calculate counts
+            filteredAds.forEach(ad => {
+                if (!ad.gender) return;
+                
+                const targetGender = ad.gender;
+                if (!genderCounts[targetGender]) return;
+                
+                genderCounts[targetGender].total++;
+                
+                // Check if ad analysis exists and has people field
+                if (!ad.analysis?.vision || !ad.analysis.vision.people || ad.analysis.vision.people.length === 0) {
+                    // No people field or empty people array means "No People"
+                    genderCounts[targetGender].none++;
+                    return;
+                }
+                
+                const people = ad.analysis.vision.people;
+                const hasWomen = people.some(p => p.gender === "woman");
+                const hasMen = people.some(p => p.gender === "man");
+                const hasUnclearGender = people.some(p => p.gender === "unclear");
+                
+                if (hasWomen && hasMen) {
+                    genderCounts[targetGender].both++;
+                } else if (hasWomen) {
+                    genderCounts[targetGender].women_only++;
+                } else if (hasMen) {
+                    genderCounts[targetGender].men_only++;
+                } else if (hasUnclearGender) {
+                    // New category for people with unclear gender
+                    genderCounts[targetGender].unclear_gender++;
+                } else {
+                    // This case should rarely happen - when there are people but gender is something else
+                    genderCounts[targetGender].none++;
+                }
+            });
+            
+            // Create a treemap for each gender
+            ["women", "men", "unisex", "unclear"].forEach(gender => {
+                if (!genderCounts[gender] || genderCounts[gender].total === 0) return;
+                
+                const wrapper = document.createElement('div');
+                wrapper.className = 'treemap-wrapper';
+                wrapper.dataset.gender = gender; // Add gender as data attribute
+                
+                // Make the title clickable
+                const titleContainer = document.createElement('div');
+                titleContainer.className = 'treemap-title';
+                titleContainer.style.cursor = 'pointer'; // Add pointer cursor
+                
+                // Create the title text as a button-like element
+                const titleText = document.createElement('span');
+                titleText.textContent = `${capitalizeFirstLetter(gender)} Ads (${genderCounts[gender].total})`;
+                titleText.className = `clickable-title ${gender}`;
+                titleContainer.appendChild(titleText);
+                
+                // Add click event to the title
+                titleContainer.addEventListener('click', () => {
+                    // Filter by this gender
+                    filterByGender(gender);
+                });
+                
+                wrapper.appendChild(titleContainer);
+                
+                const breadcrumb = document.createElement('div');
+                breadcrumb.className = 'breadcrumb';
+                breadcrumb.id = `breadcrumb-${gender}`;
+                breadcrumb.textContent = 'Character Breakdown';
+                wrapper.appendChild(breadcrumb);
+                
+                const backButton = document.createElement('button');
+                backButton.className = 'back-button';
+                backButton.id = `back-button-${gender}`;
+                backButton.textContent = '← Back';
+                wrapper.appendChild(backButton);
+                
+                const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+                svg.id = `treemap-${gender}`;
+                svg.setAttribute("width", "100%");
+                svg.setAttribute("height", "300");
+                wrapper.appendChild(svg);
+                
+                treemapContainer.appendChild(wrapper);
+                
+                // Create character data for treemap
+                const characterData = {
+                    name: "root",
+                    children: [
+                        {
+                            name: "Women Only",
+                            value: genderCounts[gender].women_only,
+                            color: genderColors.women,
+                            type: "women_only"
+                        },
+                        {
+                            name: "Men Only",
+                            value: genderCounts[gender].men_only,
+                            color: genderColors.men,
+                            type: "men_only"
+                        },
+                        {
+                            name: "Both",
+                            value: genderCounts[gender].both,
+                            color: "#AB9EAE",  // Changed color for "both"
+                            type: "both"
+                        },
+                        {
+                            name: "Unclear Gender",
+                            value: genderCounts[gender].unclear_gender,
+                            color: "#9C9C7C",  // New color for unclear gender
+                            type: "unclear_gender"
+                        },
+                        {
+                            name: "No People",
+                            value: genderCounts[gender].none,
+                            color: "#AAA",
+                            type: "none"
+                        }
+                    ].filter(d => d.value > 0) // Remove categories with zero counts
+                };
+                
+                // Store for navigation
+                svg.characterData = characterData;
+                
+                // Start with empty navigation history
+                const navHistory = [];
+                backButton.navHistory = navHistory;
+                
+                // Set up back button handler
+                setupBackButton(gender);
+                
+                // Render initial treemap
+                renderTreemap(svg, characterData, gender, null, navHistory);
+            });
+        }
+
+        // Add the setupBackButton function
+        function setupBackButton(gender) {
+            const backButton = document.getElementById(`back-button-${gender}`);
+            const navHistory = backButton.navHistory;
+            const breadcrumb = document.getElementById(`breadcrumb-${gender}`);
+            const svg = document.getElementById(`treemap-${gender}`);
+            
+            backButton.addEventListener('click', function() {
+                // If we have navigation history, go back to the previous view
+                if (navHistory.length > 0) {
+                    navHistory.pop();
+                    
+                    // Remove all filters for this gender
+                    removeAllFiltersForGender(gender);
+                    
+                    // Reset opacity for all cells
+                    resetCellOpacity(svg);
+                    
+                    // Update opacity for treemaps
+                    updateTreemapOpacity();
+                    
+                    // Hide the back button
+                    backButton.style.display = 'none';
+                    
+                    // Reset breadcrumb
+                    breadcrumb.textContent = 'Character Breakdown';
+                    
+                    // Render the initial character breakdown
+                    renderTreemap(svg, svg.characterData, gender, null, navHistory);
+                }
+            });
+        }
+
+        // Fix the filterByGender function to clear any existing character filters
+        function filterByGender(gender) {
+            console.log(`Filtering gallery to show only ${gender} ads`);
+            
+            // Remove ALL existing filters (not just gender-only)
+            activeFilters = activeFilters.filter(filter => filter.type === 'gender-only');
+            
+            // Update the gender-only filter
+            const existingGenderFilter = activeFilters.find(f => f.type === 'gender-only');
+            
+            if (existingGenderFilter) {
+                existingGenderFilter.targetGender = gender;
+            } else {
+                activeFilters.push({
+                    type: 'gender-only',
+                    targetGender: gender
+                });
+            }
+            
+            // Update filters UI and gallery
+            updateFiltersUI();
+            updateGalleryWithFilters();
+            
+            // Highlight the selected gender treemap
+            updateTreemapOpacity(gender);
+        }
+
+        // Modify the renderTreemap function to work similar to index2.html
+        function renderTreemap(svg, data, gender, parentType, navHistory, showGenderLegend = false) {
+            // Debug the data structure
+            console.log(`TREEMAP DEBUG - Gender: ${gender}, parentType: ${parentType}`);
+            console.log("Data structure:", JSON.stringify(data, null, 2));
+            
+            // Clear existing treemap
+            while (svg.firstChild) {
+                svg.removeChild(svg.firstChild);
+            }
+            
+            // Store the current level and parent type
+            svg.dataset.level = parentType === null ? "character" : "emotion";
+            svg.dataset.parentType = parentType || "null";
+            
+            const treemapWidth = svg.clientWidth;
+            const treemapHeight = svg.clientHeight;
+            const margin = { top: 15, right: 5, bottom: 5, left: 5 };
+            
+            // Generate treemap layout
+            const treemap = d3.treemap()
+                .size([treemapWidth - margin.left - margin.right, treemapHeight - margin.top - margin.bottom])
+                .paddingOuter(3)
+                .paddingTop(19)
+                .paddingInner(1)
+                .round(true);
+            
+            // Create root hierarchy
+            const root = d3.hierarchy(data)
+                .sum(d => d.value)
+                .sort((a, b) => b.value - a.value);
+            
+            // Apply treemap layout
+            treemap(root);
+            
+            // Create group for treemap
+            const group = document.createElementNS("http://www.w3.org/2000/svg", "g");
+            group.setAttribute("transform", `translate(${margin.left},${margin.top})`);
+            svg.appendChild(group);
+            
+            // Add gender legend for "both" category if needed
+            if (showGenderLegend) {
+                const legend = document.createElementNS("http://www.w3.org/2000/svg", "g");
+                legend.setAttribute("transform", "translate(10, 0)");
+                
+                // Women legend item
+                const womenRect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+                womenRect.setAttribute("x", 0);
+                womenRect.setAttribute("y", 0);
+                womenRect.setAttribute("width", 10);
+                womenRect.setAttribute("height", 10);
+                womenRect.setAttribute("fill", d3.color("#A18888").brighter(0.5));
+                legend.appendChild(womenRect);
+                
+                const womenText = document.createElementNS("http://www.w3.org/2000/svg", "text");
+                womenText.setAttribute("x", 15);
+                womenText.setAttribute("y", 9);
+                womenText.setAttribute("font-size", "10px");
+                womenText.textContent = "♀ Women";
+                legend.appendChild(womenText);
+                
+                // Men legend item
+                const menRect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+                menRect.setAttribute("x", 80);
+                menRect.setAttribute("y", 0);
+                menRect.setAttribute("width", 10);
+                menRect.setAttribute("height", 10);
+                menRect.setAttribute("fill", d3.color("#515E6B").brighter(0.5));
+                legend.appendChild(menRect);
+                
+                const menText = document.createElementNS("http://www.w3.org/2000/svg", "text");
+                menText.setAttribute("x", 95);
+                menText.setAttribute("y", 9);
+                menText.setAttribute("font-size", "10px");
+                menText.textContent = "♂ Men";
+                legend.appendChild(menText);
+                
+                group.appendChild(legend);
+            }
+            
+            // Create cells
+            const nodesToRender = root.descendants().filter(d => d.depth > 0);
+            
+            console.log(`Rendering ${nodesToRender.length} nodes at level ${svg.dataset.level}`);
+            
+            nodesToRender.forEach(d => {
+                const cell = document.createElementNS("http://www.w3.org/2000/svg", "g");
+                cell.setAttribute("transform", `translate(${d.x0},${d.y0})`);
+                
+                const rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+                rect.setAttribute("width", Math.max(0, d.x1 - d.x0));
+                rect.setAttribute("height", Math.max(0, d.y1 - d.y0));
+                rect.setAttribute("fill", d.data.color);
+                rect.setAttribute("stroke", "#fff");
+                rect.setAttribute("stroke-width", "1");
+                rect.style.cursor = "pointer";
+                
+                // Add click handler
+                rect.addEventListener("click", function() {
+                    handleTreemapClick(d, gender, parentType, svg, navHistory);
+                });
+                
+                cell.appendChild(rect);
+                
+                // Add text label
+                const text = document.createElementNS("http://www.w3.org/2000/svg", "text");
+                text.setAttribute("x", 5);
+                text.style.pointerEvents = "none"; // Prevent text from interfering with click events
+                
+                // Determine text color based on background brightness
+                const color = d3.color(d.data.color);
+                const brightness = color ? 0.299 * color.r + 0.587 * color.g + 0.114 * color.b : 255;
+                text.setAttribute("fill", brightness < 128 ? "#fff" : "#000");
+                
+                // Style and position text
+                text.setAttribute("y", 12);
+                text.setAttribute("font-size", "9px");
+                
+                // Text content
+                let name = d.data.displayName || d.data.name;
+                if (name.length > 15) name = name.substring(0, 12) + "...";
+                
+                // For emotions under gender in the "both" category
+                if (parentType === "both" && d.depth === 2) {
+                    // Only show name for emotions, maybe truncate if too long
+                    if (name.length > 12) name = name.substring(0, 10) + "...";
+                    text.textContent = name;
+                    
+                    // Add percentage as a separate text element
+                    const pctText = document.createElementNS("http://www.w3.org/2000/svg", "text");
+                    pctText.setAttribute("x", 5);
+                    pctText.setAttribute("y", 24);
+                    pctText.setAttribute("fill", brightness < 128 ? "#fff" : "#000");
+                    pctText.setAttribute("font-size", "8px");
+                    pctText.style.pointerEvents = "none";
+                    
+                    const parentTotal = d.parent.value;
+                    const percent = (d.value / parentTotal * 100).toFixed(0);
+                    pctText.textContent = `${percent}%`;
+                    
+                    cell.appendChild(pctText);
+                } else {
+                    // Calculate the percentage correctly based on parent's value
+                    let total = d.parent ? d.parent.value : root.value;
+                    const percent = (d.value / total * 100).toFixed(0);
+                    text.textContent = `${name} (${percent}%)`;
+                }
+                
+                cell.appendChild(text);
+                group.appendChild(cell);
+            });
+            
+            // Store data for back button
+            svg.lastData = data;
+            // Store character data for navigation
+            if (parentType === null) {
+                svg.characterData = data;
+            }
+        }
+
+        // Update the handleTreemapClick function to ensure we always filter by the treemap's gender
+        function handleTreemapClick(d, targetGender, parentType, svg, navHistory) {
+            // Get the current level from the SVG dataset
+            const currentLevel = svg.dataset.level || "character";
+            
+            console.log("Current level:", currentLevel, "parentType:", parentType);
+            
+            const cellType = d.data.type || d.data.name;
+            console.log("Treemap clicked:", targetGender, "parentType:", parentType, "cellType:", cellType);
+            
+            const breadcrumb = document.getElementById(`breadcrumb-${targetGender}`);
+            const backButton = document.getElementById(`back-button-${targetGender}`);
+            
+            // Always ensure we're filtering by the current treemap's gender
+            // First, check if we already have a gender-only filter for this gender
+            const genderOnlyFilter = activeFilters.find(f => f.type === 'gender-only');
+            
+            if (!genderOnlyFilter || genderOnlyFilter.targetGender !== targetGender) {
+                // Update or add the gender-only filter to match the current treemap
+                if (genderOnlyFilter) {
+                    genderOnlyFilter.targetGender = targetGender;
+                } else {
+                    activeFilters.push({
+                        type: 'gender-only',
+                        targetGender: targetGender
+                    });
+                }
+            }
+            
+            // Remove any character filters for other genders
+            activeFilters = activeFilters.filter(f => 
+                f.type === 'gender-only' || f.targetGender === targetGender);
+            
+            // Update opacity to highlight the selected treemap
+            updateTreemapOpacity(targetGender);
+            
+            // First level - Character breakdown
+            if (parentType === null) {
+                // Show the back button
+                backButton.style.display = 'block';
+                
+                // Save current view in navigation history
+                navHistory.push({
+                    data: svg.characterData,
+                    parentType: null
+                });
+                
+                // Update breadcrumb to show navigation
+                breadcrumb.textContent = `Character Breakdown > ${d.data.name}`;
+                
+                // Generate second-level data based on the cell type
+                let secondLevelData;
+                
+                if (cellType === "women_only") {
+                    // Generate emotion data for women in women-only ads
+                    secondLevelData = generateEmotionData("woman", targetGender, false);
+                } 
+                else if (cellType === "men_only") {
+                    // Generate emotion data for men in men-only ads
+                    secondLevelData = generateEmotionData("man", targetGender, false);
+                } 
+                else if (cellType === "both") {
+                    // Create data with two categories: women's emotions and men's emotions
+                    const womenEmotions = generateEmotionData("woman", targetGender, true).children;
+                    const menEmotions = generateEmotionData("man", targetGender, true).children;
+                    
+                    secondLevelData = {
+                        name: "root",
+                        children: [
+                            {
+                                name: "Women's Emotions",
+                                displayName: "Women's Emotions", 
+                                color: genderColors.women,
+                                children: womenEmotions
+                            },
+                            {
+                                name: "Men's Emotions",
+                                displayName: "Men's Emotions",
+                                color: genderColors.men,
+                                children: menEmotions
+                            }
+                        ]
+                    };
+                }
+                else if (cellType === "unclear_gender") {
+                    // For ads with unclear gender, show their emotions
+                    secondLevelData = generateEmotionData("unclear", targetGender, false);
+                } 
+                else if (cellType === "none") {
+                    // For ads with no people, show mood tags
+                    secondLevelData = generateMoodData(targetGender);
+                }
+                
+                // Render the second-level treemap
+                renderTreemap(svg, secondLevelData, targetGender, cellType, navHistory, cellType === "both");
+                
+                // Add the filter AFTER rendering the emotions
+                addFilter({
+                    targetGender: targetGender,
+                    characterType: cellType
+                });
+            } 
+            // Second level - Emotions/Moods
+            else if (parentType === "women_only") {
+                addFilter({
+                    targetGender: targetGender,
+                    characterType: "women_only",
+                    emotion: cellType
+                });
+                
+                // Highlight the clicked emotion
+                highlightSelectedCell(d, svg);
+            } 
+            else if (parentType === "men_only") {
+                addFilter({
+                    targetGender: targetGender,
+                    characterType: "men_only",
+                    emotion: cellType
+                });
+                
+                // Highlight the clicked emotion
+                highlightSelectedCell(d, svg);
+            } 
+            else if (parentType === "none") {
+                addFilter({
+                    targetGender: targetGender,
+                    characterType: "none",
+                    mood: cellType
+                });
+                
+                // Highlight the clicked mood
+                highlightSelectedCell(d, svg);
+            }
+            else if (parentType === "both") {
+                // Handle clicks within the "both" category
+                if (d.data.name === "Women's Emotions" || d.data.name === "Men's Emotions") {
+                    // This is a gender group header
+                    const genderType = d.data.name === "Women's Emotions" ? "woman" : "man";
+                    addFilter({
+                        targetGender: targetGender,
+                        characterType: "both",
+                        gender: genderType
+                    });
+                } 
+                else if (d.parent && (d.parent.data.name === "Women's Emotions" || d.parent.data.name === "Men's Emotions")) {
+                    // This is a specific emotion under a gender group
+                    const genderType = d.parent.data.name === "Women's Emotions" ? "woman" : "man";
+                    addFilter({
+                        targetGender: targetGender,
+                        characterType: "both",
+                        gender: genderType,
+                        emotion: cellType
+                    });
+                    
+                    // Highlight the clicked emotion
+                    highlightSelectedCell(d, svg);
+                }
+            }
+        }
+
+        // Add the missing helper functions
+        function addFilter(filter) {
+            // Find if there's an existing filter for this target gender
+            const existingIndex = activeFilters.findIndex(f => 
+                f.targetGender === filter.targetGender && 
+                f.type !== 'gender-only');
+            
+            if (existingIndex !== -1) {
+                // Replace the existing filter with the new one
+                // But merge the properties to maintain the filter chain
+                const existingFilter = activeFilters[existingIndex];
+                
+                // Start with the base filter properties
+                const updatedFilter = {
+                    targetGender: filter.targetGender
+                };
+                
+                // Keep the character type, either from the new filter or existing one
+                if (filter.characterType) {
+                    updatedFilter.characterType = filter.characterType;
+                } else if (existingFilter.characterType) {
+                    updatedFilter.characterType = existingFilter.characterType;
+                }
+                
+                // Update or keep gender filter
+                if (filter.gender) {
+                    updatedFilter.gender = filter.gender;
+                } else if (existingFilter.gender && updatedFilter.characterType === existingFilter.characterType) {
+                    updatedFilter.gender = existingFilter.gender;
+                }
+                
+                // Update or keep emotion filter
+                if (filter.emotion) {
+                    updatedFilter.emotion = filter.emotion;
+                } else if (existingFilter.emotion && 
+                          updatedFilter.characterType === existingFilter.characterType && 
+                          updatedFilter.gender === existingFilter.gender) {
+                    updatedFilter.emotion = existingFilter.emotion;
+                }
+                
+                // Update or keep mood filter
+                if (filter.mood) {
+                    updatedFilter.mood = filter.mood;
+                } else if (existingFilter.mood && updatedFilter.characterType === existingFilter.characterType) {
+                    updatedFilter.mood = existingFilter.mood;
+                }
+                
+                // Replace the filter
+                activeFilters[existingIndex] = updatedFilter;
+            } else {
+                // No existing filter for this gender, add a new one
+                activeFilters.push(filter);
+            }
+            
+            // Update the UI and gallery
+            updateFiltersUI();
+            updateGalleryWithFilters();
+        }
+
+        function removeAllFiltersForGender(targetGender) {
+            // Remove all filters for the specified gender except gender-only filters
+            activeFilters = activeFilters.filter(f => 
+                f.targetGender !== targetGender || 
+                f.type === 'gender-only');
+            
+            updateFiltersUI();
+            updateGalleryWithFilters();
+        }
+
+        function highlightSelectedCell(selectedNode, svg) {
+            // Get all emotion/mood cells
+            const cells = svg.querySelectorAll("g > g");
+            
+            cells.forEach(cell => {
+                // Check if this is the selected cell
+                const isSelected = cell.getAttribute("transform") === 
+                                  `translate(${selectedNode.x0},${selectedNode.y0})`;
+                
+                // Apply opacity based on selection
+                if (isSelected) {
+                    cell.style.opacity = 1;
+                } else {
+                    cell.style.opacity = 0.5;
+                }
+            });
+        }
+
+        // Function to load data and initialize the visualization
+        function loadData() {
+            // Show loading message
+            document.getElementById('gallery-grid').innerHTML = '<div class="no-results">Loading data...</div>';
+            
+            // Load ad analysis data
+            fetch('ad_analysis.json')
+                .then(response => response.json())
+                .then(data => {
+                    console.log(`Loaded ${data.length} ads`);
+                    adsData = data;
+                    
+                    // Initialize the decade filter
+                    initDecadeFilter();
+                    
+                    // Initialize era filter (if you have a summary.json file)
+                    loadEras();
+                    
+                    // Apply initial filters and update the visualization
+                    applyFilters();
+                })
+                .catch(error => {
+                    console.error('Error loading the JSON data:', error);
+                    document.getElementById('gallery-grid').innerHTML = 
+                        '<div class="no-results">Error loading data. Please check the console for details.</div>';
+                });
+        }
+
+        // Function to initialize decade filter
+        function initDecadeFilter() {
+            // Get all available decades
+            const decades = [...new Set(adsData.map(ad => Math.floor(ad.year / 10) * 10))].sort();
+            
+            // Populate decade filter dropdown
+            const decadeFilter = document.getElementById('decade-filter');
+            decadeFilter.innerHTML = '<option value="all">All Decades</option>';
+            
+            decades.forEach(decade => {
+                const option = document.createElement('option');
+                option.value = decade;
+                option.textContent = `${decade}s`;
+                decadeFilter.appendChild(option);
+            });
+            
+            // Add change event listener
+            decadeFilter.addEventListener('change', applyFilters);
+        }
+
+        // Function to load eras from summary.json (if available)
+        function loadEras() {
+            // Fix the path to point to the correct location of summary.json
+            fetch('../data/summary.json')
+                .then(response => response.json())
+                .then(data => {
+                    // The summary.json has a different structure than expected
+                    // It's an array, not an object with an "eras" property
+                    eras = data || [];
+                    
+                    // Populate era filter dropdown
+                    const eraFilter = document.getElementById('era-filter');
+                    eraFilter.innerHTML = '<option value="all">All Eras</option>';
+                    
+                    eras.forEach(era => {
+                        const option = document.createElement('option');
+                        option.value = JSON.stringify({ start: era.start_year, end: era.end_year });
+                        option.textContent = era.era;
+                        eraFilter.appendChild(option);
+                    });
+                    
+                    // Add change event listener
+                    eraFilter.addEventListener('change', applyFilters);
+                })
+                .catch(error => {
+                    console.error('Error loading eras:', error);
+                    // Hide the era filter if data isn't available
+                    document.getElementById('era-filter').closest('.dropdown-container').style.display = 'none';
+                });
+        }
+
+        // Function to apply filters and update visualization
+        function applyFilters() {
+            // Apply all active filters to create filteredAds
+            filteredAds = adsData.filter(ad => {
+                // Era filter
+                const eraFilter = document.getElementById('era-filter').value;
+                if (eraFilter !== 'all') {
+                    const { start, end } = JSON.parse(eraFilter);
+                    if (ad.year < start || ad.year > end) return false;
+                }
+                
+                // Decade filter
+                const decadeFilter = document.getElementById('decade-filter').value;
+                if (decadeFilter !== 'all') {
+                    const decade = Math.floor(ad.year / 10) * 10;
+                    if (decade != parseInt(decadeFilter)) return false;
+                }
+                
+                return true;
+            });
+            
+            // Create treemaps
+            createTreemaps();
+            
+            // Update gallery
+            updateGalleryWithFilters();
+        }
+
+        // Function to update gallery with filtered ads
+        function updateGalleryWithFilters() {
+            let displayAds = [...filteredAds];
+            
+            // Apply active filters from treemap
+            if (activeFilters.length > 0) {
+                displayAds = displayAds.filter(ad => {
+                    // First check for gender-only filter
+                    const genderOnlyFilter = activeFilters.find(f => f.type === 'gender-only');
+                    if (genderOnlyFilter && ad.gender !== genderOnlyFilter.targetGender) {
+                        return false;
+                    }
+                    
+                    // Check for character type and emotion filters
+                    const characterFilters = activeFilters.filter(f => f.type !== 'gender-only');
+                    
+                    // If no character filters, we've already filtered by gender (if applicable)
+                    if (characterFilters.length === 0) {
+                        return true;
+                    }
+                    
+                    // Check if this ad's gender matches any of our character filters
+                    const matchingFilter = characterFilters.find(f => f.targetGender === ad.gender);
+                    
+                    // If we don't have a filter for this ad's gender, keep it (it passed the gender-only filter)
+                    if (!matchingFilter) {
+                        return true;
+                    }
+                    
+                    // Now apply the character filter
+                    const people = ad.analysis?.vision?.people || [];
+                    const hasWomen = people.some(p => p.gender === "woman");
+                    const hasMen = people.some(p => p.gender === "man");
+                    const hasUnclearGender = people.some(p => p.gender === "unclear");
+
+                    // Check character type
+                    if (matchingFilter.characterType === "women_only" && (!hasWomen || hasMen)) {
+                        return false;
+                    }
+                    else if (matchingFilter.characterType === "men_only" && (!hasMen || hasWomen)) {
+                        return false;
+                    }
+                    else if (matchingFilter.characterType === "both" && (!hasWomen || !hasMen)) {
+                        return false;
+                    }
+                    else if (matchingFilter.characterType === "unclear_gender" && !hasUnclearGender) {
+                        return false;
+                    }
+                    else if (matchingFilter.characterType === "none" && people.length > 0) {
+                        return false;
+                    }
+                    
+                    // Check gender-specific emotion filter for "both" character type
+                    if (matchingFilter.characterType === "both" && matchingFilter.gender) {
+                        let hasMatchingPerson = false;
+                        for (let person of people) {
+                            if (person.gender === matchingFilter.gender) {
+                                // If there's also an emotion filter
+                                if (matchingFilter.emotion) {
+                                    if (person.emotion_tags && person.emotion_tags.includes(matchingFilter.emotion)) {
+                                        hasMatchingPerson = true;
+                                        break;
+                                    }
+                                } else {
+                                    hasMatchingPerson = true;
+                                    break;
+                                }
+                            }
+                        }
+                        if (!hasMatchingPerson) return false;
+                    }
+                    
+                    // Check emotion filter for women_only or men_only
+                    if ((matchingFilter.characterType === "women_only" || matchingFilter.characterType === "men_only") && 
+                        matchingFilter.emotion) {
+                        
+                        let hasMatchingEmotion = false;
+                        const targetGender = matchingFilter.characterType === "women_only" ? "woman" : "man";
+                        
+                        for (let person of people) {
+                            if (person.gender === targetGender && 
+                                person.emotion_tags && 
+                                person.emotion_tags.includes(matchingFilter.emotion)) {
+                                hasMatchingEmotion = true;
+                                break;
+                            }
+                        }
+                        
+                        if (!hasMatchingEmotion) return false;
+                    }
+                    
+                    // Check mood filter for "none" character type
+                    if (matchingFilter.characterType === "none" && matchingFilter.mood) {
+                        if (!ad.analysis?.vision?.mood_tags || 
+                            !ad.analysis.vision.mood_tags.includes(matchingFilter.mood)) {
+                            return false;
+                        }
+                    }
+                    
+                    // If we got here, the ad passed all filters
+                    return true;
+                });
+            }
+            
+            // Update count
+            document.getElementById('ad-count').textContent = displayAds.length;
+            
+            // Render gallery
+            renderGallery(displayAds);
+        }
+
+        // Function to render the gallery
+        function renderGallery(ads = filteredAds) {
+            const galleryGrid = document.getElementById('gallery-grid');
+            
+            if (ads.length === 0) {
+                galleryGrid.innerHTML = '<div class="no-results">No ads match the current filters</div>';
+                return;
+            }
+            
+            galleryGrid.innerHTML = '';
+            
+            ads.forEach(ad => {
+                const item = document.createElement('div');
+                item.className = 'gallery-item';
+                
+                // Create image container - use ad-image property directly from the JSON
+                const img = document.createElement('img');
+                img.src = ad['ad-image'] || ad.public_url || 'placeholder.jpg';
+                img.alt = `${ad.brand} ${ad.name} (${ad.year})`;
+                
+                // Set a fallback for broken images
+                img.onerror = function() {
+                    this.src = 'placeholder.jpg';
+                    this.alt = 'Image not found';
+                };
+                
+                item.appendChild(img);
+                
+                // Create info container
+                const info = document.createElement('div');
+                info.className = 'gallery-item-info';
+                
+                // Add title
+                const title = document.createElement('div');
+                title.className = 'gallery-item-title';
+                title.textContent = `${ad.brand} ${ad.name}`;
+                info.appendChild(title);
+                
+                // Add metadata
+                const meta = document.createElement('div');
+                meta.className = 'gallery-item-meta';
+                
+                // Add label for gender
+                const genderLabel = document.createElement('span');
+                genderLabel.className = `category-label ${ad.gender}-label`;
+                genderLabel.textContent = capitalizeFirstLetter(ad.gender);
+                meta.appendChild(genderLabel);
+                
+                meta.appendChild(document.createTextNode(` ${ad.year}`));
+                info.appendChild(meta);
+                
+                item.appendChild(info);
+                galleryGrid.appendChild(item);
+            });
+        }
+
+        // Function to update filters UI
+        function updateFiltersUI() {
+            const filterContainer = document.getElementById('active-filters');
+            filterContainer.innerHTML = '';
+            
+            if (activeFilters.length === 0) {
+                return;
+            }
+            
+            activeFilters.forEach((filter, index) => {
+                const filterTag = document.createElement('div');
+                filterTag.className = 'filter-tag';
+                
+                let filterText;
+                
+                if (filter.type === 'gender-only') {
+                    filterText = `Showing only ${capitalizeFirstLetter(filter.targetGender)} ads`;
+                } else {
+                    // Build filter text as a chain of criteria
+                    filterText = `${capitalizeFirstLetter(filter.targetGender)} ads with `;
+                    
+                    // Add character type
+                    if (filter.characterType) {
+                        filterText += formatCategory(filter.characterType);
+                        
+                        // For "both" character type with gender specified
+                        if (filter.characterType === "both" && filter.gender) {
+                            filterText += ` (${capitalizeFirstLetter(filter.gender)}s)`;
+                        }
+                        
+                        // Add emotion if present
+                        if (filter.emotion) {
+                            filterText += ` → "${filter.emotion}"`;
+                        }
+                        
+                        // Add mood if present (for "none" character type)
+                        if (filter.mood) {
+                            filterText += ` → "${filter.mood}"`;
+                        }
+                    }
+                }
+                
+                const textSpan = document.createElement('span');
+                textSpan.textContent = filterText;
+                filterTag.appendChild(textSpan);
+                
+                const removeBtn = document.createElement('span');
+                removeBtn.className = 'remove-filter';
+                removeBtn.textContent = '×';
+                removeBtn.title = 'Remove filter';
+                removeBtn.addEventListener('click', () => {
+                    activeFilters.splice(index, 1);
+                    updateFiltersUI();
+                    updateGalleryWithFilters();
+                    
+                    // If we removed a gender-only filter, reset treemap opacity
+                    if (filter.type === 'gender-only') {
+                        updateTreemapOpacity();
+                    }
+                });
+                filterTag.appendChild(removeBtn);
+                
+                filterContainer.appendChild(filterTag);
+            });
+        }
+
+        // Function to update treemap opacity
+        function updateTreemapOpacity(activeGender = null) {
+            console.log("Setting opacity for active gender:", activeGender);
+            
+            // Get all treemap wrappers
+            const treemapWrappers = document.querySelectorAll('.treemap-wrapper');
+            
+            // First, ensure all treemaps maintain their visibility
+            treemapWrappers.forEach(wrapper => {
+                // Make sure all wrappers keep their dimensions even with opacity changes
+                wrapper.style.visibility = 'visible';
+                wrapper.style.display = 'block';
+            });
+            
+            // Then set opacity based on active gender
+            treemapWrappers.forEach(wrapper => {
+                const gender = wrapper.dataset.gender;
+                console.log("Wrapper gender:", gender, "Active:", activeGender);
+                
+                if (activeGender && gender !== activeGender) {
+                    // Set opacity to 30% for non-active genders
+                    wrapper.style.opacity = '0.3';
+                    console.log("Setting opacity to 0.3 for", gender);
+                } else {
+                    // Keep full opacity for the active gender
+                    wrapper.style.opacity = '1';
+                    console.log("Setting opacity to 1 for", gender);
+                }
+            });
+        }
+
+        // Function to generate emotion data that emulates index2.html's implementation
+        function generateEmotionData(personGender, targetGender, bothFilter) {
+            // Get the filtered ads for this target gender
+            const ads = filteredAds.filter(ad => ad.gender === targetGender);
+            const emotions = {};
+            
+            // Count emotions by gender
+            ads.forEach(ad => {
+                if (!ad.analysis?.vision?.people) return;
+                
+                const people = ad.analysis.vision.people.filter(p => p.gender === personGender);
+                
+                // Apply the appropriate filter based on whether we're looking at "both" or gender-specific ads
+                if (bothFilter) {
+                    const hasBothGenders = ad.analysis.vision.people.some(p => p.gender === "woman") && 
+                                   ad.analysis.vision.people.some(p => p.gender === "man");
+                    if (!hasBothGenders) return;
+                } else if (personGender === "unclear") {
+                    // For unclear gender, ensure we only have unclear gender people
+                    const hasOnlyUnclearGender = ad.analysis.vision.people.every(p => 
+                        p.gender === "unclear" || !["woman", "man", "unclear"].includes(p.gender));
+                    if (!hasOnlyUnclearGender) return;
+                } else {
+                    // For women_only or men_only, ensure we only have this gender
+                    const hasOnlyThisGender = ad.analysis.vision.people.every(p => 
+                        p.gender === personGender || !["woman", "man"].includes(p.gender));
+                    if (!hasOnlyThisGender) return;
+                }
+                
+                // Count emotions - only use the first 3 emotion tags for each person
+                people.forEach(person => {
+                    if (!person.emotion_tags) return;
+                    
+                    // Take only the first 3 emotion tags
+                    const limitedEmotions = person.emotion_tags.slice(0, 3);
+                    
+                    limitedEmotions.forEach(emotion => {
+                        emotions[emotion] = (emotions[emotion] || 0) + 1;
+                    });
+                });
+            });
+            
+            // Get the color base for the emotion categories
+            let baseColor;
+            if (personGender === "woman") {
+                baseColor = d3.color(genderColors.women);
+            } else if (personGender === "man") {
+                baseColor = d3.color(genderColors.men);
+            } else {
+                baseColor = d3.color("#9C9C7C"); // Color for unclear gender
+            }
+            
+            console.log(`Found ${Object.keys(emotions).length} emotions for ${personGender} in ${targetGender} ads`);
+            
+            // Sort by frequency and format for treemap
+            const emotionData = Object.entries(emotions)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 10) // Still keep top 10 most frequent emotions overall
+                .map(([name, value]) => {
+                    // Adjust brightness based on frequency
+                    const maxValue = Math.max(...Object.values(emotions));
+                    const brightness = 0.3 + (value / maxValue) * 0.7;
+                    const color = baseColor.brighter(brightness);
+                    
+                    return {
+                        name,
+                        value,
+                        color
+                    };
+                });
+            
+            console.log("Emotion data:", emotionData);
+            
+            // Check if we have any emotions to show
+            if (emotionData.length === 0) {
+                return {
+                    name: "root",
+                    children: [{
+                        name: "No emotions found",
+                        value: 1,
+                        color: "#CCCCCC"
+                    }]
+                };
+            }
+            
+            // Return the data structure
+            return {
+                name: "root",
+                children: emotionData
+            };
+        }
+
+        // Implement the mood data generator
+        function generateMoodData(targetGender) {
+            // Get ads with no people for this target gender
+            const ads = filteredAds.filter(ad => {
+                return ad.gender === targetGender && 
+                       (!ad.analysis?.vision?.people || ad.analysis.vision.people.length === 0);
+            });
+            
+            const moods = {};
+            
+            // Count moods - limited to first 3 per ad
+            ads.forEach(ad => {
+                if (!ad.analysis?.vision?.mood_tags) return;
+                
+                // Take only the first 3 mood tags
+                const limitedMoods = ad.analysis.vision.mood_tags.slice(0, 3);
+                
+                limitedMoods.forEach(mood => {
+                    moods[mood] = (moods[mood] || 0) + 1;
+                });
+            });
+            
+            // Sort by frequency and format for treemap
+            const moodData = Object.entries(moods)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 10) // Top 10 moods
+                .map(([name, value]) => {
+                    // Use a gradient for moods
+                    const brightness = 0.3 + (value / Math.max(...Object.values(moods))) * 0.7;
+                    return {
+                        name,
+                        value,
+                        color: d3.color(d3.interpolateGreys(brightness))
+                    };
+                });
+            
+            // Return hierarchical structure that can be rendered directly
+            return {
+                name: "root",
+                children: moodData.length > 0 ? moodData : [{
+                    name: "No moods found",
+                    value: 1,
+                    color: "#CCCCCC"
+                }]
+            };
+        }
+
+        // Call loadData when the page loads
+        loadData();
+    </script>
+</body>
+</html>

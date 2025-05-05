@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fluid Notes Visualization</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.typekit.net/ina4ngi.css">
+</head>
+<body>
+    <div id="container">
+        <div id="fixed-top">
+            <div id="fixed-top-layout">
+              <!-- LEFT: Summary + Ads -->
+              <div class="left-column">
+                <div class="title-label">
+                  <img src="assets/fluidnotes.svg" alt="Fluidnotes" class="fluidnotes-logo">
+                </div>
+                <div id="era-display" class="era-container">
+                  <div class="era-navigation">
+                    <button class="nav-btn prev-era" aria-label="Previous era">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 18L9 12L15 6" stroke="#3A3A3A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </button>
+                    
+                    <div class="era-progress-bar">
+                      <div class="era-segment" data-start-year="1900" data-end-year="1939" data-era="Idealized Femininity">
+                        <div class="segment-fill"></div>
+                      </div>
+                      <div class="era-segment" data-start-year="1940" data-end-year="1989" data-era="Binary Boom">
+                        <div class="segment-fill"></div>
+                      </div>
+                      <div class="era-segment" data-start-year="1990" data-end-year="2009" data-era="Fluidity Emerges">
+                        <div class="segment-fill"></div>
+                      </div>
+                      <div class="era-segment" data-start-year="2010" data-end-year="2025" data-era="Age of Expression">
+                        <div class="segment-fill"></div>
+                      </div>
+                    </div>
+                    
+                    <button class="nav-btn next-era" aria-label="Next era">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9 18L15 12L9 6" stroke="#3A3A3A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="era-years">Year Range</div>
+                  <div class="era-title">Era Title</div>
+                  <div class="era-gender-label">Gender Approach:</div>
+                  <div class="era-gender-approach">Approach</div>
+                  <div class="era-description">Description text will go here.</div>
+                  
+                  <!-- Replace the "See More Details" button with this toggle component -->
+                  <div class="explore-toggle">
+                    <span class="explore-label">Explore by</span>
+                    <div class="toggle-container">
+                      <button class="toggle-btn active" data-mode="notes">Notes</button>
+                      <button class="toggle-btn" data-mode="ads">Ads</button>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+              
+              <!-- RIGHT SECTION WRAPPER (includes controls + columns) -->
+              <div class="right-section">
+                <!-- CONTROLS ROW - Now above both middle and right columns -->
+                <div class="controls-row">
+                  <!-- COMBINED FILTERS IN ONE ROW -->
+                  <div class="filter-row">
+                    <!-- GENDER DROPDOWN -->
+                    <div class="filter-group dropdown">
+                      <select id="gender-filter" class="filter-select">
+                        <option value="all">All</option>
+                        <option value="women">Women</option>
+                        <option value="unisex">Unisex</option>
+                        <option value="men">Men</option>
+                      </select>
+                      <span class="filter-label">Gender</span>
+                    </div>
+                    
+                    <!-- NOTES DROPDOWN -->
+                    <div class="filter-group dropdown">
+                      <select id="notes-filter" class="filter-select">
+                        <option value="all">All</option>
+                        <option value="top">Top</option>
+                        <option value="middle">Middle</option>
+                        <option value="base">Base</option>
+                      </select>
+                      <span class="filter-label">Notes</span>
+                    </div>
+                    
+                    <!-- SEARCH BAR -->
+                    <div class="filter-group search">
+                      <span class="filter-label">Search</span>
+                      <input type="text" id="note-search" class="search-input" placeholder="Search for Notes..." />
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- COLUMNS CONTAINER -->
+                <div class="columns-container">
+                  <!-- MIDDLE: Year + Notes Graph -->
+                  <div class="middle-column">
+                    <div id="pie-chart-tooltip"></div>
+                    <div class="pie-chart-wrapper">
+                      <svg id="pie-chart" width="160" height="160"></svg>
+                    </div>
+                    <div class="chart-label">Fragrance Releases</div>
+                    
+                    <div id="grid-tooltip" class="tooltip"></div>
+                    <svg id="notes-graph"></svg>
+                    <div class="chart-label">Notes Mosaic</div>      
+                  </div>
+                
+                  <!-- RIGHT: Bar Chart -->
+                  <div class="right-column">
+                    <!-- Add title with new class -->
+                    <div class="stacked-bar-title">Top 10 Notes</div>
+                    <div id="bar-chart-tooltip"></div>
+                    <svg id="stacked-bar-chart"></svg>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Replace the current ads-right-section with this simplified version -->
+              <div class="ads-right-section" style="display: none;">
+                <!-- Treemap Row - Empty container for visualization -->
+                <div class="treemap-row">
+                  <div class="treemap-container" id="treemap-container">
+                    <!-- Will be populated with D3 -->
+                  </div>
+                </div>
+                
+                <!-- Gallery Row -->
+                <div class="gallery-row">
+                  <div class="gallery-header">
+                    <h3 class="gallery-title">Gallery</h3>
+                    <div class="gallery-count"><span id="ad-count">0</span> ads</div>
+                  </div>
+                  <div class="gallery-grid" id="gallery-grid">
+                    <!-- Will be populated with JavaScript -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+        <div id="scroll-section">
+          <div id="scroll-outer">
+            <div id="scroll-inner">
+              <!-- dynamically injected year steps go here -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="milestone-container">
+        <div id="milestone-box" class="hidden">
+          <div id="milestone-title"></div>
+          <div id="milestone-subtitle"></div>
+        </div>
+      </div>
+
+      <div id="ad-preview-container" class="hidden"></div>
+      <div id="ad-preview-box" class="hidden">
+        <img id="ad-preview-img" src="" />
+        <div id="ad-preview-text"></div>
+      </div>
+      
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://unpkg.com/scrollama"></script>
+  <script type="module" src="./js/main.js"></script>
+  <script src="./js/dropdown.js"></script>
+  <script src="./js/toggleView.js"></script>
+  <script src="./js/eraNavigation.js"></script>
+
+  <svg style="display: none;">
+    <filter id="paper-texture">
+      <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="4" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncR type="linear" slope="0.3"/>
+        <feFuncG type="linear" slope="0.3"/>
+        <feFuncB type="linear" slope="0.3"/>
+      </feComponentTransfer>
+    </filter>
+  </svg>
+</body>
+</html>

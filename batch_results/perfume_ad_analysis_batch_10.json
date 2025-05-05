@@ -1,0 +1,227 @@
+[
+  {
+    "name": "Mennen",
+    "year": 1940,
+    "gender": "men",
+    "brand": "Mennen",
+    "country": "france",
+    "ad-image": "images/aa/1940-mennen.png",
+    "copy": "You interest me - 'cause... I like SMOOTH Men WHO KEEPS PRESENTABLE LONGER",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1940-mennen.png",
+    "analysis": {
+      "vision": {
+        "description": "A woman in a striped outfit and large hat poses beside a shaving cream product, with a man's face depicted above accompanying text.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "seductive",
+            "pose_action": "standing, holding hat",
+            "emotion_tags": [
+              "flirtatious",
+              "confident",
+              "inviting",
+              "charming",
+              "playful"
+            ]
+          },
+          {
+            "gender": "man",
+            "facial_expression": "smiling",
+            "pose_action": "none",
+            "emotion_tags": [
+              "friendly",
+              "approachable",
+              "confident",
+              "pleasant",
+              "welcoming"
+            ]
+          }
+        ],
+        "people_count": 2,
+        "nudity": "no",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "none",
+        "mood_tags": [
+          "retro",
+          "playful",
+          "charming",
+          "advertising",
+          "vintage"
+        ]
+      }
+    },
+    "unique_id": "Mennen_1940_1940-mennen.png"
+  },
+  {
+    "name": "Carry her heart away with fragrance by Coty",
+    "year": 1944,
+    "gender": "women",
+    "brand": "Coty",
+    "ad-image": "images/aa/1944-coty.png",
+    "copy": "Carry her heart away with fragrance by Coty. These classic Coty fragrances L'Aimant, L'Origan, Emeraude, and Paris -have inspired a series of smart gift sets, ranging from $55 to $2.25.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1944-coty.png",
+    "analysis": {
+      "vision": {
+        "description": "A vintage-style perfume advertisement featuring a couple in a sleigh among illustrated boxes of perfume.",
+        "people": [
+          {
+            "gender": "man",
+            "facial_expression": "hidden face",
+            "pose_action": "sitting in sleigh",
+            "emotion_tags": [
+              "romantic",
+              "nostalgic",
+              "cozy",
+              "festive",
+              "dreamy"
+            ]
+          },
+          {
+            "gender": "woman",
+            "facial_expression": "hidden face",
+            "pose_action": "sitting in sleigh",
+            "emotion_tags": [
+              "romantic",
+              "nostalgic",
+              "cozy",
+              "festive",
+              "dreamy"
+            ]
+          }
+        ],
+        "people_count": 2,
+        "nudity": "no",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "romantic",
+        "mood_tags": [
+          "romantic",
+          "whimsical",
+          "festive",
+          "elegant",
+          "dreamy"
+        ]
+      }
+    },
+    "unique_id": "Carry her heart away with fragrance by Coty_1944_1944-coty.png"
+  },
+  {
+    "name": "Emeraude the Jewel Fragrance",
+    "year": 1940,
+    "gender": "women",
+    "brand": "Coty",
+    "ad-image": "images/aa/1941-coty-2.jpg",
+    "copy": "Most hauntingly mysterious of jewels is the emerald... whose subtle green fire inspired Emeraude. Let this glow-ing perfume scent your day... in Emeraude Accessories.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1941-coty-2.jpg",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement features a woman in an elegant green gown posed next to several perfume bottles, emphasizing a luxurious and sophisticated theme.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "neutral",
+            "pose_action": "standing with arm raised",
+            "emotion_tags": [
+              "elegant",
+              "poised",
+              "sophisticated",
+              "confident",
+              "graceful"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "luxurious",
+          "classic",
+          "refined",
+          "stylish",
+          "glamorous"
+        ]
+      }
+    },
+    "unique_id": "Emeraude the Jewel Fragrance_1940_1941-coty-2.jpg"
+  },
+  {
+    "name": "Fragrance",
+    "year": 1934,
+    "gender": "women",
+    "brand": "Yardley",
+    "ad-image": "images/aa/1934-yardley-1.png",
+    "copy": "If you have once spent a season in London, you will, forever after, remember that brilliant pageant the beautiful women, the jewels, and the perfumes. And in this very set-ting, Yardley's Fragrance made its debut, a modern, intriguing perfume for the formal evening scene. Pleased with its London success, we brought it to America... and American women have loved it too. There's also a face powder, Fragrance, as perfect as the perfume. We make it in six shades, including our own ex-clusive English Peach, a new rachel with a warm glow, and put it in a green and silver box that enraptures our eyes anew every day. Then, for confirmed sybarites, we hasten to add that bath salts, dust-ing powder, rouge, tale and a com pact in the Fragrance odour are also among those present.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1934-yardley-1.png",
+    "analysis": {
+      "vision": {
+        "description": "A vintage-style perfume advertisement featuring an elegantly dressed woman in a glamorous setting, surrounded by people at an upscale social gathering.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "smiling",
+            "pose_action": "sitting with a drink",
+            "emotion_tags": [
+              "elegant",
+              "confident",
+              "glamorous",
+              "sophisticated",
+              "content"
+            ]
+          }
+        ],
+        "people_count": 3,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "group",
+        "mood_tags": [
+          "refined",
+          "luxurious",
+          "social",
+          "vintage",
+          "festive"
+        ]
+      }
+    },
+    "unique_id": "Fragrance_1934_1934-yardley-1.png"
+  },
+  {
+    "name": "Bouquet Lentheric",
+    "year": 1939,
+    "gender": "women",
+    "brand": "Lentheric",
+    "ad-image": "images/aa/1939-lentheric.png",
+    "copy": "BOUQUET LENTHERIC the daytime fragrance. Lenth\u00e9rie Bouquet with MIRACLE Scent In all fragrances, including: Shanghai, Number Twelve, Tahitian Gardenia, As Phod\u00e8le, Golden Lotus, Carnation. Bottles, from $1.00. Decanters, from $1.75.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1939-lentheric.png",
+    "analysis": {
+      "vision": {
+        "description": "A vintage-style advertisement with elegant perfume bottles and floral decorations.",
+        "people": [
+          {
+            "gender": "unclear",
+            "facial_expression": "neutral",
+            "pose_action": "hidden face",
+            "emotion_tags": [
+              "mysterious",
+              "elegant",
+              "floral",
+              "vintage",
+              "artistic"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "elegant",
+          "vintage",
+          "stylish",
+          "sophisticated",
+          "classic"
+        ]
+      }
+    },
+    "unique_id": "Bouquet Lentheric_1939_1939-lentheric.png"
+  }
+]

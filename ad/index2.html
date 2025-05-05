@@ -1,0 +1,1229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fragrance Advertisement Visualization Test</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        
+        .dashboard {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 20px;
+        }
+        
+        .filters {
+            background-color: #f5f5f5;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        
+        .visualization {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        
+        .ad-details {
+            display: flex;
+            margin-top: 20px;
+            gap: 20px;
+        }
+        
+        .ad-image {
+            width: 200px;
+            height: 300px;
+            object-fit: contain;
+            background-color: #eee;
+        }
+        
+        .ad-info {
+            flex-grow: 1;
+        }
+        
+        .filter-section {
+            margin-bottom: 15px;
+        }
+        
+        select, input {
+            width: 100%;
+            padding: 5px;
+            margin-top: 5px;
+        }
+        
+        .chart {
+            height: 400px;
+            width: 100%;
+            background-color: white;
+            border: 1px solid #ddd;
+            margin-bottom: 20px;
+        }
+        
+        .ad-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 10px;
+        }
+        
+        .ad-thumbnail {
+            border: 1px solid #ccc;
+            padding: 5px;
+            text-align: center;
+            cursor: pointer;
+        }
+        
+        .ad-thumbnail:hover {
+            background-color: #f0f0f0;
+        }
+        
+        .ad-thumbnail img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+        
+        .tag-cloud {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            margin-top: 10px;
+        }
+        
+        .tag {
+            background-color: #e0e0e0;
+            padding: 3px 8px;
+            border-radius: 10px;
+            font-size: 12px;
+        }
+
+        .nudity-suggestiveness {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        .indicator {
+            padding: 5px 10px;
+            border-radius: 5px;
+            color: white;
+            font-size: 12px;
+        }
+        
+        .nudity-no { background-color: #4CAF50; }
+        .nudity-partial { background-color: #FF9800; }
+        .nudity-yes { background-color: #F44336; }
+        
+        .suggestive-neutral { background-color: #4CAF50; }
+        .suggestive-suggestive { background-color: #FF9800; }
+        .suggestive-intimate { background-color: #F44336; }
+
+        /* Add styles for era labels */
+        .era-label {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .era-description {
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 10px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fragrance Advertisement Analysis</h1>
+    
+    <div class="dashboard">
+        <div class="filters">
+            <h2>Filters</h2>
+            
+            <div class="filter-section">
+                <label for="decade-filter">Decade:</label>
+                <select id="decade-filter">
+                    <option value="all">All Decades</option>
+                    <option value="1890">1890s</option>
+                    <option value="1900">1900s</option>
+                    <option value="1910">1910s</option>
+                    <option value="1920">1920s</option>
+                    <option value="1930">1930s</option>
+                    <option value="1940">1940s</option>
+                    <option value="1950">1950s</option>
+                    <option value="1960">1960s</option>
+                    <option value="1970">1970s</option>
+                    <option value="1980">1980s</option>
+                    <option value="1990">1990s</option>
+                    <option value="2000">2000s</option>
+                    <option value="2010">2010s</option>
+                </select>
+            </div>
+            
+            <div class="filter-section">
+                <label for="brand-filter">Brand:</label>
+                <select id="brand-filter">
+                    <option value="all">All Brands</option>
+                </select>
+            </div>
+            
+            <div class="filter-section">
+                <label for="gender-filter">Gender:</label>
+                <select id="gender-filter">
+                    <option value="all">All</option>
+                    <option value="women">Women</option>
+                    <option value="men">Men</option>
+                    <option value="unisex">Unisex</option>
+                </select>
+            </div>
+            
+            <div class="filter-section">
+                <label for="nudity-filter">Nudity Level:</label>
+                <select id="nudity-filter">
+                    <option value="all">All</option>
+                    <option value="no">No</option>
+                    <option value="partial">Partial</option>
+                    <option value="yes">Yes</option>
+                </select>
+            </div>
+            
+            <div class="filter-section">
+                <label for="suggestiveness-filter">Suggestiveness:</label>
+                <select id="suggestiveness-filter">
+                    <option value="all">All</option>
+                    <option value="neutral">Neutral</option>
+                    <option value="suggestive">Suggestive</option>
+                    <option value="intimate">Intimate</option>
+                </select>
+            </div>
+            
+            <div class="filter-section">
+                <label for="interaction-filter">Interaction Type:</label>
+                <select id="interaction-filter">
+                    <option value="all">All</option>
+                    <option value="alone">Alone</option>
+                    <option value="romantic">Romantic</option>
+                    <option value="group">Group</option>
+                    <option value="none">None</option>
+                </select>
+            </div>
+
+            <div class="filter-section">
+                <label for="era-filter">Era:</label>
+                <select id="era-filter">
+                    <option value="all">All Eras</option>
+                    <!-- Era options will be populated from summary.json -->
+                </select>
+            </div>
+        </div>
+        
+        <div class="visualization">
+            <h2>Visualization</h2>
+            
+            <div class="charts">
+                <h3>Timeline of Advertising Trends</h3>
+                <div id="timeline-chart" class="chart"></div>
+                
+                <h3>Emotion Tags Distribution</h3>
+                <div id="emotion-chart" class="chart"></div>
+            </div>
+            
+            <h3>Advertisements (<span id="ad-count">0</span> results)</h3>
+            <div class="ad-grid" id="ad-grid">
+                <!-- Ad thumbnails will be inserted here -->
+            </div>
+        </div>
+    </div>
+    
+    <div class="ad-details" id="ad-details" style="display: none;">
+        <img src="" alt="Advertisement Image" class="ad-image" id="detail-image">
+        <div class="ad-info">
+            <h2 id="detail-name"></h2>
+            <p><strong>Brand:</strong> <span id="detail-brand"></span> | <strong>Year:</strong> <span id="detail-year"></span> | <strong>Gender:</strong> <span id="detail-gender"></span></p>
+            
+            <div class="nudity-suggestiveness">
+                <span id="detail-nudity" class="indicator"></span>
+                <span id="detail-suggestiveness" class="indicator"></span>
+                <span id="detail-interaction" class="indicator"></span>
+            </div>
+            
+            <p><strong>Description:</strong> <span id="detail-description"></span></p>
+            
+            <h4>People:</h4>
+            <div id="people-details"></div>
+            
+            <h4>Mood Tags:</h4>
+            <div id="mood-tags" class="tag-cloud"></div>
+        </div>
+    </div>
+
+    <script>
+        // Load and process data
+        let adsData = [];
+        let filteredAds = [];
+        let eras = [];
+        
+        // Add helper functions at the global level
+        function capitalizeFirstLetter(string) {
+            if (!string) return '';
+            return string.charAt(0).toUpperCase() + string.slice(1);
+        }
+        
+        function formatCategory(category) {
+            switch(category) {
+                case "women_only": return "Women Only";
+                case "men_only": return "Men Only";
+                case "both": return "Both";
+                case "none": return "No People";
+                default: return category;
+            }
+        }
+        
+        // Fetch both JSON files
+        Promise.all([
+            fetch('ad_analysis.json').then(response => response.json()),
+            fetch('../data/summary.json').then(response => response.json())
+        ])
+        .then(([adData, summaryData]) => {
+            adsData = adData;
+            eras = summaryData;
+            processData();
+        })
+        .catch(error => {
+            console.error('Error loading the JSON data:', error);
+            document.getElementById('ad-grid').innerHTML = '<p>Error loading data. Check console for details.</p>';
+        });
+        
+        function processData() {
+            // Populate era filter
+            const eraFilter = document.getElementById('era-filter');
+            
+            eras.forEach(era => {
+                const option = document.createElement('option');
+                option.value = JSON.stringify({start: era.start_year, end: era.end_year});
+                option.textContent = `${era.era} (${era.start_year}-${era.end_year})`;
+                eraFilter.appendChild(option);
+            });
+            
+            // Extract unique brands for the filter
+            const brands = [...new Set(adsData.map(ad => ad.brand))].sort();
+            const brandFilter = document.getElementById('brand-filter');
+            
+            brands.forEach(brand => {
+                if (brand) {
+                    const option = document.createElement('option');
+                    option.value = brand;
+                    option.textContent = brand;
+                    brandFilter.appendChild(option);
+                }
+            });
+            
+            // Apply initial filters
+            applyFilters();
+            
+            // Add event listeners to filters
+            document.getElementById('era-filter').addEventListener('change', applyFilters);
+            document.getElementById('decade-filter').addEventListener('change', applyFilters);
+            document.getElementById('brand-filter').addEventListener('change', applyFilters);
+            document.getElementById('gender-filter').addEventListener('change', applyFilters);
+            document.getElementById('nudity-filter').addEventListener('change', applyFilters);
+            document.getElementById('suggestiveness-filter').addEventListener('change', applyFilters);
+            document.getElementById('interaction-filter').addEventListener('change', applyFilters);
+        }
+        
+        function applyFilters() {
+            const eraFilter = document.getElementById('era-filter').value;
+            const decadeFilter = document.getElementById('decade-filter').value;
+            const brandFilter = document.getElementById('brand-filter').value;
+            const genderFilter = document.getElementById('gender-filter').value;
+            const nudityFilter = document.getElementById('nudity-filter').value;
+            const suggestivenessFilter = document.getElementById('suggestiveness-filter').value;
+            const interactionFilter = document.getElementById('interaction-filter').value;
+            
+            filteredAds = adsData.filter(ad => {
+                // Era filter
+                if (eraFilter !== 'all') {
+                    const { start, end } = JSON.parse(eraFilter);
+                    if (ad.year < start || ad.year > end) return false;
+                }
+
+                // Decade filter
+                if (decadeFilter !== 'all') {
+                    const decade = Math.floor(ad.year / 10) * 10;
+                    if (decade != parseInt(decadeFilter)) return false;
+                }
+                
+                // Brand filter
+                if (brandFilter !== 'all' && ad.brand !== brandFilter) return false;
+                
+                // Gender filter
+                if (genderFilter !== 'all' && ad.gender !== genderFilter) return false;
+                
+                // Nudity filter
+                if (nudityFilter !== 'all' && ad.analysis?.vision?.nudity !== nudityFilter) return false;
+                
+                // Suggestiveness filter
+                if (suggestivenessFilter !== 'all' && ad.analysis?.vision?.sexual_suggestiveness !== suggestivenessFilter) return false;
+                
+                // Interaction filter
+                if (interactionFilter !== 'all' && ad.analysis?.vision?.interaction_type !== interactionFilter) return false;
+                
+                return true;
+            });
+            
+            // Update the UI
+            document.getElementById('ad-count').textContent = filteredAds.length;
+            renderAdGrid();
+            // Update visualizations
+            createTimeline();
+            createEmotionChart();
+        }
+        
+        function renderAdGrid() {
+            const adGrid = document.getElementById('ad-grid');
+            adGrid.innerHTML = '';
+            
+            // If era filter is set to a specific era, group by that era
+            const eraFilter = document.getElementById('era-filter').value;
+            
+            if (eraFilter === 'all' && eras.length > 0) {
+                // Group by all eras
+                eras.forEach(era => {
+                    const eraAds = filteredAds.filter(ad => 
+                        ad.year >= era.start_year && ad.year <= era.end_year
+                    );
+                    
+                    if (eraAds.length > 0) {
+                        // Create an era section
+                        const eraSection = document.createElement('div');
+                        eraSection.className = 'era-section';
+                        
+                        const eraTitle = document.createElement('h3');
+                        eraTitle.className = 'era-label';
+                        eraTitle.textContent = `${era.era} (${era.start_year}-${era.end_year})`;
+                        eraSection.appendChild(eraTitle);
+                        
+                        const eraDescription = document.createElement('p');
+                        eraDescription.className = 'era-description';
+                        eraDescription.textContent = era.description;
+                        eraSection.appendChild(eraDescription);
+                        
+                        // Create a grid for this era's ads
+                        const eraGrid = document.createElement('div');
+                        eraGrid.className = 'ad-grid';
+                        
+                        // Add ads for this era (limit to 10 per era to avoid overload)
+                        const adsToShow = eraAds.slice(0, 10);
+                        adsToShow.forEach(ad => {
+                            eraGrid.appendChild(createAdThumbnail(ad));
+                        });
+                        
+                        eraSection.appendChild(eraGrid);
+                        adGrid.appendChild(eraSection);
+                        
+                        // Add a separator
+                        if (era !== eras[eras.length - 1]) {
+                            const separator = document.createElement('hr');
+                            adGrid.appendChild(separator);
+                        }
+                    }
+                });
+            } else {
+                // Take first 50 ads to avoid overwhelming the browser
+                const adsToShow = filteredAds.slice(0, 50);
+                
+                adsToShow.forEach(ad => {
+                    adGrid.appendChild(createAdThumbnail(ad));
+                });
+            }
+            
+            if (filteredAds.length === 0) {
+                adGrid.innerHTML = '<p>No advertisements match the selected filters.</p>';
+            }
+        }
+        
+        function createAdThumbnail(ad) {
+            const adElement = document.createElement('div');
+            adElement.className = 'ad-thumbnail';
+            adElement.onclick = () => showAdDetails(ad);
+            
+            const img = document.createElement('img');
+            img.src = ad.public_url || 'placeholder.png';
+            img.alt = ad.name;
+            img.onerror = function() {
+                this.src = 'placeholder.png';
+            };
+            
+            const name = document.createElement('p');
+            name.textContent = ad.name;
+            
+            const year = document.createElement('p');
+            year.textContent = ad.year;
+            year.style.fontSize = '12px';
+            year.style.color = '#666';
+            
+            adElement.appendChild(img);
+            adElement.appendChild(name);
+            adElement.appendChild(year);
+            
+            return adElement;
+        }
+        
+        function showAdDetails(ad) {
+            document.getElementById('ad-details').style.display = 'flex';
+            document.getElementById('detail-image').src = ad.public_url || 'placeholder.png';
+            document.getElementById('detail-name').textContent = ad.name;
+            document.getElementById('detail-brand').textContent = ad.brand || 'Unknown';
+            document.getElementById('detail-year').textContent = ad.year || 'Unknown';
+            document.getElementById('detail-gender').textContent = ad.gender || 'Unknown';
+            
+            const detailNudity = document.getElementById('detail-nudity');
+            detailNudity.textContent = `Nudity: ${ad.analysis?.vision?.nudity || 'Unknown'}`;
+            detailNudity.className = `indicator nudity-${ad.analysis?.vision?.nudity || 'unknown'}`;
+            
+            const detailSuggestiveness = document.getElementById('detail-suggestiveness');
+            detailSuggestiveness.textContent = `Suggestiveness: ${ad.analysis?.vision?.sexual_suggestiveness || 'Unknown'}`;
+            detailSuggestiveness.className = `indicator suggestive-${ad.analysis?.vision?.sexual_suggestiveness || 'unknown'}`;
+            
+            const detailInteraction = document.getElementById('detail-interaction');
+            detailInteraction.textContent = `Interaction: ${ad.analysis?.vision?.interaction_type || 'Unknown'}`;
+            
+            document.getElementById('detail-description').textContent = ad.analysis?.vision?.description || 'No description available.';
+            
+            // Render people details
+            const peopleDetails = document.getElementById('people-details');
+            peopleDetails.innerHTML = '';
+            
+            if (ad.analysis?.vision?.people && ad.analysis.vision.people.length > 0) {
+                ad.analysis.vision.people.forEach((person, index) => {
+                    const personDiv = document.createElement('div');
+                    personDiv.style.marginBottom = '10px';
+                    personDiv.innerHTML = `
+                        <p><strong>Person ${index + 1}:</strong> ${person.gender} - ${person.pose_action}</p>
+                        <p><strong>Expression:</strong> ${person.facial_expression}</p>
+                        <div class="tag-cloud">
+                            ${person.emotion_tags?.map(tag => `<span class="tag">${tag}</span>`).join('') || 'No emotion tags'}
+                        </div>
+                    `;
+                    peopleDetails.appendChild(personDiv);
+                });
+            } else {
+                peopleDetails.innerHTML = '<p>No people information available</p>';
+            }
+            
+            // Render mood tags
+            const moodTags = document.getElementById('mood-tags');
+            moodTags.innerHTML = '';
+            
+            if (ad.analysis?.vision?.mood_tags && ad.analysis.vision.mood_tags.length > 0) {
+                ad.analysis.vision.mood_tags.forEach(tag => {
+                    const tagSpan = document.createElement('span');
+                    tagSpan.className = 'tag';
+                    tagSpan.textContent = tag;
+                    moodTags.appendChild(tagSpan);
+                });
+            } else {
+                moodTags.innerHTML = '<p>No mood tags available</p>';
+            }
+        }
+        
+        function createTimeline() {
+            // Clear previous chart
+            const timelineChart = d3.select("#timeline-chart");
+            timelineChart.html("");
+            
+            // Set dimensions
+            const margin = { top: 40, right: 20, bottom: 40, left: 60 };
+            const width = timelineChart.node().getBoundingClientRect().width - margin.left - margin.right;
+            const height = timelineChart.node().getBoundingClientRect().height - margin.top - margin.bottom;
+            
+            // Create SVG
+            const svg = timelineChart.append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                .attr("transform", `translate(${margin.left},${margin.top})`);
+            
+            // Count ads by target gender and who is in the ad
+            const genderCounts = {
+                women: { women_only: 0, men_only: 0, both: 0, none: 0, total: 0 },
+                men: { women_only: 0, men_only: 0, both: 0, none: 0, total: 0 },
+                unisex: { women_only: 0, men_only: 0, both: 0, none: 0, total: 0 }
+            };
+            
+            // Process data
+            filteredAds.forEach(ad => {
+                if (!ad.gender || !ad.analysis?.vision) return;
+                
+                const targetGender = ad.gender;
+                if (!genderCounts[targetGender]) return;
+                
+                genderCounts[targetGender].total++;
+                
+                const people = ad.analysis.vision.people || [];
+                const hasWomen = people.some(p => p.gender === "woman");
+                const hasMen = people.some(p => p.gender === "man");
+                
+                if (hasWomen && hasMen) {
+                    genderCounts[targetGender].both++;
+                } else if (hasWomen) {
+                    genderCounts[targetGender].women_only++;
+                } else if (hasMen) {
+                    genderCounts[targetGender].men_only++;
+                } else {
+                    genderCounts[targetGender].none++;
+                }
+            });
+            
+            // Prepare data for stacked bar chart
+            const data = Object.entries(genderCounts).map(([gender, counts]) => {
+                if (counts.total === 0) return null;
+                
+                return {
+                    gender,
+                    women_only: counts.women_only / counts.total * 100,
+                    men_only: counts.men_only / counts.total * 100,
+                    both: counts.both / counts.total * 100,
+                    none: counts.none / counts.total * 100
+                };
+            }).filter(d => d !== null);
+            
+            // Create scales
+            const xScale = d3.scaleBand()
+                .domain(data.map(d => d.gender))
+                .range([0, width])
+                .padding(0.3);
+            
+            const yScale = d3.scaleLinear()
+                .domain([0, 100])
+                .range([height, 0]);
+            
+            // Define colors
+            const colors = {
+                women_only: "#A18888",  // Same as women color in the other chart
+                men_only: "#515E6B",    // Same as men color in the other chart
+                both: "#74705F",        // Same as unisex color in the other chart
+                none: "#AAA"            // Gray for no people
+            };
+            
+            // Define categories
+            const categories = ["women_only", "men_only", "both", "none"];
+            
+            // Create stacked data
+            const stack = d3.stack()
+                .keys(categories);
+                
+            const stackedData = stack(data);
+            
+            // Draw bars
+            svg.append("g")
+                .selectAll("g")
+                .data(stackedData)
+                .enter().append("g")
+                    .attr("fill", d => colors[d.key])
+                .selectAll("rect")
+                .data(d => d)
+                .enter().append("rect")
+                    .attr("x", d => xScale(d.data.gender))
+                    .attr("y", d => yScale(d[1]))
+                    .attr("height", d => yScale(d[0]) - yScale(d[1]))
+                    .attr("width", xScale.bandwidth())
+                    .on("mouseover", function(event, d) {
+                        // Handle mouseover tooltip
+                        const category = d3.select(this.parentNode).datum().key;
+                        const percentage = (d[1] - d[0]).toFixed(1);
+                        const tooltipText = `${formatCategory(category)}: ${percentage}%`;
+                        
+                        d3.select(this).attr("opacity", 0.8);
+                        
+                        svg.append("text")
+                            .attr("class", "tooltip-text")
+                            .attr("x", xScale(d.data.gender) + xScale.bandwidth()/2)
+                            .attr("y", yScale((d[0] + d[1])/2))
+                            .attr("text-anchor", "middle")
+                            .attr("fill", "black")
+                            .style("font-weight", "bold")
+                            .style("font-size", "12px")
+                            .text(tooltipText);
+                    })
+                    .on("mouseout", function() {
+                        d3.select(this).attr("opacity", 1);
+                        svg.selectAll(".tooltip-text").remove();
+                    });
+            
+            // Add axes
+            svg.append("g")
+                .attr("transform", `translate(0,${height})`)
+                .call(d3.axisBottom(xScale)
+                    .tickFormat(d => capitalizeFirstLetter(d) + " Ads"))
+                .selectAll("text")
+                    .style("text-anchor", "middle")
+                    .style("font-size", "12px");
+            
+            svg.append("g")
+                .call(d3.axisLeft(yScale)
+                    .tickFormat(d => d + "%"))
+                .selectAll("text")
+                    .style("font-size", "12px");
+            
+            // Add chart title
+            svg.append("text")
+                .attr("x", width / 2)
+                .attr("y", -15)
+                .attr("text-anchor", "middle")
+                .style("font-size", "14px")
+                .style("font-weight", "bold")
+                .text("Character Breakdown by Target Gender");
+            
+            // Add legend
+            const legend = svg.append("g")
+                .attr("transform", `translate(${width - 150}, 0)`);
+            
+            categories.forEach((category, i) => {
+                const legendRow = legend.append("g")
+                    .attr("transform", `translate(0, ${i * 20})`);
+                
+                legendRow.append("rect")
+                    .attr("width", 15)
+                    .attr("height", 15)
+                    .attr("fill", colors[category]);
+                
+                legendRow.append("text")
+                    .attr("x", 20)
+                    .attr("y", 12)
+                    .style("font-size", "12px")
+                    .text(formatCategory(category));
+            });
+            
+            // Helper function to format category names for display
+            function formatCategory(category) {
+                switch(category) {
+                    case "women_only": return "Women Only";
+                    case "men_only": return "Men Only";
+                    case "both": return "Both";
+                    case "none": return "No People";
+                    default: return category;
+                }
+            }
+            
+            // Helper function to capitalize first letter
+            function capitalizeFirstLetter(string) {
+                return string.charAt(0).toUpperCase() + string.slice(1);
+            }
+
+            // Add chart subtitle that explains the treemaps
+            svg.append("text")
+                .attr("id", "chart-subtitle")
+                .attr("x", width / 2)
+                .attr("y", height + 30)
+                .attr("text-anchor", "middle")
+                .attr("font-size", "13px")
+                .text("Click on segments to see common poses and expressions");
+            
+            // After creating the bar chart, create treemaps below it
+            createTreemaps(genderCounts);
+        }
+
+        function createTreemaps(genderCounts) {
+            // Clear previous treemaps if they exist
+            d3.select("#treemap-container").remove();
+            
+            // Create container for all three treemaps
+            const treemapContainer = d3.select(".visualization")
+                .insert("div", ".charts + *")
+                .attr("id", "treemap-container")
+                .style("display", "flex")
+                .style("justify-content", "space-between")
+                .style("margin", "20px 0 40px 0");
+            
+            // Define dimensions for each treemap
+            const treemapWidth = 300;
+            const treemapHeight = 300;
+            const margin = { top: 30, right: 5, bottom: 5, left: 5 };
+            
+            // Create a treemap for each gender
+            ["women", "men", "unisex"].forEach(gender => {
+                // Skip if there's no data for this gender
+                if (!genderCounts[gender] || genderCounts[gender].total === 0) return;
+                
+                // Create treemap container
+                const container = treemapContainer.append("div")
+                    .style("width", treemapWidth + "px")
+                    .style("position", "relative");
+                    
+                // Add title for the treemap
+                container.append("h4")
+                    .style("text-align", "center")
+                    .style("margin-bottom", "5px")
+                    .text(`${capitalizeFirstLetter(gender)} Ads (${genderCounts[gender].total})`);
+                
+                // Add breadcrumb navigation for layers
+                const breadcrumb = container.append("div")
+                    .attr("class", "breadcrumb-" + gender)
+                    .style("text-align", "center")
+                    .style("margin-bottom", "10px")
+                    .style("font-size", "12px")
+                    .text("Character Breakdown");
+
+                // Create first level data (character breakdown only)
+                const characterData = {
+                    name: "root",
+                    children: [
+                        {
+                            name: "Women Only",
+                            value: genderCounts[gender].women_only,
+                            color: "#A18888",
+                            type: "women_only"
+                        },
+                        {
+                            name: "Men Only",
+                            value: genderCounts[gender].men_only,
+                            color: "#515E6B",
+                            type: "men_only"
+                        },
+                        {
+                            name: "Both",
+                            value: genderCounts[gender].both,
+                            color: "#74705F",
+                            type: "both"
+                        },
+                        {
+                            name: "No People",
+                            value: genderCounts[gender].none,
+                            color: "#AAA",
+                            type: "none"
+                        }
+                    ].filter(d => d.value > 0) // Remove categories with zero counts
+                };
+
+                // Store navigation history for back button
+                const navHistory = [];
+
+                // Create the treemap container
+                const svg = container.append("svg")
+                    .attr("id", "treemap-" + gender)
+                    .attr("width", treemapWidth)
+                    .attr("height", treemapHeight);
+
+                // Render the initial treemap
+                renderTreemap(svg, characterData, gender, null, navHistory);
+                
+                // Draw a back button (initially hidden)
+                container.append("button")
+                    .attr("id", "back-button-" + gender)
+                    .style("position", "absolute")
+                    .style("top", "5px")
+                    .style("left", "5px")
+                    .style("display", "none")
+                    .style("padding", "3px 8px")
+                    .style("font-size", "12px")
+                    .style("border-radius", "3px")
+                    .style("border", "1px solid #ccc")
+                    .style("background", "#f5f5f5")
+                    .style("cursor", "pointer")
+                    .text("← Back")
+                    .on("click", function() {
+                        if (navHistory.length > 0) {
+                            // Pop the last navigation state
+                            navHistory.pop();
+                            
+                            if (navHistory.length > 0) {
+                                // If we still have history, go to previous state
+                                const prevState = navHistory[navHistory.length - 1];
+                                renderTreemap(svg, prevState.data, gender, prevState.parentType, navHistory);
+                                d3.select(".breadcrumb-" + gender).text(prevState.breadcrumbText);
+                            } else {
+                                // If no more history, go back to the initial view
+                                renderTreemap(svg, characterData, gender, null, navHistory);
+                                d3.select(".breadcrumb-" + gender).text("Character Breakdown");
+                                d3.select(this).style("display", "none");
+                            }
+                        } else {
+                            // Fallback to the initial view
+                            renderTreemap(svg, characterData, gender, null, navHistory);
+                            d3.select(this).style("display", "none");
+                            d3.select(".breadcrumb-" + gender).text("Character Breakdown");
+                        }
+                    });
+            });
+            
+            // Add the renderTreemap function
+            function renderTreemap(svg, data, gender, parentType, navHistory, grandparentType = null) {
+                svg.html(""); // Clear previous treemap
+                
+                // Rest of the setup code remains the same
+                const treemapWidth = svg.attr("width");
+                const treemapHeight = svg.attr("height");
+                const margin = { top: 30, right: 5, bottom: 5, left: 5 };
+                
+                // Generate treemap layout
+                const treemap = d3.treemap()
+                    .size([treemapWidth - margin.left - margin.right, treemapHeight - margin.top - margin.bottom])
+                    .paddingOuter(3)
+                    .paddingTop(19)
+                    .paddingInner(1)
+                    .round(true);
+                
+                // Create root hierarchy and apply treemap layout
+                const root = d3.hierarchy(data)
+                    .sum(d => d.value)
+                    .sort((a, b) => b.value - a.value);
+                
+                treemap(root);
+                
+                // Create group for the treemap cells
+                const treemapGroup = svg.append("g")
+                    .attr("transform", `translate(${margin.left},${margin.top})`);
+                
+                // Create cell for each leaf node
+                const cell = treemapGroup.selectAll("g")
+                    .data(root.descendants().filter(d => d.depth > 0))
+                    .enter()
+                    .append("g")
+                    .attr("transform", d => `translate(${d.x0},${d.y0})`);
+                
+                // Add rectangle for each cell
+                cell.append("rect")
+                    .attr("width", d => d.x1 - d.x0)
+                    .attr("height", d => d.y1 - d.y0)
+                    .attr("fill", d => d.data.color)
+                    .attr("stroke", "#fff")
+                    .attr("stroke-width", 1)
+                    .attr("cursor", "pointer")
+                    .on("click", function(event, d) {
+                        // Handle click to drill down
+                        const cellType = d.data.type;
+                        
+                        // Determine what data to show at the next level
+                        let nextLevelData;
+                        let breadcrumbText;
+                        
+                        if (parentType === null) {
+                            // We're at the first level - character breakdown
+                            if (cellType === "women_only") {
+                                nextLevelData = {
+                                    name: "Emotions",
+                                    children: getEmotionDataForGender(gender, "woman", false)
+                                };
+                                breadcrumbText = "Women Only > Emotions";
+                            } else if (cellType === "men_only") {
+                                nextLevelData = {
+                                    name: "Emotions",
+                                    children: getEmotionDataForGender(gender, "man", false) 
+                                };
+                                breadcrumbText = "Men Only > Emotions";
+                            } else if (cellType === "both") {
+                                // For "both", show a clear separation between women and men emotions
+                                const womenEmotions = getEmotionDataForGender(gender, "woman", true);
+                                const menEmotions = getEmotionDataForGender(gender, "man", true);
+                                
+                                // Create a hierarchical structure with gender as the first level
+                                nextLevelData = {
+                                    name: "Emotions by Gender",
+                                    children: [
+                                        {
+                                            name: "Women",
+                                            value: genderCounts[gender].both * 0.5, // Use an approximation for layout
+                                            color: "#A18888",
+                                            gender: "woman",
+                                            children: womenEmotions.map(emotion => ({
+                                                ...emotion,
+                                                color: d3.color("#A18888").brighter(0.5)
+                                            }))
+                                        },
+                                        {
+                                            name: "Men",
+                                            value: genderCounts[gender].both * 0.5, // Use an approximation for layout
+                                            color: "#515E6B",
+                                            gender: "man",
+                                            children: menEmotions.map(emotion => ({
+                                                ...emotion,
+                                                color: d3.color("#515E6B").brighter(0.5)
+                                            }))
+                                        }
+                                    ]
+                                };
+                                
+                                breadcrumbText = "Both > Emotions by Gender";
+                            } else if (cellType === "none") {
+                                nextLevelData = {
+                                    name: "Mood Tags",
+                                    children: getMoodTagData(gender)
+                                };
+                                breadcrumbText = "No People > Mood Tags";
+                            }
+                        }
+                        
+                        // If we have data for the next level, render it
+                        if (nextLevelData && nextLevelData.children && nextLevelData.children.length > 0) {
+                            // Save current state to history before moving to next level
+                            navHistory.push({
+                                data: data,
+                                parentType: parentType,
+                                grandparentType: grandparentType,
+                                breadcrumbText: d3.select(".breadcrumb-" + gender).text()
+                            });
+                            
+                            // Update breadcrumb
+                            d3.select(".breadcrumb-" + gender).text(breadcrumbText);
+                            
+                            // Show back button
+                            d3.select("#back-button-" + gender).style("display", "block");
+                            
+                            // Add colors to children if not already set
+                            if (cellType !== "both") { // For "both", colors are already set above
+                                const baseColor = d.data.color;
+                                nextLevelData.children = nextLevelData.children.map(child => {
+                                    if (!child.color) {
+                                        return {
+                                            ...child,
+                                            color: d3.color(baseColor).brighter(0.7)
+                                        };
+                                    }
+                                    return child;
+                                });
+                            }
+                            
+                            // Render next level
+                            renderTreemap(svg, nextLevelData, gender, cellType, navHistory, parentType);
+                        }
+                    });
+                
+                // Add text labels
+                cell.append("text")
+                    .attr("x", 5)
+                    .attr("y", d => d.depth === 1 ? 15 : 12)
+                    .attr("fill", d => getBrightness(d3.color(d.data.color)) < 128 ? "#fff" : "#000")
+                    .attr("font-size", d => d.depth === 1 ? "11px" : "9px")
+                    .attr("font-weight", d => d.depth === 1 ? "bold" : "normal")
+                    .style("pointer-events", "none") // Prevent text from interfering with click events
+                    .text(d => {
+                        // For gender headers in the "both" category
+                        if (parentType === "both" && d.depth === 1) {
+                            const percent = (d.value / root.value * 100).toFixed(0);
+                            return `${d.data.name} (${percent}%)`;
+                        }
+                        
+                        // For emotions under gender in the "both" category
+                        if (parentType === "both" && d.depth === 2) {
+                            // Only show name for emotions, maybe truncate if too long
+                            let name = d.data.name;
+                            if (name.length > 12) name = name.substring(0, 10) + "...";
+                            return name;
+                        }
+                        
+                        // For all other cases
+                        const percent = (d.value / root.value * 100).toFixed(0);
+                        let name = d.data.name;
+                        if (name.length > 15) name = name.substring(0, 12) + "...";
+                        return `${name} (${percent}%)`;
+                    });
+
+                // Add percentage as a separate text element for better readability
+                // Only for emotions in the "both" category
+                if (parentType === "both") {
+                    cell.filter(d => d.depth === 2) // Only emotion nodes
+                        .append("text")
+                        .attr("x", 5)
+                        .attr("y", 24)
+                        .attr("fill", d => getBrightness(d3.color(d.data.color)) < 128 ? "#fff" : "#000")
+                        .attr("font-size", "8px")
+                        .style("pointer-events", "none")
+                        .text(d => {
+                            const parentTotal = d.parent.value;
+                            const percent = (d.value / parentTotal * 100).toFixed(0);
+                            return `${percent}%`;
+                        });
+                }
+            }
+            
+            // Helper function to determine if text should be white or black
+            function getBrightness(color) {
+                // Simple brightness formula: 0.299*R + 0.587*G + 0.114*B
+                if (!color) return 255;
+                return 0.299 * color.r + 0.587 * color.g + 0.114 * color.b;
+            }
+            
+            // Helper function to get emotion data for a specific gender
+            function getEmotionDataForGender(targetGender, personGender, bothFilter) {
+                // Get all ads for the target gender
+                const ads = filteredAds.filter(ad => ad.gender === targetGender);
+                
+                // Collect all emotions
+                const emotions = {};
+                
+                ads.forEach(ad => {
+                    if (!ad.analysis?.vision?.people) return;
+                    
+                    // Filter people by gender
+                    const people = ad.analysis.vision.people.filter(p => p.gender === personGender);
+                    
+                    // For "both" type, filter ads that have both genders
+                    if (bothFilter) {
+                        const hasBothGenders = ad.analysis.vision.people.some(p => p.gender === "woman") && 
+                                               ad.analysis.vision.people.some(p => p.gender === "man");
+                        if (!hasBothGenders) return;
+                    } else {
+                        // For gender-only types, filter ads that only have that gender
+                        const hasOnlyThisGender = ad.analysis.vision.people.every(p => 
+                            p.gender === personGender || !["woman", "man"].includes(p.gender));
+                        if (!hasOnlyThisGender) return;
+                    }
+                    
+                    // Collect emotions from people
+                    people.forEach(person => {
+                        if (!person.emotion_tags) return;
+                        
+                        person.emotion_tags.forEach(emotion => {
+                            emotions[emotion] = (emotions[emotion] || 0) + 1;
+                        });
+                    });
+                });
+                
+                // Convert to array and sort
+                return Object.entries(emotions)
+                    .sort((a, b) => b[1] - a[1])
+                    .slice(0, 10)  // Top 10 emotions only
+                    .map(([name, count]) => ({
+                        name,
+                        value: count,
+                        originalValue: count
+                    }));
+            }
+            
+            // Helper function to get mood tags for ads with no people
+            function getMoodTagData(targetGender) {
+                // Get all ads for the target gender that have no people
+                const ads = filteredAds.filter(ad => {
+                    return ad.gender === targetGender && 
+                           (!ad.analysis?.vision?.people || ad.analysis.vision.people.length === 0);
+                });
+                
+                // Collect all mood tags
+                const moods = {};
+                
+                ads.forEach(ad => {
+                    if (!ad.analysis?.vision?.mood_tags) return;
+                    
+                    ad.analysis.vision.mood_tags.forEach(mood => {
+                        moods[mood] = (moods[mood] || 0) + 1;
+                    });
+                });
+                
+                // Convert to array and sort
+                return Object.entries(moods)
+                    .sort((a, b) => b[1] - a[1])
+                    .slice(0, 10)  // Top 10 moods only
+                    .map(([name, count]) => ({
+                        name,
+                        value: count,
+                        originalValue: count
+                    }));
+            }
+        }
+
+        function createEmotionChart() {
+            // This will now be a container for additional analysis when clicking on the treemap
+            const emotionChart = d3.select("#emotion-chart");
+            emotionChart.html("");
+            
+            // Show instructions
+            emotionChart.append("div")
+                .attr("class", "instructions")
+                .style("text-align", "center")
+                .style("padding", "20px")
+                .html("<p>Select a segment in the bar chart above or treemaps below to see detailed pose and expression analysis.</p>");
+            
+            // Count common emotion tags across all filtered ads (this will show initially)
+            const emotionTags = {};
+            filteredAds.forEach(ad => {
+                if (ad.analysis?.vision?.mood_tags) {
+                    ad.analysis.vision.mood_tags.forEach(tag => {
+                        emotionTags[tag] = (emotionTags[tag] || 0) + 1;
+                    });
+                }
+            });
+            
+            // Get top emotions
+            const topEmotions = Object.entries(emotionTags)
+                .sort((a, b) => b[1] - a[1])
+                .slice(0, 15);
+            
+            // Create a horizontal bar chart for top emotions
+            const margin = { top: 20, right: 30, bottom: 40, left: 120 };
+            const width = emotionChart.node().getBoundingClientRect().width - margin.left - margin.right;
+            const height = 300;
+            
+            const svg = emotionChart.append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom)
+                .append("g")
+                .attr("transform", `translate(${margin.left},${margin.top})`);
+                
+            // Create scales
+            const xScale = d3.scaleLinear()
+                .domain([0, d3.max(topEmotions, d => d[1])])
+                .range([0, width]);
+                
+            const yScale = d3.scaleBand()
+                .domain(topEmotions.map(d => d[0]))
+                .range([0, height])
+                .padding(0.1);
+                
+            // Add bars
+            svg.selectAll(".emotion-bar")
+                .data(topEmotions)
+                .enter()
+                .append("rect")
+                .attr("class", "emotion-bar")
+                .attr("y", d => yScale(d[0]))
+                .attr("x", 0)
+                .attr("height", yScale.bandwidth())
+                .attr("width", d => xScale(d[1]))
+                .attr("fill", "#74705F");
+                
+            // Add labels
+            svg.selectAll(".emotion-label")
+                .data(topEmotions)
+                .enter()
+                .append("text")
+                .attr("class", "emotion-label")
+                .attr("y", d => yScale(d[0]) + yScale.bandwidth()/2)
+                .attr("x", d => xScale(d[1]) + 5)
+                .attr("dy", "0.35em")
+                .attr("font-size", "11px")
+                .text(d => d[1]);
+                
+            // Add emotion names
+            svg.selectAll(".emotion-name")
+                .data(topEmotions)
+                .enter()
+                .append("text")
+                .attr("class", "emotion-name")
+                .attr("y", d => yScale(d[0]) + yScale.bandwidth()/2)
+                .attr("x", -5)
+                .attr("dy", "0.35em")
+                .attr("text-anchor", "end")
+                .attr("font-size", "12px")
+                .text(d => d[0]);
+                
+            // Add x-axis
+            svg.append("g")
+                .attr("transform", `translate(0,${height})`)
+                .call(d3.axisBottom(xScale).ticks(5));
+                
+            // Add title
+            svg.append("text")
+                .attr("x", width / 2)
+                .attr("y", -5)
+                .attr("text-anchor", "middle")
+                .style("font-size", "14px")
+                .style("font-weight", "bold")
+                .text("Top Emotion Tags Across All Filtered Ads");
+        }
+    </script>
+</body>
+</html>

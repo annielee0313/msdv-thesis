@@ -1,0 +1,250 @@
+[
+  {
+    "name": "Irresistable",
+    "year": 1930,
+    "gender": "women",
+    "brand": "Talc",
+    "ad-image": "images/aa/1930-irresistable.jpg",
+    "copy": "There are women who invite Romance as naturally as flowers invite the enjoyment of their perfume. You envy them, perhaps. For you, too, want Romance. But do you invite it? Do your lips lure? Your eyes promise? Your skin, your hair, your very fragrance... do these invite caresses? Irresistible Beauty Aids are an irresistible invitation to Ro-mance. The satin-smoothness of Irresistible Powder, the soft blush of Irresistible Rouge, the seductive coloring and creamy indelibility of Irresistible Lip Lure these speak the language of allure. Final touch, IRRESISTIBLE PERFUME, romantic as the first flowers he sent you.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1930-irresistable.jpg",
+    "analysis": {
+      "vision": {
+        "description": "A vintage perfume advertisement features a woman reclining on a bed or couch with a man leaning over her, accompanied by several beauty product images.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "seductive",
+            "pose_action": "reclining",
+            "emotion_tags": [
+              "alluring",
+              "confident",
+              "relaxed",
+              "inviting",
+              "dreamy"
+            ]
+          },
+          {
+            "gender": "man",
+            "facial_expression": "serious",
+            "pose_action": "leaning over",
+            "emotion_tags": [
+              "admiring",
+              "focused",
+              "interested",
+              "captivated",
+              "attentive"
+            ]
+          }
+        ],
+        "people_count": 2,
+        "nudity": "no",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "romantic",
+        "mood_tags": [
+          "romantic",
+          "luxurious",
+          "elegant",
+          "glamorous",
+          "passionate"
+        ]
+      }
+    },
+    "unique_id": "Irresistable_1930_1930-irresistable.jpg"
+  },
+  {
+    "name": "Prince Matchabelli",
+    "year": 1958,
+    "gender": "women",
+    "brand": "Prince Matchabelli",
+    "ad-image": "images/aa/1958-princematchabelli.jpg",
+    "copy": "Once there was a prince... He was a prince of royal blood, with a most unusual hobby, perfume! He created individual scents to dramatize the personalities of many notable women throughout the world. And, so well-known did these perfumes become, that he soon made his pleasure his business. The royal crown bottle inspired by his family crest still symbolizes Prince Matchabelli's royal family of fine fragrances... haunting Stradivari...adventurous Wind Song... romantic Beloved... exciting Added Attraction... and luxurious Abano. Each year these exciting fragrances are presented in a new and festive collection of fine gifts for you to give...or receive. See them now... from $1 to $45. And remember...especially at Christmas...every woman deserves a crown!",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1958-princematchabelli.jpg",
+    "analysis": {
+      "vision": {
+        "description": "A vintage perfume ad featuring a romantic scene with a man and woman, along with images of perfume bottles and a crown.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "smiling",
+            "pose_action": "being kissed on cheek",
+            "emotion_tags": [
+              "happy",
+              "romantic",
+              "content",
+              "engaged",
+              "pleased"
+            ]
+          },
+          {
+            "gender": "man",
+            "facial_expression": "hidden face",
+            "pose_action": "kissing woman's cheek",
+            "emotion_tags": [
+              "affectionate",
+              "caring",
+              "romantic",
+              "loving",
+              "tender"
+            ]
+          }
+        ],
+        "people_count": 2,
+        "nudity": "no",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "romantic",
+        "mood_tags": [
+          "vintage",
+          "romantic",
+          "elegant",
+          "festive",
+          "charming"
+        ]
+      }
+    },
+    "unique_id": "Prince Matchabelli_1958_1958-princematchabelli.jpg"
+  },
+  {
+    "name": "Sunflower",
+    "year": 1990,
+    "gender": "women",
+    "brand": "Elizabeth Arden",
+    "ad-image": "images/aa/1990-sunflowers.jpg",
+    "copy": "Sunflowers, a celebration of life",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1990-sunflowers.jpg",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement features a woman in a yellow dress holding a young girl in a similar dress near the ocean. The scene is joyful and lively, with a perfume bottle and box shown at the bottom.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "smiling",
+            "pose_action": "holding a child",
+            "emotion_tags": [
+              "joyful",
+              "carefree",
+              "loving",
+              "playful",
+              "warm"
+            ]
+          },
+          {
+            "gender": "unclear",
+            "facial_expression": "hidden face",
+            "pose_action": "being held",
+            "emotion_tags": [
+              "happy",
+              "playful",
+              "innocent",
+              "lighthearted",
+              "secure"
+            ]
+          }
+        ],
+        "people_count": 2,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "romantic",
+        "mood_tags": [
+          "joyful",
+          "warm",
+          "playful",
+          "carefree",
+          "loving"
+        ]
+      }
+    },
+    "unique_id": "Sunflower_1990_1990-sunflowers.jpg"
+  },
+  {
+    "name": "Nuance",
+    "year": 1976,
+    "gender": "women",
+    "brand": "Coty",
+    "ad-image": "images/aa/1976-nuance.jpg",
+    "copy": "If you want to capture someone's attention, whisper. An exquisitely delicate new fragrance that lasts and lasts. like a whisper is impossible to resist.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1976-nuance.jpg",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement features a close-up of a woman with her finger over her lips, suggesting the gesture of whispering, and a bottle of perfume at the bottom.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "neutral",
+            "pose_action": "touching her lips",
+            "emotion_tags": [
+              "mysterious",
+              "intriguing",
+              "calm",
+              "captivating",
+              "alluring"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "elegant",
+          "mysterious",
+          "sophisticated",
+          "alluring",
+          "intriguing"
+        ]
+      }
+    },
+    "unique_id": "Nuance_1976_1976-nuance.jpg"
+  },
+  {
+    "name": "Lilac Time",
+    "year": 1940,
+    "gender": "women",
+    "brand": "Houbigant",
+    "ad-image": "images/aa/1940-lilactime.jpg",
+    "copy": "Lilac Time, captivating new perfume by Houbigant, is more than a fragrance-it's the mood of the moment enchantingly feminine, delightfully romantic, lingering as a long-remembered melody,",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1940-lilactime.jpg",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement features an illustration with a woman in profile and a man's face behind her, both surrounded by floral elements, alongside a perfume bottle and packaging.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "smiling",
+            "pose_action": "profile",
+            "emotion_tags": [
+              "happy",
+              "elegant",
+              "romantic",
+              "dreamy",
+              "graceful"
+            ]
+          },
+          {
+            "gender": "man",
+            "facial_expression": "hidden face",
+            "pose_action": "behind",
+            "emotion_tags": [
+              "mysterious",
+              "romantic",
+              "intriguing",
+              "soft",
+              "gentle"
+            ]
+          }
+        ],
+        "people_count": 2,
+        "nudity": "no",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "romantic",
+        "mood_tags": [
+          "romantic",
+          "elegant",
+          "feminine",
+          "dreamy",
+          "artistic"
+        ]
+      }
+    },
+    "unique_id": "Lilac Time_1940_1940-lilactime.jpg"
+  }
+]

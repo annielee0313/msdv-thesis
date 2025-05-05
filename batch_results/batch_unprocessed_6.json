@@ -1,0 +1,189 @@
+[
+  {
+    "name": "Jolie Madame",
+    "year": 1940,
+    "gender": "women",
+    "brand": "Balmain",
+    "ad-image": "images/aa/1940-balmain.png",
+    "copy": "The most sophisticated floral in all Paris",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1940-balmain.png",
+    "analysis": {
+      "vision": {
+        "description": "A vintage-style perfume advertisement featuring a woman with an elegant hairstyle and a bottle of perfume.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "subtle smile",
+            "pose_action": "facing the camera with an elegant posture",
+            "emotion_tags": [
+              "elegant",
+              "sophisticated",
+              "confident",
+              "graceful",
+              "poised"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "none",
+        "mood_tags": [
+          "vintage",
+          "elegant",
+          "classic",
+          "sophisticated",
+          "timeless"
+        ]
+      }
+    },
+    "unique_id": "Jolie Madame_1940_1940-balmain.png"
+  },
+  {
+    "name": "Joy Eau de Toilette",
+    "year": 1940,
+    "gender": "women",
+    "brand": "Jean Patou",
+    "ad-image": "images/aa/1940-joy-1.png",
+    "copy": "The costliest in the world. There is only one Joy perfume.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1940-joy-1.png",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement features an illustrated figure with arms raised holding two perfume bottles labeled 'JOY.'",
+        "people": [
+          {
+            "gender": "unclear",
+            "facial_expression": "hidden face",
+            "pose_action": "arms raised holding bottles",
+            "emotion_tags": [
+              "elegant",
+              "sophisticated",
+              "mysterious",
+              "intriguing",
+              "artistic"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "partial",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "luxury",
+          "classic",
+          "alluring",
+          "refined",
+          "stylish"
+        ]
+      }
+    },
+    "unique_id": "Joy Eau de Toilette_1940_1940-joy-1.png"
+  },
+  {
+    "name": "Joy Eau de Toilette",
+    "year": 1940,
+    "gender": "women",
+    "brand": "Jean Patou",
+    "ad-image": "images/aa/1940-joy-2.png",
+    "copy": "The costliest in the world. There is only one Joy perfume.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1940-joy-2.png",
+    "analysis": {
+      "vision": {
+        "description": "A vintage advertisement for Joy de Jean Patou perfume featuring a prominent image of the perfume bottle with elegant text above and below it.",
+        "people": [],
+        "people_count": 0,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "none",
+        "mood_tags": [
+          "luxurious",
+          "elegant",
+          "classic",
+          "sophisticated",
+          "timeless"
+        ]
+      }
+    },
+    "unique_id": "Joy Eau de Toilette_1940_1940-joy-2.png"
+  },
+  {
+    "name": "Glow",
+    "year": 2003,
+    "gender": "women",
+    "brand": "Jennifer Lopez",
+    "ad-image": "images/aa/2003-jlo.png",
+    "copy": "fresh, sexy, clean. It's the new fragrance by Jennifer Lopez.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/2003-jlo.png",
+    "analysis": {
+      "vision": {
+        "description": "A woman with wet hair poses next to a perfume bottle, visually suggesting a fresh and clean theme.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "neutral",
+            "pose_action": "reclining",
+            "emotion_tags": [
+              "sensual",
+              "calm",
+              "alluring",
+              "confident",
+              "serene"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "partial",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "elegant",
+          "alluring",
+          "fresh",
+          "luxurious",
+          "sensual"
+        ]
+      }
+    },
+    "unique_id": "Glow_2003_2003-jlo.png"
+  },
+  {
+    "name": "Omar Sharif Pour Femme",
+    "year": 1991,
+    "gender": "women",
+    "brand": "Omar Sharif",
+    "ad-image": "images/aa/1991-omar.png",
+    "copy": "for the women who likes seduction to a game.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1991-omar.png",
+    "analysis": {
+      "vision": {
+        "description": "A man is holding and looking at a perfume bottle with text on the side.",
+        "people": [
+          {
+            "gender": "man",
+            "facial_expression": "neutral",
+            "pose_action": "holding perfume bottle",
+            "emotion_tags": [
+              "focused",
+              "thoughtful",
+              "contemplative",
+              "calm",
+              "interested"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "elegant",
+          "sophisticated",
+          "classy",
+          "intimate",
+          "stylish"
+        ]
+      }
+    },
+    "unique_id": "Omar Sharif Pour Femme_1991_1991-omar.png"
+  }
+]

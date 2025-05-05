@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Chanel No.22",
+    "year": 1967,
+    "gender": "women",
+    "brand": "Chanel",
+    "ad-image": "images/aa/1967-chanel.png",
+    "copy": "surround yourself with Chanel No.22. The most treasured name in perfume.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1967-chanel.png",
+    "analysis": {
+      "vision": {
+        "description": "A woman with voluminous hair is surrounded by flowers, holding them close to her face in an alluring pose.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "seductive",
+            "pose_action": "surrounded by flowers, holding them",
+            "emotion_tags": [
+              "alluring",
+              "elegant",
+              "mysterious",
+              "glamorous",
+              "romantic"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "romantic",
+          "elegant",
+          "mysterious",
+          "glamorous",
+          "alluring"
+        ]
+      }
+    },
+    "unique_id": "Chanel No.22_1967_1967-chanel.png"
+  },
+  {
+    "name": "muguet des bois",
+    "year": 1940,
+    "gender": "women",
+    "brand": "Coty",
+    "ad-image": "images/aa/1940-coty.png",
+    "copy": "When you're in lvoe wear muguet des bois",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1940-coty.png",
+    "analysis": {
+      "vision": {
+        "description": "A vintage perfume advertisement features a woman's face surrounded by green leaves and white flowers, with a collection of perfume bottles at the bottom.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "neutral",
+            "pose_action": "peeking through leaves",
+            "emotion_tags": [
+              "calm",
+              "elegant",
+              "mysterious",
+              "serene",
+              "poised"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "romantic",
+          "floral",
+          "sophisticated",
+          "dreamy",
+          "artistic"
+        ]
+      }
+    },
+    "unique_id": "muguet des bois_1940_1940-coty.png"
+  },
+  {
+    "name": "Paris",
+    "year": 1940,
+    "gender": "women",
+    "brand": "Coty",
+    "ad-image": "images/aa/1940-coty-2.png",
+    "copy": "Even a man senses the chic of Paris perfume... and only a man knows fully its appeal. Let all your charm accessories breathe this wise and witty scent",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1940-coty-2.png",
+    "analysis": {
+      "vision": {
+        "description": "A vintage perfume advertisement featuring a woman in a long gown looking toward a man standing in a doorway. Various perfume bottles are displayed in the foreground.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "neutral",
+            "pose_action": "standing",
+            "emotion_tags": [
+              "elegant",
+              "thoughtful",
+              "poised",
+              "calm",
+              "contemplative"
+            ]
+          },
+          {
+            "gender": "man",
+            "facial_expression": "neutral",
+            "pose_action": "standing",
+            "emotion_tags": [
+              "curious",
+              "interested",
+              "calm",
+              "reserved",
+              "observant"
+            ]
+          }
+        ],
+        "people_count": 2,
+        "nudity": "no",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "romantic",
+        "mood_tags": [
+          "romantic",
+          "elegant",
+          "vintage",
+          "sophisticated",
+          "artistic"
+        ]
+      }
+    },
+    "unique_id": "Paris_1940_1940-coty-2.png"
+  }
+]

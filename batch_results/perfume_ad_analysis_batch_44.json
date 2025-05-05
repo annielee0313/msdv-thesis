@@ -1,0 +1,69 @@
+[
+  {
+    "name": "Divine",
+    "year": 1950,
+    "gender": "women",
+    "brand": "D'Orsay",
+    "ad-image": "images/aa/1950-dorsay.png",
+    "copy": "Someone lovely has just passed by! Someone wearing Divine D'orsay",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1950-dorsay.png",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement features a perfume bottle with a painterly background, highlighting the elegance of the product.",
+        "people": [],
+        "people_count": 0,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "none",
+        "mood_tags": [
+          "elegant",
+          "artistic",
+          "sophisticated",
+          "classic",
+          "refined"
+        ]
+      }
+    },
+    "unique_id": "Divine_1950_1950-dorsay.png"
+  },
+  {
+    "name": "Intoxication",
+    "year": 1940,
+    "gender": "women",
+    "brand": "D'Orsay",
+    "ad-image": "images/aa/1940-dorsay.png",
+    "copy": "Intoxication D'orsay. It gets to your heart!",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1940-dorsay.png",
+    "analysis": {
+      "vision": {
+        "description": "A surreal perfume advertisement depicts a person in formal attire floating and embracing a tall column with a bouquet in hand.",
+        "people": [
+          {
+            "gender": "unclear",
+            "facial_expression": "hidden face",
+            "pose_action": "floating, embracing column",
+            "emotion_tags": [
+              "dreamy",
+              "romantic",
+              "whimsical",
+              "elegant",
+              "mystical"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "fantasy",
+          "romance",
+          "elegance",
+          "mystery",
+          "artistic"
+        ]
+      }
+    },
+    "unique_id": "Intoxication_1940_1940-dorsay.png"
+  }
+]

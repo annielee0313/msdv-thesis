@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Tigress",
+    "year": 1970,
+    "gender": "women",
+    "brand": "Faberge",
+    "ad-image": "images/aa/1970-faberge.png",
+    "copy": "Tigress. Because men are such animals.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1970-faberge.png",
+    "analysis": {
+      "vision": {
+        "description": "A woman in a tiger-striped outfit is leaning forward with a perfume bottle in front of her. The advertisement's tagline reads: 'Tigress. Because men are such animals.'",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "serious",
+            "pose_action": "leaning forward",
+            "emotion_tags": [
+              "confident",
+              "fierce",
+              "strong",
+              "bold",
+              "intense"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "powerful",
+          "bold",
+          "assertive",
+          "wild",
+          "intriguing"
+        ]
+      }
+    },
+    "unique_id": "Tigress_1970_1970-faberge.png"
+  },
+  {
+    "name": "m7",
+    "year": 2002,
+    "gender": "men",
+    "brand": "Yves Saint Laurent",
+    "ad-image": "images/aa/2002-ysl.png",
+    "copy": "",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/2002-ysl.png",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement features a man reclining with his face partially shadowed. The brand name and perfume bottle are prominently displayed.",
+        "people": [
+          {
+            "gender": "man",
+            "facial_expression": "neutral",
+            "pose_action": "reclining",
+            "emotion_tags": [
+              "relaxed",
+              "confident",
+              "calm",
+              "serene",
+              "poised"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "partial",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "elegant",
+          "luxurious",
+          "sensual",
+          "sophisticated",
+          "intimate"
+        ]
+      }
+    },
+    "unique_id": "m7_2002_2002-ysl.png"
+  },
+  {
+    "name": "Envy",
+    "year": 2000,
+    "gender": "women",
+    "brand": "Gucci",
+    "ad-image": "images/aa/2000-gucci.png",
+    "copy": "Gucci Envy A fragrance for women",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/2000-gucci.png",
+    "analysis": {
+      "vision": {
+        "description": "A close-up, black-and-white image showing two individuals in an intimate pose, one touching the other's lips, with a perfume bottle visible on the side.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "seductive",
+            "pose_action": "touching lips",
+            "emotion_tags": [
+              "intense",
+              "passionate",
+              "enticing",
+              "provocative",
+              "alluring"
+            ]
+          },
+          {
+            "gender": "man",
+            "facial_expression": "serious",
+            "pose_action": "facing close",
+            "emotion_tags": [
+              "captivated",
+              "intimate",
+              "mysterious",
+              "sensual",
+              "focused"
+            ]
+          }
+        ],
+        "people_count": 2,
+        "nudity": "no",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "romantic",
+        "mood_tags": [
+          "intimate",
+          "alluring",
+          "sensual",
+          "bold",
+          "mysterious"
+        ]
+      }
+    },
+    "unique_id": "Envy_2000_2000-gucci.png"
+  }
+]

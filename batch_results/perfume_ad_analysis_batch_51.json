@@ -1,0 +1,134 @@
+[
+  {
+    "name": "Irresistable",
+    "year": 1930,
+    "gender": "women",
+    "brand": "Talc",
+    "ad-image": "images/aa/1930-talc-1.png",
+    "copy": "Be divinely Irresistible... be the star of his heart to-night with Irresistible Perfume... A touch on your wrists, your throat and your petite evening muff and you be-come a more thrilling person to yourself, and to him. Teasing... provocative... irresistible. Discover the exciting new confidence that Irresistible Perfume gives you. Tonight, try Irresistible Perfume. You'll be sparkling, electric, ready to conquer the world and the man! To be completely ravishing use all of the Irresistible Beauty Aids. Certified pure, laboratory tested and approved.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1930-talc-1.png",
+    "analysis": {
+      "vision": {
+        "description": "A vintage perfume advertisement featuring a woman with an orchid, surrounded by text and product images.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "neutral",
+            "pose_action": "reclining",
+            "emotion_tags": [
+              "elegant",
+              "calm",
+              "alluring",
+              "graceful",
+              "serene"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "vintage",
+          "feminine",
+          "charming",
+          "beauty",
+          "classic"
+        ]
+      }
+    },
+    "unique_id": "Irresistable_1930_1930-talc-1.png"
+  },
+  {
+    "name": "Irresistable",
+    "year": 1930,
+    "gender": "women",
+    "brand": "Talc",
+    "ad-image": "images/aa/1930-talc-3.png",
+    "copy": "You can\u2019t buy love but you can buy and be Irresistible. Like a Parisienne, you can set hearts on fire if se the French women never neglect an exciting, seductive perfume. Such is IRRESISTIBLE PERFUME. This mysteriously exotic fragrance stirs senses...thrills...awakens love. It makes you divinely exciting, glamorous, utterly irresistible.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1930-talc-3.png",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement features a woman with blonde hair, gazing seductively at the viewer with an elegant background including the Eiffel Tower. Several perfume bottles are displayed in the foreground.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "seductive",
+            "pose_action": "reclining",
+            "emotion_tags": [
+              "glamorous",
+              "alluring",
+              "seductive",
+              "confident",
+              "mysterious"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "partial",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "romantic",
+          "luxurious",
+          "dreamy",
+          "vintage",
+          "chic"
+        ]
+      }
+    },
+    "unique_id": "Irresistable_1930_1930-talc-3.png"
+  },
+  {
+    "name": "Emporio Armani For Him",
+    "year": 2003,
+    "gender": "men",
+    "brand": "Emporio Armani",
+    "ad-image": "images/aa/2003-armani.png",
+    "copy": "get together with the two fragrances...",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/2003-armani.png",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement features two people in a close pose, with their heads close together and eyes closed, suggesting intimacy. Two perfume bottles are prominently displayed in the foreground.",
+        "people": [
+          {
+            "gender": "man",
+            "facial_expression": "hidden face",
+            "pose_action": "close to the woman",
+            "emotion_tags": [
+              "intimate",
+              "close",
+              "sensual",
+              "warm",
+              "tender"
+            ]
+          },
+          {
+            "gender": "woman",
+            "facial_expression": "sensual",
+            "pose_action": "leaning back",
+            "emotion_tags": [
+              "intimate",
+              "sensual",
+              "warm",
+              "relaxed",
+              "tender"
+            ]
+          }
+        ],
+        "people_count": 2,
+        "nudity": "partial",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "romantic",
+        "mood_tags": [
+          "intimate",
+          "romantic",
+          "sensual",
+          "close",
+          "engaging"
+        ]
+      }
+    },
+    "unique_id": "Emporio Armani For Him_2003_2003-armani.png"
+  }
+]

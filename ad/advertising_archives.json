@@ -1,0 +1,1775 @@
+[
+    {
+        "name": "Betsey Johnson",
+        "year": 2006,
+        "gender": "women",
+        "brand": "Betsy Johnson",
+        "country": "united-states",
+        "bottle-image": "images/bottle/betsy-johnson.jpg",
+        "ad-image": "images/aa/2006-betsy-johnson.jpg",
+        "copy": ""
+    },
+    {
+        "name": "Signature for Him",
+        "year": 2008,
+        "gender": "men",
+        "brand": "David Beckham",
+        "country": "united-kingdom",
+        "bottle-image": "images/bottle/2008-beckham-him.jpg",
+        "ad-image": "images/aa/2011-beckham.jpg",
+        "copy": ""
+    },
+    {
+        "name": "Signature for Her",
+        "year": 2008,
+        "gender": "women",
+        "brand": "David Beckham",
+        "country": "united-kingdom",
+        "bottle-image": "images/bottle/2008-beckham-her.jpg",
+        "ad-image": "images/aa/2011-beckham.jpg",
+        "copy": ""
+    },
+    {
+        "name": "Opium Parfum",
+        "year": 1977,
+        "gender": "women",
+        "brand": "Yves Saint Laurent",
+        "country": "france",
+        "bottle-image": "images/bottle/1977-ysl.jpg",
+        "ad-image": "images/aa/2006-ysl.jpg",
+        "copy": ""
+    },
+    {
+        "name": "Opium Parfum",
+        "year": 1977,
+        "gender": "women",
+        "brand": "Yves Saint Laurent",
+        "country": "france",
+        "bottle-image": "images/bottle/1977-ysl.jpg",
+        "ad-image": "images/aa/2000-ysl.jpg",
+        "copy": ""
+    },
+    {
+        "name": "Opium Parfum",
+        "year": 1980,
+        "gender": "women",
+        "brand": "Yves Saint Laurent",
+        "country": "france",
+        "ad-image": "images/aa/1980-opium.png",
+        "copy": "Never has a perfume provoked such emotion."
+    },
+    {
+        "name": "Classique",
+        "year": 1993,
+        "gender": "women",
+        "brand": "Jean Paul Gaultier",
+        "country": "united-kingdom",
+        "bottle-image": "images/bottle/classique.jpg",
+        "ad-image": "images/aa/2003-classique.jpg",
+        "copy": ""
+    },
+    {
+        "name": "Rock'n Rose",
+        "year": 2008,
+        "gender": "women",
+        "brand": "Valentino",
+        "country": "united-kingdom",
+        "ad-image": "images/aa/2008-valentino.png",
+        "copy": ""
+    },
+    {
+        "name": "Fuel for Life",
+        "year": 2007,
+        "gender": "men",
+        "brand": "Diesel",
+        "country": "united-kingdom",
+        "ad-image": "images/aa/2007-diesel.png",
+        "copy": "Fuel for life, finally legalized, use with caution"
+    },
+    {
+        "name": "Fuel for Life",
+        "year": 2007,
+        "gender": "men",
+        "brand": "Diesel",
+        "country": "united-kingdom",
+        "ad-image": "images/aa/2007-diesel-2.png",
+        "copy": "Fuel for life, finally legalized, use with caution"
+    },
+    {
+        "name": "Tom Ford for Men",
+        "year": 2007,
+        "gender": "men",
+        "brand": "Tom Ford",
+        "country": "united-kingdom",
+        "ad-image": "images/aa/2007-tomford-1.png",
+        "copy": "Tom Ford for Men, The first fragrance for men from tom ford"
+    },
+    {
+        "name": "Tom Ford for Men",
+        "year": 2008,
+        "gender": "men",
+        "brand": "Tom Ford",
+        "country": "united-kingdom",
+        "ad-image": "images/aa/2008-tomford.png",
+        "copy": "Tom Ford for Men, The first fragrance for men from tom ford"
+    },
+    {
+        "name": "Gucci by Gucci",
+        "year": 2007,
+        "gender": "women",
+        "brand": "Gucci",
+        "country": "italy",
+        "ad-image": "images/aa/2007-gucci.png",
+        "copy": ""
+    },
+    {
+        "name": "In2U",
+        "year": 2008,
+        "gender": "unisex",
+        "brand": "Calvin Klein",
+        "country": "united-states",
+        "ad-image": "images/aa/2008-ck-1.jpg",
+        "copy": ""
+    },
+    {
+        "name": "In2U",
+        "year": 2008,
+        "gender": "unisex",
+        "brand": "Calvin Klein",
+        "country": "united-states",
+        "ad-image": "images/aa/2008-ck-2.jpg",
+        "copy": "2 new fragrances. one for him. one for her."
+    },
+    {
+        "name": "Light Blue",
+        "year": 2007,
+        "gender": "women",
+        "brand": "Dolce & Gabbana",
+        "country": "united-states",
+        "ad-image": "images/aa/2007-dg-1.png",
+        "copy": ""
+    },
+    {
+        "name": "Light Blue",
+        "year": 2007,
+        "gender": "men",
+        "brand": "Dolce & Gabbana",
+        "country": "united-states",
+        "ad-image": "images/aa/2007-dg-2.png",
+        "copy": ""
+    },
+    {
+        "name": "Dolce & Gabbana",
+        "year": 1992,
+        "gender": "unisex",
+        "brand": "Dolce & Gabbana",
+        "country": "united-states",
+        "ad-image": "images/aa/1992-dolce.png",
+        "copy": ""
+    },
+    {
+        "name": "Hypnose Homme",
+        "year": 2007,
+        "gender": "men",
+        "brand": "Lancome",
+        "country": "united-kingdom",
+        "ad-image": "images/aa/2007-lancome.png",
+        "copy": ""
+    },
+    {
+        "name": "Flores Del Camno",
+        "year": 1919,
+        "gender": "women",
+        "brand": "Floralia",
+        "country": "spain",
+        "ad-image": "images/aa/1919-floralia.png",
+        "copy": "Country Flowers: The mere mention of these marvelous creations makes one dream of a world of voluptuousness and seduction."
+    },
+    {
+        "name": "Pure Attraction",
+        "year": 2009,
+        "gender": "women",
+        "brand": "Police",
+        "country": "italy",
+        "ad-image": "images/aa/2009-police.png",
+        "copy": "Police Be Younique. Pure Attraction"
+    },
+    {
+        "name": "Gucci Guilty",
+        "year": 2010,
+        "gender": "women",
+        "brand": "Gucci",
+        "country": "italy",
+        "ad-image": "images/aa/2010-gucci.png",
+        "copy": "Gucci Guilty, the new fragrance for her"
+    },
+    {
+        "name": "Shem-el-Dessim",
+        "year": 1907,
+        "gender": "unisex",
+        "brand": "J Grossmith and Son",
+        "country": "united-kingdom",
+        "ad-image": "images/aa/1907-jgrossmith.png",
+        "copy": "Shem-el-Dessim THE SCENT ARABY. TREASURE FROM THE MYSTIC EAST. SAMPLES & PERFUME & SOAP in a dainty box with presentation copy GROSSMITH'S TOILET GUIDE sent on receipt "
+    },
+    {
+        "name": "Jules",
+        "year": 1980,
+        "gender": "men",
+        "brand": "Dior",
+        "country": "france",
+        "ad-image": "images/aa/1980-dior.png",
+        "copy": "Christian Dior FOR MEN. Jules For Pleasure"
+    },
+    {
+        "name": "Jules",
+        "year": 1980,
+        "gender": "men",
+        "brand": "Dior",
+        "country": "france",
+        "ad-image": "images/aa/1980-dior-2.png",
+        "copy": "Christian Dior FOR MEN. Jules For Pleasure"
+    },
+    {
+        "name": "Antaeus Pour Homme",
+        "year": 1980,
+        "gender": "men",
+        "brand": "Chanel",
+        "country": "france",
+        "ad-image": "images/aa/1980-chanel.png",
+        "copy": "ANTAEUS FOR MEN. THE POWER TO PROVOKE"
+    },
+    {
+        "name": "Antaeus Pour Homme",
+        "year": 1980,
+        "gender": "men",
+        "brand": "Chanel",
+        "country": "france",
+        "ad-image": "images/aa/1980-chanel-2.png",
+        "copy": "ANTAEUS FOR MEN. THE POWER TO PROVOKE"
+    },
+    {
+        "name": "Diorama",
+        "year": 1950,
+        "gender": "women",
+        "brand": "Dior",
+        "country": "france",
+        "ad-image": "images/aa/1950-dior.png",
+        "copy": "ANTAEUS FOR MEN. THE POWER TO PROVOKE"
+    },
+    {
+        "name": "Polo",
+        "year": 1980,
+        "gender": "men",
+        "brand": "Ralph Lauren",
+        "country": "united-states",
+        "ad-image": "images/aa/1980-ralphlauren.png",
+        "copy": ""
+    },
+    {
+        "name": "Wallflower",
+        "year": 1897,
+        "gender": "unisex",
+        "brand": "Piesse & Lubin",
+        "country": "united-kingdom",
+        "ad-image": "images/aa/1897-piesse.png",
+        "copy": "These novel and exquisite odours outvie all efforts hitherto practised for the production of perfumes. mes. They retain their original fragrance permanently, for non-evanescence is their remarkable characteristic. This new departure in the Art of Perfumery will supplant the older and hitherto accepted processes, a triumph of the science of the Parfumeur-Chimiste over Nature. They are the most Refined Scents ever placed before the Public."
+    },
+    {
+        "name": "Burberry Brit",
+        "year": 2006,
+        "gender": "men",
+        "brand": "Burberry",
+        "country": "united-kingdom",
+        "ad-image": "images/aa/2006-burberry.png",
+        "copy": ""
+    },
+    {
+        "name": "Burberry Brit",
+        "year": 2006,
+        "gender": "men",
+        "brand": "Burberry",
+        "country": "united-kingdom",
+        "ad-image": "images/aa/2006-burberry.png",
+        "copy": ""
+    },
+    {
+        "name": "Youth-Dew",
+        "year": 1993,
+        "gender": "women",
+        "brand": "Estee Lauder",
+        "country": "united-states",
+        "ad-image": "images/aa/1993-esteelauder.png",
+        "copy": "Simply the sexiest fragrance ever."
+    },
+    {
+        "name": "Snuff",
+        "year": 1940,
+        "gender": "men",
+        "brand": "Schiaparelli",
+        "country": "france",
+        "ad-image": "images/aa/1940-snuff.png",
+        "copy": "Make her happy with Shocking, the fabulous perfume from the heart of France."
+    },
+    {
+        "name": "Snuff",
+        "year": 1950,
+        "gender": "men",
+        "brand": "Schiaparelli",
+        "country": "france",
+        "ad-image": "images/aa/1950-snuff.png",
+        "copy": "... please him with SNUFF...for men with ideas!"
+    },
+    {
+        "name": "Kouros",
+        "year": 1988,
+        "gender": "men",
+        "brand": "Yves Saint Laurent",
+        "country": "united-kingdom",
+        "ad-image": "images/aa/1988-ysl.png",
+        "copy": "the spirit of conquest"
+    },
+    {
+        "name": "Charlie",
+        "year": 1970,
+        "gender": "women",
+        "brand": "Revlon",
+        "country": "united-states",
+        "ad-image": "images/aa/1970-revlon.png",
+        "copy": "The gorgeous, sexy-young fragrance."
+    },
+    {
+        "name": "Tweed",
+        "year": 1930,
+        "gender": "women",
+        "brand": "Letheric",
+        "country": "united-kingdom",
+        "ad-image": "images/aa/1930-tweed.png",
+        "copy": ""
+    },
+    {
+        "name": "Tweed",
+        "year": 1950,
+        "gender": "women",
+        "brand": "Letheric",
+        "country": "united-kingdom",
+        "ad-image": "images/aa/1950-tweed.png",
+        "copy": "Tweed, interpreted by Lenthéric, is fresh as a woodland breeze-a fragrant accessory to Fall fashions. She is wearing a grass green and black tweed combi-nation dress and jacket by Jane Derby-approximately $275. "
+    },
+    {
+        "name": "Bang",
+        "year": 2010,
+        "gender": "men",
+        "brand": "Marc Jacobs",
+        "country": "united-states",
+        "ad-image": "images/aa/2010-marcjacobs.png",
+        "copy": ""
+    },
+    {
+        "name": "4711 Eau de Cologne",
+        "year": 1925,
+        "gender": "unisex",
+        "brand": "4711",
+        "country": "germany",
+        "ad-image": "images/aa/1925-4711.png",
+        "copy": "You really ought to try a quick massage with 4711 Eau de Cologne, after the morning batin. It makes you feel gloriously fin for the rest of the day. I know it sounds extravagant, but really it's worth it, only you must ask for 4711-it is a bottle with the Blue and Gold Gabel. I've just finished a Aong cross country run and Jam due for a big dance to-night and I'm feeling splendid."
+    },
+    {
+        "name": "Diorama",
+        "year": 1950,
+        "gender": "women",
+        "brand": "Dior",
+        "country": "france",
+        "ad-image": "images/aa/1950-dior-2.png",
+        "copy": "a new atomizer"
+    },
+    {
+        "name": "Diorissimo",
+        "year": 1950,
+        "gender": "women",
+        "brand": "Dior",
+        "country": "france",
+        "ad-image": "images/aa/1950-dior-3.png",
+        "copy": ""
+    },
+    {
+        "name": "4711 Eau de Cologne",
+        "year": 1925,
+        "gender": "unisex",
+        "brand": "4711",
+        "country": "germany",
+        "ad-image": "images/aa/1925-4711-2.png",
+        "copy": "Archives How to keep dainty and attractive rough out the activities of the long, hot summer days how to allay the ugly flush of sunburn. Use 4711 This Eau de Cologne contains all the requisites for helping women to retain their loveliness and charm on all occasions. A few drops of 4711 in the wash basin or bath, morning and evening, will lay the foundation for the health and beauty of your skin during the coming vagaries of summer's heat. Be sure you get the genuine, you can tell it by the Blue and Gold Label."
+    },
+    {
+        "name": "Organza Indecence",
+        "year": 1990,
+        "gender": "women",
+        "brand": "Givenchy",
+        "country": "france",
+        "ad-image": "images/aa/1990-givenchy.png",
+        "copy": ""
+    },
+    {
+        "name": "Mennen",
+        "year": 1940,
+        "gender": "men",
+        "brand": "Mennen",
+        "country": "france",
+        "ad-image": "images/aa/1940-mennen.png",
+        "copy": "You interest me - 'cause... I like SMOOTH Men WHO KEEPS PRESENTABLE LONGER"
+    },
+    {
+        "name": "Carry her heart away with fragrance by Coty",
+        "year": 1944,
+        "gender": "women",
+        "brand": "Coty",
+        "ad-image": "images/aa/1944-coty.png",
+        "copy": "Carry her heart away with fragrance by Coty. These classic Coty fragrances L'Aimant, L'Origan, Emeraude, and Paris -have inspired a series of smart gift sets, ranging from $55 to $2.25."
+      },
+      {
+        "name": "Emeraude the Jewel Fragrance",
+        "year": 1940,
+        "gender": "women",
+        "brand": "Coty",
+        "ad-image": "images/aa/1941-coty-2.jpg",
+        "copy": "Most hauntingly mysterious of jewels is the emerald... whose subtle green fire inspired Emeraude. Let this glow-ing perfume scent your day... in Emeraude Accessories."
+      },
+      {
+        "name": "Fragrance",
+        "year": 1934,
+        "gender": "women",
+        "brand": "Yardley",
+        "ad-image": "images/aa/1934-yardley-1.png",
+        "copy": "If you have once spent a season in London, you will, forever after, remember that brilliant pageant the beautiful women, the jewels, and the perfumes. And in this very set-ting, Yardley's Fragrance made its debut, a modern, intriguing perfume for the formal evening scene. Pleased with its London success, we brought it to America... and American women have loved it too. There's also a face powder, Fragrance, as perfect as the perfume. We make it in six shades, including our own ex-clusive English Peach, a new rachel with a warm glow, and put it in a green and silver box that enraptures our eyes anew every day. Then, for confirmed sybarites, we hasten to add that bath salts, dust-ing powder, rouge, tale and a com pact in the Fragrance odour are also among those present."
+      },
+      {
+        "name": "Bouquet Lentheric",
+        "year": 1939,
+        "gender": "women",
+        "brand": "Lentheric",
+        "ad-image": "images/aa/1939-lentheric.png",
+        "copy": "BOUQUET LENTHERIC the daytime fragrance. Lenthérie Bouquet with MIRACLE Scent In all fragrances, including: Shanghai, Number Twelve, Tahitian Gardenia, As Phodèle, Golden Lotus, Carnation. Bottles, from $1.00. Decanters, from $1.75."
+      },
+      {
+        "name": "Fragrance",
+        "year": 1935,
+        "gender": "women",
+        "brand": "Yardley",
+        "ad-image": "images/aa/1935-yardley.png",
+        "copy": "HER GOWN-her wrap-her jewels may be reported in international society columns. the night after you've seen her dancing in London's smartest hideaway. But you will find never a word of the aura of glamour that surrounded her. Perhaps, because such matters are too subtle entirely for the mundane pen. Time and again in these Mayfair rendez-vous you've been conscious of that sudden catching breath of brilliance an elusive sparkle that seemed to characterize some lovely creature as poignant, beautiful, wist-fully perfect and divinely gay. That's when you recognized the spell of Yardley's formal Fragrance perfume. And made a note to trace it down and have it for your own some day. Now you need not go to London to surround yourself with this charmingly sophisticated brilliance. For now America has Fragrance by Yard-ley, London's smartest perfume also. As well as Fragrance powder, a great perfumer's contribution to your skin's per-petual radiance. (In subtle colors, it is soft and very lasting.) Will you go on explor-ing... and have the bath salts, and pow-der, tale, compact in the same entrancing fragrance? If you're perfectionist enough, it's what you're bound to so we've placed them all (at no great price) nearby at your disposall At any fine cosmetics counter for sparkling occasions when you want to sparkle tool"
+      },
+      {
+        "name": "Gemey",
+        "year": 1937,
+        "gender": "women",
+        "brand": "Richard Hudnut",
+        "ad-image": "images/aa/1937-gemey.png",
+        "copy": "Fly with the spirit of Christmas as it speeds on its merry way to Nassau or Nice or Naples, to Paris or far Bombay. Look for the loveliest women, the perfume they adore. It's gay and young and joyous... it's fragrance Gemey. Fragrance Gemey, her choice for Christmas me world around! Fragrance Gemey, now presented in America by Richard Hudnut in distinguished glamour gifts. Here are casual trifles for the toe of her stock-ing, intimate enchantments for her skin, her hair, charm chests of alluring luxury. Through them all suns this single thread of fragrance. It's flattery, it's sorcery, it's the gay, Continental way to say Merry Christmas... the gift that's welcome the world around... fragrance Gemeyl"
+      },
+      {
+        "name": "Yanky Clover",
+        "year": 1945,
+        "gender": "women",
+        "brand": "Richard Hudnut",
+        "ad-image": "images/aa/1945-yankyclover.png",
+        "copy": "Yanky Clover Blooms in New Packages. They're the gayest, prettiest packages. the new dress-up wrappings for Yanky Clover! Wrappings with the same light-hearted lilt of an old-time folk tune... the meadow-sweet, nostalgic breath of new-mown fields that's made Yanky Clover one of America's best-loved fragrances. Perfume...toilet water...dusting powder, $1 each..."
+      },
+      {
+        "name": "Emeraude the Jewel Fragrance",
+        "year": 1945,
+        "brand": "Coty.",
+        "gender": "women",
+        "ad-image": "images/aa/1945-coty-1.jpg",
+        "copy": "The jewel fragrance."
+      },
+      {
+        "name": "Emeraude the Jewel Fragrance",
+        "year": 1947,
+        "gender": "women",
+        "brand": "Coty",
+        "ad-image": "images/aa/1947-coty-1.jpg",
+        "copy": "Emeraude the jewel fragrance imparts its lustrous charm to a series of lovely beauty and bath accessories.."
+      },
+    {
+        "name": "Drakkar Noir",
+        "year": 2008,
+        "gender": "men",
+        "brand": "Guy Laroche",
+        "ad-image": "images/aa/1970-guylaroche.png",
+        "copy": ""
+    },
+    {
+        "name": "Hypnose",
+        "year": 2005,
+        "gender": "women",
+        "brand": "Lancome",
+        "ad-image": "images/aa/2005-lancome.png",
+        "copy": "The new hypnotizing fragrance"
+    },
+    {
+        "name": "Tabac Original",
+        "year": 1970,
+        "gender": "men",
+        "brand": "Tabac",
+        "ad-image": "images/aa/1970-tabac.png",
+        "copy": ""
+    },
+    {
+        "name": "Avon Vigorate",
+        "year": 1960,
+        "gender": "men",
+        "brand": "Avon",
+        "ad-image": "images/aa/1960-avon.png",
+        "copy": "Women who care about men who care about the impression they make, enjoy selecting Avon. The performance of these Good Grooming products is first-rate... the scent nice and crisp... the packaging very handsome indeed. And Avon offers you a complete selection."
+    },
+    {
+        "name": "Maitresse Eau Provocateur Agent",
+        "year": 2006,
+        "gender": "women",
+        "brand": "Agent Provocateur",
+        "ad-image": "images/aa/2006-provocateur.png",
+        "copy": ""
+    },
+    {
+        "name": "Lentheric",
+        "year": 1926,
+        "gender": "women",
+        "brand": "Lentheric",
+        "ad-image": "images/aa/2006-provocateur.png",
+        "copy": "Chese fragrant persuasions. For those who seeks gifts that speak a tender message. Which breathes her charm? Which dares your tribute with a gesture frankly romantic? Shall it be Miracle, Asphodèle, Le Pirate, or Forêt Vierge? A lovely queen of Europe chooses Miracle, a parfum ...exquisite... frankly feminine and alluring. For her who is lithe and wears her clothes with inef-fable grace-Asphodèle. It is the gardenia as the poet would immortalize it were he a master-perfumer. Does your gift list include one who is capricious?.. Le Pirate is for her. For it captivates with spring-like daring! But to her whom you see in the rhythms of sport clothes, give Forêt Vierge.. a joyous lilt for modern Dianas!"
+    },
+    {
+        "name": "Lynx Vice",
+        "year": 2007,
+        "gender": "women",
+        "brand": "Lynx",
+        "ad-image": "images/aa/2007-lynx.png",
+        "copy": "Lynx Vice turns nice girls naughty"
+    },
+    {
+        "name": "Covet",
+        "year": 2007,
+        "gender": "women",
+        "brand": "Covet",
+        "ad-image": "images/aa/2007-covet.png",
+        "copy": "I had to have it"
+    },
+    {
+        "name": "Imari Seduction",
+        "year": 2007,
+        "gender": "women",
+        "brand": "Avon",
+        "ad-image": "images/aa/2007-avon.png",
+        "copy": "Jennifer Hudson for Imari Seduction. Where desire leads"
+    },
+    {
+        "name": "Young Dew Amber Dew",
+        "year": 2006,
+        "gender": "women",
+        "brand": "Tom Ford",
+        "ad-image": "images/aa/2006-tomford.png",
+        "copy": ""
+    },
+    {
+        "name": "Unforgivable",
+        "year": 2006,
+        "gender": "men",
+        "brand": "Sean John",
+        "ad-image": "images/aa/2006-seanjohn.png",
+        "copy": "Life without passion is unforgivable"
+    },
+    {
+        "name": "Unforgivable Women",
+        "year": 2007,
+        "gender": "women",
+        "brand": "Sean John",
+        "ad-image": "images/aa/2007-seanjohn.png",
+        "copy": "Life without passion is unforgivable"
+    },
+    {
+        "name": "Lavender Perfumery",
+        "year": 1920,
+        "gender": "unisex",
+        "brand": "Yardley",
+        "ad-image": "images/aa/1920-yardley.png",
+        "copy": "SERIES of Toilet Requisites luxuriously perfumed with Yardley's famous Old English Lavender. The Yardley Lavender is the finest quality made of this charming Old Old World Perfume and has been renowned for over a century."
+    },
+    {
+        "name": "Flair and Bond Street",
+        "year": 1960,
+        "gender": "women",
+        "brand": "Yardley",
+        "ad-image": "images/aa/1960-yardley.png",
+        "copy": "Lead him... your way with Flair and Bond Street"
+    },
+    {
+        "name": "Flair",
+        "year": 1960,
+        "gender": "women",
+        "brand": "Yardley",
+        "ad-image": "images/aa/1960-yardley-2.png",
+        "copy": "Whatever you wear... wear it with Flair! FLAIR is a night-to-remember domino. FLAIR is as bright-as-you-dare. FLAIR is a shower-proof honeycomb. FLAIR is a gaucho cummerbund. FLAIR is a baroque brooch on an urchin collar. FLAIR IS THE TOUCH SUPREME."
+    },
+    {
+        "name": "j'adore",
+        "year": 2005,
+        "gender": "women",
+        "brand": "Dior",
+        "ad-image": "images/aa/2005-dior.png",
+        "copy": "The ultimate femininity."
+    },
+    {
+        "name": "j'adore",
+        "year": 2005,
+        "gender": "women",
+        "brand": "Dior",
+        "ad-image": "images/aa/2005-dior-2.png",
+        "copy": "The ultimate femininity."
+    },
+    {
+        "name": "Le Jade",
+        "year": 1920,
+        "gender": "women",
+        "brand": "Roger & Gallet",
+        "ad-image": "images/aa/1920-roger.png",
+        "copy": "Flowers of Love: The name of a Fragrance-the fragrance of the dream flowers of Love-Youth, Beauty, Romance, Spring- A fragrance possible of creation only as the inspiration of genius and the inherited instinct of the artiste-parfumeur thru three generations of uninterrupted work- The most luxurious perfume in the world.."
+    },
+    {
+        "name": "Gardenia",
+        "year": 1940,
+        "gender": "women",
+        "brand": "Chanel",
+        "ad-image": "images/aa/1940-chanel.png",
+        "copy": "FRAGRANT ENCHANTMENT That you may walk in beauty... creating an aura of loveliness heart-stirring as spring moonlight... these exquisite Chanel accessories to charm..."
+    },
+    {
+        "name": "Gardenia",
+        "year": 1930,
+        "gender": "women",
+        "brand": "Chanel",
+        "ad-image": "images/aa/1930-chanel.png",
+        "copy": "No other perfumer knows the s the secret of Chanel's perfume they have the of true, mellow, rich scent of freshly cut flowers... In this lovely month of May... with flowers everywhere... under the brim of your chapeau... in your corsage...on the lapel of your suit... in your garden... the heavy scents of winter are forgotten ... For Chanel it's always spring ... No one can equal her clinging, delicate Gardenia... her fragrant, heady Jasmin... they'll give you brio, chic... lift you to your toes, like a bubbling glass of Champagne.."
+    },
+    {
+        "name": "Gardenia, Glamour, No.5",
+        "year": 1930,
+        "gender": "women",
+        "brand": "Chanel",
+        "ad-image": "images/aa/1930-chanel-2.png",
+        "copy": "For those hours when you would play the role of Ro-mance when allure is of first importance-wear the new GLAMOUR by CHANEL. A-ahl Tonight you would be elusive, fragile as a Dresden figure elegantly enchant-ing-wear GARDENIA by CHANEL. And when your mood prompts you to make the grand entrance to take the breath away. in the grand manner-wear No. 5"
+    },
+    {
+        "name": "Glamour",
+        "year": 1930,
+        "gender": "women",
+        "brand": "Chanel",
+        "ad-image": "images/aa/1930-chanel-3.png",
+        "copy": "Chanel learned style conventions first, and then broke them gayly. That is glamour. Her perfume, Glamour, smiles a Mona Lisa smile and offers to show you another of the ways of the bright world. It is emotional, but strictly fashionable as a Chanel Gown."
+    },
+    {
+        "name": "Quelques Fleurs l'Original",
+        "year": 1912,
+        "gender": "women",
+        "brand": "Houbigant",
+        "ad-image": "images/aa/1912-houbigant.png",
+        "copy": "Essence of Sweetest Flower perfect distillation of all the bewildering fragrance, gladness and glory that dwells in the hearts of the flowers. Houbigant The Leading Perfumer of the World"
+    },
+    {
+        "name": "Lilac Time",
+        "year": 1940,
+        "gender": "women",
+        "brand": "Houbigant",
+        "ad-image": "images/aa/1940-houbigant.png",
+        "copy": "Parfumes to precious..closet to your heart! Lilac Time, captivating new perfume by Houbigant, is more than a fragrance-it's the mood of the moment enchantingly feminine, delightfully romantic, lingering as a long-remembered melody."
+    },
+    {
+        "name": "New Oriental Lime",
+        "year": 1960,
+        "gender": "men",
+        "brand": "Hai Karate",
+        "ad-image": "images/aa/1960-hai.png",
+        "copy": "Use too much and you can find yourself in a tight squeeze. Limes are for squeezing. So you can imagine what can happen to you now that Hai Karate® After Shave and Cologne come in a potent lime scent. Your girl can get carried away. And do squeezy things to you. That's why we have to put instructions on self defense in every package. Just like we do in regular Hai Karate. And, best of all, limes are also for cooling. So Hai Karate Oriental Lime's breezy feeling will help you stay cool through practically anything. "
+    },
+    {
+        "name": "Heure Bleue",
+        "year": 1930,
+        "gender": "women",
+        "brand": "Guerlain",
+        "ad-image": "images/aa/1930-guerlain.png",
+        "copy": "Are you her type?."
+    },
+    {
+        "name": "Fleur de Feu",
+        "year": 1940,
+        "gender": "women",
+        "brand": "Guerlain",
+        "ad-image": "images/aa/1940-guerlain.png",
+        "copy": "Guerlain's newest perfume original, Fire Flower, is available in the fine shops everywhere"
+    },
+    {
+        "name": "Shalimar",
+        "year": 1950,
+        "gender": "women",
+        "brand": "Guerlain",
+        "ad-image": "images/aa/1950-guerlain.png",
+        "copy": ""
+    },
+    {
+        "name": "Shalimar",
+        "year": 1940,
+        "gender": "women",
+        "brand": "Guerlain",
+        "ad-image": "images/aa/1940-guerlain-2.png",
+        "copy": ""
+    },
+    {
+        "name": "Eau de Cologne Imperial ",
+        "year": 1930,
+        "gender": "women",
+        "brand": "Guerlain",
+        "ad-image": "images/aa/1930-guerlain-2.png",
+        "copy": ""
+    },
+    {
+        "name": "Opium Pour Homme",
+        "year": 1930,
+        "gender": "men",
+        "brand": "Yves Saint Laurent",
+        "ad-image": "images/aa/1930-opium.png",
+        "copy": "The new fragrance for men"
+    },
+    {
+        "name": "Vivaudou",
+        "year": 1910,
+        "gender": "women",
+        "brand": "Mavis",
+        "ad-image": "images/aa/1910-mavis.png",
+        "copy": "Irresistable!"
+    },
+    {
+        "name": "Obsession",
+        "year": 1990,
+        "gender": "unisex",
+        "brand": "Calvin Klein",
+        "ad-image": "images/aa/1990-ck.png",
+        "copy": ""
+    },
+    {
+        "name": "Obsession",
+        "year": 1985,
+        "gender": "men",
+        "brand": "Calvin Klein",
+        "ad-image": "images/aa/1980-ck-3.png",
+        "copy": ""
+    },
+    {
+        "name": "New York Men",
+        "year": 2004,
+        "gender": "men",
+        "brand": "Kenneth Cole",
+        "ad-image": "images/aa/2004-kenneth.png",
+        "copy": "Wear me out!"
+    },
+    {
+        "name": "New York Women",
+        "year": 2004,
+        "gender": "women",
+        "brand": "Kenneth Cole",
+        "ad-image": "images/aa/2004-kenneth.png",
+        "copy": "Wear me out!"
+    },
+    {
+        "name": "Lauren",
+        "year": 2004,
+        "gender": "women",
+        "brand": "Ralph Lauren",
+        "ad-image": "images/aa/2004-lauren.png",
+        "copy": "Introducing Lauren Style"
+    },
+    {
+        "name": "Lauren",
+        "year": 1970,
+        "gender": "women",
+        "brand": "Ralph Lauren",
+        "ad-image": "images/aa/1970-lauren.png",
+        "copy": "There are fashions in fragrance. And then, there are certain fragrances beyond fashion. A classic fragrance from a great American designer"
+    },
+    {
+        "name": "Poeme",
+        "year": 1990,
+        "gender": "women",
+        "brand": "Lancome",
+        "ad-image": "images/aa/1990-lancome.png",
+        "copy": "You are like the sea you cradle the stars"
+    },
+    {
+        "name": "4711 Eau de Cologne",
+        "year": 1950,
+        "gender": "unisex",
+        "brand": "4711",
+        "ad-image": "images/aa/1950-4711.png",
+        "copy": "Men say it's for men! Women say it's for women! You'll say it's wonderfully refreshing after a bath, after a shower, after a hard day's work or play. It's genuine cologne from Cologne... from 4711"
+    },
+    {
+        "name": "4711 Eau de Cologne",
+        "year": 1920,
+        "gender": "women",
+        "brand": "4711",
+        "ad-image": "images/aa/1920-4711.png",
+        "copy": "A HAPPY THOUGHT. He could not have divined her wishes or expressed his thoughts better than by asking: How would you like some 4711? A present of this exquisite Eau de Cologne, with the Blue and Gold Label, is as much a tribute as a gift, and thus doubly appreciated."
+    },
+    {
+        "name": "The Magnet",
+        "year": 1950,
+        "gender": "women",
+        "brand": "Coty",
+        "ad-image": "images/aa/1950-coty.png",
+        "copy": "To my valentien- the heart to heart fragrance"
+    },
+    {
+        "name": "The Magnet",
+        "year": 1950,
+        "gender": "women",
+        "brand": "Coty",
+        "ad-image": "images/aa/1950-coty-2.png",
+        "copy": "Beauty is your discipline, your cold hard won perfection. Perfume is your warming fire. It brings to life the woman in you. Of all the great French perfumes, L'Aimant is the most feminine. It gives itself to you. It changes as you change. L'Aimant is not a dress, worn today and put aside tomorrow. It is your constant self.e"
+    },
+    {
+        "name": "Coty parfums de luxe",
+        "year": 1950,
+        "gender": "women",
+        "brand": "Coty",
+        "ad-image": "images/aa/1950-coty-3.png",
+        "copy": "Not to worry... Giver her Coty parfums de luxe"
+    },
+    {
+        "name": "Daisy",
+        "year": 2007,
+        "gender": "women",
+        "brand": "Marc Jacobs",
+        "ad-image": "images/aa/2007-daisy.png",
+        "copy": ""
+    },
+    {
+        "name": "Aramis",
+        "year": 1975,
+        "gender": "men",
+        "brand": "Aramis",
+        "ad-image": "images/aa/1975-aramis.png",
+        "copy": "Aramis has convinced some very discerning men to wear cologne. Aramis is more than just a rich peppery, potent fragrance. Aramis is a complete collection of seventy grooming aids all designed to create a feeling of well-being"
+    },
+    {
+        "name": "Old Spice",
+        "year": 1970,
+        "gender": "men",
+        "brand": "Old Spice",
+        "ad-image": "images/aa/1970-oldspice-2.png",
+        "copy": "Very convincing. our new aftershave comes across with the same unmistakable intentions as our cologne. A different kind of musk for a sensuous man. Deep, mysterious, and long lasting. And above all. definitely male."
+    },
+    {
+        "name": "Old Spice",
+        "year": 1970,
+        "gender": "men",
+        "brand": "Old Spice",
+        "ad-image": "images/aa/1970-oldspice.png",
+        "copy": "Joan Daly says she likes it when guys wear Old Spice. Girls like it. Is there a better reason to wear Old Spice?"
+    },
+    {
+        "name": "Burley",
+        "year": 1960,
+        "gender": "men",
+        "brand": "Old Spice",
+        "ad-image": "images/aa/1960-oldspice.png",
+        "copy": "The whole idea of a man's cologne is to start a kind of fire in a women. Burley starts the kind of fire a women can't put out."
+    },
+    {
+        "name": "Eau Sauvage",
+        "year": 1970,
+        "gender": "men",
+        "brand": "Dior",
+        "ad-image": "images/aa/1970-dior.png",
+        "copy": ""
+    },
+    {
+        "name": "Eau Sauvage",
+        "year": 1970,
+        "gender": "men",
+        "brand": "Dior",
+        "ad-image": "images/aa/1970-dior-4.png",
+        "copy": "Togetherness with Eau Sauvage"
+    },
+    {
+        "name": "Eau Sauvage",
+        "year": 1967,
+        "gender": "men",
+        "brand": "Dior",
+        "ad-image": "images/aa/1967-dior.png",
+        "copy": "cool, distinguished, discreet."
+    },
+    {
+        "name": "Miss Dior",
+        "year": 1970,
+        "gender": "women",
+        "brand": "Dior",
+        "ad-image": "images/aa/1970-dior-2.png",
+        "copy": "Miss Dior. Definitely very Dior."
+    },
+    {
+        "name": "Miss Dior",
+        "year": 1970,
+        "gender": "women",
+        "brand": "Dior",
+        "ad-image": "images/aa/1970-dior-5.png",
+        "copy": "A melody of blossoms in every scentuous drop."
+    },
+    {
+        "name": "Miss Dior",
+        "year": 1970,
+        "gender": "women",
+        "brand": "Dior",
+        "ad-image": "images/aa/1970-dior-3.png",
+        "copy": "Miss Dior. Impression: exciting, sophisticated, classically elegant with an ageless appeal. A truly great original from Christian Dior."
+    },
+    {
+        "name": "Jean Paul Gaultier",
+        "year": 2010,
+        "gender": "women",
+        "brand": "Jean Paul Gaultier",
+        "ad-image": "images/aa/1990-jean.png",
+        "copy": ""
+    },
+    {
+        "name": "Classique",
+        "year": 2010,
+        "gender": "women",
+        "brand": "Jean Paul Gaultier",
+        "ad-image": "images/aa/2010-jean.png",
+        "copy": ""
+    },
+    {
+        "name": "Classique",
+        "year": 2000,
+        "gender": "women",
+        "brand": "Jean Paul Gaultier",
+        "ad-image": "images/aa/2000-jean.png",
+        "copy": ""
+    },
+    {
+        "name": "Le Male",
+        "year": 2010,
+        "gender": "men",
+        "brand": "Jean Paul Gaultier",
+        "ad-image": "images/aa/2010-jean-2.png",
+        "copy": ""
+    },
+    {
+        "name": "Nuit de Noel",
+        "year": 1936,
+        "gender": "women",
+        "brand": "Caron",
+        "ad-image": "images/aa/1936-caron.png",
+        "copy": ""
+    },
+    {
+        "name": "Lucien Lelong",
+        "year": 1930,
+        "gender": "women",
+        "brand": "Lucien Lelong",
+        "ad-image": "images/aa/1930-lucien.png",
+        "copy": ""
+    },
+    {
+        "name": "Lucien Lelong",
+        "year": 1930,
+        "gender": "women",
+        "brand": "Lucien Lelong",
+        "ad-image": "images/aa/1930-lucien-2.png",
+        "copy": ""
+    },
+    {
+        "name": "Goya",
+        "year": 1950,
+        "gender": "women",
+        "brand": "Goya",
+        "ad-image": "images/aa/1950-goya-1.png",
+        "copy": "Goya reduces the world to two ...for you. With young brilliant entice"
+    },
+    {
+        "name": "Wanna-Ranee",
+        "year": 1919,
+        "gender": "women",
+        "brand": "J Grossmith and Son",
+        "ad-image": "images/aa/1919-wana.png",
+        "copy": "highly valued for its own sake and remaining a fragrant reminder of the giver if it is Wana Ranee, the Perfume of Ceylon. Wana Ranee has a mystic charm entirely its own, and is a Dream of Oriental Fragrance. wonderfully lasting and refreshing. Every requifited for the perfect harmonious toilet which distinguishes the of taste is provided in the dainty series below."
+    },
+    {
+        "name": "Imperial Leather Cologne",
+        "year": 1949,
+        "gender": "men",
+        "brand": "Goya",
+        "ad-image": "images/aa/1949-cussons.png",
+        "copy": ""
+    },
+    {
+        "name": "L'aimant",
+        "year": 1970,
+        "gender": "women",
+        "brand": "Coty",
+        "ad-image": "images/aa/1970-coty.png",
+        "copy": "the essence of beauty that is france. captivating, exquisitely feminine, the first thing a man notices, the last thing he forgets."
+    },
+    {
+        "name": "Wild Rose",
+        "year": 1940,
+        "gender": "women",
+        "brand": "Frances Denney",
+        "permalink": "https://idn.duke.edu/ark:/87924/r4gf0nh3x",
+        "ad-image": "images/aa/1940-francesdenny.png",
+        "copy": "Frances Denney presents a romantic fragrance: Wild Rose. it's new, it's frankly sentimental it's a fragrance to remember ... and to be remembered by. I"
+      },
+    {
+        "name": "Emeraude the Jewel Fragrance",
+        "year": 1940,
+        "gender": "women",
+        "brand": "Coty",
+        "ad-image": "images/aa/1940-coty-3.jpg",
+        "copy": "Does the emerald's brooding mystery thrill you? Then you'll enjoy collecting these Emeraude Accessories! All glow with the fragrance that the emerald inspired all are matched in their sumptuous décor, which stems from old Persian manuscripts."
+      },
+    {
+        "name": "Coty informal fragrance",
+        "year": 1941,
+        "gender": "women",
+        "brand": "Coty",
+        "ad-image": "images/aa/1941-coty-1.jpg",
+        "copy": "You've only one life to enjoy... let it all be fragrant! For your casual hours, Coty has created Informal Fragrances... crisp, fresh versions in lighter mood of famous Coty Perfumes. Informal Fragrances are exceptionally rich, rounded and lasting...each breathes the charm of true Coty essence. Prices are keyed to in formality. You'll find yourself using your Coty Fragrances lavishly, as often as your feminine soul desires!"
+      },
+    {
+        "name": "Accomplice",
+        "year": 1930,
+        "gender": "women",
+        "brand": "Coty",
+        "ad-image": "images/aa/1930-coty.png",
+        "copy": "Play the Queen... and make him love every moment of it - when you wear the exciting new perfume."
+    },
+    {
+        "name": "Le Vertige",
+        "year": 1938,
+        "gender": "women",
+        "brand": "Coty",
+        "ad-image": "images/aa/1938-coty.png",
+        "copy": "The other woman will remember every detail of your frock, every strand of your hair, every stone, buckle and pearl. but he will remember only your eyes, and Le Vertige which you wore that evening."
+    },
+    {
+        "name": "The Magnet",
+        "year": 1950,
+        "gender": "women",
+        "brand": "Coty",
+        "ad-image": "images/aa/1990-coty.png",
+        "copy": "IF IT'S RAINING BUT NEITHER OF YOU NOTICE, IT'S LOVE. IF IT'S A NIGHT IN AND IT FEELS LIKE A NIGHT OUT, IT'S LOVE. IF IT'S KNOWING YOU'D DO IT ALL AGAIN, IT'S LOVE. IF IT'S MATCH OF THE DAY AND YOU'RE WATCHING, IT'S LOVE. IF IT'S LOVE, IT'S THE MAGNET."
+    },
+    {
+        "name": "Chanel No.19",
+        "year": 1979,
+        "gender": "women",
+        "brand": "Chanel",
+        "ad-image": "images/aa/1979-chanel19-1.png",
+        "copy": "The outspoken Chanel. Witty, confident, devastatingly feminine"
+    },
+    {
+        "name": "Chanel No.19",
+        "year": 1979,
+        "gender": "women",
+        "brand": "Chanel",
+        "ad-image": "images/aa/1979-chanel19-2.png",
+        "copy": "The unexpected Chanel"
+    },
+    {
+        "name": "Emeraude",
+        "year": 1960,
+        "gender": "women",
+        "brand": "Coty",
+        "ad-image": "images/aa/1960-coty.png",
+        "copy": "Want him to be more of a man? Try ebing more of a women. For the woman who knows."
+    },
+    {
+        "name": "Divine",
+        "year": 1950,
+        "gender": "women",
+        "brand": "D'Orsay",
+        "ad-image": "images/aa/1950-dorsay.png",
+        "copy": "Someone lovely has just passed by! Someone wearing Divine D'orsay"
+    },
+    {
+        "name": "Intoxication",
+        "year": 1940,
+        "gender": "women",
+        "brand": "D'Orsay",
+        "ad-image": "images/aa/1940-dorsay.png",
+        "copy": "Intoxication D'orsay. It gets to your heart!"
+    },
+    {
+        "name": "Intoxication",
+        "year": 1950,
+        "gender": "women",
+        "brand": "D'Orsay",
+        "ad-image": "images/aa/1950-dorsay-2.png",
+        "copy": "Someone lovely has just passed by! Someone wearing Intoxication D'orsay."
+    },
+    {
+        "name": "Cherie Miss Dior",
+        "year": 2009,
+        "gender": "women",
+        "brand": "Dior",
+        "ad-image": "images/aa/2009-dior.jpg",
+        "copy": ""
+    },
+    {
+        "name": "Florient",
+        "year": 1990,
+        "gender": "unisex",
+        "brand": "Colgate",
+        "ad-image": "images/aa/1990-colgate.png",
+        "copy": "The rare oriental fragrance of Colgate's florient won first place in a famous perfume contest. This marvelous perfume may be had also in Toilet water, face poweder, talc powder, and soap"
+    },
+    {
+        "name": "Chanel No.22",
+        "year": 1967,
+        "gender": "women",
+        "brand": "Chanel",
+        "ad-image": "images/aa/1967-chanel.png",
+        "copy": "surround yourself with Chanel No.22. The most treasured name in perfume."
+    },
+    {
+        "name": "muguet des bois",
+        "year": 1940,
+        "gender": "women",
+        "brand": "Coty",
+        "ad-image": "images/aa/1940-coty.png",
+        "copy": "When you're in lvoe wear muguet des bois"
+    },
+    {
+        "name": "Paris",
+        "year": 1940,
+        "gender": "women",
+        "brand": "Coty",
+        "ad-image": "images/aa/1940-coty-2.png",
+        "copy": "Even a man senses the chic of Paris perfume... and only a man knows fully its appeal. Let all your charm accessories breathe this wise and witty scent"
+    },
+    {
+        "name": "Fleurs De Mousse",
+        "year": 1920,
+        "gender": "women",
+        "brand": "Fleurs De Mousse",
+        "ad-image": "images/aa/1920-fleurs.png",
+        "copy": ""
+    },
+    {
+        "name": "Femmes De France",
+        "year": 1910,
+        "gender": "women",
+        "brand": "Vivile",
+        "ad-image": "images/aa/1910-femmes.png",
+        "copy": "oh! what an exquisite fragrance this queen violet is"
+    },
+    {
+        "name": "5th Avenue",
+        "year": 2000,
+        "gender": "women",
+        "brand": "Elizabeth Arden",
+        "ad-image": "images/aa/2000-elizabeth.png",
+        "copy": "Elizabeth Arden 5th Avenue. It takes you there."
+    },
+    {
+        "name": "Tigress",
+        "year": 1970,
+        "gender": "women",
+        "brand": "Faberge",
+        "ad-image": "images/aa/1970-faberge.png",
+        "copy": "Tigress. Because men are such animals."
+    },
+    {
+        "name": "m7",
+        "year": 2002,
+        "gender": "men",
+        "brand": "Yves Saint Laurent",
+        "ad-image": "images/aa/2002-ysl.png",
+        "copy": ""
+    },
+    {
+        "name": "Envy",
+        "year": 2000,
+        "gender": "women",
+        "brand": "Gucci",
+        "ad-image": "images/aa/2000-gucci.png",
+        "copy": "Gucci Envy A fragrance for women"
+    },
+    {
+        "name": "Envy",
+        "year": 2000,
+        "gender": "men",
+        "brand": "Gucci",
+        "ad-image": "images/aa/2000-gucci-2.png",
+        "copy": "Gucci Envy A fragrance for men and women"
+    },
+    {
+        "name": "Shocking",
+        "year": 1940,
+        "gender": "women",
+        "brand": "Schiaparelli",
+        "ad-image": "images/aa/1940-schiaparelli.png",
+        "copy": "Daddy-She loves it! Shocking perfume (every drop imported from France) "
+    },
+    {
+        "name": "Shocking",
+        "year": 1950,
+        "gender": "women",
+        "brand": "Schiaparelli",
+        "ad-image": "images/aa/1950-schiaparelli.png",
+        "copy": "from the heart of France. Shocking de Schiaparelli. Every whiff a heady challenge"
+    },
+    {
+        "name": "Paris",
+        "year": 2000,
+        "gender": "women",
+        "brand": "Yves Saint Laurent",
+        "ad-image": "images/aa/2000-ysl.png",
+        "copy": ""
+    },
+    {
+        "name": "Hoytes Cologne",
+        "year": 1890,
+        "gender": "men",
+        "brand": "Hoytes",
+        "ad-image": "images/aa/1890-hoytes.png",
+        "copy": "THE FRAGRANT AND LASTING OF ALL PERFUMES. DELICIOUSLY FLAVORED"
+    },
+    {
+        "name": "Extreme Polo",
+        "year": 2000,
+        "gender": "men",
+        "brand": "Ralph Lauren",
+        "ad-image": "images/aa/2000-ralph.png",
+        "copy": "Introducing the new men's fragrance, Extreme polo sport ralph lauren."
+    },
+    {
+        "name": "Irresistable",
+        "year": 1930,
+        "gender": "women",
+        "brand": "Talc",
+        "ad-image": "images/aa/1930-talc-1.png",
+        "copy": "Be divinely Irresistible... be the star of his heart to-night with Irresistible Perfume... A touch on your wrists, your throat and your petite evening muff and you be-come a more thrilling person to yourself, and to him. Teasing... provocative... irresistible. Discover the exciting new confidence that Irresistible Perfume gives you. Tonight, try Irresistible Perfume. You'll be sparkling, electric, ready to conquer the world and the man! To be completely ravishing use all of the Irresistible Beauty Aids. Certified pure, laboratory tested and approved."
+    },
+    {
+        "name": "Irresistable",
+        "year": 1930,
+        "gender": "women",
+        "brand": "Talc",
+        "ad-image": "images/aa/1930-talc-3.png",
+        "copy": "You can’t buy love but you can buy and be Irresistible. Like a Parisienne, you can set hearts on fire if se the French women never neglect an exciting, seductive perfume. Such is IRRESISTIBLE PERFUME. This mysteriously exotic fragrance stirs senses...thrills...awakens love. It makes you divinely exciting, glamorous, utterly irresistible."
+    },
+    {
+        "name": "Emporio Armani For Him",
+        "year": 2003,
+        "gender": "men",
+        "brand": "Emporio Armani",
+        "ad-image": "images/aa/2003-armani.png",
+        "copy": "get together with the two fragrances..."
+    },
+    {
+        "name": "Emporio Armani For Her",
+        "year": 2003,
+        "gender": "women",
+        "brand": "Emporio Armani",
+        "ad-image": "images/aa/2003-armani-2.png",
+        "copy": "get together with the two fragrances..."
+    },
+    {
+        "name": "Estee",
+        "year": 1960,
+        "gender": "women",
+        "brand": "Estee Lauder",
+        "ad-image": "images/aa/1960-estee.png",
+        "copy": "Estee is the first super perfume. And only one woman could have created it."
+    },
+    {
+        "name": "Aliage",
+        "year": 1970,
+        "gender": "women",
+        "brand": "Estee Lauder",
+        "ad-image": "images/aa/1970-estee.png",
+        "copy": "Aliage is the world's first sport fragrance. And only one woman could have created it. Fresh, green, vital, young. Estee Lauder created it to live with every minute of every day. Move into this greening new world."
+    },
+    {
+        "name": "Toiletries",
+        "year": 1930,
+        "gender": "unisex",
+        "brand": "Old South",
+        "ad-image": "images/aa/1930-oldsouth.png",
+        "copy": "The Romance that Lives Forever. Only once in the world has there been the loveliness, the easy grandeur of the Old South, whose romance lives again in these exquisite toilet luxuries."
+    },
+    {
+        "name": "Hypnotique",
+        "year": 1960,
+        "gender": "women",
+        "brand": "Max Factor",
+        "ad-image": "images/aa/1960-maxfactor.png",
+        "copy": "Make him concentrate... concentrate on you. For the women who was born to enchant men. The new fragrance that's captured the very essence of a women's power over man. A magnetic new fragrance by Max Factor."
+    },
+    {
+        "name": "That Man",
+        "year": 1960,
+        "gender": "men",
+        "brand": "Revlon",
+        "ad-image": "images/aa/1960-revlon.png",
+        "copy": "Women dig it! That man by Revlon. A gentleman's cologne"
+    },
+    {
+        "name": "Oriental Spice",
+        "year": 1970,
+        "gender": "men",
+        "brand": "Oriental Spice",
+        "ad-image": "images/aa/1970-oriental.png",
+        "copy": "Oriental Spice gives a man an unfair advantage."
+    },
+    {
+        "name": "Morny",
+        "year": 1960,
+        "gender": "women",
+        "brand": "Morny",
+        "ad-image": "images/aa/1960-morny.png",
+        "copy": ""
+    },
+    {
+        "name": "Boss",
+        "year": 2000,
+        "gender": "men",
+        "brand": "Hugo Boss",
+        "ad-image": "images/aa/2000-hugoboss.png",
+        "copy": ""
+    },
+    {
+        "name": "White Diamonds",
+        "year": 1990,
+        "gender": "women",
+        "brand": "Elizabeth Taylor",
+        "ad-image": "images/aa/1990-elizabeth.png",
+        "copy": "I never forget a women in diamonds...says Burt Reynolds"
+    },
+    {
+        "name": "Secret Du Sphinx",
+        "year": 1920,
+        "gender": "women",
+        "brand": "Ramsès",
+        "ad-image": "images/aa/1920-sphinx.png",
+        "copy": "SCENTED WITH Secret of the Sphinx"
+    },
+    {
+        "name": "Atkinsons Eau de Cologne",
+        "year": 1910,
+        "gender": "unisex",
+        "brand": "Atkinsons",
+        "ad-image": "images/aa/1910-atkinsons.png",
+        "copy": "WE ARE NOT SATISFIED if we do not tread on gems in our baths. Such was the luxury of the Romans. These days, few of us can boast a jewelled bath, but there is still a luxury of the bath which we can all enjoy. NOTHING is more luxurious, more infinitely refreshing after any form exercise that a bath to which has been added just a little of Atkinsons Eau de Cologne. "
+    },
+    {
+        "name": "Epris",
+        "year": 1980,
+        "gender": "women",
+        "brand": "Epris",
+        "ad-image": "images/aa/1980-epris.png",
+        "copy": "A most provocative fragrance. Jaclyn Smith"
+    },
+    {
+        "name": "djier kiss",
+        "year": 1910,
+        "gender": "women",
+        "brand": "Kerkoff",
+        "ad-image": "images/aa/1910-kerkoff.png",
+        "copy": "DJER-KISS SO EXQUISITE BECAUSE IT'S SO FRENCH. Manfield Maxfield Parrish in this beautiful painting pictures the spirit of Djer Kiss-a breath of mountain air-the fragrance of blossoms. Djer Kiss that most engagingly French of perfumes, created by the great Parisian modernist, Kerkeft himself. There is no perfume quite like that of Dyer Kiss-for there is none with quite its fragrance of individuality-none with quite its appeal to those who are both particular."
+    },
+    {
+        "name": "273",
+        "year": 1991,
+        "gender": "women",
+        "brand": "Fred Hayman",
+        "ad-image": "images/aa/1991-fred.png",
+        "copy": "Wealthy, elegant, wildly seductive. The sexiest women in Beverly Hills have Fred Hayman's number 273."
+    },
+    {
+        "name": "La Nuit De L'Homme",
+        "year": 2009,
+        "gender": "men",
+        "brand": "Yves Saint Laurent",
+        "ad-image": "images/aa/2009-ysl.png",
+        "copy": ""
+    },
+    {
+        "name": "Kingdom",
+        "year": 2003,
+        "gender": "women",
+        "brand": "Alexander McQueen",
+        "ad-image": "images/aa/2003-mcqueen.png",
+        "copy": ""
+    },
+    {
+        "name": "Vivacious",
+        "year": 1960,
+        "gender": "women",
+        "brand": "Dorothy Gray",
+        "ad-image": "images/aa/1960-dorothy.png",
+        "copy": "New from Dorothy Gray-Vivacious-an exciting, spicy perfume from Paris. Vivacious is flauntingly, tauntingly feminine - the final tempting touch! "
+    },
+    {
+        "name": "Jolie Madame",
+        "year": 1940,
+        "gender": "women",
+        "brand": "Balmain",
+        "ad-image": "images/aa/1940-balmain.png",
+        "copy": "The most sophisticated floral in all Paris"
+    },
+    {
+        "name": "Joy Eau de Toilette",
+        "year": 1940,
+        "gender": "women",
+        "brand": "Jean Patou",
+        "ad-image": "images/aa/1940-joy-1.png",
+        "copy": "The costliest in the world. There is only one Joy perfume."
+    },
+    {
+        "name": "Joy Eau de Toilette",
+        "year": 1940,
+        "gender": "women",
+        "brand": "Jean Patou",
+        "ad-image": "images/aa/1940-joy-2.png",
+        "copy": "The costliest in the world. There is only one Joy perfume."
+    },
+    {
+        "name": "Glow",
+        "year": 2003,
+        "gender": "women",
+        "brand": "Jennifer Lopez",
+        "ad-image": "images/aa/2003-jlo.png",
+        "copy": "fresh, sexy, clean. It's the new fragrance by Jennifer Lopez."
+    },
+    {
+        "name": "Omar Sharif Pour Femme",
+        "year": 1991,
+        "gender": "women",
+        "brand": "Omar Sharif",
+        "ad-image": "images/aa/1991-omar.png",
+        "copy": "for the women who likes seduction to a game."
+    },
+    {
+        "name": "Rive Gauche",
+        "year": 1990,
+        "gender": "women",
+        "brand": "Yves Saint Laurent",
+        "ad-image": "images/aa/1990-ysl.png",
+        "copy": "RIVE GAUCHE is not a fragrance for discreet women."
+    },
+    {
+        "name": "CK One",
+        "year": 1994,
+        "gender": "unisex",
+        "brand": "Calvin Klein",
+        "ad-image": "images/aa/1994-ckone-1.png",
+        "copy": "A new fragrance for a man or a woman"
+    },
+    {
+        "name": "CK One",
+        "year": 1994,
+        "gender": "unisex",
+        "brand": "Calvin Klein",
+        "ad-image": "images/aa/1994-ckone-2.png",
+        "copy": "you're the one"
+    },
+    {
+        "name": "CK One",
+        "year": 2002,
+        "gender": "unisex",
+        "brand": "Calvin Klein",
+        "ad-image": "images/aa/2002-ckone-3.png",
+        "copy": "A fragrance for a man or a woman"
+    },
+    {
+        "name": "Beat",
+        "year": 2003,
+        "gender": "women",
+        "brand": "Rimmel",
+        "ad-image": "images/aa/2003-rimmel.png",
+        "copy": "Feel the Beat"
+    },
+    {
+        "name": "Miracle Homme",
+        "year": 2002,
+        "gender": "men",
+        "brand": "Lancome",
+        "ad-image": "images/aa/2002-lancome.png",
+        "copy": "Matthieu Kassovitz You make it happen"
+    },
+    {
+        "name": "Lance Perfumes",
+        "year": 1890,
+        "gender": "women",
+        "brand": "Lancome",
+        "ad-image": "images/aa/1890-lance.png",
+        "copy": "LANCE Perfumes. These concentrated perfume sprays give a delightful refreshing coolness and every lady ought to have them."
+    },
+    {
+        "name": "So...?",
+        "year": 1990,
+        "gender": "women",
+        "brand": "So...?",
+        "ad-image": "images/aa/1990-so.png",
+        "copy": "So...? doesnt everyone have their feet massaged? fragrance with a certain attitude."
+    },
+    {
+        "name": "Royal Vinolia Perfume",
+        "year": 1912,
+        "gender": "women",
+        "brand": "Vinolia",
+        "ad-image": "images/aa/1912-royal.png",
+        "copy": "presents the finest essences of flowers and sweet grasses in a form to charm and delight discriminating users. Royal Vinolia Perfume is free from heavy odour, even when freshly taken from the bottle, and its delicate fragrance lingers long after application."
+    },
+    {
+        "name": "Tommy",
+        "year": 2003,
+        "gender": "unisex",
+        "brand": "Tommy Hilfiger",
+        "ad-image": "images/aa/2003-tommy.png",
+        "copy": "Twice as tempting. for her, for him."
+    },
+    {
+        "name": "Potter & Moore",
+        "year": 1960,
+        "gender": "women",
+        "brand": "Potter & Moore",
+        "ad-image": "images/aa/1960-potter.png",
+        "copy": "WANTED in a world of men. Cool, poised, compelling. In a world of men she's irresistible. For her, perfume does more than diamonds ever could. Yet her secret is simple. Her cream perfume, her liquid perfume & solid perfume, her bath cubes & talcum powder are all from one of the matched perfume ranges by Potter & Moore"
+    },
+    {
+        "name": "Gucci",
+        "year": 2009,
+        "gender": "men",
+        "brand": "Gucci",
+        "ad-image": "images/aa/2009-gucci.png",
+        "copy": "The new fragrance for men. James Franco."
+    },
+    {
+        "name": "Evening in Paris",
+        "year": 1950,
+        "gender": "women",
+        "brand": "Bourjois",
+        "ad-image": "images/aa/1950-bourjois.png",
+        "copy": "She's always certain OF ROMANCE. Evening in Paris Powder gives her skin a soft and youthful finish that is irresistible. Evening in Paris Perfume surrounds her with a lingering fragrance which never fails to attract."
+    },
+    {
+        "name": "Command Performance",
+        "year": 1940,
+        "gender": "women",
+        "brand": "Helena Rubinstein",
+        "ad-image": "images/aa/1940-helena.png",
+        "copy": "helena rubinstein launches her first great French fragrance: Command performance. Like sudden radiance spotlighting you-this romantic new fragrance by Helena Rubinstein. Piquant as the breath of a dew-fresh nosegay. Winy...warming...as love-at-first-glance."
+    },
+    {
+        "name": "Cachet",
+        "year": 1970,
+        "gender": "women",
+        "brand": "Prince Matchabelli",
+        "ad-image": "images/aa/1970-cachet-1.png",
+        "copy": "A thousand girls can wear it. It won't be the same on any two. A fragrance as individual as you are."
+    },
+    {
+        "name": "Cachet",
+        "year": 1970,
+        "gender": "women",
+        "brand": "Prince Matchabelli",
+        "ad-image": "images/aa/1970-cachet-2.png",
+        "copy": "THE PERFUME NO TWO WOMEN CAN SHARE. Cachet is different on every woman who wears it. You see, the moment it touches your body, Cachet blends with your own special chemistry. And suddenly, it's you. Other women may wear Cachet, but you make it yours alone."
+    },
+    {
+        "name": "Un Air Embaume",
+        "year": 1920,
+        "gender": "women",
+        "brand": "Rigaud",
+        "ad-image": "images/aa/1920-rigaud.png",
+        "copy": "the exclusive perfume with a touch of the Orient- and a clinging atmosphere of distinction all its own."
+    },
+    {
+        "name": "Un Air Embaume",
+        "year": 1920,
+        "gender": "women",
+        "brand": "Rigaud",
+        "ad-image": "images/aa/1920-rigaud-2.png",
+        "copy": "the exclusive perfume with a touch of the Orient"
+    },
+    {
+        "name": "Curious",
+        "year": 2004,
+        "gender": "women",
+        "brand": "Britney Spears",
+        "ad-image": "images/aa/2004-britney.png",
+        "copy": "Do you dare?"
+    },
+    {
+        "name": "Jontue",
+        "year": 1980,
+        "gender": "women",
+        "brand": "Revlon",
+        "ad-image": "images/aa/1980-revlon.jpg",
+        "copy": "sensual, but not too far from innocence"
+    },
+    {
+        "name": "Charlie",
+        "year": 1990,
+        "gender": "women",
+        "brand": "Revlon",
+        "ad-image": "images/aa/1990-revlon.jpg",
+        "copy": "the gorgeous, sexy young fragrance by Revlon"
+    },
+    {
+        "name": "Charlie",
+        "year": 1990,
+        "gender": "women",
+        "brand": "Revlon",
+        "ad-image": "images/aa/1990-charlie.jpg",
+        "copy": ""
+    },
+    {
+        "name": "Bond Street",
+        "year": 1958,
+        "gender": "women",
+        "brand": "Yardley",
+        "ad-image": "images/aa/1958-newyardley.jpg",
+        "copy": "the better to scent you with... New Yardley Spray Mist"
+    },
+    {
+        "name": "Lauren",
+        "year": 1987,
+        "gender": "women",
+        "brand": "Ralph Lauren",
+        "ad-image": "images/aa/1987-lauren.jpg",
+        "copy": "She has her own spirit, and it graces everyone she comes near."
+    },
+    {
+        "name": "Tosca",
+        "year": 1962,
+        "gender": "women",
+        "brand": "4711",
+        "ad-image": "images/aa/1962-4711.jpg",
+        "copy": "There is magic in the nature of women - delicate and full of charm like the scent of youthful grace"
+    },
+    {
+        "name": "Irresistable",
+        "year": 1930,
+        "gender": "women",
+        "brand": "Talc",
+        "ad-image": "images/aa/1930-irresistable.jpg",
+        "copy": "There are women who invite Romance as naturally as flowers invite the enjoyment of their perfume. You envy them, perhaps. For you, too, want Romance. But do you invite it? Do your lips lure? Your eyes promise? Your skin, your hair, your very fragrance... do these invite caresses? Irresistible Beauty Aids are an irresistible invitation to Ro-mance. The satin-smoothness of Irresistible Powder, the soft blush of Irresistible Rouge, the seductive coloring and creamy indelibility of Irresistible Lip Lure these speak the language of allure. Final touch, IRRESISTIBLE PERFUME, romantic as the first flowers he sent you."
+    },
+    {
+        "name": "Prince Matchabelli",
+        "year": 1958,
+        "gender": "women",
+        "brand": "Prince Matchabelli",
+        "ad-image": "images/aa/1958-princematchabelli.jpg",
+        "copy": "Once there was a prince... He was a prince of royal blood, with a most unusual hobby, perfume! He created individual scents to dramatize the personalities of many notable women throughout the world. And, so well-known did these perfumes become, that he soon made his pleasure his business. The royal crown bottle inspired by his family crest still symbolizes Prince Matchabelli's royal family of fine fragrances... haunting Stradivari...adventurous Wind Song... romantic Beloved... exciting Added Attraction... and luxurious Abano. Each year these exciting fragrances are presented in a new and festive collection of fine gifts for you to give...or receive. See them now... from $1 to $45. And remember...especially at Christmas...every woman deserves a crown!"
+    },
+    {
+        "name": "Sunflower",
+        "year": 1990,
+        "gender": "women",
+        "brand": "Elizabeth Arden",
+        "ad-image": "images/aa/1990-sunflowers.jpg",
+        "copy": "Sunflowers, a celebration of life"
+    },
+    {
+        "name": "Nuance",
+        "year": 1976,
+        "gender": "women",
+        "brand": "Coty",
+        "ad-image": "images/aa/1976-nuance.jpg",
+        "copy": "If you want to capture someone's attention, whisper. An exquisitely delicate new fragrance that lasts and lasts. like a whisper is impossible to resist."
+    },
+    {
+        "name": "Lilac Time",
+        "year": 1940,
+        "gender": "women",
+        "brand": "Houbigant",
+        "ad-image": "images/aa/1940-lilactime.jpg",
+        "copy": "Lilac Time, captivating new perfume by Houbigant, is more than a fragrance-it's the mood of the moment enchantingly feminine, delightfully romantic, lingering as a long-remembered melody,"
+    },
+    {
+        "name": "Chanel No.5",
+        "year": 1921,
+        "gender": "women",
+        "brand": "Chanel",
+        "ad-image": "images/aa/1921-chanelno5.jpg",
+        "copy": ""
+    },
+    {
+        "name": "Houbigant",
+        "year": 1926,
+        "gender": "women",
+        "brand": "Houbigant",
+        "ad-image": "images/aa/1926-hou.jpg",
+        "copy": "She who seems to make no effort SHE to attract is ever the most charm-ing. Yet modern charm is a thing of art as well as nature, and could one but know the care that goes into achieving careless engaging poise, it would be revealed that every detail of appearance-even perfume is chosen with the utmost discrimination."
+    },
+    {
+        "name": "Evening in Paris",
+        "year": 1948,
+        "gender": "women",
+        "brand": "Bourjois",
+        "ad-image": "images/aa/1948-bourjois.jpg",
+        "copy": "It Whispers Your Charm. Evening in Paris"
+    },
+    {
+        "name": "Violet Imperiale",
+        "year": 1890,
+        "gender": "women",
+        "brand": "unknown",
+        "ad-image": "images/aa/1890-bouquet.jpg",
+        "copy": "A true and perfect extract of the sweetest and rarest violets. A sublime combination of exquisite perfumes unlike anything else ever made."
+    },
+    {
+        "name": "Chanel No.5",
+        "year": 1985,
+        "gender": "women",
+        "brand": "Chanel",
+        "ad-image": "images/aa/1985-chanelno5.jpg",
+        "copy": "Introducing the new deluxe spray. Superbly Sleek."
+    },
+    {
+        "name": "Obsession",
+        "year": 1994,
+        "gender": "men",
+        "brand": "Calvin Klein",
+        "ad-image": "images/aa/1994-obsession.jpeg",
+        "copy": ""
+    },
+    {
+        "name": "Intimate",
+        "year": 1965,
+        "gender": "women",
+        "brand": "Revlon",
+        "ad-image": "images/aa/1965-intimate.jpg",
+        "copy": "What makes a shy girl get Intimate? It's the fragrance that does all the flirting for her. The uninhibited perfume that makes things happen. What kind of things? That's her affair."
+    },
+    {
+        "name": "Royal Hub",
+        "year": 1973,
+        "gender": "men",
+        "brand": "Revlon",
+        "ad-image": "images/aa/1973-royalpub.jpg",
+        "copy": "Incredible How far men has evolved. Today's most virile cologne and aftershave."
+    },
+    {
+        "name": "Poison",
+        "year": 1986,
+        "gender": "women",
+        "brand": "Dior",
+        "ad-image": "images/aa/1986-poison.jpg",
+        "copy": "Something in you is Dior"
+    }
+]

@@ -1,0 +1,310 @@
+[
+  {
+    "name": "Potter & Moore",
+    "year": 1960,
+    "gender": "women",
+    "brand": "Potter & Moore",
+    "ad-image": "images/aa/1960-potter.png",
+    "copy": "WANTED in a world of men. Cool, poised, compelling. In a world of men she's irresistible. For her, perfume does more than diamonds ever could. Yet her secret is simple. Her cream perfume, her liquid perfume & solid perfume, her bath cubes & talcum powder are all from one of the matched perfume ranges by Potter & Moore",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1960-potter.png",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement features a close-up of a woman's face wearing a black hat. Below her image is the text 'WANTED in a world of men' along with perfume bottles.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "neutral",
+            "pose_action": "facing forward",
+            "emotion_tags": [
+              "strong",
+              "confident",
+              "focused",
+              "composed",
+              "bold"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "empowered",
+          "dominant",
+          "mysterious",
+          "sophisticated",
+          "assertive"
+        ]
+      }
+    },
+    "unique_id": "Potter & Moore_1960_1960-potter.png"
+  },
+  {
+    "name": "Gucci",
+    "year": 2009,
+    "gender": "men",
+    "brand": "Gucci",
+    "ad-image": "images/aa/2009-gucci.png",
+    "copy": "The new fragrance for men. James Franco.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/2009-gucci.png",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement shows a man in a suit, with a large close-up of his face overlaying part of the image and a perfume bottle featured prominently.",
+        "people": [
+          {
+            "gender": "man",
+            "facial_expression": "serious",
+            "pose_action": "standing",
+            "emotion_tags": [
+              "serious",
+              "intense",
+              "confident",
+              "focused",
+              "mysterious"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "elegant",
+          "sophisticated",
+          "masculine",
+          "bold",
+          "stylish"
+        ]
+      }
+    },
+    "unique_id": "Gucci_2009_2009-gucci.png"
+  },
+  {
+    "name": "Evening in Paris",
+    "year": 1950,
+    "gender": "women",
+    "brand": "Bourjois",
+    "ad-image": "images/aa/1950-bourjois.png",
+    "copy": "She's always certain OF ROMANCE. Evening in Paris Powder gives her skin a soft and youthful finish that is irresistible. Evening in Paris Perfume surrounds her with a lingering fragrance which never fails to attract.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1950-bourjois.png",
+    "analysis": {
+      "vision": {
+        "description": "A vintage advertisement featuring a man and a woman in an elegant embrace, with a perfume bottle prominently displayed.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "smiling",
+            "pose_action": "embracing a man",
+            "emotion_tags": [
+              "romantic",
+              "happy",
+              "elegant",
+              "charming",
+              "affectionate"
+            ]
+          },
+          {
+            "gender": "man",
+            "facial_expression": "smiling",
+            "pose_action": "embracing a woman",
+            "emotion_tags": [
+              "romantic",
+              "happy",
+              "elegant",
+              "charming",
+              "affectionate"
+            ]
+          }
+        ],
+        "people_count": 2,
+        "nudity": "no",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "romantic",
+        "mood_tags": [
+          "romantic",
+          "elegant",
+          "classic",
+          "affectionate",
+          "chic"
+        ]
+      }
+    },
+    "unique_id": "Evening in Paris_1950_1950-bourjois.png"
+  },
+  {
+    "name": "Command Performance",
+    "year": 1940,
+    "gender": "women",
+    "brand": "Helena Rubinstein",
+    "ad-image": "images/aa/1940-helena.png",
+    "copy": "helena rubinstein launches her first great French fragrance: Command performance. Like sudden radiance spotlighting you-this romantic new fragrance by Helena Rubinstein. Piquant as the breath of a dew-fresh nosegay. Winy...warming...as love-at-first-glance.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1940-helena.png",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement features a woman in an elegant gown reaching out to a man who is seated, with a stage-like background.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "neutral",
+            "pose_action": "reaching out",
+            "emotion_tags": [
+              "elegant",
+              "graceful",
+              "poised",
+              "sophisticated",
+              "serene"
+            ]
+          },
+          {
+            "gender": "man",
+            "facial_expression": "neutral",
+            "pose_action": "seated",
+            "emotion_tags": [
+              "attentive",
+              "interested",
+              "calm",
+              "composed",
+              "curious"
+            ]
+          }
+        ],
+        "people_count": 2,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "romantic",
+        "mood_tags": [
+          "romantic",
+          "refined",
+          "sophisticated",
+          "theatrical",
+          "elegant"
+        ]
+      }
+    },
+    "unique_id": "Command Performance_1940_1940-helena.png"
+  },
+  {
+    "name": "Cachet",
+    "year": 1970,
+    "gender": "women",
+    "brand": "Prince Matchabelli",
+    "ad-image": "images/aa/1970-cachet-1.png",
+    "copy": "A thousand girls can wear it. It won't be the same on any two. A fragrance as individual as you are.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1970-cachet-1.png",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement features multiple women in various outfits, each in a distinct setting with joyful expressions, promoting a perfume brand.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "smiling",
+            "pose_action": "holding cigarette",
+            "emotion_tags": [
+              "happy",
+              "confident",
+              "casual",
+              "relaxed",
+              "joyful"
+            ]
+          },
+          {
+            "gender": "woman",
+            "facial_expression": "smiling",
+            "pose_action": "leaning on hand",
+            "emotion_tags": [
+              "flirty",
+              "playful",
+              "easygoing",
+              "cheerful",
+              "warm"
+            ]
+          },
+          {
+            "gender": "woman",
+            "facial_expression": "joyful",
+            "pose_action": "holding bag",
+            "emotion_tags": [
+              "happy",
+              "carefree",
+              "content",
+              "joyful",
+              "spirited"
+            ]
+          },
+          {
+            "gender": "woman",
+            "facial_expression": "serious",
+            "pose_action": "holding drink",
+            "emotion_tags": [
+              "calm",
+              "thoughtful",
+              "composed",
+              "peaceful",
+              "serene"
+            ]
+          },
+          {
+            "gender": "woman",
+            "facial_expression": "smiling",
+            "pose_action": "holding flowers",
+            "emotion_tags": [
+              "bright",
+              "pleased",
+              "charming",
+              "optimistic",
+              "friendly"
+            ]
+          },
+          {
+            "gender": "woman",
+            "facial_expression": "smiling",
+            "pose_action": "standing with arms up",
+            "emotion_tags": [
+              "upbeat",
+              "enthusiastic",
+              "friendly",
+              "cheerful",
+              "vivacious"
+            ]
+          },
+          {
+            "gender": "woman",
+            "facial_expression": "serious",
+            "pose_action": "standing with scarf",
+            "emotion_tags": [
+              "thoughtful",
+              "calm",
+              "composed",
+              "serene",
+              "introspective"
+            ]
+          },
+          {
+            "gender": "woman",
+            "facial_expression": "smiling",
+            "pose_action": "standing",
+            "emotion_tags": [
+              "happy",
+              "cheerful",
+              "bubbly",
+              "friendly",
+              "joyful"
+            ]
+          }
+        ],
+        "people_count": 8,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "none",
+        "mood_tags": [
+          "diverse",
+          "joyful",
+          "individuality",
+          "vibrant",
+          "positive"
+        ]
+      }
+    },
+    "unique_id": "Cachet_1970_1970-cachet-1.png"
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "name": "L'aimant",
+    "year": 1970,
+    "gender": "women",
+    "brand": "Coty",
+    "ad-image": "images/aa/1970-coty.png",
+    "copy": "the essence of beauty that is france. captivating, exquisitely feminine, the first thing a man notices, the last thing he forgets.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1970-coty.png",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement shows a luxurious ballroom setting with an elegant perfume bottle prominently displayed in the foreground.",
+        "people": [
+          {
+            "gender": "unclear",
+            "facial_expression": "unclear",
+            "pose_action": "dancing",
+            "emotion_tags": [
+              "romantic",
+              "elegant",
+              "dreamy",
+              "intimate",
+              "graceful"
+            ]
+          },
+          {
+            "gender": "unclear",
+            "facial_expression": "unclear",
+            "pose_action": "dancing",
+            "emotion_tags": [
+              "romantic",
+              "elegant",
+              "dreamy",
+              "intimate",
+              "graceful"
+            ]
+          }
+        ],
+        "people_count": 2,
+        "nudity": "no",
+        "sexual_suggestiveness": "intimate",
+        "interaction_type": "romantic",
+        "mood_tags": [
+          "luxurious",
+          "romantic",
+          "elegant",
+          "classic",
+          "sophisticated"
+        ]
+      }
+    },
+    "unique_id": "L'aimant_1970_1970-coty.png"
+  },
+  {
+    "name": "Wild Rose",
+    "year": 1940,
+    "gender": "women",
+    "brand": "Frances Denney",
+    "permalink": "https://idn.duke.edu/ark:/87924/r4gf0nh3x",
+    "ad-image": "images/aa/1940-francesdenny.png",
+    "copy": "Frances Denney presents a romantic fragrance: Wild Rose. it's new, it's frankly sentimental it's a fragrance to remember ... and to be remembered by. I",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1940-francesdenny.png",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement depicts a couple sitting romantically in a garden within a large rose-themed design. Various perfume bottles are displayed at the bottom.",
+        "people": [
+          {
+            "gender": "man",
+            "facial_expression": "neutral",
+            "pose_action": "sitting next to woman",
+            "emotion_tags": [
+              "romantic",
+              "calm",
+              "content",
+              "serene",
+              "intimate"
+            ]
+          },
+          {
+            "gender": "woman",
+            "facial_expression": "neutral",
+            "pose_action": "sitting next to man",
+            "emotion_tags": [
+              "romantic",
+              "calm",
+              "content",
+              "serene",
+              "intimate"
+            ]
+          }
+        ],
+        "people_count": 2,
+        "nudity": "no",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "romantic",
+        "mood_tags": [
+          "romantic",
+          "vintage",
+          "elegant",
+          "dreamy",
+          "sentimental"
+        ]
+      }
+    },
+    "unique_id": "Wild Rose_1940_1940-francesdenny.png"
+  },
+  {
+    "name": "Emeraude the Jewel Fragrance",
+    "year": 1940,
+    "gender": "women",
+    "brand": "Coty",
+    "ad-image": "images/aa/1940-coty-3.jpg",
+    "copy": "Does the emerald's brooding mystery thrill you? Then you'll enjoy collecting these Emeraude Accessories! All glow with the fragrance that the emerald inspired all are matched in their sumptuous d\u00e9cor, which stems from old Persian manuscripts.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1940-coty-3.jpg",
+    "analysis": {
+      "vision": {
+        "description": "A vintage perfume advertisement features an elegant hand with polished nails reaching over a selection of ornately designed perfume bottles with an emerald theme.",
+        "people": [],
+        "people_count": 0,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "none",
+        "mood_tags": [
+          "elegant",
+          "luxurious",
+          "classic",
+          "artistic",
+          "vintage"
+        ]
+      }
+    },
+    "unique_id": "Emeraude the Jewel Fragrance_1940_1940-coty-3.jpg"
+  }
+]

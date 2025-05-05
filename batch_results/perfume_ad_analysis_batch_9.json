@@ -1,0 +1,194 @@
+[
+  {
+    "name": "4711 Eau de Cologne",
+    "year": 1925,
+    "gender": "unisex",
+    "brand": "4711",
+    "country": "germany",
+    "ad-image": "images/aa/1925-4711.png",
+    "copy": "You really ought to try a quick massage with 4711 Eau de Cologne, after the morning batin. It makes you feel gloriously fin for the rest of the day. I know it sounds extravagant, but really it's worth it, only you must ask for 4711-it is a bottle with the Blue and Gold Gabel. I've just finished a Aong cross country run and Jam due for a big dance to-night and I'm feeling splendid.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1925-4711.png",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement features a woman in a formal dress, seated and holding a perfume bottle, with ornate decorative borders.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "neutral",
+            "pose_action": "sitting and holding perfume bottle",
+            "emotion_tags": [
+              "elegant",
+              "calm",
+              "sophisticated",
+              "refined",
+              "poised"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "vintage",
+          "classy",
+          "graceful",
+          "stylish",
+          "serene"
+        ]
+      }
+    },
+    "unique_id": "4711 Eau de Cologne_1925_1925-4711.png"
+  },
+  {
+    "name": "Diorama",
+    "year": 1950,
+    "gender": "women",
+    "brand": "Dior",
+    "country": "france",
+    "ad-image": "images/aa/1950-dior-2.png",
+    "copy": "a new atomizer",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1950-dior-2.png",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement features an illustrated woman in a flowing pink dress with her face hidden, alongside a Christian Dior perfume bottle.",
+        "people": [
+          {
+            "gender": "unclear",
+            "facial_expression": "hidden face",
+            "pose_action": "standing",
+            "emotion_tags": [
+              "elegant",
+              "mysterious",
+              "graceful",
+              "sophisticated",
+              "stylish"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "elegant",
+          "classic",
+          "refined",
+          "artistic",
+          "timeless"
+        ]
+      }
+    },
+    "unique_id": "Diorama_1950_1950-dior-2.png"
+  },
+  {
+    "name": "Diorissimo",
+    "year": 1950,
+    "gender": "women",
+    "brand": "Dior",
+    "country": "france",
+    "ad-image": "images/aa/1950-dior-3.png",
+    "copy": "",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1950-dior-3.png",
+    "analysis": {
+      "vision": {
+        "description": "A vintage perfume advertisement featuring a bottle with flowers and text promoting Christian Dior Diorissimo.",
+        "people": [],
+        "people_count": 0,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "none",
+        "mood_tags": [
+          "elegant",
+          "classic",
+          "vintage",
+          "luxurious",
+          "artistic"
+        ]
+      }
+    },
+    "unique_id": "Diorissimo_1950_1950-dior-3.png"
+  },
+  {
+    "name": "4711 Eau de Cologne",
+    "year": 1925,
+    "gender": "unisex",
+    "brand": "4711",
+    "country": "germany",
+    "ad-image": "images/aa/1925-4711-2.png",
+    "copy": "Archives How to keep dainty and attractive rough out the activities of the long, hot summer days how to allay the ugly flush of sunburn. Use 4711 This Eau de Cologne contains all the requisites for helping women to retain their loveliness and charm on all occasions. A few drops of 4711 in the wash basin or bath, morning and evening, will lay the foundation for the health and beauty of your skin during the coming vagaries of summer's heat. Be sure you get the genuine, you can tell it by the Blue and Gold Label.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1925-4711-2.png",
+    "analysis": {
+      "vision": {
+        "description": "The perfume advertisement features a woman in an elegant dress holding a parasol, accompanied by a dog. The backdrop includes ornate columns and text promoting the product.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "neutral",
+            "pose_action": "standing with a parasol",
+            "emotion_tags": [
+              "elegant",
+              "composed",
+              "poised",
+              "graceful",
+              "calm"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "none",
+        "mood_tags": [
+          "elegant",
+          "vintage",
+          "classic",
+          "refined",
+          "graceful"
+        ]
+      }
+    },
+    "unique_id": "4711 Eau de Cologne_1925_1925-4711-2.png"
+  },
+  {
+    "name": "Organza Indecence",
+    "year": 1990,
+    "gender": "women",
+    "brand": "Givenchy",
+    "country": "france",
+    "ad-image": "images/aa/1990-givenchy.png",
+    "copy": "",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1990-givenchy.png",
+    "analysis": {
+      "vision": {
+        "description": "A woman in a white dress poses against a desert backdrop with a Givenchy perfume bottle beside her.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "neutral",
+            "pose_action": "standing",
+            "emotion_tags": [
+              "confident",
+              "elegant",
+              "serene",
+              "poised",
+              "composed"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "partial",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "none",
+        "mood_tags": [
+          "luxurious",
+          "desirable",
+          "bold",
+          "sophisticated",
+          "chic"
+        ]
+      }
+    },
+    "unique_id": "Organza Indecence_1990_1990-givenchy.png"
+  }
+]

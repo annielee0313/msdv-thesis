@@ -1,0 +1,169 @@
+[
+  {
+    "name": "Intoxication",
+    "year": 1950,
+    "gender": "women",
+    "brand": "D'Orsay",
+    "ad-image": "images/aa/1950-dorsay-2.png",
+    "copy": "Someone lovely has just passed by! Someone wearing Intoxication D'orsay.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1950-dorsay-2.png",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement shows a group of people dressed in 1950s attire, reacting with delight as they pass a woman wearing a red coat.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "neutral",
+            "pose_action": "walking",
+            "emotion_tags": [
+              "confident",
+              "stylish",
+              "glamorous",
+              "intriguing",
+              "poised"
+            ]
+          },
+          {
+            "gender": "man",
+            "facial_expression": "delighted",
+            "pose_action": "tipping hat",
+            "emotion_tags": [
+              "charmed",
+              "amused",
+              "admiring",
+              "playful",
+              "engaged"
+            ]
+          },
+          {
+            "gender": "man",
+            "facial_expression": "smiling",
+            "pose_action": "holding newspaper",
+            "emotion_tags": [
+              "charmed",
+              "happy",
+              "admiring",
+              "engaged",
+              "pleased"
+            ]
+          },
+          {
+            "gender": "man",
+            "facial_expression": "smiling",
+            "pose_action": "holding briefcase",
+            "emotion_tags": [
+              "charmed",
+              "happy",
+              "admiring",
+              "engaged",
+              "pleased"
+            ]
+          },
+          {
+            "gender": "man",
+            "facial_expression": "curious",
+            "pose_action": "holding umbrella",
+            "emotion_tags": [
+              "curious",
+              "engaged",
+              "interested",
+              "attentive",
+              "intrigued"
+            ]
+          },
+          {
+            "gender": "man",
+            "facial_expression": "smiling",
+            "pose_action": "leaning forward",
+            "emotion_tags": [
+              "charmed",
+              "engaged",
+              "amused",
+              "attentive",
+              "pleased"
+            ]
+          }
+        ],
+        "people_count": 6,
+        "nudity": "no",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "group",
+        "mood_tags": [
+          "vintage",
+          "elegant",
+          "charming",
+          "sophisticated",
+          "playful"
+        ]
+      }
+    },
+    "unique_id": "Intoxication_1950_1950-dorsay-2.png"
+  },
+  {
+    "name": "Cherie Miss Dior",
+    "year": 2009,
+    "gender": "women",
+    "brand": "Dior",
+    "ad-image": "images/aa/2009-dior.jpg",
+    "copy": "",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/2009-dior.jpg",
+    "analysis": {
+      "vision": {
+        "description": "A woman in a pink dress is holding colorful balloons and a large perfume bottle, floating over a cityscape with the Eiffel Tower in the background.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "smiling",
+            "pose_action": "holding balloons and perfume bottle",
+            "emotion_tags": [
+              "joyful",
+              "free",
+              "elegant",
+              "playful",
+              "whimsical"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "uplifting",
+          "romantic",
+          "dreamlike",
+          "chic",
+          "lighthearted"
+        ]
+      }
+    },
+    "unique_id": "Cherie Miss Dior_2009_2009-dior.jpg"
+  },
+  {
+    "name": "Florient",
+    "year": 1990,
+    "gender": "unisex",
+    "brand": "Colgate",
+    "ad-image": "images/aa/1990-colgate.png",
+    "copy": "The rare oriental fragrance of Colgate's florient won first place in a famous perfume contest. This marvelous perfume may be had also in Toilet water, face poweder, talc powder, and soap",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1990-colgate.png",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement features a large perfume bottle set against a serene landscape with mountains and a body of water reflecting the sunset.",
+        "people": [],
+        "people_count": 0,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "none",
+        "mood_tags": [
+          "calm",
+          "serene",
+          "elegant",
+          "natural",
+          "tranquil"
+        ]
+      }
+    },
+    "unique_id": "Florient_1990_1990-colgate.png"
+  }
+]
