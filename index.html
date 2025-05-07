@@ -14,7 +14,7 @@
               <!-- LEFT: Summary + Ads -->
               <div class="left-column">
                 <div class="title-label">
-                  <img src="assets/fluidnotes.svg" alt="Fluidnotes" class="fluidnotes-logo">
+                  <img src="assets/logo.svg" alt="Fluidnotes" class="fluidnotes-logo">
                 </div>
                 <div id="era-display" class="era-container">
                   <div class="era-navigation">
@@ -45,9 +45,10 @@
                       </svg>
                     </button>
                   </div>
-                  <div class="era-years">Year Range</div>
+                  
                   <div class="era-title">Era Title</div>
-                  <div class="era-gender-label">Gender Approach:</div>
+                  <div class="era-years">Year Range</div>
+                  <!-- <div class="era-gender-label">Gender Approach:</div> -->
                   <div class="era-gender-approach">Approach</div>
                   <div class="era-description">Description text will go here.</div>
                   
@@ -103,14 +104,15 @@
                   <!-- MIDDLE: Year + Notes Graph -->
                   <div class="middle-column">
                     <div id="pie-chart-tooltip"></div>
+                    <div class="chart-label">Fragrance Releases</br> By Gender</div>
                     <div class="pie-chart-wrapper">
                       <svg id="pie-chart" width="160" height="160"></svg>
                     </div>
-                    <div class="chart-label">Fragrance Releases</div>
                     
-                    <div id="grid-tooltip" class="tooltip"></div>
-                    <svg id="notes-graph"></svg>
-                    <div class="chart-label">Notes Mosaic</div>      
+
+                    <!-- <div id="grid-tooltip" class="tooltip"></div>
+                    <div class="chart-label-2">Notes Mosaic</div> 
+                    <svg id="notes-graph"></svg>      -->
                   </div>
                 
                   <!-- RIGHT: Bar Chart -->
@@ -123,26 +125,41 @@
                 </div>
               </div>
               
-              <!-- Replace the current ads-right-section with this simplified version -->
+              <!-- Ads Right Section -->
               <div class="ads-right-section" style="display: none;">
-                <!-- Treemap Row - Empty container for visualization -->
+                <!-- Treemap Row -->
                 <div class="treemap-row">
-                  <div class="treemap-container" id="treemap-container">
-                    <!-- Will be populated with D3 -->
+                  
+                  <div class="treemap-wrapper" data-gender="women">
+                    <div class="treemap-title">Women's Ads</div>
+                    <div class="breadcrumb" id="breadcrumb-women">Character Breakdown</div>
+                    <button class="back-button" id="back-button-women">←</button>
+                    <svg id="treemap-women" width="100%" height="200"></svg>
+                  </div>
+                  <div class="treemap-wrapper" data-gender="men">
+                    <div class="treemap-title">Men's Ads</div>
+                    <div class="breadcrumb" id="breadcrumb-men">Character Breakdown</div>
+                    <button class="back-button" id="back-button-men">←</button>
+                    <svg id="treemap-men" width="100%" height="200"></svg>
+                  </div>
+                  <div class="treemap-wrapper" data-gender="unisex">
+                    <div class="treemap-title">Unisex Ads</div>
+                    <div class="breadcrumb" id="breadcrumb-unisex">Character Breakdown</div>
+                    <button class="back-button" id="back-button-unisex">←</button>
+                    <svg id="treemap-unisex" width="100%" height="200"></svg>
                   </div>
                 </div>
                 
-                <!-- Gallery Row -->
+                <div id="treemap-tooltip" class="tooltip"></div>
+
+                <!-- Gallery Row - keeping just the container as requested -->
                 <div class="gallery-row">
-                  <div class="gallery-header">
-                    <h3 class="gallery-title">Gallery</h3>
-                    <div class="gallery-count"><span id="ad-count">0</span> ads</div>
-                  </div>
-                  <div class="gallery-grid" id="gallery-grid">
-                    <!-- Will be populated with JavaScript -->
+                  <div class="gallery-container" id="gallery-container">
+                    gallery container - populate with d3 as well
                   </div>
                 </div>
               </div>
+              
             </div>
           </div>
       
@@ -170,6 +187,7 @@
       
 
   <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script type="module" src="./js/adsTreemap.js"></script>
   <script src="https://unpkg.com/scrollama"></script>
   <script type="module" src="./js/main.js"></script>
   <script src="./js/dropdown.js"></script>

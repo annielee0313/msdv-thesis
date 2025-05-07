@@ -23,7 +23,18 @@ export function setupScrolly(availableYears, onStepChange) {
     // Add timeline line
     scrollInner.append("div")
       .attr("class", "timeline-line");
-  
+      
+    // Add scroll down guidance text
+    scrollInner.append("div")
+      .attr("class", "scroll-guidance")
+      .text("Scroll through Gender Milestones")
+      .style("position", "absolute")
+      .style("left", `${spacerWidth - 180}px`) // Position to the left of 1900
+      .style("bottom", "-18px") // Position below the timeline
+      .style("font-size", "1rem")
+      .style("color", "#6D7084")
+      .style("font-style", "italic");
+    
     // Create steps with data-year attribute and indicators
     const steps = scrollInner.selectAll(".step")
       .data(availableYears)
@@ -95,6 +106,11 @@ export function setupScrolly(availableYears, onStepChange) {
         const scrollTop = window.scrollY;
         const scrollHeight = document.body.scrollHeight - window.innerHeight;
         
+        // Hide the guidance text on first scroll
+        if (isFirstScroll) {
+          d3.select(".scroll-guidance").classed("hidden", true);
+        }
+        
         // Special handling for first scroll to prevent large jumps
         if (isFirstScroll) {
           // Use relative movement for first scroll instead of absolute position
@@ -149,12 +165,55 @@ export function setupScrolly(availableYears, onStepChange) {
         lastYear = closestStep;
         d3.selectAll(".step").classed("is-active", d => d === closestStep);
         
+        // Update active step color based on gender distribution
+        updateActiveStepColor(closestStep);
+        
         if (window.updateEraProgress) {
           window.updateEraProgress(closestStep);
         }
         
         onStepChange(closestStep);
       }
+    }
+
+    // Helper function to update the color of the active step based on the dominant gender
+    function updateActiveStepColor(year) {
+      // Find the gender distribution data for this year from release_year.json
+      // (This data should already be loaded by main.js)
+      const yearData = window.releaseData?.find(d => d.year === year);
+      
+      if (!yearData) return; // No data for this year
+      
+      // Get counts for each gender
+      const womenCount = yearData.women || 0;
+      const menCount = yearData.men || 0;
+      const unisexCount = yearData.unisex || 0;
+      
+      // Determine the dominant gender
+      let dominantGender = 'women'; // default
+      let maxCount = womenCount;
+      
+      if (menCount > maxCount) {
+        dominantGender = 'men';
+        maxCount = menCount;
+      }
+      
+      if (unisexCount > maxCount) {
+        dominantGender = 'unisex';
+      }
+      
+      // Set color based on dominant gender - using same colors as the pie chart
+      const genderColors = {
+        women: "#DCDFED", // Light purple/blue
+        men: "#C4CDF4",   // Medium blue 
+        unisex: "#C181B2" // Pink/purple
+      };
+      
+      // Apply color to ONLY the active step
+      d3.select(".step.is-active").style("background-color", genderColors[dominantGender]);
+      
+      // Make sure other steps return to default styling when they're no longer active
+      d3.selectAll(".step:not(.is-active)").style("background-color", "");
     }
 
     // Key improvement: scrollToYear now updates page scroll position
@@ -185,6 +244,9 @@ export function setupScrolly(availableYears, onStepChange) {
       // Update active step
       lastYear = year;
       d3.selectAll(".step").classed("is-active", d => d === year);
+      
+      // Update active step color based on gender distribution
+      updateActiveStepColor(year);
       
       // Callbacks
       if (window.updateEraProgress) {

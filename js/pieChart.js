@@ -1,8 +1,8 @@
 export function renderPieChart({ women = 0, men = 0, unisex = 0 }) {
   const data = [
-    { label: "Women", value: women, color: "#A18888" },
-    { label: "Men", value: men, color: "#515E6B" },
-    { label: "Unisex", value: unisex, color: "#74705F" }
+    { label: "Women", value: women, color: "#DCDFED" },
+    { label: "Men", value: men, color: "#C4CDF4" },
+    { label: "Unisex", value: unisex, color: "#C181B2" }
   ];
 
   // Filter out zero values to handle edge cases

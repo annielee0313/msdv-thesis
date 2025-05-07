@@ -6,9 +6,9 @@ let rowSpacing = 10;
 let margin = { top: 10, right: 0, bottom: 0, left: 10 }; // Reduced left margin
 let labelWidthBuffer = 220;
 let genderColors = {
-  women: "#A18888",
-  men: "#515E6B",
-  unisex: "#74705F"
+  women: "#DCDFED",
+  men: "#C4CDF4",
+  unisex: "#C181B2"
 };
 let detailHeight = 220; // Height of the expanded detail view
 
@@ -24,6 +24,15 @@ export function renderStackedBarChart(noteData, notesMap, noteTypeFilter = 'all'
   const rightSection = document.querySelector('.right-section');
   if (rightSection.style.display === 'none' || !noteData) {
     return; // Exit early if the container is hidden
+  }
+
+  // Create defs element for gradients if it doesn't exist
+  let defs = svg.select("defs");
+  if (defs.empty()) {
+    defs = svg.append("defs");
+  } else {
+    // Clear existing gradients to avoid duplicates
+    defs.selectAll("linearGradient").remove();
   }
 
   // Get container width dynamically
@@ -127,13 +136,14 @@ export function renderStackedBarChart(noteData, notesMap, noteTypeFilter = 'all'
     const g = d3.select(this);
     const total = d.total;
     let xOffset = 0;
+    const segmentPadding = 2; // Add padding between segments
 
     // Women segment
     g.append("rect")
       .attr("class", "women-segment")
       .attr("x", xOffset)
       .attr("y", -barHeight / 2)
-      .attr("width", x(d.women / total))
+      .attr("width", Math.max(0, x(d.women / total) - segmentPadding)) // Subtract padding
       .attr("height", barHeight)
       .attr("fill", genderColors.women)
       .on("mouseover", function(event) {
@@ -152,14 +162,14 @@ export function renderStackedBarChart(noteData, notesMap, noteTypeFilter = 'all'
         d3.select("#bar-chart-tooltip").style("display", "none");
       });
 
-    xOffset += x(d.women / total);
+    xOffset += x(d.women / total); // Keep the full width for positioning
 
     // Unisex segment
     g.append("rect")
       .attr("class", "unisex-segment")
-      .attr("x", xOffset)
+      .attr("x", xOffset + segmentPadding/2) // Add half padding to left
       .attr("y", -barHeight / 2)
-      .attr("width", x(d.unisex / total))
+      .attr("width", Math.max(0, x(d.unisex / total) - segmentPadding)) // Subtract padding
       .attr("height", barHeight)
       .attr("fill", genderColors.unisex)
       .on("mouseover", function(event) {
@@ -178,14 +188,14 @@ export function renderStackedBarChart(noteData, notesMap, noteTypeFilter = 'all'
         d3.select("#bar-chart-tooltip").style("display", "none");
       });
 
-    xOffset += x(d.unisex / total);
+    xOffset += x(d.unisex / total); // Keep the full width for positioning
 
     // Men segment
     g.append("rect")
       .attr("class", "men-segment")
-      .attr("x", xOffset)
+      .attr("x", xOffset + segmentPadding/2) // Add half padding to left
       .attr("y", -barHeight / 2)
-      .attr("width", x(d.men / total))
+      .attr("width", Math.max(0, x(d.men / total) - segmentPadding/2)) // Subtract half padding (end of bar)
       .attr("height", barHeight)
       .attr("fill", genderColors.men)
       .on("mouseover", function(event) {
@@ -213,26 +223,27 @@ export function renderStackedBarChart(noteData, notesMap, noteTypeFilter = 'all'
   barGroups.each(function(d) {
     const group = d3.select(this);
     const total = d.total;
+    const segmentPadding = 2; // Same padding value
     
     // Update women segment
     group.select(".women-segment")
       .transition()
       .duration(300)
-      .attr("width", x(d.women / total));
+      .attr("width", Math.max(0, x(d.women / total) - segmentPadding));
     
     // Update unisex segment
     group.select(".unisex-segment")
       .transition()
       .duration(300)
-      .attr("width", x(d.unisex / total))
-      .attr("x", x(d.women / total));
+      .attr("width", Math.max(0, x(d.unisex / total) - segmentPadding))
+      .attr("x", x(d.women / total) + segmentPadding/2);
     
     // Update men segment
     group.select(".men-segment")
       .transition()
       .duration(300)
-      .attr("width", x(d.men / total))
-      .attr("x", x((d.women + d.unisex) / total));
+      .attr("width", Math.max(0, x(d.men / total) - segmentPadding/2))
+      .attr("x", x((d.women + d.unisex) / total) + segmentPadding/2);
   });
 
   // Remove exiting bar groups
@@ -258,10 +269,31 @@ export function renderStackedBarChart(noteData, notesMap, noteTypeFilter = 'all'
     const pillHeight = barHeight;
     const imageSize = 25;
 
+    // Create a linear gradient definition for this note
+    const gradientId = `note-gradient-${d.note.replace(/\s+/g, '-').toLowerCase()}`;
+    const gradient = g.append("linearGradient")
+      .attr("id", gradientId)
+      .attr("x1", "0%")
+      .attr("y1", "0%")
+      .attr("x2", "40%") // Gradient covers 40% of the left section
+      .attr("y2", "0%");
+
+    // Define gradient stops - same color but different opacity
+    const baseColor = d.color;
+    gradient.append("stop")
+      .attr("offset", "0%")
+      .attr("stop-color", baseColor)
+      .attr("stop-opacity", 0); // Change from 0.5 to 0 for starting opacity
+
+    gradient.append("stop")
+      .attr("offset", "100%")
+      .attr("stop-color", baseColor)
+      .attr("stop-opacity", 1); // End with 100% opacity
+    
     // Create the arrow shape first (background)
     g.append("path")
       .attr("d", perfumeTesterPath(fixedWidth, pillHeight, arrowSize))
-      .attr("fill", d.color)
+      .attr("fill", `url(#${gradientId})`) // Use the gradient instead of solid color
       .attr("transform", `translate(0, ${-pillHeight / 2})`);
     
     // Add note image but make it invisible by default
@@ -285,16 +317,16 @@ export function renderStackedBarChart(noteData, notesMap, noteTypeFilter = 'all'
       .attr("y", 0)
       .attr("alignment-baseline", "middle")
       .attr("font-family", "Instrument Sans, sans-serif")
-      .attr("font-size", "11px")
-      .attr("fill", "#000")
-      .text(d.note.toUpperCase());
+      .attr("font-size", "0.7rem")
+      .attr("fill", "#3a3a3a")
+      .text(toTitleCase(d.note)); 
 
     // Calculate text width to ensure text fits
     const textWidth = text.node().getComputedTextLength();
     
     // If text is too long, truncate with ellipsis
     if (textWidth > fixedWidth - paddingLeft - arrowSize - 5) {
-      let truncatedText = d.note.toUpperCase();
+      let truncatedText = toTitleCase(d.note); // Change to title case instead of uppercase
       while (text.node().getComputedTextLength() > fixedWidth - paddingLeft - arrowSize - 15) {
         truncatedText = truncatedText.slice(0, -1);
         text.text(truncatedText + '...');
@@ -409,7 +441,7 @@ function renderNoteDetailView(noteName, parentElement, dataArray, yPosition) {
   detailContainer.append("rect")
     .attr("width", detailWidth)
     .attr("height", detailHeight)
-    .attr("fill", "#FFFCF5")
+    .attr("fill", "#f8f8f8")
     .attr("rx", 5);
   
   // Setup chart dimensions
@@ -620,22 +652,50 @@ function renderNoteDetailView(noteName, parentElement, dataArray, yPosition) {
 
   // Add paired note pills
   let xOffset = 180;
-  pairedNotes.forEach((note) => {
+  pairedNotes.forEach((note, i) => {
+    // Position at the exact same Y as the label for alignment
     const pillGroup = detailContainer.append("g")
-      .attr("transform", `translate(${xOffset}, ${pillRowY - 10})`);
+      .attr("transform", `translate(${xOffset}, ${pillRowY})`);
 
-    const paddingX = 15; // Reduced padding (was 25) since we don't need image space
+    const paddingX = 15;
     const pillHeight = 20;
     const arrowSize = 8;
     
+    // Create gradient for paired note
+    const baseColor = getColor(note, window.notesMap) || "#ccc";
+    const detailGradientId = `paired-note-gradient-${i}-${note.replace(/\s+/g, '-').toLowerCase()}`;
+    
+    // Add gradient to the main SVG defs
+    const svg = d3.select("#stacked-bar-chart");
+    const defs = svg.select("defs");
+    
+    const gradient = defs.append("linearGradient")
+      .attr("id", detailGradientId)
+      .attr("x1", "0%")
+      .attr("y1", "0%")
+      .attr("x2", "40%")
+      .attr("y2", "0%");
+      
+    gradient.append("stop")
+      .attr("offset", "0%")
+      .attr("stop-color", baseColor)
+      .attr("stop-opacity", 0); // Start with 0% opacity
+      
+    gradient.append("stop")
+      .attr("offset", "100%")
+      .attr("stop-color", baseColor)
+      .attr("stop-opacity", 1);
+    
     // First add text to measure its width
     const pillText = pillGroup.append("text")
-      .attr("x", paddingX) // Adjust text position (was paddingX - 2)
-      .attr("y", pillHeight / 2)
+      .attr("x", paddingX)
+      .attr("y", 0) // Center at Y=0 (we're already at pillRowY from the transform)
       .attr("alignment-baseline", "middle")
       .attr("font-size", "11px")
       .attr("font-family", "Instrument Sans, sans-serif")
-      .text(note.toUpperCase());
+      .text(function(d) { 
+        return toTitleCase(note); 
+      });
 
     // Calculate dynamic width based on text content
     const textWidth = pillText.node().getComputedTextLength();
@@ -644,7 +704,8 @@ function renderNoteDetailView(noteName, parentElement, dataArray, yPosition) {
     // Now create the arrow shape background with the correct width
     pillGroup.insert("path", "text")
       .attr("d", perfumeTesterPath(pillWidth, pillHeight, arrowSize))
-      .attr("fill", getColor(note, window.notesMap) || "#ccc");
+      .attr("fill", `url(#${detailGradientId})`)
+      .attr("transform", `translate(0, ${-pillHeight / 2})`);
     
     // Update xOffset for next pill based on this pill's width
     xOffset += pillWidth + 8;
@@ -672,4 +733,11 @@ function getCoOccurringNotes(fragrances, selectedNote) {
     .sort((a, b) => b[1] - a[1])
     .slice(0, 5)
     .map(([note]) => note);
+}
+
+// Helper function to convert string to Title Case
+function toTitleCase(str) {
+  return str.split(' ')
+    .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+    .join(' ');
 }

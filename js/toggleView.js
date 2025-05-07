@@ -19,6 +19,12 @@ document.addEventListener('DOMContentLoaded', function() {
         rightSection.style.display = 'flex';
         adsRightSection.style.display = 'none';
         
+        // Dispatch an event that we've switched to notes view
+        const viewToggledEvent = new CustomEvent('viewToggled', {
+          detail: { view: 'notes' }
+        });
+        document.dispatchEvent(viewToggledEvent);
+        
         // IMPORTANT: Trigger redraw of visualizations
         setTimeout(() => {
           // This needs to happen after the display change takes effect
@@ -30,26 +36,36 @@ document.addEventListener('DOMContentLoaded', function() {
           window.dispatchEvent(new Event('resize'));
         }, 10);
       } else if (mode === 'ads') {
-        // Cancel any pending visualization updates
-        if (window.pendingChartUpdate) {
-          clearTimeout(window.pendingChartUpdate);
-        }
-        
         // Hide notes visualization, show ads visualization
         rightSection.style.display = 'none';
         adsRightSection.style.display = 'flex';
         
-        // Initialize/update ads visualization based on current era
-        const currentEraElement = document.querySelector('.era-segment .segment-fill[style*="width: 100%"]');
-        if (currentEraElement) {
-          const eraSegment = currentEraElement.parentElement;
-          const startYear = eraSegment.dataset.startYear;
-          const endYear = eraSegment.dataset.endYear;
-          const eraName = eraSegment.dataset.era;
+        // Dispatch an event that we've switched to ads view
+        const viewToggledEvent = new CustomEvent('viewToggled', {
+          detail: { view: 'ads' }
+        });
+        document.dispatchEvent(viewToggledEvent);
+        
+        // Get the current year from the active step
+        const currentYear = parseInt(d3.select(".step.is-active").text());
+        
+        // Find which era this year belongs to
+        if (window.summaryData) {
+          const currentEra = window.summaryData.find(era => 
+            currentYear >= era.start_year && currentYear <= era.end_year
+          );
           
-          // This function would be defined in your ads visualization code
-          if (window.updateAdsVisualization) {
-            window.updateAdsVisualization(startYear, endYear, eraName);
+          if (currentEra) {
+            console.log('Switching to ads view with era:', currentEra);
+            
+            // Store it for other components to use
+            window.currentEra = currentEra;
+            
+            // Dispatch the era changed event
+            const eraChangedEvent = new CustomEvent('eraChanged', { 
+              detail: { era: currentEra }
+            });
+            document.dispatchEvent(eraChangedEvent);
           }
         }
       }

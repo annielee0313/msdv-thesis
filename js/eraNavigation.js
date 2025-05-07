@@ -41,6 +41,24 @@ console.log("Navigation functions available: ", {
         // Calculate progress through this era
         const progress = ((year - startYear) / (endYear - startYear + 1)) * 100;
         segment.querySelector('.segment-fill').style.width = `${progress}%`;
+        
+        // Create an era object and dispatch an event when the ads view is active
+        if (document.querySelector('.ads-right-section').style.display !== 'none') {
+          const currentEra = {
+            start_year: startYear,
+            end_year: endYear,
+            era: segment.dataset.era
+          };
+          
+          // Store current era for other components
+          window.currentEra = currentEra;
+          
+          // Dispatch era change event
+          const eraChangedEvent = new CustomEvent('eraChanged', {
+            detail: { era: currentEra }
+          });
+          document.dispatchEvent(eraChangedEvent);
+        }
       } else {
         // If year is past this era, fill completely
         if (year > endYear) {

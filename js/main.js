@@ -54,6 +54,12 @@ Promise.all([
   d3.json('../ad/advertising_archives.json'),
   d3.json('../data/summary.json') // Add this line to load summary data
 ]).then(([releaseData, fragranceData, notesMap, milestoneData, adArchive, summaryData]) => {
+  // Make release data global so scrollama.js can access it
+  window.releaseData = releaseData;
+
+  // Add this line to make summary data globally available
+  window.summaryData = summaryData;
+
   const noteCountsByYear = getNoteGenderCountsByYearWithType(fragranceData);
   window.fragranceData = fragranceData; 
   window.notesMap = notesMap;
