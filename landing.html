@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Fluid Notes</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=1.0, initial-scale=1.0">
   <link rel="stylesheet" href="https://use.typekit.net/ina4ngi.css">
   <style>
     body, html {
@@ -33,8 +33,8 @@
     }
 
     .tagline {
-      font-family: "instrument-sans-variable", sans-serif;
-      font-size: 1.2rem;
+      font-family: "instrument-serif", serif;
+      font-size: 1.5rem;
       color: #6D7084;
       text-align: center;
       max-width: 600px;
@@ -97,7 +97,7 @@
 
     .header {
       position: absolute;
-      top: 20px;
+      top: 10%;
       left: 0;
       right: 0;
       display: flex;
@@ -154,6 +154,21 @@
       margin: 0;
     }
 
+    .tagline-char {
+      display: inline-block;
+      transform-origin: center bottom;
+    }
+
+    .tagline-word {
+      display: inline-block;
+      margin-right: 0.3em;
+    }
+
+    .tagline br {
+      display: block;
+      content: "";
+      margin-top: 0.5em;
+    }
   </style>
 </head>
 <body>
@@ -173,13 +188,16 @@
   <div class="notes-animation" id="notes-animation"></div>
   
   <div class="landing-container">
-    <img src="assets/logo.svg" alt="Fluid Notes" class="logo">
-    <p class="tagline">Over 25,000 perfumes. 100 years of gender. </br> Mapped through scent.</p>
+    <img src="assets/logo-landing.svg" alt="Fluid Notes" class="logo">
+    <p class="tagline">Over 25,000 Perfumes. 100 years of Gender. </br> Mapped through Scent.</p>
     <button class="cta-button" onclick="window.location.href='index.html'">Explore →</button>
   </div>
 
   <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/SplitText.min.js"></script>
   <script>
+
     function addFadeOverlays() {
       // Create left fade overlay (entering)
       const leftFade = document.createElement('div');
@@ -723,6 +741,73 @@
         const newWidth = window.innerWidth;
         const newHeight = window.innerHeight;
       });
+
+      // Logo and tagline animations - simplified without SplitText
+      function animateEntrance() {
+        const logo = document.querySelector('.logo');
+        const tagline = document.querySelector('.tagline');
+        const ctaButton = document.querySelector('.cta-button');
+        
+        // Create a GSAP timeline
+        const tl = gsap.timeline({defaults: {ease: "power3.out"}});
+        
+        // Set initial states
+        gsap.set(logo, {autoAlpha: 0, y: -30});
+        gsap.set(tagline, {autoAlpha: 0, y: 30});
+        gsap.set(ctaButton, {autoAlpha: 0, y: 20});
+        
+        // Animate logo first with a bounce effect
+        tl.to(logo, {
+          duration: 1.5,
+          autoAlpha: 1,
+          y: 0,
+          ease: "elastic.out(1, 0.5)"
+        });
+        
+        // Animate tagline with a smooth float-up effect
+        tl.to(tagline, {
+          duration: 1,
+          autoAlpha: 1,
+          y: 0,
+          ease: "back.out(1.7)"
+        }, "-=0.7");
+        
+        // Animate button last
+        tl.to(ctaButton, {
+          duration: 0.8,
+          autoAlpha: 1,
+          y: 0
+        }, "-=0.3");
+      }
+
+      // Add subtle hover animation for the logo
+      function setupLogoHover() {
+        const logo = document.querySelector('.logo');
+        
+        logo.addEventListener('mouseenter', () => {
+          gsap.to(logo, {
+            duration: 0.5,
+            scale: 1.05,
+            rotation: 2,
+            ease: "power1.out"
+          });
+        });
+        
+        logo.addEventListener('mouseleave', () => {
+          gsap.to(logo, {
+            duration: 0.5,
+            scale: 1,
+            rotation: 0,
+            ease: "power1.inOut"
+          });
+        });
+      }
+      
+      // Call with a slight delay to ensure DOM is ready
+      setTimeout(function() {
+        animateEntrance();
+        setupLogoHover();
+      }, 500);
     });
   </script>
 </body>
