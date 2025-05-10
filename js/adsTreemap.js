@@ -3,10 +3,10 @@ import { initializeGallery, updateGallery } from './adsGallery.js';
 
 // Define consistent color palette
 const genderColors = {
-  women: "#DCDFED",
+  women: "#E9D7E4",
   men: "#C4CDF4",
-  unisex: "#C181B2",
-  unclear: "#C181B2"
+  unisex: "#6D7084",
+  unclear: "#6D7084"
 };
 
 // Store navigation history for each treemap
@@ -564,7 +564,7 @@ function generateEmotionData(gender, characterType) {
           name: emotion,
           // Scale the value to maintain proper weighting
           value: (count / totalWomenValue) * totalCombined * womenWeight,
-          color: adjustColorBrightness(genderColors.women, index * 5),
+          color: adjustColorBrightness(genderColors.women, index * 2),
           type: "woman_emotion" // Mark as woman emotion for filtering
         };
       });
@@ -578,7 +578,7 @@ function generateEmotionData(gender, characterType) {
           name: emotion,
           // Scale the value to maintain proper weighting
           value: (count / totalMenValue) * totalCombined * menWeight,
-          color: adjustColorBrightness(genderColors.men, index * 5),
+          color: adjustColorBrightness(genderColors.men, index * 2),
           type: "man_emotion" // Mark as man emotion for filtering
         };
       });
@@ -664,7 +664,7 @@ function generateEmotionData(gender, characterType) {
         return {
           name: emotion,
           value: count,
-          color: adjustColorBrightness(baseColor, index * 5),
+          color: adjustColorBrightness(baseColor, index * 2),
           type: emotion
         };
       });
@@ -721,7 +721,7 @@ function generateMoodData(gender, filteredAdsList) {
       return {
         name: mood,
         value: count,
-        color: adjustColorBrightness("#DEDEDE", index * 3),
+        color: adjustColorBrightness("#DEDEDE", index * 2),
         type: mood
       };
     });

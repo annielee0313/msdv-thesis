@@ -6,9 +6,9 @@ let rowSpacing = 10;
 let margin = { top: 10, right: 0, bottom: 0, left: 10 }; // Reduced left margin
 let labelWidthBuffer = 220;
 let genderColors = {
-  women: "#DCDFED",
+  women: "#E9D7E4",
   men: "#C4CDF4",
-  unisex: "#C181B2"
+  unisex: "#6D7084"
 };
 let detailHeight = 220; // Height of the expanded detail view
 
@@ -91,6 +91,17 @@ export function renderStackedBarChart(noteData, notesMap, noteTypeFilter = 'all'
   
   svg.attr("width", width)
      .attr("height", totalHeight + margin.top + margin.bottom);
+     
+  // Add/update background rectangle to cover entire SVG
+  let background = svg.select(".chart-background");
+  if (background.empty()) {
+    background = svg.insert("rect", ":first-child")
+      .attr("class", "chart-background");
+  }
+  background
+    .attr("width", width)
+    .attr("height", totalHeight + margin.top + margin.bottom)
+    .attr("fill", "#F8F8F8");
 
   // Create x scale
   const x = d3.scaleLinear()
@@ -318,7 +329,7 @@ export function renderStackedBarChart(noteData, notesMap, noteTypeFilter = 'all'
       .attr("alignment-baseline", "middle")
       .attr("font-family", "Instrument Sans, sans-serif")
       .attr("font-size", "0.7rem")
-      .attr("fill", "#3a3a3a")
+      .attr("fill", "#6D7084")
       .text(toTitleCase(d.note)); 
 
     // Calculate text width to ensure text fits
@@ -646,6 +657,7 @@ function renderNoteDetailView(noteName, parentElement, dataArray, yPosition) {
     .attr("y", pillRowY)
     .attr("alignment-baseline", "middle")
     .attr("font-family", "Instrument Sans, sans-serif")
+    .attr("fill", "#6D7084")
     .attr("font-size", "11px")
     .text("COMMONLY PAIRED WITH:");
   
@@ -693,6 +705,7 @@ function renderNoteDetailView(noteName, parentElement, dataArray, yPosition) {
       .attr("alignment-baseline", "middle")
       .attr("font-size", "11px")
       .attr("font-family", "Instrument Sans, sans-serif")
+      .attr("fill", "#6D7084")
       .text(function(d) { 
         return toTitleCase(note); 
       });

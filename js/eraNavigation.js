@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
   // Era data from summary.json
   const eras = [
-    { start: 1900, end: 1939, name: "Idealized Femininity" },
-    { start: 1940, end: 1989, name: "Binary Boom" },
+    { start: 1900, end: 1949, name: "Idealized Femininity" },
+    { start: 1950, end: 1989, name: "Binary Boom" },
     { start: 1990, end: 2009, name: "Fluidity Emerges" },
     { start: 2010, end: 2025, name: "Age of Expression" }
   ];
