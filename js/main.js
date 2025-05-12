@@ -6,6 +6,7 @@ import { loadMilestones, updateMilestoneDisplay } from './milestone.js';
 import { loadAdData, updateAdPreview } from './adPreview.js';
 import { renderNotesGraph } from './notesGraph.js';
 import { updateEraDisplay } from './eraDisplay.js';
+import { initializeAdDetailModal, setNotesMapping } from './adDetailModal.js';
 
 function getDecadeLabel(year) {
   if (year <= 1980) {
@@ -51,7 +52,7 @@ Promise.all([
   d3.json('../data/fragrantica.json'),
   d3.json('../data/notes_mapping.json'),
   d3.json('../data/gender_milestone.json'),
-  d3.json('../ad/advertising_archives.json'),
+  d3.json('../ad/ad_analysis.json'),
   d3.json('../data/summary.json') // Add this line to load summary data
 ]).then(([releaseData, fragranceData, notesMap, milestoneData, adArchive, summaryData]) => {
   // Make release data global so scrollama.js can access it
@@ -66,7 +67,13 @@ Promise.all([
 
   window.milestones = milestoneData;
   window.adData = adArchive;
+
+  // Initialize notes mapping for the modal
+  setNotesMapping(notesMap);
   
+  // Initialize the modal
+  initializeAdDetailModal();
+
   // Precompute trend data for all notes to improve performance
   console.log("Precomputing trend data for all notes...");
   const allNoteTrends = {};

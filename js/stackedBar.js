@@ -271,10 +271,10 @@ export function renderStackedBarChart(noteData, notesMap, noteTypeFilter = 'all'
     .attr("transform", (d, i) => `translate(${margin.left}, ${getYPosition(d, i) + barHeight / 2})`)
     .style("cursor", "pointer");
 
-  // Create pill background, image, and text
+  // Update the note label section to add tooltips
   labelEnter.each(function(d) {
     const g = d3.select(this);
-    const paddingLeft = 35; // Increased to make room for image when shown
+    const paddingLeft = 35; // Keep existing padding
     const fixedWidth = 200;
     const arrowSize = 12;    
     const pillHeight = barHeight;
@@ -286,7 +286,7 @@ export function renderStackedBarChart(noteData, notesMap, noteTypeFilter = 'all'
       .attr("id", gradientId)
       .attr("x1", "0%")
       .attr("y1", "0%")
-      .attr("x2", "40%") // Gradient covers 40% of the left section
+      .attr("x2", "40%") 
       .attr("y2", "0%");
 
     // Define gradient stops - same color but different opacity
@@ -294,20 +294,41 @@ export function renderStackedBarChart(noteData, notesMap, noteTypeFilter = 'all'
     gradient.append("stop")
       .attr("offset", "0%")
       .attr("stop-color", baseColor)
-      .attr("stop-opacity", 0); // Change from 0.5 to 0 for starting opacity
+      .attr("stop-opacity", 0);
 
     gradient.append("stop")
       .attr("offset", "100%")
       .attr("stop-color", baseColor)
-      .attr("stop-opacity", 1); // End with 100% opacity
+      .attr("stop-opacity", 1);
     
     // Create the arrow shape first (background)
     g.append("path")
       .attr("d", perfumeTesterPath(fixedWidth, pillHeight, arrowSize))
-      .attr("fill", `url(#${gradientId})`) // Use the gradient instead of solid color
-      .attr("transform", `translate(0, ${-pillHeight / 2})`);
+      .attr("fill", `url(#${gradientId})`) 
+      .attr("transform", `translate(0, ${-pillHeight / 2})`)
+      // Add tooltip behavior for the path (pill shape)
+      .on("mouseover", function(event) {
+        // Get the category for this note
+        const category = getCategory(d.note, notesMap);
+        const tooltipColor = d.color || "#6D7084"; // Use the note's color
+        
+        d3.select("#bar-chart-tooltip")
+          .style("display", "block")
+          .style("left", (event.clientX + 12) + "px") 
+          .style("top", (event.clientY - 20) + "px")
+          .style("background-color", tooltipColor + "95") // Color with 15% opacity
+          .style("border", `1px solid ${tooltipColor}`) // Add border with full color
+          .html(`${toTitleCase(category)} Note • Click to expand`);
+      })
+      .on("mouseout", function() {
+        d3.select("#bar-chart-tooltip")
+          .style("display", "none")
+          // Reset styles to default when tooltip disappears
+          .style("background-color", "#f8f8f8") 
+          .style("border", "none");
+      });
     
-    // Add note image but make it invisible by default
+    // Add note image but make it invisible by default - keep this as is
     const noteImage = g.append("image")
       .attr("class", "note-image")
       .attr("xlink:href", `data/notes_images/${d.note.toLowerCase()}.jpg`)
@@ -322,7 +343,7 @@ export function renderStackedBarChart(noteData, notesMap, noteTypeFilter = 'all'
         d3.select(this).style("display", "none");
       });
 
-    // Create text after image (with increased padding)
+    // Create text after image with added tooltip behavior
     const text = g.append("text")
       .attr("x", paddingLeft)
       .attr("y", 0)
@@ -330,21 +351,47 @@ export function renderStackedBarChart(noteData, notesMap, noteTypeFilter = 'all'
       .attr("font-family", "Instrument Sans, sans-serif")
       .attr("font-size", "0.7rem")
       .attr("fill", "#6D7084")
-      .text(toTitleCase(d.note)); 
+      .text(toTitleCase(d.note))
+      // Add tooltip behavior to the text
+      .on("mouseover", function(event) {
+        // Get the category for this note
+        const category = getCategory(d.note, notesMap);
+        const tooltipColor = d.color || "#6D7084"; // Use the note's color
+        
+        d3.select("#bar-chart-tooltip")
+          .style("display", "block")
+          .style("left", (event.clientX + 12) + "px") 
+          .style("top", (event.clientY - 20) + "px")
+          .style("background-color", tooltipColor + "95") // Color with 15% opacity
+          .style("border", `1px solid ${tooltipColor}`) // Add border with full color
+          .html(`${toTitleCase(category)} Note • Click to expand`);
+      })
+      .on("mousemove", function(event) {
+        d3.select("#bar-chart-tooltip")
+          .style("left", (event.clientX + 12) + "px") 
+          .style("top", (event.clientY - 20) + "px"); 
+      })
+      .on("mouseout", function() {
+        d3.select("#bar-chart-tooltip")
+          .style("display", "none")
+          // Reset styles to default when tooltip disappears
+          .style("background-color", "#f8f8f8") 
+          .style("border", "none");
+      });
 
-    // Calculate text width to ensure text fits
+    // Calculate text width to ensure text fits - keep this as is
     const textWidth = text.node().getComputedTextLength();
     
-    // If text is too long, truncate with ellipsis
+    // If text is too long, truncate with ellipsis - keep this as is
     if (textWidth > fixedWidth - paddingLeft - arrowSize - 5) {
-      let truncatedText = toTitleCase(d.note); // Change to title case instead of uppercase
+      let truncatedText = toTitleCase(d.note);
       while (text.node().getComputedTextLength() > fixedWidth - paddingLeft - arrowSize - 15) {
         truncatedText = truncatedText.slice(0, -1);
         text.text(truncatedText + '...');
       }
     }
 
-    // Add hover handlers to show/hide image
+    // Keep existing hover handlers for the image
     g.on("mouseenter", function() {
       noteImage.transition()
         .duration(200)
@@ -653,17 +700,17 @@ function renderNoteDetailView(noteName, parentElement, dataArray, yPosition) {
   // Add commonly paired notes label
   const pillRowY = chartHeight + chartMargin.top + chartMargin.bottom + 22;
   detailContainer.append("text")
-    .attr("x", 15)
+    .attr("x", 30)
     .attr("y", pillRowY)
     .attr("alignment-baseline", "middle")
     .attr("font-family", "Instrument Sans, sans-serif")
     .attr("fill", "#6D7084")
     .attr("font-size", "11px")
-    .text("COMMONLY PAIRED WITH:");
+    .text("Commonly Paired with:");
   
 
   // Add paired note pills
-  let xOffset = 180;
+  let xOffset = 145;
   pairedNotes.forEach((note, i) => {
     // Position at the exact same Y as the label for alignment
     const pillGroup = detailContainer.append("g")

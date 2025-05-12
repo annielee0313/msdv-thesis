@@ -204,16 +204,28 @@ export function setupScrolly(availableYears, onStepChange) {
       
       // Set color based on dominant gender - using same colors as the pie chart
       const genderColors = {
-        women: "#DCDFED", // Light purple/blue
+        women: "#E9D7E4",  // Light pink
         men: "#C4CDF4",   // Medium blue 
-        unisex: "#C181B2" // Pink/purple
+        unisex: "#6D7084" // Dark gray
       };
       
+      // Get the active step
+      const activeStep = d3.select(".step.is-active");
+      
       // Apply color to ONLY the active step
-      d3.select(".step.is-active").style("background-color", genderColors[dominantGender]);
+      activeStep.style("background-color", genderColors[dominantGender]);
+      
+      // Set text color to white for unisex (dark background), default otherwise
+      if (dominantGender === 'unisex') {
+        activeStep.style("color", "#f8f8f8"); // Light text for dark background
+      } else {
+        activeStep.style("color", "#6D7084"); // Default text color
+      }
       
       // Make sure other steps return to default styling when they're no longer active
-      d3.selectAll(".step:not(.is-active)").style("background-color", "");
+      d3.selectAll(".step:not(.is-active)")
+        .style("background-color", "")
+        .style("color", "#6D7084");
     }
 
     // Key improvement: scrollToYear now updates page scroll position

@@ -5,25 +5,27 @@ let adsData = [];
 let activeFilters = [];
 let currentEra = null; // Add this to track the current era
 
+// Import the modal functions
+import { openAdDetailModal } from './adDetailModal.js';
+
 // Initialize the gallery functionality
 function initializeGallery() {
   // Set up the gallery container
   const galleryContainer = document.getElementById('gallery-container');
   
-  // Style the gallery container
+  // Style the gallery container - increase height and remove overflow constraint
   galleryContainer.innerHTML = '';
   galleryContainer.style.position = 'relative';
-  galleryContainer.style.overflow = 'hidden'; // Hide overflow
-  galleryContainer.style.height = '250px';
+  galleryContainer.style.height = '280px'; // Increase height from 250px to 280px
   
   // Create a carousel container for the ads
   const carouselContainer = document.createElement('div');
   carouselContainer.className = 'gallery-carousel';
   carouselContainer.style.display = 'flex';
-  carouselContainer.style.height = 'calc(100% - 30px)'; // Leave room for counter
-  carouselContainer.style.alignItems = 'center'; // Vertically center images
+  carouselContainer.style.height = '100%'; 
+  carouselContainer.style.alignItems = 'center'; 
   carouselContainer.style.transition = 'transform 0.4s ease';
-  carouselContainer.style.padding = '15px 0';
+  carouselContainer.style.padding = '15px 0 25px 0'; // Add more padding at the bottom
   
   // Create navigation buttons
   const prevBtn = document.createElement('button');
@@ -42,16 +44,14 @@ function initializeGallery() {
     </svg>
   `;
   
-  // Create counter indicator
-  const counterIndicator = document.createElement('div');
-  counterIndicator.className = 'gallery-counter';
-  counterIndicator.textContent = 'No ads selected';
+  // Set the initial gallery title
+  const galleryTitle = document.getElementById('gallery-title');
+  galleryTitle.textContent = 'No ads selected';
   
   // Add elements to container
   galleryContainer.appendChild(carouselContainer);
   galleryContainer.appendChild(prevBtn);
   galleryContainer.appendChild(nextBtn);
-  galleryContainer.appendChild(counterIndicator);
   
   // Initially show a message
   carouselContainer.innerHTML = '<div class="gallery-message">Click on a treemap section to view ads</div>';
@@ -71,7 +71,7 @@ function initializeGallery() {
     }
     
     .gallery-item {
-      height: 100%;
+      height: 90%; /* Reduce from 100% to 90% to prevent cropping */
       margin: 0 10px;
       position: relative;
       flex-shrink: 0;
@@ -87,6 +87,7 @@ function initializeGallery() {
       height: 100%;
       object-fit: contain;
       border-radius: 4px;
+      max-height: 220px; /* Add max-height constraint */
     }
     
     .gallery-nav {
@@ -124,18 +125,8 @@ function initializeGallery() {
       display: none;
     }
     
-    .gallery-counter {
-      position: absolute;
-      top: 10px;
-      left: 50%;
-      transform: translateX(-50%);
-      font-family: "instrument-sans-variable", sans-serif;
-      font-size: 12px;
-      color: #666;
-      background-color: rgba(255, 255, 255, 0.8);
-      padding: 4px 12px;
-      border-radius: 12px;
-    }
+    /* Remove the conflicting gallery-title style that positions it at the bottom */
+    /* The title will now use the styles from your main CSS file */
   `;
   
   document.head.appendChild(style);
@@ -231,9 +222,9 @@ function loadAdsData() {
 }
 
 // Update gallery based on treemap interactions
-function updateGallery(targetGender, characterType, emotion = null) {
+function updateGallery(targetGender, characterType, emotion = null, specificGenderEmotion = null) {
   // Update active filters
-  updateFilters(targetGender, characterType, emotion);
+  updateFilters(targetGender, characterType, emotion, specificGenderEmotion);
   
   // First filter by era, then apply other filters
   const filteredByEra = currentEra ? 
@@ -247,8 +238,13 @@ function updateGallery(targetGender, characterType, emotion = null) {
   let filterContext;
   
   if (emotion) {
-    // If emotion is specified, include it in the context
-    filterContext = `${capitalizeFirstLetter(targetGender)} - ${formatCharacterType(characterType)} - ${formatEmotion(emotion)}`;
+    if (characterType === "both" && specificGenderEmotion) {
+      // For "both genders" case with specific gender emotion
+      // Format should be "Men - Both Genders - Intimate Men" or "Women - Both Genders - Happy Women"
+      filterContext = `${capitalizeFirstLetter(targetGender)} - Both Genders - ${formatEmotion(emotion)} ${capitalizeFirstLetter(specificGenderEmotion)}`;
+    } else {
+      filterContext = `${capitalizeFirstLetter(targetGender)} - ${formatCharacterType(characterType)} - ${formatEmotion(emotion)}`;
+    }
   } else {
     // Otherwise, just show gender and character type
     filterContext = `${capitalizeFirstLetter(targetGender)} - ${formatCharacterType(characterType)}`;
@@ -282,7 +278,7 @@ function formatEmotion(emotion) {
 }
 
 // Update the active filters based on treemap interaction
-function updateFilters(targetGender, characterType, emotion = null) {
+function updateFilters(targetGender, characterType, emotion = null, specificGenderEmotion = null) {
   // Clear existing filters for this gender
   activeFilters = activeFilters.filter(f => f.targetGender !== targetGender);
   
@@ -297,14 +293,15 @@ function updateFilters(targetGender, characterType, emotion = null) {
     newFilter.emotion = emotion;
   }
   
+  // Add specific gender emotion if provided
+  if (specificGenderEmotion) {
+    newFilter.gender = specificGenderEmotion;
+  }
+  
   activeFilters.push(newFilter);
   
   // Store the last used filter for potential reset operations
-  window.lastActiveFilter = {
-    targetGender,
-    characterType,
-    emotion
-  };
+  window.lastActiveFilter = { ...newFilter };
 }
 
 // Modified filter function to accept a pre-filtered dataset
@@ -386,11 +383,11 @@ function filterAdsByActiveFilters(adsToFilter = adsData) {
   });
 }
 
-// Modify renderGallery to accept a context label
+// Modify renderGallery to update the title instead of a separate counter
 function renderGallery(ads, contextLabel = '') {
   const galleryContainer = document.getElementById('gallery-container');
   const carouselContainer = galleryContainer.querySelector('.gallery-carousel');
-  const counterIndicator = galleryContainer.querySelector('.gallery-counter');
+  const galleryTitle = document.getElementById('gallery-title');
   
   // Reset current position
   carouselContainer.style.transform = 'translateX(0)';
@@ -399,10 +396,12 @@ function renderGallery(ads, contextLabel = '') {
   // Clear existing content
   carouselContainer.innerHTML = '';
   
-  // Update counter with context
-  counterIndicator.textContent = contextLabel ? 
-    `${ads.length} ads · ${contextLabel}` : 
-    `${ads.length} ads found`;
+  // Update title with combined information
+  if (contextLabel) {
+    galleryTitle.textContent = `${ads.length} Ads · ${contextLabel}`;
+  } else {
+    galleryTitle.textContent = `${ads.length} Ads`;
+  }
   
   // Handle no results case
   if (ads.length === 0) {
@@ -421,20 +420,38 @@ function renderGallery(ads, contextLabel = '') {
     
     // Create image
     const img = document.createElement('img');
-    img.src = ad.public_url || `images/aa/${ad['ad-image']}` || 'placeholder.jpg';
+
+    // Use a more reliable approach to determine image source
+    const imageUrl = ad.public_url || ad['ad-image'];
+    img.src = imageUrl;
     img.alt = `${ad.brand} ${ad.name} (${ad.year})`;
     img.dataset.brand = ad.brand;
     img.dataset.name = ad.name;
     img.dataset.year = ad.year;
     img.dataset.gender = ad.gender;
-    
+
+    // Only use onerror if we need to (track attempts to avoid endless loops)
     img.onerror = function() {
-      this.src = 'placeholder.jpg';
-      this.alt = 'Image not found';
+      // Log which image failed for debugging
+      console.warn(`Image failed to load: ${this.src}`);
+      
+      // Only try to use placeholder if we're not already trying to load it
+      if (!this.src.includes('placeholder')) {
+        // Use a correct relative path to placeholder
+        this.src = './images/placeholder.jpg';
+        this.alt = 'Image not found';
+      }
     };
-    
-    // Add click handler to show a larger preview
-    item.addEventListener('click', () => showAdPreview(ad));
+
+    // Add loading state handling
+    img.className = 'loading';
+    img.onload = function() {
+      // Remove loading state when image successfully loads
+      this.classList.remove('loading');
+    };
+
+    // Add click handler to show detail modal
+    item.addEventListener('click', () => openAdDetailModal(ad));
     
     // Append to item
     item.appendChild(img);
@@ -456,117 +473,6 @@ function renderGallery(ads, contextLabel = '') {
   }, 300);
 }
 
-// Show ad preview in a modal or lightbox
-function showAdPreview(ad) {
-  // Similar implementation as before but with enhanced info display
-  let previewBox = document.getElementById('ad-preview-box');
-  
-  if (!previewBox) {
-    previewBox = document.createElement('div');
-    previewBox.id = 'ad-preview-box';
-    previewBox.className = 'ad-preview-modal';
-    document.body.appendChild(previewBox);
-    
-    const style = document.createElement('style');
-    style.textContent = `
-      .ad-preview-modal {
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        background: #FFFCF5;
-        padding: 20px;
-        border-radius: 8px;
-        box-shadow: 0 5px 30px rgba(0,0,0,0.3);
-        z-index: 10000;
-        max-width: 90%;
-        max-height: 90vh;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        overflow: auto;
-      }
-      
-      .ad-preview-image {
-        max-width: 100%;
-        max-height: 80vh;
-        object-fit: contain;
-      }
-      
-      .ad-preview-info {
-        margin-top: 15px;
-        text-align: center;
-        font-family: instrument-serif, serif;
-      }
-      
-      .ad-preview-close {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        background: rgba(0,0,0,0.1);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-        font-size: 18px;
-        color: #333;
-      }
-      
-      .ad-copy {
-        font-style: italic;
-        margin-top: 10px;
-        max-width: 600px;
-        color: #555;
-      }
-    `;
-    document.head.appendChild(style);
-  } else {
-    previewBox.innerHTML = '';
-  }
-  
-  // Add close button
-  const closeBtn = document.createElement('div');
-  closeBtn.className = 'ad-preview-close';
-  closeBtn.textContent = '×';
-  closeBtn.addEventListener('click', () => {
-    previewBox.style.display = 'none';
-  });
-  
-  // Add image
-  const img = document.createElement('img');
-  img.className = 'ad-preview-image';
-  img.src = ad.public_url || `images/aa/${ad['ad-image']}` || 'placeholder.jpg';
-  img.alt = `${ad.brand} ${ad.name} (${ad.year})`;
-  
-  // Add info
-  const info = document.createElement('div');
-  info.className = 'ad-preview-info';
-  info.innerHTML = `
-    <h3>${ad.brand} ${ad.name}</h3>
-    <p>${ad.year} · ${capitalizeFirstLetter(ad.gender)}</p>
-    ${ad.copy ? `<p class="ad-copy">"${ad.copy}"</p>` : ''}
-  `;
-  
-  // Assemble preview
-  previewBox.appendChild(closeBtn);
-  previewBox.appendChild(img);
-  previewBox.appendChild(info);
-  
-  // Show the preview
-  previewBox.style.display = 'flex';
-  
-  // Close preview when clicking outside
-  document.addEventListener('click', function closeOnOutsideClick(event) {
-    if (!previewBox.contains(event.target) && event.target !== previewBox) {
-      previewBox.style.display = 'none';
-      document.removeEventListener('click', closeOnOutsideClick);
-    }
-  });
-}
-
 // Helper function to capitalize first letter
 function capitalizeFirstLetter(string) {
   if (!string) return '';
@@ -584,12 +490,19 @@ function getGenderColor(gender) {
 }
 
 // Function to reset all active filters
-function resetFilters() {
+function resetFilters(options = {}) {
+  const { keepEraFilters = true, updateUI = true } = options;
+  
+  // Clear filters
   activeFilters = [];
-  if (currentEra) {
-    updateGalleryForCurrentEra();
-  } else {
-    renderGallery(adsData, "All ads");
+  
+  // Update display
+  if (updateUI) {
+    if (keepEraFilters && currentEra) {
+      updateGalleryForCurrentEra();
+    } else {
+      renderGallery(adsData, "All ads");
+    }
   }
 }
 
@@ -599,3 +512,6 @@ export {
   updateGallery,
   resetFilters  // Add this
 };
+
+// Add this at the end of the file
+window.updateGallery = updateGallery;

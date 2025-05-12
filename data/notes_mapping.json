@@ -3,7 +3,7 @@
       "Floral": {
         "color": "#F7E3E3",
         "notes": [
-            "rose", "jasmine", "lily", "violet", "muguet", "gardenia", "tuberose", "carnation", "black currant blossom", "french orange flower", "pear blossom",
+            "rose", "floral", "jasmine", "lily", "violet", "muguet", "gardenia", "tuberose", "carnation", "black currant blossom", "french orange flower", "pear blossom",
             "sand lily", "plumeria", "blue rose", "fringed pink", "yellow freesia", "indian lotus", "golden lily", "mimosa absolute", "bitter orange blossom", "rose water",
             "red lily", "pink jasmine", "pink violet", "pink rose", "white cherry", "pink nerium oleander", "white rose", "damask rose", "red rose", "rock rose", "rose juliette greco", "black orchid", "indian mimosa", "water violet",
             "orange blossom", "ylang ylang", "magnolia", "freesia", "peony", "narcissus", "lilac", "violet woodsorrel",
@@ -49,10 +49,10 @@
         "notes": [
             "vanilla", "labdanum", "benzoin", "resins", "opoponax",
             "coral amber", "pomarose", "nympheal®", "orange blossom", "sweet spices", "incense", "orchid", "heliotrope",
-            "ylang-ylang", "plum", "peach", "apricot", "amber", "sweet", "warm", "red amber",
+            "ylang-ylang", "plum", "peach", "apricot", "amber", "sweet", "warm", "red amber", "oriental",
             "ginger flower", "hibiscus seed", "loukhoum",   "oriental flower notes", "prunol", "roselle",
             "white tabacco", "white tobacco", "white ginger", "woodruff or galium odoratum", "red vanill-orchid",
-            "vanilla flower", "vanilla absolute", "rose oil", "angelica root", "jasmine tea", "white honey",
+            "vanilla flower", "vanilla absolute", "rose oil", "angelica root", "angelica tea", "jasmine tea", "white honey",
             "grapefruit blossom", "almond tree", "tahitian vanilla", "black iris", "false jasmine",
             "madagascar ylang-ylang", "chinese pink peony", "orchid black diamond", "honey",
             "incense", "sweet spices", "clove", "amber", "warm", "white amber", "mexican vanilla", "vanilla bean", "indian vanilla", "ultravanil™",
@@ -94,9 +94,9 @@
             "georgywood", "guaiacol", "hinoki", "iso e super", "italian orris root", "katrafay", "kephalis", "lorenox", "mugane", "moepel accord",
             "mousse de saxe", "muhuhu", "myrica", "norlimbanol",
             "orcanox", "pepper", "pepper oil", "peppertree", "pepperwood or hercules club", "pepperwood",
-            "peruvian pepper", "red pepper", "roots", "ravensara",
+            "peruvian pepper", "red pepper", "roots", "ravensara", "spicy",
             "spicy notes", "sichuan pepper", "timur", "tobacco", "toscanol",
-            "vetyver", "white suede", "white leather", "woody notes", "woodsy notes", "vine", "alpinia",  "suede",
+            "vetyver", "white suede", "white leather", "woody notes", "woody", "woodsy notes", "vine", "alpinia",  "suede",
             "laotian oud", "kyara incense", "cambodian oud", "indonesian patchouli leaf", "madagascar sandalwood",
             "hinoki incense", "moroccan cedar", "atlas cedar", "red cedar", "egyptian rosewood", "texas rosewood", "brazilian rosewood", "dark patchouli",
             "indonesian myrrh", "clover", "amberwood", "indian oud",  "chinese oud", "red sandalwood", "exotic spices",

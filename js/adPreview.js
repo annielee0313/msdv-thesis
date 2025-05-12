@@ -2,6 +2,9 @@
 
 let adData = [];
 
+// Import the modal functions
+import { openAdDetailModal } from './adDetailModal.js';
+
 export function loadAdData(data) {
   adData = data;
 }
@@ -42,6 +45,12 @@ export function updateAdPreview(year) {
     })
     .on("mouseout", function () {
       previewBox.classed("hidden", true);
+    })
+    .on("click", function(event, d) {
+      // Stop event propagation to prevent other click handlers
+      event.stopPropagation();
+      // Open detail modal
+      openAdDetailModal(d);
     });
 }
 

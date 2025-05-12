@@ -20,17 +20,21 @@ body::after {
 #fixed-top {
     position: sticky;
     top: 0;
-    height: 65vh;
+    height: auto; /* Changed from 65vh to auto */
+    min-height: 65vh; /* Ensure minimum height */
+    max-height: 80vh; /* Limit maximum height */
     background: #f8f8f8;
     z-index: 10;
     padding: 1rem;
-  }
+    overflow-y: visible; /* Allow scrolling if content exceeds height */
+}
 
   #fixed-top-layout {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     gap: 3rem;
+    height: 70vh; /* Ensure it can grow */
   }
 
   .left-column {
@@ -44,8 +48,9 @@ body::after {
   .middle-column {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start; /* Change from center to flex-start for left alignment */
     flex-shrink: 0;
+    width: 240px; /* Add a fixed width */
   }
 
   .right-column {
@@ -60,10 +65,14 @@ body::after {
   }
 
   .fluidnotes-logo {
-    width: 100px; /* Adjust based on your SVG dimensions */
+    width: 100px;
     height: auto;
     opacity: 1;
+    cursor: pointer;
+    transition: opacity 0.2s ease, transform 0.5s ease;
+    transform-origin: center;
   }
+
   
   .controls-row {
     display: flex;
@@ -71,7 +80,8 @@ body::after {
     justify-content: space-between;
     gap: 2rem;
     width: 100%;
-    margin-bottom: 0.5rem;
+    margin-top: 0.8rem;
+    padding-left: 20px;
   }
 
   #stacked-bar-chart {
@@ -134,7 +144,6 @@ body::after {
     width: 120px;
     height: 30px;
     background: #f8f8f8;
-    line-height: 4dvh;
     text-align: center;
     font-family: "instrument-sans-variable", sans-serif;
     border-radius: 30px;
@@ -144,6 +153,9 @@ body::after {
     font-size: 0.8rem;
     position: relative;
     color: #6D7084;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
 
@@ -174,8 +186,8 @@ body::after {
   }
 
   .ad-dot {
-    width: 6px;
-    height: 6px;
+    width: 5px;
+    height: 5px;
     border-radius: 50%;
     background-color: #6D7084;
   }
@@ -193,7 +205,7 @@ body::after {
   #bar-chart-tooltip {
     position: absolute;
     pointer-events: none;
-    background: #f8f8f8;
+    background-color: #f8f8f8;
     padding: 6px 10px;
     font-size: 0.8rem;
     border-radius: 6px;
@@ -204,6 +216,8 @@ body::after {
     font-family: "instrument-sans-variable", sans-serif;
   }
 
+
+  
   #pie-chart-tooltip {
     position: absolute;
     pointer-events: none;
@@ -216,6 +230,33 @@ body::after {
     z-index: 9999;
     color: #6D7084;
     font-family: "instrument-sans-variable", sans-serif;
+  }
+
+  /* Gender Legend */
+  .gender-legend {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 12px;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    font-family: "instrument-sans-variable", sans-serif;
+  }
+
+  .legend-color {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 4px;
+    border-radius: 2px;
+  }
+
+  .legend-text {
+    color: #6D7084;
   }
 
   #grid-tooltip {
@@ -304,7 +345,7 @@ body::after {
   /* milestone styles */
   #milestone-container {
     position: fixed;
-    bottom: 2%;
+    top: calc(75vh + 5rem); /* Position just below the timeline indicator line */
     left: 0;
     width: 100%;
     display: flex;
@@ -339,14 +380,14 @@ body::after {
   }
   
   #milestone-title {
-    font-size: 1rem;
+    font-size: 1.2rem;
     /* text-transform: uppercase;  */
     font-family: "rafaella", sans-serif;
     color: #6D7084;
   }
   
   #milestone-subtitle {
-    font-size: 0.8rem;
+    font-size: 1rem;
     /* margin-top: 0.5rem; */
     color: #6D7084;
     font-family: "instrument-sans-variable", sans-serif;
@@ -597,6 +638,8 @@ body::after {
 }
 
 .era-years {
+  margin-top: -10px;
+  margin-bottom: 6px;
   font-size: 1rem;
   font-family: "instrument-sans-variable", sans-serif;
 }
@@ -767,7 +810,7 @@ body::before {
 
 .chart-label {
   font-family: "instrument-sans-variable", sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: left;
   color: #6D7084;
   padding-bottom: 1rem;
@@ -785,7 +828,7 @@ body::before {
 /* bar chart title */
 .stacked-bar-title {
   font-family: "instrument-sans-variable", sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #6D7084;
   /* margin-bottom: 0.5rem; */
   text-align: left;
@@ -798,16 +841,18 @@ body::before {
   flex-direction: column;
   flex-grow: 1;
   width: 100%;
-  height: 65%;
-  overflow: hidden;
+  height: auto; /* Changed from 80% to auto */
+  min-height: 500px; /* Set minimum height to ensure enough space */
+  overflow: hidden; /* Changed from hidden to visible */
 }
 
-/* Make treemap row take about 40% of the height */
+/* Set a fixed height for treemap row */
 .treemap-row {
   width: 100%;
-  height: 30%;
+  height: 230px; /* Fixed height in pixels */
   display: flex;
-  gap: 15px;
+  gap: 1rem;
+  margin-bottom: 20px; /* Add space between treemaps and gallery */
 }
 
 /* Style for each treemap wrapper */
@@ -817,13 +862,13 @@ body::before {
   height: 100%;
   /* background-color: #F8F3EA; */
   border-radius: 5px;
-  overflow: hidden;
+  overflow: visible; /* Changed from hidden to visible */
 }
 
 /* Ensure SVGs can expand to fill their containers */
 .treemap-wrapper svg {
   width: 100%;
-  height: 100%; /* Leave room for the title and breadcrumb */
+  height: 180px; /* Fixed height for SVGs */
 }
 
 /* Style for treemap titles */
@@ -831,6 +876,7 @@ body::before {
   text-align: center;
   margin: 8px 0 5px 0;
   font-size: 1rem;
+  color: #6D7084;
   font-family: "instrument-sans-variable", sans-serif;
 }
 
@@ -839,7 +885,7 @@ body::before {
   font-family: "instrument-sans-variable", sans-serif;
   font-size: 0.8rem;
   text-align: center;
-  color: #3A3A3A;
+  color: #6D7084;
   opacity: 0.8;
 }
 
@@ -861,29 +907,39 @@ body::before {
 /* Make gallery row take about 60% of the height */
 .gallery-row {
   width: 100%;
-  height: 250px; /* Fixed height instead of percentage */
-  margin-top: 20px;
+  height: 280px; /* Increase to match the JS container height */
 }
 
 .gallery-container {
   width: 100%;
   height: 100%;
-  background-color: #F8F3EA;
+  background-color: #F2F3F8;
   border-radius: 8px;
+  position: relative;
+  overflow: hidden; /* Keep this for horizontal scrolling */
+  padding-bottom: 10px; /* Add padding at the bottom */
 }
 
-/* Color coding for different genders */
-.treemap-wrapper[data-gender="women"] .treemap-title {
-  color: #A18888;
+/* Add these styles for the gallery section */
+.gallery-section {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px; /* Add margin at the bottom */
+  display: flex;
+  flex-direction: column;
 }
 
-.treemap-wrapper[data-gender="men"] .treemap-title {
-  color: #515E6B;
+.gallery-header {
+  width: 100%;
 }
 
-.treemap-wrapper[data-gender="unisex"] .treemap-title {
-  color: #74705F;
+.gallery-title {
+  font-family: "instrument-sans-variable", sans-serif;
+  font-size: 1rem;
+  color: #6D7084;
+  text-align: left;
 }
+
 
 /* Add scroll guidance styles */
 .scroll-guidance {
@@ -893,4 +949,249 @@ body::before {
 .scroll-guidance.hidden {
   opacity: 0;
   pointer-events: none;
+}
+
+/* About overlay styles */
+.about-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(242, 243, 248, 0.96);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.about-overlay.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.about-container {
+  background-color: #f8f8f8;
+  width: 800px;
+  max-width: 90%;
+  max-height: 80vh;
+  border-radius: 8px;
+  padding: 3rem;
+  position: relative;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  overflow-y: auto;
+  text-align: center;
+}
+
+.close-about {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6D7084;
+}
+
+.about-title {
+  font-family: "rafaella", serif;
+  font-size: 1.8rem;
+  color: #6D7084;
+  margin-bottom: 1.5rem;
+  font-weight: normal;
+}
+
+.about-content {
+  font-family: "instrument-sans-variable", sans-serif;
+  color: #6D7084;
+  line-height: 1.7;
+  font-size: 1rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.about-footer {
+  margin-top: 4rem;
+  font-size: 0.9rem;
+  color: #6D7084;
+  opacity: 0.8;
+}
+
+.author-link {
+  color: #6D7084;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(109, 112, 132, 0.3);
+  padding-bottom: 1px;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.author-link:hover {
+  color: #4D5068;
+  border-bottom: 1px solid rgba(109, 112, 132, 0.7);
+}
+
+/* Ad Details Modal CSS */
+
+.ad-detail-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(109, 112, 132, 0.3);
+  z-index: 10000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.ad-detail-container {
+  width: 60%;
+  max-width: 800px;
+  max-height: 80%;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  display: flex;
+}
+
+.ad-detail-content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.ad-detail-left {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.ad-detail-left img {
+  max-width: 100%;
+  max-height: 60vh;
+  object-fit: contain;
+}
+
+.ad-detail-right {
+  width: 50%;
+  padding: 1rem;
+  overflow-y: auto;
+  max-height: 90vh;
+}
+
+.notes-section {
+  margin-top: 20px;
+}
+
+.notes-row {
+  margin-bottom: 8px;
+}
+
+.notes-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.note-item {
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+}
+
+.note-item:hover {
+  transform: scale(1.1);
+}
+
+.note-tooltip {
+  position: absolute;
+  pointer-events: none;
+  background-color: #f8f8f8;
+  padding: 6px 10px;
+  font-size: 0.8rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  color: #6D7084;
+  font-family: "instrument-sans-variable", sans-serif;
+  z-index: 10001;
+}
+
+/* Ad Detail Modal Text Styling */
+#ad-detail-title {
+  font-family: "instrument-sans-variable", sans-serif;
+  font-size: 1.5rem;
+  color: #6D7084;
+}
+
+#ad-detail-info {
+  font-family: "instrument-sans-variable", sans-serif;
+  font-size: 1rem;
+  color: #6D7084;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+
+.ad-scent-profile {
+  font-family: "instrument-sans-variable", sans-serif;
+  font-size: 1rem;
+  color: #6D7084;
+  margin-bottom: 8px;
+}
+
+#ad-detail-copy {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+#ad-detail-copy blockquote {
+  font-family: "instrument-sans-variable", sans-serif;
+  font-style: italic;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #6D7084;
+  padding-left: 1rem;
+  border-left: 3px solid #C4CDF4;
+  margin-left: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.ad-detail-title-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.ad-external-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #6D7084;
+  transition: color 0.2s ease;
+}
+
+.ad-external-link:hover {
+  color: #515366;
+}
+
+.ad-external-link.hidden {
+  display: none;
 }

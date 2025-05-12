@@ -39,7 +39,26 @@
         ]
       }
     },
-    "unique_id": "Betsey Johnson_2006_2006-betsy-johnson.jpg"
+    "unique_id": "Betsey Johnson_2006_2006-betsy-johnson.jpg",
+    "url": "https://www.fragrantica.com/perfume/Betsey-Johnson/Betsey-Johnson-2072.html",
+    "Top":[
+      "pear",
+      "black currant",
+      "grapefruit",
+      "mandarin orange"
+    ],
+    "Middle":[
+      "red apple",
+      "freesia",
+      "lily-of-the-valley"
+    ],
+    "Base":[
+      "praline",
+      "amber",
+      "sandalwood",
+      "musk",
+      "cedar"
+    ]
   },
   {
     "name": "Signature for Him",
@@ -93,7 +112,23 @@
         ]
       }
     },
-    "unique_id": "Signature for Him_2008_2011-beckham.jpg"
+    "unique_id": "Signature for Him_2008_2011-beckham.jpg",
+    "url": "https://www.fragrantica.com/perfume/David-Beckham/Signature-Story-for-Him-6544.html",
+    "Top":[
+      "sea water",
+      "watermelon",
+      "mandarin orange"
+    ],
+    "Middle":[
+      "juniper",
+      "cypress",
+      "lantana"
+    ],
+    "Base":[
+      "oakmoss",
+      "amber",
+      "patchouli"
+    ]
   },
   {
     "name": "Signature for Her",
@@ -147,7 +182,22 @@
         ]
       }
     },
-    "unique_id": "Signature for Her_2008_2011-beckham.jpg"
+    "unique_id": "Signature for Her_2008_2011-beckham.jpg",
+    "url": "https://www.fragrantica.com/perfume/David-Beckham/Signature-for-Her-3795.html",
+    "Top":[
+      "star anise",
+      "green apple"
+    ],
+    "Middle":[
+      "orchid",
+      "vanilla",
+      "heliotrope"
+    ],
+    "Base":[
+      "patchouli",
+      "amber",
+      "musk"
+    ]
   },
   {
     "name": "Opium Parfum",
@@ -189,7 +239,45 @@
         ]
       }
     },
-    "unique_id": "Opium Parfum_1977_2006-ysl.jpg"
+    "unique_id": "Opium Parfum_1977_2006-ysl.jpg",
+    "url": "https://www.fragrantica.com/perfume/Yves-Saint-Laurent/Opium-Parfum-33772.html",
+    "Top":[
+      "cloves",
+      "pepper",
+      "mandarin orange",
+      "coriander",
+      "plum",
+      "west indian bay",
+      "citruses",
+      "jasmine",
+      "bergamot"
+    ],
+    "Middle":[
+      "carnation",
+      "cinnamon",
+      "rose",
+      "sandalwood",
+      "patchouli",
+      "orris root",
+      "peach",
+      "lily-of-the-valley"
+    ],
+    "Base":[
+      "myrrh",
+      "incense",
+      "tolu balsam",
+      "amber",
+      "vanilla",
+      "opoponax",
+      "castoreum",
+      "benzoin",
+      "sandalwood",
+      "labdanum",
+      "cedar",
+      "musk",
+      "vetyver",
+      "coconut"
+    ]
   },
   {
     "name": "Opium Parfum",
@@ -230,7 +318,45 @@
         ]
       }
     },
-    "unique_id": "Opium Parfum_1980_1980-opium.png"
+    "unique_id": "Opium Parfum_1980_1980-opium.png",
+    "url": "https://www.fragrantica.com/perfume/Yves-Saint-Laurent/Opium-Parfum-33772.html",
+    "Top":[
+      "cloves",
+      "pepper",
+      "mandarin orange",
+      "coriander",
+      "plum",
+      "west indian bay",
+      "citruses",
+      "jasmine",
+      "bergamot"
+    ],
+    "Middle":[
+      "carnation",
+      "cinnamon",
+      "rose",
+      "sandalwood",
+      "patchouli",
+      "orris root",
+      "peach",
+      "lily-of-the-valley"
+    ],
+    "Base":[
+      "myrrh",
+      "incense",
+      "tolu balsam",
+      "amber",
+      "vanilla",
+      "opoponax",
+      "castoreum",
+      "benzoin",
+      "sandalwood",
+      "labdanum",
+      "cedar",
+      "musk",
+      "vetyver",
+      "coconut"
+    ]
   },
   {
     "name": "Classique",
@@ -284,7 +410,31 @@
         ]
       }
     },
-    "unique_id": "Classique_1993_2003-classique.jpg"
+    "unique_id": "Classique_1993_2003-classique.jpg",
+    "url": "https://www.fragrantica.com/perfume/Jean-Paul-Gaultier/Classique-427.html",
+    "Top":[
+      "orange blossom",
+      "star anise",
+      "rose",
+      "mandarin orange",
+      "pear",
+      "bergamot"
+    ],
+    "Middle":[
+      "ylang-ylang",
+      "ginger",
+      "orchid",
+      "iris",
+      "tuberose",
+      "plum"
+    ],
+    "Base":[
+      "vanilla",
+      "amber",
+      "musk",
+      "cinnamon",
+      "sandalwood"
+    ]
   },
   {
     "name": "Rock'n Rose",
@@ -325,7 +475,25 @@
         ]
       }
     },
-    "unique_id": "Rock'n Rose_2008_2008-valentino.png"
+    "unique_id": "Rock'n Rose_2008_2008-valentino.png",
+    "url": "https://www.fragrantica.com/perfume/Valentino/Rock-n-Rose-Couture-1643.html",
+    "Top":[
+      "black currant",
+      "lily-of-the-valley",
+      "bergamot"
+    ],
+    "Middle":[
+      "rose",
+      "gardenia",
+      "orange blossom"
+    ],
+    "Base":[
+      "musk",
+      "vanilla",
+      "sandalwood",
+      "heliotrope",
+      "orris root"
+    ]
   },
   {
     "name": "Fuel for Life",
@@ -366,7 +534,20 @@
         ]
       }
     },
-    "unique_id": "Fuel for Life_2007_2007-diesel.png"
+    "unique_id": "Fuel for Life_2007_2007-diesel.png",
+    "url": "https://www.fragrantica.com/perfume/Diesel/Fuel-for-Life-Homme-1605.html",
+    "Top":[
+      "anise",
+      "grapefruit"
+    ],
+    "Middle":[
+      "raspberry",
+      "lavender"
+    ],
+    "Base":[
+      "woodsy notes",
+      "heliotrope"
+    ]
   },
   {
     "name": "Fuel for Life",
@@ -407,7 +588,20 @@
         ]
       }
     },
-    "unique_id": "Fuel for Life_2007_2007-diesel-2.png"
+    "unique_id": "Fuel for Life_2007_2007-diesel-2.png",
+    "url": "https://www.fragrantica.com/perfume/Diesel/Fuel-for-Life-Homme-1605.html",
+    "Top":[
+      "anise",
+      "grapefruit"
+    ],
+    "Middle":[
+      "raspberry",
+      "lavender"
+    ],
+    "Base":[
+      "woodsy notes",
+      "heliotrope"
+    ]
   },
   {
     "name": "Tom Ford for Men",
@@ -448,7 +642,31 @@
         ]
       }
     },
-    "unique_id": "Tom Ford for Men_2007_2007-tomford-1.png"
+    "unique_id": "Tom Ford for Men_2007_2007-tomford-1.png",
+    "url": "https://www.fragrantica.com/perfume/Tom-Ford/Tom-Ford-for-Men-1172.html",
+    "Top":[
+      "lemon leaf oil",
+      "ginger",
+      "mandarin orange",
+      "bergamot",
+      "basil",
+      "violet leaf"
+    ],
+    "Middle":[
+      "tobacco leaf",
+      "pepper",
+      "tunisian orange blossom",
+      "grapefruit blossom"
+    ],
+    "Base":[
+      "amber",
+      "cedar",
+      "vetiver",
+      "virginian patchouli",
+      "oakmoss",
+      "leather",
+      "cypriol oil or nagarmotha"
+    ]
   },
   {
     "name": "Tom Ford for Men",
@@ -489,7 +707,31 @@
         ]
       }
     },
-    "unique_id": "Tom Ford for Men_2008_2008-tomford.png"
+    "unique_id": "Tom Ford for Men_2008_2008-tomford.png",
+    "url": "https://www.fragrantica.com/perfume/Tom-Ford/Tom-Ford-for-Men-1172.html",
+    "Top":[
+      "lemon leaf oil",
+      "ginger",
+      "mandarin orange",
+      "bergamot",
+      "basil",
+      "violet leaf"
+    ],
+    "Middle":[
+      "tobacco leaf",
+      "pepper",
+      "tunisian orange blossom",
+      "grapefruit blossom"
+    ],
+    "Base":[
+      "amber",
+      "cedar",
+      "vetiver",
+      "virginian patchouli",
+      "oakmoss",
+      "leather",
+      "cypriol oil or nagarmotha"
+    ]
   },
   {
     "name": "Gucci by Gucci",
@@ -530,12 +772,25 @@
         ]
       }
     },
-    "unique_id": "Gucci by Gucci_2007_2007-gucci.png"
+    "unique_id": "Gucci by Gucci_2007_2007-gucci.png",
+    "url": "https://www.fragrantica.com/perfume/Gucci/Gucci-by-Gucci-Eau-de-Parfum-1150.html",
+    "Top":[
+      "guava",
+      "pear"
+    ],
+    "Middle":[
+      "tiare flower"
+    ],
+    "Base":[
+      "patchouli",
+      "honey",
+      "musk"
+    ]
   },
   {
     "name": "In2U",
     "year": 2008,
-    "gender": "unisex",
+    "gender": "men",
     "brand": "Calvin Klein",
     "country": "united-states",
     "ad-image": "images/aa/2008-ck-1.jpg",
@@ -583,12 +838,25 @@
         ]
       }
     },
-    "unique_id": "In2U_2008_2008-ck-1.jpg"
+    "unique_id": "In2U_2008_2008-ck-1.jpg",
+    "url": "https://www.fragrantica.com/perfume/Calvin-Klein/CK-IN2U-for-Him-933.html",
+    "Top":[
+      "lemon",
+      "tomato leaf"
+    ],
+    "Middle":[
+      "cacao pod"
+    ],
+    "Base":[
+      "cedar",
+      "white musk",
+      "vetiver"
+    ]
   },
   {
     "name": "In2U",
     "year": 2008,
-    "gender": "unisex",
+    "gender": "women",
     "brand": "Calvin Klein",
     "country": "united-states",
     "ad-image": "images/aa/2008-ck-2.jpg",
@@ -636,7 +904,22 @@
         ]
       }
     },
-    "unique_id": "In2U_2008_2008-ck-2.jpg"
+    "unique_id": "In2U_2008_2008-ck-2.jpg",
+    "url": "https:\/\/www.fragrantica.com\/perfume\/calvin-klein\/ck-in2u-for-her-934.html",
+    "Top":[
+      "pink grapefruit",
+      "sicilian bergamot",
+      "red currant leaf"
+    ],
+    "Middle":[
+      "cactus",
+      "orchid"
+    ],
+    "Base":[
+      "vanilla",
+      "red cedar",
+      "amber"
+    ]
   },
   {
     "name": "Light Blue",
@@ -677,7 +960,24 @@
         ]
       }
     },
-    "unique_id": "Light Blue_2007_2007-dg-1.png"
+    "unique_id": "Light Blue_2007_2007-dg-1.png",
+    "url": "https://www.fragrantica.com/perfume/Dolce-Gabbana/Light-Blue-485.html",
+    "Top":[
+      "sicilian lemon",
+      "apple",
+      "cedar",
+      "bellflower"
+    ],
+    "Middle":[
+      "bamboo",
+      "jasmine",
+      "white rose"
+    ],
+    "Base":[
+      "cedar",
+      "musk",
+      "amber"
+    ]
   },
   {
     "name": "Light Blue",
@@ -718,12 +1018,29 @@
         ]
       }
     },
-    "unique_id": "Light Blue_2007_2007-dg-2.png"
+    "unique_id": "Light Blue_2007_2007-dg-2.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/dolce-gabbana\/light-blue-pour-homme-1068.html",
+    "Top":[
+      "grapefruit",
+      "bergamot",
+      "sicilian mandarin",
+      "juniper"
+    ],
+    "Middle":[
+      "pepper",
+      "rosemary",
+      "brazilian rosewood"
+    ],
+    "Base":[
+      "musk",
+      "incense",
+      "oakmoss"
+    ]
   },
   {
     "name": "Dolce & Gabbana",
     "year": 1992,
-    "gender": "unisex",
+    "gender": "women",
     "brand": "Dolce & Gabbana",
     "country": "united-states",
     "ad-image": "images/aa/1992-dolce.png",
@@ -771,7 +1088,116 @@
         ]
       }
     },
-    "unique_id": "Dolce & Gabbana_1992_1992-dolce.png"
+    "unique_id": "Dolce & Gabbana_1992_1992-dolce.png",
+    "url": "https://www.fragrantica.com/perfume/Dolce-Gabbana/Dolce-Gabbana-484.html",
+    "Top":[
+      "aldehydes",
+      "basil",
+      "citruses",
+      "ivy",
+      "mandarin orange",
+      "freesia",
+      "bergamot"
+    ],
+    "Middle":[
+      "carnation",
+      "marigold",
+      "coriander",
+      "orange blossom",
+      "lily",
+      "jasmine",
+      "bulgarian rose",
+      "lily-of-the-valley"
+    ],
+    "Base":[
+      "sandalwood",
+      "vanilla",
+      "musk",
+      "tonka bean"
+    ]
+  },
+  {
+    "name": "Dolce & Gabbana",
+    "year": 1992,
+    "gender": "men",
+    "brand": "Dolce & Gabbana",
+    "country": "united-states",
+    "ad-image": "images/aa/1992-dolce.png",
+    "copy": "",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1992-dolce.png",
+    "analysis": {
+      "vision": {
+        "description": "A man and a woman are in an intimate pose, standing closely together with a fragrance bottle visible in the foreground.",
+        "people": [
+          {
+            "gender": "man",
+            "facial_expression": "hidden face",
+            "pose_action": "standing",
+            "emotion_tags": [
+              "intimate",
+              "close",
+              "passionate",
+              "sensual",
+              "embraced"
+            ]
+          },
+          {
+            "gender": "woman",
+            "facial_expression": "hidden face",
+            "pose_action": "standing",
+            "emotion_tags": [
+              "intimate",
+              "close",
+              "passionate",
+              "sensual",
+              "embraced"
+            ]
+          }
+        ],
+        "people_count": 2,
+        "nudity": "partial",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "romantic",
+        "mood_tags": [
+          "intimate",
+          "romantic",
+          "sensual",
+          "close",
+          "passionate"
+        ]
+      }
+    },
+    "unique_id": "Dolce & Gabbana_1992_1992-dolce.png",
+    "url": "https://www.fragrantica.com/perfume/Dolce-Gabbana/Dolce-Gabbana-pour-Homme-1994-483.html",
+    "Top":[
+      "lavender",
+      "lemon",
+      "bergamot",
+      "sage",
+      "terragon",
+      "mandarin orange",
+      "orange",
+      "neroli"
+    ],
+    "Middle":[
+      "pepper",
+      "cinnamon",
+      "coriander",
+      "geranium",
+      "violet",
+      "jasmine",
+      "rose"
+    ],
+    "Base":[
+      "tobacco",
+      "tonka bean",
+      "sandalwood",
+      "musk",
+      "cedar",
+      "amber",
+      "coumarin",
+      "iris"
+    ]
   },
   {
     "name": "Hypnose Homme",
@@ -812,7 +1238,22 @@
         ]
       }
     },
-    "unique_id": "Hypnose Homme_2007_2007-lancome.png"
+    "unique_id": "Hypnose Homme_2007_2007-lancome.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/lancome\/hypnose-homme-992.html",
+    "Top":[
+      "cardamom",
+      "mint",
+      "bergamot",
+      "mandarin orange"
+    ],
+    "Middle":[
+      "lavender"
+    ],
+    "Base":[
+      "amber",
+      "patchouli",
+      "musk"
+    ]
   },
   {
     "name": "Flores Del Camno",
@@ -865,7 +1306,15 @@
         ]
       }
     },
-    "unique_id": "Flores Del Camno_1919_1919-floralia.png"
+    "unique_id": "Flores Del Camno_1919_1919-floralia.png",
+    "url": "https://www.parfumo.com/Perfumes/Floralia/Flores_del_Campo",
+    "Top":[
+      "spicy",
+      "floral",
+      "woody",
+      "oriental",
+      "sweet"
+    ]
   },
   {
     "name": "Pure Attraction",
@@ -906,7 +1355,26 @@
         ]
       }
     },
-    "unique_id": "Pure Attraction_2009_2009-police.png"
+    "unique_id": "Pure Attraction_2009_2009-police.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/police\/pure-woman-4190.html",
+    "Top":[
+      "pear",
+      "peach",
+      "orange blossom",
+      "bergamot"
+    ],
+    "Middle":[
+      "jasmine",
+      "tuberose",
+      "rose"
+    ],
+    "Base":[
+      "musk",
+      "cedar",
+      "oakmoss",
+      "sandalwood",
+      "vanilla"
+    ]
   },
   {
     "name": "Gucci Guilty",
@@ -959,7 +1427,26 @@
         ]
       }
     },
-    "unique_id": "Gucci Guilty_2010_2010-gucci.png"
+    "unique_id": "Gucci Guilty_2010_2010-gucci.png",
+    "url": "https://www.fragrantica.com/perfume/Gucci/Gucci-Guilty-9677.html",
+    "Top":[
+      "pink pepper",
+      "mandarin orange",
+      "bergamot"
+    ],
+    "Middle":[
+      "lilac",
+      "peach",
+      "geranium",
+      "jasmine",
+      "black currant"
+    ],
+    "Base":[
+      "patchouli",
+      "amber",
+      "white musk",
+      "vanilla"
+    ]
   },
   {
     "name": "Shem-el-Dessim",
@@ -1000,7 +1487,27 @@
         ]
       }
     },
-    "unique_id": "Shem-el-Dessim_1907_1907-jgrossmith.png"
+    "unique_id": "Shem-el-Dessim_1907_1907-jgrossmith.png",
+    "url": "https://www.fragrantica.com/perfume/Grossmith/Shem-el-Nessim-8087.html",
+    "Top":[
+      "neroli",
+      "bergamot"
+    ],
+    "Middle":[
+      "orris root",
+      "ylang-ylang",
+      "geranium",
+      "jasmine",
+      "rose"
+    ],
+    "Base":[
+      "heliotrope",
+      "sandalwood",
+      "vanilla",
+      "musk",
+      "patchouli",
+      "cedar"
+    ]
   },
   {
     "name": "Jules",
@@ -1053,7 +1560,31 @@
         ]
       }
     },
-    "unique_id": "Jules_1980_1980-dior.png"
+    "unique_id": "Jules_1980_1980-dior.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/dior\/jules-1243.html",
+    "Top":[
+      "artemisia",
+      "lavender",
+      "caraway",
+      "bergamot"
+    ],
+    "Middle":[
+      "carnation",
+      "rose",
+      "basil",
+      "cedar",
+      "cyclamen",
+      "jasmine",
+      "sandalwood"
+    ],
+    "Base":[
+      "oakmoss",
+      "leather",
+      "fir",
+      "musk",
+      "amber",
+      "tonka bean"
+    ]
   },
   {
     "name": "Jules",
@@ -1094,7 +1625,31 @@
         ]
       }
     },
-    "unique_id": "Jules_1980_1980-dior-2.png"
+    "unique_id": "Jules_1980_1980-dior-2.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/dior\/jules-1243.html",
+    "Top":[
+      "artemisia",
+      "lavender",
+      "caraway",
+      "bergamot"
+    ],
+    "Middle":[
+      "carnation",
+      "rose",
+      "basil",
+      "cedar",
+      "cyclamen",
+      "jasmine",
+      "sandalwood"
+    ],
+    "Base":[
+      "oakmoss",
+      "leather",
+      "fir",
+      "musk",
+      "amber",
+      "tonka bean"
+    ]
   },
   {
     "name": "Antaeus Pour Homme",
@@ -1135,7 +1690,28 @@
         ]
       }
     },
-    "unique_id": "Antaeus Pour Homme_1980_1980-chanel-2.png"
+    "unique_id": "Antaeus Pour Homme_1980_1980-chanel-2.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/chanel\/antaeus-616.html",
+    "Top":[
+      "myrhh",
+      "clary sage",
+      "coriander",
+      "bergamot",
+      "lime",
+      "amalfi lemon"
+    ],
+    "Middle":[
+      "rose",
+      "thyme",
+      "basil",
+      "jasmine"
+    ],
+    "Base":[
+      "castoreum",
+      "oakmoss",
+      "patchouli",
+      "french labdanum"
+    ]
   },
   {
     "name": "Polo",
@@ -1176,7 +1752,35 @@
         ]
       }
     },
-    "unique_id": "Polo_1980_1980-ralphlauren.png"
+    "unique_id": "Polo_1980_1980-ralphlauren.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/ralph-lauren\/polo-890.html",
+    "Top":[
+      "juniper berries",
+      "basil",
+      "artemisia",
+      "caraway",
+      "coriander",
+      "bergamot"
+    ],
+    "Middle":[
+      "pine tree needles",
+      "leather",
+      "chamomile",
+      "pepper",
+      "carnation",
+      "geranium",
+      "jasmine",
+      "rose"
+    ],
+    "Base":[
+      "tobacco",
+      "oakmoss",
+      "patchouli",
+      "cedar",
+      "vetiver",
+      "musk",
+      "amber"
+    ]
   },
   {
     "name": "Wallflower",
@@ -1245,7 +1849,27 @@
         ]
       }
     },
-    "unique_id": "Burberry Brit_2006_2006-burberry.png"
+    "unique_id": "Burberry Brit_2006_2006-burberry.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/burberry\/burberry-brit-for-men-1115.html",
+    "Top":[
+      "ginger",
+      "cardamom",
+      "bergamot",
+      "green mandarin"
+    ],
+    "Middle":[
+      "wild rose",
+      "nutmeg",
+      "cedar",
+      "spicy notes"
+    ],
+    "Base":[
+      "tonka bean",
+      "gray musk",
+      "cedar",
+      "oriental woodsy notes",
+      "patchouli"
+    ]
   },
   {
     "name": "Snuff",
@@ -1298,7 +1922,32 @@
         ]
       }
     },
-    "unique_id": "Snuff_1940_1940-snuff.png"
+    "unique_id": "Snuff_1940_1940-snuff.png",
+    "url":"https://www.fragrantica.com/perfume/Schiaparelli/Snuff-10273.html",
+    "Top":[
+      "lavender",
+      "fruity notes",
+      "green notes",
+      "bergamot"
+    ],
+    "Middle":[
+      "carnation",
+      "pine",
+      "vetyver",
+      "jasmine",
+      "sandalwood",
+      "patchouli",
+      "geranium",
+      "orris root"
+    ],
+    "Base":[
+      "oakmoss",
+      "amber",
+      "leather",
+      "olibanum",
+      "myrhh",
+      "vanille"
+    ]
   },
   {
     "name": "Snuff",
@@ -1339,7 +1988,32 @@
         ]
       }
     },
-    "unique_id": "Snuff_1950_1950-snuff.png"
+    "unique_id": "Snuff_1950_1950-snuff.png",
+    "url":"https://www.fragrantica.com/perfume/Schiaparelli/Snuff-10273.html",
+    "Top":[
+      "lavender",
+      "fruity notes",
+      "green notes",
+      "bergamot"
+    ],
+    "Middle":[
+      "carnation",
+      "pine",
+      "vetyver",
+      "jasmine",
+      "sandalwood",
+      "patchouli",
+      "geranium",
+      "orris root"
+    ],
+    "Base":[
+      "oakmoss",
+      "amber",
+      "leather",
+      "olibanum",
+      "myrhh",
+      "vanille"
+    ]
   },
   {
     "name": "Kouros",
@@ -1380,7 +2054,35 @@
         ]
       }
     },
-    "unique_id": "Kouros_1988_1988-ysl.png"
+    "unique_id": "Kouros_1988_1988-ysl.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/yves-saint-laurent\/kouros-735.html",
+    "Top":[
+      "aldehydes",
+      "coriander",
+      "clary sage",
+      "artemisia",
+      "bergamot"
+    ],
+    "Middle":[
+      "patchouli",
+      "carnation",
+      "geranium",
+      "vetiver",
+      "cinnamon",
+      "jasmine",
+      "orris root",
+      "lavender"
+    ],
+    "Base":[
+      "civet",
+      "honey",
+      "leather",
+      "musk",
+      "oakmoss",
+      "amber",
+      "tonka bean",
+      "vanilla"
+    ]
   },
   {
     "name": "Charlie",
@@ -1421,7 +2123,30 @@
         ]
       }
     },
-    "unique_id": "Charlie_1970_1970-revlon.png"
+    "unique_id": "Charlie_1970_1970-revlon.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/revlon\/charlie-3141.html",
+    "Top":[
+      "aldehydes",
+      "hiacynth",
+      "galbanum",
+      "jasmine",
+      "gardenia"
+    ],
+    "Middle":[
+      "geranium",
+      "lily-of-the-valley",
+      "jasmine",
+      "coriander",
+      "white lily",
+      "violet"
+    ],
+    "Base":[
+      "oakmoss",
+      "sandalwood",
+      "vetiver",
+      "musk",
+      "vanilla"
+    ]
   },
   {
     "name": "Tweed",
@@ -1462,7 +2187,30 @@
         ]
       }
     },
-    "unique_id": "Tweed_1930_1930-tweed.png"
+    "unique_id": "Tweed_1930_1930-tweed.png",
+    "url":"https://www.fragrantica.com/perfume/Lentheric/Tweed-2885.html",
+    "Top":[
+      "bergamot",
+      "neroli",
+      "orange",
+      "violet"
+    ],
+    "Middle":[
+      "lavender",
+      "ylang-ylang",
+      "jasmine",
+      "orange blossom",
+      "rose",
+      "carnation"
+    ],
+    "Base":[
+      "oakmoss",
+      "vetiver",
+      "benzoin",
+      "sandalwood",
+      "vanilla",
+      "patchouli"
+    ]
   },
   {
     "name": "Tweed",
@@ -1515,7 +2263,30 @@
         ]
       }
     },
-    "unique_id": "Tweed_1950_1950-tweed.png"
+    "unique_id": "Tweed_1950_1950-tweed.png",
+    "url":"https://www.fragrantica.com/perfume/Lentheric/Tweed-2885.html",
+    "Top":[
+      "bergamot",
+      "neroli",
+      "orange",
+      "violet"
+    ],
+    "Middle":[
+      "lavender",
+      "ylang-ylang",
+      "jasmine",
+      "orange blossom",
+      "rose",
+      "carnation"
+    ],
+    "Base":[
+      "oakmoss",
+      "vetiver",
+      "benzoin",
+      "sandalwood",
+      "vanilla",
+      "patchouli"
+    ]
   },
   {
     "name": "Bang",
@@ -1556,7 +2327,22 @@
         ]
       }
     },
-    "unique_id": "Bang_2010_2010-marcjacobs.png"
+    "unique_id": "Bang_2010_2010-marcjacobs.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/marc-jacobs\/bang-8968.html",
+    "Top":[
+      "pink pepper",
+      "pepperwood"
+    ],
+    "Middle":[
+      "woodsy notes"
+    ],
+    "Base":[
+      "vetyver",
+      "elemi resin",
+      "benzoin",
+      "oak moss",
+      "patchouli"
+    ]
   },
   {
     "name": "4711 Eau de Cologne",
@@ -1597,7 +2383,21 @@
         ]
       }
     },
-    "unique_id": "4711 Eau de Cologne_1925_1925-4711.png"
+    "unique_id": "4711 Eau de Cologne_1925_1925-4711.png",
+    "url":"https://www.fragrantica.com/perfume/4711/4711-Original-Eau-de-Cologne-3256.html",
+    "Top":[
+      "lemon",
+      "bergamot",
+      "orange"
+    ],
+    "Middle":[
+      "lavendar",
+      "rosemary"
+    ],
+    "Base":[
+      "neroli",
+      "petitgrain"
+    ]
   },
   {
     "name": "Diorama",
@@ -1638,7 +2438,37 @@
         ]
       }
     },
-    "unique_id": "Diorama_1950_1950-dior-2.png"
+    "unique_id": "Diorama_1950_1950-dior-2.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/dior\/diorama-2608.html",
+    "Top":[
+      "plum",
+      "peach",
+      "melon",
+      "bergamot"
+    ],
+    "Middle":[
+      "jasmine",
+      "gardenia",
+      "tuberose",
+      "rose",
+      "cinnamon",
+      "violet",
+      "caraway",
+      "pepper",
+      "nutmeg",
+      "lily-of-the-valley",
+      "clove"
+    ],
+    "Base":[
+      "oak moss",
+      "castoreum",
+      "civetta",
+      "leather",
+      "vetiver",
+      "sandalwood",
+      "musk",
+      "virginia cedar"
+    ]
   },
   {
     "name": "Diorissimo",
@@ -1666,7 +2496,26 @@
         ]
       }
     },
-    "unique_id": "Diorissimo_1950_1950-dior-3.png"
+    "unique_id": "Diorissimo_1950_1950-dior-3.png",
+     "url":"https:\/\/www.fragrantica.com\/perfume\/dior\/diorissimo-224.html",
+     "Top":[
+      "green leaves",
+      "bergamot"
+    ],
+    "Middle":[
+      "lily-of-the-valley",
+      "lilac",
+      "jasmine",
+      "lily",
+      "ylang-ylang",
+      "amaryllis",
+      "rosemary",
+      "boronia"
+    ],
+    "Base":[
+      "civet",
+      "sandalwood"
+    ]
   },
   {
     "name": "4711 Eau de Cologne",
@@ -1707,7 +2556,21 @@
         ]
       }
     },
-    "unique_id": "4711 Eau de Cologne_1925_1925-4711-2.png"
+    "unique_id": "4711 Eau de Cologne_1925_1925-4711-2.png",
+    "url":"https://www.fragrantica.com/perfume/4711/4711-Original-Eau-de-Cologne-3256.html",
+    "Top":[
+      "lemon",
+      "bergamot",
+      "orange"
+    ],
+    "Middle":[
+      "lavendar",
+      "rosemary"
+    ],
+    "Base":[
+      "neroli",
+      "petitgrain"
+    ]
   },
   {
     "name": "Organza Indecence",
@@ -1748,7 +2611,21 @@
         ]
       }
     },
-    "unique_id": "Organza Indecence_1990_1990-givenchy.png"
+    "unique_id": "Organza Indecence_1990_1990-givenchy.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/givenchy\/organza-indecence-560.html",
+    "Top":[
+      "brazilian rosewood",
+      "patchouli"
+    ],
+    "Middle":[
+      "ceylon cinnamon",
+      "plum"
+    ],
+    "Base":[
+      "vanilla",
+      "amber",
+      "musk"
+    ]
   },
   {
     "name": "Mennen",
@@ -1801,10 +2678,18 @@
         ]
       }
     },
-    "unique_id": "Mennen_1940_1940-mennen.png"
+    "unique_id": "Mennen_1940_1940-mennen.png",
+    "url": "https://www.fragrantica.com/perfume/Mennen/SkinBracer-44730.html",
+    "Top":[
+      "mint",
+      "powdery notes",
+      "coumarin",
+      "musk",
+      "moss"
+    ]
   },
   {
-    "name": "Carry her heart away with fragrance by Coty",
+    "name": "Coty",
     "year": 1944,
     "gender": "women",
     "brand": "Coty",
@@ -1853,7 +2738,30 @@
         ]
       }
     },
-    "unique_id": "Carry her heart away with fragrance by Coty_1944_1944-coty.png"
+    "unique_id": "Carry her heart away with fragrance by Coty_1944_1944-coty.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/coty\/chypre-6072.html",
+    "Top":[
+      "bergamot",
+      "african orange flower",
+      "amalfi lemon",
+      "orange"
+    ],
+    "Middle":[
+      "jasmine",
+      "iris",
+      "rose",
+      "carnation",
+      "lilac",
+      "ylang-ylang"
+    ],
+    "Base":[
+      "oakmoss",
+      "patchouli",
+      "civetta",
+      "incense",
+      "musk",
+      "styrax"
+    ]
   },
   {
     "name": "Emeraude the Jewel Fragrance",
@@ -1893,7 +2801,27 @@
         ]
       }
     },
-    "unique_id": "Emeraude the Jewel Fragrance_1940_1941-coty-2.jpg"
+    "unique_id": "Emeraude the Jewel Fragrance_1940_1941-coty-2.jpg",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/coty\/emeraude-parfum-55500.html",
+    "Top":[
+      "bergamot",
+      "orange",
+      "lemon"
+    ],
+    "Middle":[
+      "brazilian rosewood",
+      "jasmine",
+      "ylang-ylang",
+      "rose"
+    ],
+    "Base":[
+      "opoponax",
+      "amber",
+      "benzoin",
+      "vanilla",
+      "sandalwood",
+      "patchouli"
+    ]
   },
   {
     "name": "Fragrance",
@@ -1933,7 +2861,11 @@
         ]
       }
     },
-    "unique_id": "Fragrance_1934_1934-yardley-1.png"
+    "unique_id": "Fragrance_1934_1934-yardley-1.png",
+    "url": "https://cleopatrasboudoir.blogspot.com/2013/02/fragrance-by-yardley-c1934.html",
+    "Top":[
+      "floral"
+    ]
   },
   {
     "name": "Bouquet Lentheric",
@@ -1959,7 +2891,27 @@
         ]
       }
     },
-    "unique_id": "Bouquet Lentheric_1939_1939-lentheric.png"
+    "unique_id": "Bouquet Lentheric_1939_1939-lentheric.png",
+    "url":"https://www.parfumo.com/Perfumes/Lentheric/bouquet-lentheric-au-parfum-tweed",
+    "Top":[
+      "bergamot",
+      "cinnamon",
+      "geranium"
+    ],
+    "Middle":[
+      "jasmine",
+      "lavender",
+      "ylang-ylang",
+      "neroli"
+    ],
+    "Base":[
+      "benzoin",
+      "oakmoss",
+      "vetiver",
+      "vanilla",
+      "sandalwood",
+      "patchouli"
+    ]
   },
   {
     "name": "Fragrance",
@@ -1999,7 +2951,11 @@
         ]
       }
     },
-    "unique_id": "Fragrance_1935_1935-yardley.png"
+    "unique_id": "Fragrance_1935_1935-yardley.png",
+    "url": "https://cleopatrasboudoir.blogspot.com/2013/02/fragrance-by-yardley-c1934.html",
+    "Top":[
+      "floral"
+    ]
   },
   {
     "name": "Gemey",
@@ -2051,7 +3007,15 @@
         ]
       }
     },
-    "unique_id": "Gemey_1937_1937-gemey.png"
+    "unique_id": "Gemey_1937_1937-gemey.png",
+    "url":"https://www.parfumo.com/Perfumes/Richard_Hudnut/Gemey_Cologne",
+    "Top":[
+      "green",
+      "spicy",
+      "woody",
+      "fresh",
+      "floral"
+    ]
   },
   {
     "name": "Yanky Clover",
@@ -2091,7 +3055,14 @@
         ]
       }
     },
-    "unique_id": "Yanky Clover_1945_1945-yankyclover.png"
+    "unique_id": "Yanky Clover_1945_1945-yankyclover.png",
+    "url":"https://www.parfumo.com/Perfumes/Richard_Hudnut/Yanky_Clover",
+    "Top":[
+      "oriental",
+      "powdery notes",
+      "green notes",
+      "spicy"
+    ]
   },
   {
     "name": "Emeraude the Jewel Fragrance",
@@ -2131,7 +3102,27 @@
         ]
       }
     },
-    "unique_id": "Emeraude the Jewel Fragrance_1945_1945-coty-1.jpg"
+    "unique_id": "Emeraude the Jewel Fragrance_1945_1945-coty-1.jpg",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/coty\/emeraude-3945.html",
+    "Top":[
+      "bergamot",
+      "lemon",
+      "orange"
+    ],
+    "Middle":[
+      "brazilian rosewood",
+      "ylang-ylang",
+      "jasmine",
+      "rose"
+    ],
+    "Base":[
+      "opoponax",
+      "benzoin",
+      "vanilla",
+      "amber",
+      "sandalwood",
+      "patchouli"
+    ]
   },
   {
     "name": "Emeraude the Jewel Fragrance",
@@ -2183,7 +3174,27 @@
         ]
       }
     },
-    "unique_id": "Emeraude the Jewel Fragrance_1947_1947-coty-1.jpg"
+    "unique_id": "Emeraude the Jewel Fragrance_1947_1947-coty-1.jpg",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/coty\/emeraude-3945.html",
+    "Top":[
+      "bergamot",
+      "lemon",
+      "orange"
+    ],
+    "Middle":[
+      "brazilian rosewood",
+      "ylang-ylang",
+      "jasmine",
+      "rose"
+    ],
+    "Base":[
+      "opoponax",
+      "benzoin",
+      "vanilla",
+      "amber",
+      "sandalwood",
+      "patchouli"
+    ]
   },
   {
     "name": "Drakkar Noir",
@@ -2235,7 +3246,39 @@
         ]
       }
     },
-    "unique_id": "Drakkar Noir_2008_1970-guylaroche.png"
+    "unique_id": "Drakkar Noir_2008_1970-guylaroche.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/guy-laroche\/drakkar-noir-2069.html",
+    "Top":[
+      "lavender",
+      "lemon",
+      "bergamot",
+      "rosemary",
+      "mint",
+      "lemon verbena",
+      "basil",
+      "artemisia"
+    ],
+    "Middle":[
+      "juniper",
+      "coriander",
+      "cinnamon",
+      "carnation",
+      "wormwood",
+      "angelica",
+      "jasmine"
+    ],
+    "Base":[
+      "oakmoss",
+      "pine tree needles",
+      "leather",
+      "fir",
+      "sandalwood",
+      "vetiver",
+      "patchouli",
+      "cedar",
+      "amber",
+      "resins"
+    ]
   },
   {
     "name": "Hypnose",
@@ -2275,7 +3318,19 @@
         ]
       }
     },
-    "unique_id": "Hypnose_2005_2005-lancome.png"
+    "unique_id": "Hypnose_2005_2005-lancome.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/lancome\/hypnose-eau-de-toilette-56587.html",
+    "Top":[
+      "passion flower"
+    ],
+    "Middle":[
+      "gardenia",
+      "jasmine"
+    ],
+    "Base":[
+      "vanilla",
+      "vetiver"
+    ]
   },
   {
     "name": "Tabac Original",
@@ -2351,7 +3406,28 @@
         ]
       }
     },
-    "unique_id": "Tabac Original_1970_1970-tabac.png"
+    "unique_id": "Tabac Original_1970_1970-tabac.png",
+    "url":"https://www.fragrantica.com/perfume/Tabac/Tabac-Original-28000.html",
+    "Top":[
+      "petitgrain",
+      "bergamot",
+      "lemon",
+      "pepper",
+      "neroli"
+    ],
+    "Middle":[
+      "chamomile",
+      "lavender",
+      "geranium",
+      "oak"
+    ],
+    "Base":[
+      "sandalwood",
+      "carnation",
+      "musk",
+      "vetiver",
+      "amber"
+    ]
   },
   {
     "name": "Avon Vigorate",
@@ -2391,7 +3467,13 @@
         ]
       }
     },
-    "unique_id": "Avon Vigorate_1960_1960-avon.png"
+    "unique_id": "Avon Vigorate_1960_1960-avon.png",
+    "url":"https://basenotes.com/fragrances/vigorate-by-avon.26157682",
+    "Top":[
+      "woody",
+      "ocean",
+      "herbal notes"
+    ]
   },
   {
     "name": "Maitresse Eau Provocateur Agent",
@@ -2443,64 +3525,82 @@
         ]
       }
     },
-    "unique_id": "Maitresse Eau Provocateur Agent_2006_2006-provocateur.png"
+    "unique_id": "Maitresse Eau Provocateur Agent_2006_2006-provocateur.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/agent-provocateur\/agent-provocateur-maitresse-760.html",
+    "Top":[
+      "ylang-ylang",
+      "lotus petals"
+    ],
+    "Middle":[
+      "iris",
+      "osmanthus",
+      "jasmine sambac",
+      "violet leaf"
+    ],
+    "Base":[
+      "musk",
+      "white suede",
+      "amber",
+      "cedar"
+    ]
   },
   {
     "name": "Lentheric",
     "year": 1926,
     "gender": "women",
     "brand": "Lentheric",
-    "ad-image": "images/aa/2006-provocateur.png",
-    "copy": "Chese fragrant persuasions. For those who seeks gifts that speak a tender message. Which breathes her charm? Which dares your tribute with a gesture frankly romantic? Shall it be Miracle, Asphod\u00e8le, Le Pirate, or For\u00eat Vierge? A lovely queen of Europe chooses Miracle, a parfum ...exquisite... frankly feminine and alluring. For her who is lithe and wears her clothes with inef-fable grace-Asphod\u00e8le. It is the gardenia as the poet would immortalize it were he a master-perfumer. Does your gift list include one who is capricious?.. Le Pirate is for her. For it captivates with spring-like daring! But to her whom you see in the rhythms of sport clothes, give For\u00eat Vierge.. a joyous lilt for modern Dianas!",
+    "ad-image": "images/aa/1926-lentheric.png",
+    "copy": "Chese fragrant persuasions. For those who seeks gifts that speak a tender message. Which breathes her charm? Which dares your tribute with a gesture frankly romantic? a joyous lilt for modern Dianas!",
     "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/2006-provocateur.png",
     "analysis": {
       "vision": {
-        "description": "The advertisement features two women in a dimly lit, elegant setting with a focus on a perfume bottle in the foreground.",
+        "description": "The advertisement features a stylized and ethereal illustration of a nude man and woman in an Art Deco style, surrounded by abstract patterns and nature motifs. Below, various perfume bottles are displayed in a luxurious, symmetrical layout.",
         "people": [
           {
-            "gender": "woman",
-            "facial_expression": "neutral",
-            "pose_action": "reclining",
+            "gender": "man",
+            "facial_expression": "serene",
+            "pose_action": "seated",
             "emotion_tags": [
-              "confident",
-              "sensual",
               "calm",
-              "alluring",
-              "poised"
+              "mysterious",
+              "sensual",
+              "ethereal",
+              "introspective"
             ]
           },
           {
             "gender": "woman",
-            "facial_expression": "neutral",
-            "pose_action": "sitting",
+            "facial_expression": "serene",
+            "pose_action": "reclining with arm raised",
             "emotion_tags": [
-              "elegant",
-              "mysterious",
-              "sophisticated",
+              "dreamy",
               "graceful",
-              "poised"
+              "intimate",
+              "mythical",
+              "soft"
             ]
           }
         ],
         "people_count": 2,
         "nudity": "partial",
         "sexual_suggestiveness": "suggestive",
-        "interaction_type": "group",
+        "interaction_type": "none",
         "mood_tags": [
+          "mythical",
+          "romantic",
           "elegant",
-          "sensual",
-          "mysterious",
-          "luxurious",
-          "intimate"
+          "dreamlike",
+          "luxurious"
         ]
       }
     },
-    "unique_id": "Lentheric_1926_2006-provocateur.png"
+    "unique_id": "Lentheric_1926_1926-lentheric.png",
+    "url": "https://www.fragrantica.com/designers/Lentheric.html"
   },
   {
     "name": "Lynx Vice",
     "year": 2007,
-    "gender": "women",
+    "gender": "men",
     "brand": "Lynx",
     "ad-image": "images/aa/2007-lynx.png",
     "copy": "Lynx Vice turns nice girls naughty",
@@ -2514,7 +3614,7 @@
             "facial_expression": "neutral",
             "pose_action": "standing, holding a mugshot board",
             "emotion_tags": [
-              "neutral",
+              "innocent",
               "contemplative",
               "subdued",
               "calm",
@@ -2535,7 +3635,13 @@
         ]
       }
     },
-    "unique_id": "Lynx Vice_2007_2007-lynx.png"
+    "unique_id": "Lynx Vice_2007_2007-lynx.png",
+    "url": "https://www.parfumo.com/Perfumes/Axe/Vice_Eau_de_Toilette",
+    "Top":[
+      "fruity notes",
+      "mandarin orange",
+      "woody"
+    ]
   },
   {
     "name": "Covet",
@@ -2599,7 +3705,26 @@
         ]
       }
     },
-    "unique_id": "Covet_2007_2007-covet.png"
+    "unique_id": "Covet_2007_2007-covet.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/sarah-jessica-parker\/covet-1404.html",
+    "Top":[
+      "sicilian lemon",
+      "lavender",
+      "dark chocolate",
+      "pelargonium leaf"
+    ],
+    "Middle":[
+      "lily-of-the-valley",
+      "honeysuckle",
+      "magnolia"
+    ],
+    "Base":[
+      "musk",
+      "cashmere wood",
+      "teak wood",
+      "vetiver",
+      "amber"
+    ]
   },
   {
     "name": "Imari Seduction",
@@ -2639,10 +3764,18 @@
         ]
       }
     },
-    "unique_id": "Imari Seduction_2007_2007-avon.png"
+    "unique_id": "Imari Seduction_2007_2007-avon.png",
+    "url": "https://www.fragrantica.com/perfume/Avon/Imari-Seduction-1867.html",
+    "Top":[
+      "fruity notes",
+      "sweet",
+      "powdery notes",
+      "vanilla",
+      "musk"
+    ]
   },
   {
-    "name": "Young Dew Amber Dew",
+    "name": "Youth Dew Amber Nude",
     "year": 2006,
     "gender": "women",
     "brand": "Tom Ford",
@@ -2679,7 +3812,36 @@
         ]
       }
     },
-    "unique_id": "Young Dew Amber Dew_2006_2006-tomford.png"
+    "unique_id": "Young Dew Amber Dew_2006_2006-tomford.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/estee-lauder\/youth-dew-amber-nude-556.html",
+    "Top":[
+      "cinnamon",
+      "ginger",
+      "tea",
+      "magnolia",
+      "grapefruit"
+    ],
+    "Middle":[
+      "carnation",
+      "ylang-ylang",
+      "black rose",
+      "jasmine"
+    ],
+    "Base":[
+      "amber",
+      "sandalwood",
+      "patchouli",
+      "vetiver"
+    ],
+    "Perfumer1":"christophe laudamiel",
+    "Perfumer2":null,
+    "mainaccords":[
+      "warm spicy",
+      "woody",
+      "floral",
+      "amber",
+      "cinnamon"
+    ]
   },
   {
     "name": "Unforgivable Women",
@@ -2731,7 +3893,36 @@
         ]
       }
     },
-    "unique_id": "Unforgivable Women_2007_2007-seanjohn.png"
+    "unique_id": "Unforgivable Women_2007_2007-seanjohn.png",
+    "url":"https://www.fragrantica.com/perfume/Sean-John/Unforgivable-Women-2210.html",
+    "Top":[
+      "pear",
+      "bitter orange",
+      "apple",
+      "cassia",
+      "grapefruit",
+      "neroli",
+      "bergamot"
+    ],
+    "Middle":[
+      "jasmine",
+      "freesia",
+      "orange blossom",
+      "violet",
+      "rose",
+      "lily-of-the-valley"
+    ],
+    "Base":[
+      "sandalwood",
+      "iris",
+      "patchouli",
+      "tonka bean",
+      "cedar",
+      "vanilla",
+      "amber",
+      "oakmoss",
+      "vetiver"
+    ]
   },
   {
     "name": "Lavender Perfumery",
@@ -2771,7 +3962,24 @@
         ]
       }
     },
-    "unique_id": "Lavender Perfumery_1920_1920-yardley.png"
+    "unique_id": "Lavender Perfumery_1920_1920-yardley.png",
+    "url":"https://www.fragrantica.com/perfume/Yardley/English-Lavender-2877.html",
+    "Top":[
+      "lavender",
+      "rosemary",
+      "bergamot",
+      "eucalyptus"
+    ],
+    "Middle":[
+      "clary sage",
+      "cedar",
+      "geranium"
+    ], 
+    "Base":[
+      "musk",
+      "tonka bean",
+      "oakmoss"
+    ]
   },
   {
     "name": "Flair and Bond Street",
@@ -2798,7 +4006,13 @@
         ]
       }
     },
-    "unique_id": "Flair and Bond Street_1960_1960-yardley.png"
+    "unique_id": "Flair and Bond Street_1960_1960-yardley.png",
+    "url": "https://www.fragrantica.com/perfume/Yardley/Bond-St-38193.html",
+    "Top":[
+      "floal",
+      "woody",
+      "musk"
+    ]
   },
   {
     "name": "Flair",
@@ -2838,7 +4052,21 @@
         ]
       }
     },
-    "unique_id": "Flair_1960_1960-yardley-2.png"
+    "unique_id": "Flair_1960_1960-yardley-2.png",
+    "url": "https://www.fragrantica.com/perfume/Yardley/Flair-64094.html",
+    "Top":[
+      "lily-of-the-valley",
+      "bergamot"
+    ],
+    "Middle":[
+      "rose",
+      "gardenia",
+      "jasmine"
+    ],
+    "Base":[
+      "oakmoss",
+      "patchouli"
+    ]
   },
   {
     "name": "j'adore",
@@ -2878,7 +4106,32 @@
         ]
       }
     },
-    "unique_id": "j'adore_2005_2005-dior.png"
+    "unique_id": "j'adore_2005_2005-dior.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/dior\/j-adore-210.html",
+    "Top":[
+      "pear",
+      "melon",
+      "magnolia",
+      "peach",
+      "mandarin orange",
+      "bergamot"
+    ],
+    "Middle":[
+      "jasmine",
+      "lily-of-the-valley",
+      "tuberose",
+      "freesia",
+      "rose",
+      "orchid",
+      "plum",
+      "violet"
+    ],
+    "Base":[
+      "musk",
+      "vanilla",
+      "blackberry",
+      "cedar"
+    ]
   },
   {
     "name": "j'adore",
@@ -2918,7 +4171,32 @@
         ]
       }
     },
-    "unique_id": "j'adore_2005_2005-dior-2.png"
+    "unique_id": "j'adore_2005_2005-dior-2.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/dior\/j-adore-210.html",
+    "Top":[
+      "pear",
+      "melon",
+      "magnolia",
+      "peach",
+      "mandarin orange",
+      "bergamot"
+    ],
+    "Middle":[
+      "jasmine",
+      "lily-of-the-valley",
+      "tuberose",
+      "freesia",
+      "rose",
+      "orchid",
+      "plum",
+      "violet"
+    ],
+    "Base":[
+      "musk",
+      "vanilla",
+      "blackberry",
+      "cedar"
+    ]
   },
   {
     "name": "Le Jade",
@@ -2944,7 +4222,14 @@
         ]
       }
     },
-    "unique_id": "Le Jade_1920_1920-roger.png"
+    "unique_id": "Le Jade_1920_1920-roger.png",
+    "url":"https://www.fragrantica.com/perfume/Roger-Gallet/Le-Jade-45816.html",
+    "Top":[
+      "citrus",
+      "musk",
+      "woody",
+      "powdery notes"
+    ]
   },
   {
     "name": "Gardenia",
@@ -2984,7 +4269,26 @@
         ]
       }
     },
-    "unique_id": "Gardenia_1940_1940-chanel.png"
+    "unique_id": "Gardenia_1940_1940-chanel.png",
+    "url": "https://www.fragrantica.com/perfume/Chanel/Gardenia-936.html",
+    "Top":[
+      "orange blossom",
+      "green notes"
+    ],
+    "Middle":[
+      "gardenia",
+      "tuberose",
+      "jasmine",
+      "fruity notes"
+    ],
+    "Base":[
+      "coconut",
+      "vanilla",
+      "sandalwood",
+      "musk",
+      "vetiver",
+      "patchouli"
+    ]
   },
   {
     "name": "Gardenia",
@@ -3024,7 +4328,26 @@
         ]
       }
     },
-    "unique_id": "Gardenia_1930_1930-chanel.png"
+    "unique_id": "Gardenia_1930_1930-chanel.png",
+    "url": "https://www.fragrantica.com/perfume/Chanel/Gardenia-936.html",
+    "Top":[
+      "orange blossom",
+      "green notes"
+    ],
+    "Middle":[
+      "gardenia",
+      "tuberose",
+      "jasmine",
+      "fruity notes"
+    ],
+    "Base":[
+      "coconut",
+      "vanilla",
+      "sandalwood",
+      "musk",
+      "vetiver",
+      "patchouli"
+    ]
   },
   {
     "name": "Gardenia, Glamour, No.5",
@@ -3088,7 +4411,11 @@
         ]
       }
     },
-    "unique_id": "Gardenia, Glamour, No.5_1930_1930-chanel-2.png"
+    "unique_id": "Gardenia, Glamour, No.5_1930_1930-chanel-2.png",
+    "url": "https://chanelperfumebottles.blogspot.com/2013/05/glamour-de-chanel-c1933.html",
+    "Top":[
+      "floral"
+    ]
   },
   {
     "name": "Glamour",
@@ -3128,7 +4455,11 @@
         ]
       }
     },
-    "unique_id": "Glamour_1930_1930-chanel-3.png"
+    "unique_id": "Glamour_1930_1930-chanel-3.png",
+    "url": "https://chanelperfumebottles.blogspot.com/2013/05/glamour-de-chanel-c1933.html",
+    "Top":[
+      "floral"
+    ]
   },
   {
     "name": "Quelques Fleurs l'Original",
@@ -3168,7 +4499,40 @@
         ]
       }
     },
-    "unique_id": "Quelques Fleurs l'Original_1912_1912-houbigant.png"
+    "unique_id": "Quelques Fleurs l'Original_1912_1912-houbigant.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/houbigant\/quelques-fleurs-l-original-5356.html",
+    "Top":[
+      "green notes",
+      "orange blossom",
+      "tarragon",
+      "bergamot",
+      "citruses",
+      "lemon"
+    ],
+    "Middle":[
+      "lilac",
+      "jasmine",
+      "lily-of-the-valley",
+      "carnation",
+      "rose",
+      "tuberose",
+      "ylang-ylang",
+      "violet",
+      "heliotrope",
+      "iris",
+      "orris root",
+      "orchid"
+    ],
+    "Base":[
+      "oakmoss",
+      "honey",
+      "civet",
+      "musk",
+      "sandalwood",
+      "amber",
+      "vanilla",
+      "tonka bean"
+    ]
   },
   {
     "name": "Lilac Time",
@@ -3208,13 +4572,14 @@
         ]
       }
     },
-    "unique_id": "Lilac Time_1940_1940-houbigant.png"
+    "unique_id": "Lilac Time_1940_1940-houbigant.png",
+    "url": "https://www.parfumo.com/Perfumes/Houbigant/Lilac_Time"
   },
   {
-    "name": "New Oriental Lime",
+    "name": "Hai Karate",
     "year": 1960,
     "gender": "men",
-    "brand": "Hai Karate",
+    "brand": "Pfizer",
     "ad-image": "images/aa/1960-hai.png",
     "copy": "Use too much and you can find yourself in a tight squeeze. Limes are for squeezing. So you can imagine what can happen to you now that Hai Karate\u00ae After Shave and Cologne come in a potent lime scent. Your girl can get carried away. And do squeezy things to you. That's why we have to put instructions on self defense in every package. Just like we do in regular Hai Karate. And, best of all, limes are also for cooling. So Hai Karate Oriental Lime's breezy feeling will help you stay cool through practically anything. ",
     "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1960-hai.png",
@@ -3260,7 +4625,11 @@
         ]
       }
     },
-    "unique_id": "New Oriental Lime_1960_1960-hai.png"
+    "unique_id": "New Oriental Lime_1960_1960-hai.png",
+    "url": "https://www.fragrantica.com/perfume/Pfizer/Hai-Karate-46459.html",
+    "Top":[
+      "citrus"
+    ]
   },
   {
     "name": "Heure Bleue",
@@ -3300,7 +4669,36 @@
         ]
       }
     },
-    "unique_id": "Heure Bleue_1930_1930-guerlain.png"
+    "unique_id": "Heure Bleue_1930_1930-guerlain.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/guerlain\/l-heure-bleue-eau-de-parfum-208.html",
+    "Top":[
+      "anise",
+      "neroli",
+      "coriander",
+      "bergamot",
+      "lemon"
+    ],
+    "Middle":[
+      "heliotrope",
+      "carnation",
+      "violet",
+      "cloves",
+      "neroli",
+      "ylang-ylang",
+      "bulgarian rose",
+      "jasmine",
+      "orchid",
+      "tuberose"
+    ],
+    "Base":[
+      "iris",
+      "vanilla",
+      "benzoin",
+      "sandalwood",
+      "tonka bean",
+      "musk",
+      "vetiver"
+    ]
   },
   {
     "name": "Fleur de Feu",
@@ -3340,7 +4738,30 @@
         ]
       }
     },
-    "unique_id": "Fleur de Feu_1940_1940-guerlain.png"
+    "unique_id": "Fleur de Feu_1940_1940-guerlain.png",
+    "url": "https://www.fragrantica.com/perfume/Guerlain/Fleur-de-Feu-71444.html",
+    "Top":[
+      "aldehydes",
+      "honey",
+      "jasmine",
+      "bergamot"
+    ],
+    "Middle":[
+      "ylang-ylang",
+      "musk",
+      "jasmine",
+      "lily-of-the-valley",
+      "rose",
+      "sandalwood",
+      "violet",
+      "acacia"
+    ],
+    "Base":[
+      "iris",
+      "tonka bean",
+      "heliotrope",
+      "vanilla"
+    ]
   },
   {
     "name": "Shalimar",
@@ -3367,7 +4788,32 @@
         ]
       }
     },
-    "unique_id": "Shalimar_1950_1950-guerlain.png"
+    "unique_id": "Shalimar_1950_1950-guerlain.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/guerlain\/shalimar-eau-de-cologne-16028.html",
+    "Top":[
+      "bergamot",
+      "lemon",
+      "mandarin orange",
+      "cedar"
+    ],
+    "Middle":[
+      "iris",
+      "vetiver",
+      "patchouli",
+      "jasmine",
+      "rose"
+    ],
+    "Base":[
+      "leather",
+      "vanilla",
+      "incense",
+      "opoponax",
+      "benzoin",
+      "sandalwood",
+      "civet",
+      "peru balsam",
+      "musk"
+    ]
   },
   {
     "name": "Shalimar",
@@ -3394,7 +4840,32 @@
         ]
       }
     },
-    "unique_id": "Shalimar_1940_1940-guerlain-2.png"
+    "unique_id": "Shalimar_1940_1940-guerlain-2.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/guerlain\/shalimar-eau-de-cologne-16028.html",
+    "Top":[
+      "bergamot",
+      "lemon",
+      "mandarin orange",
+      "cedar"
+    ],
+    "Middle":[
+      "iris",
+      "vetiver",
+      "patchouli",
+      "jasmine",
+      "rose"
+    ],
+    "Base":[
+      "leather",
+      "vanilla",
+      "incense",
+      "opoponax",
+      "benzoin",
+      "sandalwood",
+      "civet",
+      "peru balsam",
+      "musk"
+    ]
   },
   {
     "name": "Eau de Cologne Imperial ",
@@ -3421,7 +4892,24 @@
         ]
       }
     },
-    "unique_id": "Eau de Cologne Imperial _1930_1930-guerlain-2.png"
+    "unique_id": "Eau de Cologne Imperial _1930_1930-guerlain-2.png",
+    "url": "https://www.fragrantica.com/perfume/Guerlain/Eau-de-Cologne-Imperiale-3346.html",
+    "Top":[
+      "citruses",
+      "lemon",
+      "lemon verbena",
+      "bergamot",
+      "neroli",
+      "lemon",
+      "orange"
+    ],
+    "Middle":[
+    ],
+    "Base":[
+      "rosemary",
+      "cedar",
+      "tonka bean"
+    ]
   },
   {
     "name": "Opium Pour Homme",
@@ -3461,13 +4949,27 @@
         ]
       }
     },
-    "unique_id": "Opium Pour Homme_1930_1930-opium.png"
+    "unique_id": "Opium Pour Homme_1930_1930-opium.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/yves-saint-laurent\/opium-pour-homme-562.html",
+    "Top":[
+      "black currant",
+      "star anise"
+    ],
+    "Middle":[
+      "pepper",
+      "galanga"
+    ],
+    "Base":[
+      "bourbon vanilla",
+      "tolu balsam",
+      "atlas cedar"
+    ]
   },
   {
-    "name": "Vivaudou",
+    "name": "Mavis",
     "year": 1910,
     "gender": "women",
-    "brand": "Mavis",
+    "brand": "Vivaudou",
     "ad-image": "images/aa/1910-mavis.png",
     "copy": "Irresistable!",
     "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1910-mavis.png",
@@ -3501,7 +5003,8 @@
         ]
       }
     },
-    "unique_id": "Vivaudou_1910_1910-mavis.png"
+    "unique_id": "Vivaudou_1910_1910-mavis.png",
+    "url": "https://www.parfumo.com/Perfumes/Vivaudou/Mavis"
   },
   {
     "name": "Obsession",
@@ -3553,7 +5056,35 @@
         ]
       }
     },
-    "unique_id": "Obsession_1990_1990-ck.png"
+    "unique_id": "Obsession_1990_1990-ck.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/calvin-klein\/obsession-248.html",
+    "Top":[
+      "vanilla",
+      "basil",
+      "bergamot",
+      "mandarin orange",
+      "green notes",
+      "peach",
+      "lemon"
+    ],
+    "Middle":[
+      "spices",
+      "sandalwood",
+      "coriander",
+      "oakmoss",
+      "cedar",
+      "orange blossom",
+      "jasmine",
+      "rose"
+    ],
+    "Base":[
+      "amber",
+      "incense",
+      "vanilla",
+      "civet",
+      "musk",
+      "vetiver"
+    ]
   },
   {
     "name": "Obsession",
@@ -3605,7 +5136,35 @@
         ]
       }
     },
-    "unique_id": "Obsession_1985_1980-ck-3.png"
+    "unique_id": "Obsession_1985_1980-ck-3.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/calvin-klein\/obsession-for-men-249.html",
+    "Top":[
+      "cinnamon",
+      "lavender",
+      "coriander",
+      "mandarin orange",
+      "lime",
+      "bergamot",
+      "grapefruit"
+    ],
+    "Middle":[
+      "myrhh",
+      "nutmeg",
+      "carnation",
+      "brazilian rosewood",
+      "pine tree",
+      "sage",
+      "jasmine",
+      "red berries"
+    ],
+    "Base":[
+      "amber",
+      "vanilla",
+      "sandalwood",
+      "musk",
+      "patchouli",
+      "vetiver"
+    ]
   },
   {
     "name": "New York Men",
@@ -3657,7 +5216,25 @@
         ]
       }
     },
-    "unique_id": "New York Men_2004_2004-kenneth.png"
+    "unique_id": "New York Men_2004_2004-kenneth.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/kenneth-cole\/kenneth-cole-new-york-men-1957.html",
+    "Top":[
+      "vetiver",
+      "mandarin orange",
+      "lemon",
+      "black currant"
+    ],
+    "Middle":[
+      "sea notes",
+      "pimento",
+      "iris",
+      "lily"
+    ],
+    "Base":[
+      "musk",
+      "sandalwood",
+      "amber"
+    ]
   },
   {
     "name": "New York Women",
@@ -3709,7 +5286,28 @@
         ]
       }
     },
-    "unique_id": "New York Women_2004_2004-kenneth.png"
+    "unique_id": "New York Women_2004_2004-kenneth.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/kenneth-cole\/kenneth-cole-new-york-women-white-23553.html",
+    "Top":[
+      "mandarin orange",
+      "cardamom",
+      "black currant"
+    ],
+    "Middle":[
+      "jasmine",
+      "honeysuckle",
+      "rose petals",
+      "cinnamon"
+    ],
+    "Base":[
+      "musk",
+      "cedar",
+      "vanilla",
+      "amber",
+      "sequoia",
+      "leather",
+      "sandalwood"
+    ]
   },
   {
     "name": "Lauren",
@@ -3761,7 +5359,29 @@
         ]
       }
     },
-    "unique_id": "Lauren_2004_2004-lauren.png"
+    "unique_id": "Lauren_2004_2004-lauren.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/ralph-lauren\/lauren-891.html",
+    "Top":[
+      "green notes",
+      "clary sage",
+      "brazilian rosewood",
+      "pineapple"
+    ],
+    "Middle":[
+      "lilac",
+      "lily-of-the-valley",
+      "bulgarian rose",
+      "cyclamen",
+      "jasmine",
+      "violet"
+    ],
+    "Base":[
+      "carnation",
+      "oakmoss",
+      "sandalwood",
+      "cedar",
+      "vetiver"
+    ]
   },
   {
     "name": "Lauren",
@@ -3801,7 +5421,29 @@
         ]
       }
     },
-    "unique_id": "Lauren_1970_1970-lauren.png"
+    "unique_id": "Lauren_1970_1970-lauren.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/ralph-lauren\/lauren-891.html",
+    "Top":[
+      "green notes",
+      "clary sage",
+      "brazilian rosewood",
+      "pineapple"
+    ],
+    "Middle":[
+      "lilac",
+      "lily-of-the-valley",
+      "bulgarian rose",
+      "cyclamen",
+      "jasmine",
+      "violet"
+    ],
+    "Base":[
+      "carnation",
+      "oakmoss",
+      "sandalwood",
+      "cedar",
+      "vetiver"
+    ]
   },
   {
     "name": "Poeme",
@@ -3841,7 +5483,39 @@
         ]
       }
     },
-    "unique_id": "Poeme_1990_1990-lancome.png"
+    "unique_id": "Poeme_1990_1990-lancome.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/lancome\/poeme-171.html",
+    "Top":[
+      "narcissus",
+      "datura",
+      "peach",
+      "plum",
+      "himalayan poppy",
+      "mandarin orange",
+      "black currant",
+      "bergamot",
+      "green notes"
+    ],
+    "Middle":[
+      "mimosa",
+      "vanilla flower",
+      "tuberose",
+      "ylang-ylang",
+      "orange blossom",
+      "jasmine",
+      "freesia",
+      "heliotrope",
+      "rose",
+      "leather"
+    ],
+    "Base":[
+      "vanilla",
+      "orange blossom",
+      "amber",
+      "tonka bean",
+      "musk",
+      "cedar"
+    ]
   },
   {
     "name": "4711 Eau de Cologne",
@@ -3893,10 +5567,24 @@
         ]
       }
     },
-    "unique_id": "4711 Eau de Cologne_1920_1920-4711.png"
+    "unique_id": "4711 Eau de Cologne_1920_1920-4711.png",
+    "url":"https://www.fragrantica.com/perfume/4711/4711-Original-Eau-de-Cologne-3256.html",
+    "Top":[
+      "lemon",
+      "bergamot",
+      "orange"
+    ],
+    "Middle":[
+      "lavendar",
+      "rosemary"
+    ],
+    "Base":[
+      "neroli",
+      "petitgrain"
+    ]
   },
   {
-    "name": "The Magnet",
+    "name": "L'Aimant",
     "year": 1950,
     "gender": "women",
     "brand": "Coty",
@@ -3919,10 +5607,32 @@
         ]
       }
     },
-    "unique_id": "The Magnet_1950_1950-coty.png"
+    "unique_id": "The Magnet_1950_1950-coty.png",
+    "url": "https://www.fragrantica.com/perfume/Coty/L-Aimant-10934.html",
+    "Top":[
+      "bergamot",
+      "neroli",
+      "peach",
+      "aldehydes"
+    ],
+    "Middle":[
+      "geranium",
+      "rose",
+      "orchid",
+      "jasmine",
+      "ylang-ylang"
+    ],
+    "Base":[
+      "vetiver",
+      "musk",
+      "vanilla",
+      "sandalwood",
+      "tonka bean",
+      "cedar"
+    ]
   },
   {
-    "name": "The Magnet",
+    "name": "L'Aimant",
     "year": 1950,
     "gender": "women",
     "brand": "Coty",
@@ -3959,7 +5669,29 @@
         ]
       }
     },
-    "unique_id": "The Magnet_1950_1950-coty-2.png"
+    "unique_id": "The Magnet_1950_1950-coty-2.png",
+    "url": "https://www.fragrantica.com/perfume/Coty/L-Aimant-10934.html",
+    "Top":[
+      "bergamot",
+      "neroli",
+      "peach",
+      "aldehydes"
+    ],
+    "Middle":[
+      "geranium",
+      "rose",
+      "orchid",
+      "jasmine",
+      "ylang-ylang"
+    ],
+    "Base":[
+      "vetiver",
+      "musk",
+      "vanilla",
+      "sandalwood",
+      "tonka bean",
+      "cedar"
+    ]
   },
   {
     "name": "Coty parfums de luxe",
@@ -4011,7 +5743,29 @@
         ]
       }
     },
-    "unique_id": "Coty parfums de luxe_1950_1950-coty-3.png"
+    "unique_id": "Coty parfums de luxe_1950_1950-coty-3.png",
+    "url": "https://www.fragrantica.com/perfume/Coty/L-Aimant-10934.html",
+    "Top":[
+      "bergamot",
+      "neroli",
+      "peach",
+      "aldehydes"
+    ],
+    "Middle":[
+      "geranium",
+      "rose",
+      "orchid",
+      "jasmine",
+      "ylang-ylang"
+    ],
+    "Base":[
+      "vetiver",
+      "musk",
+      "vanilla",
+      "sandalwood",
+      "tonka bean",
+      "cedar"
+    ]
   },
   {
     "name": "Daisy",
@@ -4051,7 +5805,23 @@
         ]
       }
     },
-    "unique_id": "Daisy_2007_2007-daisy.png"
+    "unique_id": "Daisy_2007_2007-daisy.png",
+    "url": "https://www.fragrantica.com/perfume/Marc-Jacobs/Daisy-1361.html",
+    "Top":[
+      "violet leaf",
+      "blood grapefruit",
+      "strawberry"
+    ],
+    "Middle":[
+      "violet",
+      "gardenia",
+      "jasmine"
+    ],
+    "Base":[
+      "musk",
+      "vanilla",
+      "white woods"
+    ]
   },
   {
     "name": "Nuit de Noel",
@@ -4078,7 +5848,21 @@
         ]
       }
     },
-    "unique_id": "Nuit de Noel_1936_1936-caron.png"
+    "unique_id": "Nuit de Noel_1936_1936-caron.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/caron\/nuit-de-noel-4581.html",
+    "Top":[
+      "ylang-ylang",
+      "tincture of rose",
+      "jasmine"
+    ],
+    "Middle":[
+      "sandalwood",
+      "oak moss"
+    ],
+    "Base":[
+      "amber",
+      "musk"
+    ]
   },
   {
     "name": "Unforgivable",
@@ -4142,7 +5926,36 @@
         ]
       }
     },
-    "unique_id": "Unforgivable_2006_2006-seanjohn.png"
+    "unique_id": "Unforgivable_2006_2006-seanjohn.png",
+    "url":"https://www.fragrantica.com/perfume/Sean-John/Unforgivable-Women-2210.html",
+    "Top":[
+      "pear",
+      "bitter orange",
+      "apple",
+      "cassia",
+      "grapefruit",
+      "neroli",
+      "bergamot"
+    ],
+    "Middle":[
+      "jasmine",
+      "freesia",
+      "orange blossom",
+      "violet",
+      "rose",
+      "lily-of-the-valley"
+    ],
+    "Base":[
+      "sandalwood",
+      "iris",
+      "patchouli",
+      "tonka bean",
+      "cedar",
+      "vanilla",
+      "amber",
+      "oakmoss",
+      "vetiver"
+    ]
   },
   {
     "name": "4711 Eau de Cologne",
@@ -4169,7 +5982,21 @@
         ]
       }
     },
-    "unique_id": "4711 Eau de Cologne_1950_1950-4711.png"
+    "unique_id": "4711 Eau de Cologne_1950_1950-4711.png",
+    "url":"https://www.fragrantica.com/perfume/4711/4711-Original-Eau-de-Cologne-3256.html",
+    "Top":[
+      "lemon",
+      "bergamot",
+      "orange"
+    ],
+    "Middle":[
+      "lavendar",
+      "rosemary"
+    ],
+    "Base":[
+      "neroli",
+      "petitgrain"
+    ]
   },
   {
     "name": "Aramis",
@@ -4221,7 +6048,33 @@
         ]
       }
     },
-    "unique_id": "Aramis_1975_1975-aramis.png"
+    "unique_id": "Aramis_1975_1975-aramis.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/aramis\/aramis-113.html",
+    "Top":[
+      "aldehydes",
+      "myrrh",
+      "artemisia",
+      "thyme",
+      "clover",
+      "bergamot",
+      "gardenia"
+    ],
+    "Middle":[
+      "patchouli",
+      "sage",
+      "jasmine",
+      "cardamom",
+      "orris root"
+    ],
+    "Base":[
+      "leather",
+      "oakmoss",
+      "musk",
+      "vetiver",
+      "sandalwood",
+      "amber",
+      "coconut"
+    ]
   },
   {
     "name": "Old Spice",
@@ -4273,7 +6126,31 @@
         ]
       }
     },
-    "unique_id": "Old Spice_1970_1970-oldspice-2.png"
+    "unique_id": "Old Spice_1970_1970-oldspice-2.png",
+    "url":"https://www.fragrantica.com/perfume/Shulton-Company/Old-Spice-Original-14746.html",
+    "Top":[
+      "nutmeg",
+      "star anise",
+      "aldehydes",
+      "orange",
+      "lemon"
+    ],
+    "Middle":[
+      "cinnamon",
+      "carnation",
+      "pimento",
+      "geranium",
+      "heliotrope",
+      "jasmine"
+    ],
+    "Base":[
+      "benzoin",
+      "vanilla",
+      "musk",
+      "tonka bean",
+      "cedar",
+      "ambergris"
+    ]
   },
   {
     "name": "Old Spice",
@@ -4292,9 +6169,9 @@
             "facial_expression": "neutral",
             "pose_action": "sitting",
             "emotion_tags": [
-              "calm",
+              "intense",
               "thoughtful",
-              "poised",
+              "seductive",
               "composed",
               "elegant"
             ]
@@ -4313,7 +6190,31 @@
         ]
       }
     },
-    "unique_id": "Old Spice_1970_1970-oldspice.png"
+    "unique_id": "Old Spice_1970_1970-oldspice.png",
+    "url":"https://www.fragrantica.com/perfume/Shulton-Company/Old-Spice-Original-14746.html",
+    "Top":[
+      "nutmeg",
+      "star anise",
+      "aldehydes",
+      "orange",
+      "lemon"
+    ],
+    "Middle":[
+      "cinnamon",
+      "carnation",
+      "pimento",
+      "geranium",
+      "heliotrope",
+      "jasmine"
+    ],
+    "Base":[
+      "benzoin",
+      "vanilla",
+      "musk",
+      "tonka bean",
+      "cedar",
+      "ambergris"
+    ]
   },
   {
     "name": "Burley",
@@ -4353,7 +6254,15 @@
         ]
       }
     },
-    "unique_id": "Burley_1960_1960-oldspice.png"
+    "unique_id": "Burley_1960_1960-oldspice.png",
+    "url":"https://www.parfumo.com/Perfumes/Shulton/Old_Spice_Burley_Old_Spice_Bounty_Eau_de_Cologne",
+    "Top":[
+      "smoky",
+      "spicy",
+      "leather",
+      "woody",
+      "resin"
+    ]
   },
   {
     "name": "Eau Sauvage",
@@ -4393,7 +6302,33 @@
         ]
       }
     },
-    "unique_id": "Eau Sauvage_1970_1970-dior.png"
+    "unique_id": "Eau Sauvage_1970_1970-dior.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/dior\/eau-sauvage-231.html",
+    "Top":[
+      "lemon",
+      "bergamot",
+      "basil",
+      "rosemary",
+      "caraway",
+      "fruity notes"
+    ],
+    "Middle":[
+      "jasmine",
+      "coriander",
+      "carnation",
+      "patchouli",
+      "orris root",
+      "sandalwood",
+      "rose",
+      "lavender",
+      "hedione"
+    ],
+    "Base":[
+      "oakmoss",
+      "vetiver",
+      "musk",
+      "amber"
+    ]
   },
   {
     "name": "Eau Sauvage",
@@ -4445,7 +6380,33 @@
         ]
       }
     },
-    "unique_id": "Eau Sauvage_1970_1970-dior-4.png"
+    "unique_id": "Eau Sauvage_1970_1970-dior-4.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/dior\/eau-sauvage-231.html",
+    "Top":[
+      "lemon",
+      "bergamot",
+      "basil",
+      "rosemary",
+      "caraway",
+      "fruity notes"
+    ],
+    "Middle":[
+      "jasmine",
+      "coriander",
+      "carnation",
+      "patchouli",
+      "orris root",
+      "sandalwood",
+      "rose",
+      "lavender",
+      "hedione"
+    ],
+    "Base":[
+      "oakmoss",
+      "vetiver",
+      "musk",
+      "amber"
+    ]
   },
   {
     "name": "Eau Sauvage",
@@ -4485,7 +6446,33 @@
         ]
       }
     },
-    "unique_id": "Eau Sauvage_1967_1967-dior.png"
+    "unique_id": "Eau Sauvage_1967_1967-dior.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/dior\/eau-sauvage-231.html",
+    "Top":[
+      "lemon",
+      "bergamot",
+      "basil",
+      "rosemary",
+      "caraway",
+      "fruity notes"
+    ],
+    "Middle":[
+      "jasmine",
+      "coriander",
+      "carnation",
+      "patchouli",
+      "orris root",
+      "sandalwood",
+      "rose",
+      "lavender",
+      "hedione"
+    ],
+    "Base":[
+      "oakmoss",
+      "vetiver",
+      "musk",
+      "amber"
+    ]
   },
   {
     "name": "Miss Dior",
@@ -4525,7 +6512,34 @@
         ]
       }
     },
-    "unique_id": "Miss Dior_1970_1970-dior-2.png"
+    "unique_id": "Miss Dior_1970_1970-dior-2.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/dior\/miss-dior-223.html",
+    "Top":[
+      "aldehydes",
+      "galbanum",
+      "clary sage",
+      "gardenia",
+      "bergamot"
+    ],
+    "Middle":[
+      "narcissus",
+      "iris",
+      "carnation",
+      "orris root",
+      "lily-of-the-valley",
+      "jasmine",
+      "rose",
+      "neroli"
+    ],
+    "Base":[
+      "oakmoss",
+      "leather",
+      "vetiver",
+      "patchouli",
+      "labdanum",
+      "sandalwood",
+      "amber"
+    ]
   },
   {
     "name": "Miss Dior",
@@ -4552,11 +6566,38 @@
         ]
       }
     },
-    "unique_id": "Miss Dior_1970_1970-dior-5.png"
+    "unique_id": "Miss Dior_1970_1970-dior-5.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/dior\/miss-dior-223.html",
+    "Top":[
+      "aldehydes",
+      "galbanum",
+      "clary sage",
+      "gardenia",
+      "bergamot"
+    ],
+    "Middle":[
+      "narcissus",
+      "iris",
+      "carnation",
+      "orris root",
+      "lily-of-the-valley",
+      "jasmine",
+      "rose",
+      "neroli"
+    ],
+    "Base":[
+      "oakmoss",
+      "leather",
+      "vetiver",
+      "patchouli",
+      "labdanum",
+      "sandalwood",
+      "amber"
+    ]
   },
   {
     "name": "Jean Paul Gaultier",
-    "year": 2010,
+    "year": 1990,
     "gender": "women",
     "brand": "Jean Paul Gaultier",
     "ad-image": "images/aa/1990-jean.png",
@@ -4616,10 +6657,34 @@
         ]
       }
     },
-    "unique_id": "Jean Paul Gaultier_2010_1990-jean.png"
+    "unique_id": "Jean Paul Gaultier_2010_1990-jean.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/jean-paul-gaultier\/classique-427.html",
+    "Top":[
+      "orange blossom",
+      "star anise",
+      "rose",
+      "mandarin orange",
+      "pear",
+      "bergamot"
+    ],
+    "Middle":[
+      "ylang-ylang",
+      "ginger",
+      "orchid",
+      "iris",
+      "tuberose",
+      "plum"
+    ],
+    "Base":[
+      "vanilla",
+      "amber",
+      "musk",
+      "cinnamon",
+      "sandalwood"
+    ]
   },
   {
-    "name": "Classique",
+    "name": "Classique X",
     "year": 2010,
     "gender": "women",
     "brand": "Jean Paul Gaultier",
@@ -4656,51 +6721,25 @@
         ]
       }
     },
-    "unique_id": "Classique_2010_2010-jean.png"
-  },
-  {
-    "name": "Classique",
-    "year": 2000,
-    "gender": "women",
-    "brand": "Jean Paul Gaultier",
-    "ad-image": "images/aa/2000-jean.png",
-    "copy": "",
-    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/2000-jean.png",
-    "analysis": {
-      "vision": {
-        "description": "The advertisement features a woman in a corset with her arms raised, and a perfume bottle displayed nearby.",
-        "people": [
-          {
-            "gender": "woman",
-            "facial_expression": "serious",
-            "pose_action": "standing with arms raised",
-            "emotion_tags": [
-              "confident",
-              "alluring",
-              "bold",
-              "intense",
-              "focused"
-            ]
-          }
-        ],
-        "people_count": 1,
-        "nudity": "partial",
-        "sexual_suggestiveness": "suggestive",
-        "interaction_type": "none",
-        "mood_tags": [
-          "elegant",
-          "sophisticated",
-          "bold",
-          "alluring",
-          "intense"
-        ]
-      }
-    },
-    "unique_id": "Classique_2000_2000-jean.png"
+    "unique_id": "Classique_2010_2010-jean.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/jean-paul-gaultier\/classique-x-7800.html",
+    "Top":[
+      "bergamot",
+      "mandarin orange"
+    ],
+    "Middle":[
+      "african orange flower",
+      "iris",
+      "peony"
+    ],
+    "Base":[
+      "virginia cedar",
+      "vanille"
+    ]
   },
   {
     "name": "Le Male",
-    "year": 2010,
+    "year": 2005,
     "gender": "men",
     "brand": "Jean Paul Gaultier",
     "ad-image": "images/aa/2010-jean-2.png",
@@ -4736,7 +6775,36 @@
         ]
       }
     },
-    "unique_id": "Le Male_2010_2010-jean-2.png"
+    "unique_id": "Le Male_2010_2010-jean-2.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/jean-paul-gaultier\/le-male-430.html",
+    "Top":[
+      "lavender",
+      "mint",
+      "cardamom",
+      "bergamot",
+      "artemisia"
+    ],
+    "Middle":[
+      "cinnamon",
+      "orange blossom",
+      "caraway"
+    ],
+    "Base":[
+      "vanilla",
+      "tonka bean",
+      "amber",
+      "sandalwood",
+      "cedar"
+    ],
+    "Perfumer1":"francis kurkdjian",
+    "Perfumer2":null,
+    "mainaccords":[
+      "aromatic",
+      "vanilla",
+      "fresh spicy",
+      "lavender",
+      "warm spicy"
+    ]
   },
   {
     "name": "Lucien Lelong",
@@ -4776,7 +6844,13 @@
         ]
       }
     },
-    "unique_id": "Lucien Lelong_1930_1930-lucien.png"
+    "unique_id": "Lucien Lelong_1930_1930-lucien.png",
+    "url": "https://www.fragrantica.com/perfume/Lucien-Lelong/Lelong-5764.html",
+    "Top":[
+      "white flowers",
+      "honey",
+      "sweet"
+    ]
   },
   {
     "name": "Lucien Lelong",
@@ -4803,7 +6877,13 @@
         ]
       }
     },
-    "unique_id": "Lucien Lelong_1930_1930-lucien-2.png"
+    "unique_id": "Lucien Lelong_1930_1930-lucien.png",
+    "url": "https://www.fragrantica.com/perfume/Lucien-Lelong/Lelong-5764.html",
+    "Top":[
+      "white flowers",
+      "honey",
+      "sweet"
+    ]
   },
   {
     "name": "Goya",
@@ -4855,7 +6935,8 @@
         ]
       }
     },
-    "unique_id": "Goya_1950_1950-goya-1.png"
+    "unique_id": "Goya_1950_1950-goya-1.png",
+    "url": "https://www.parfumo.com/Perfumes/Goya/Goya_No_5"
   },
   {
     "name": "Wanna-Ranee",
@@ -4881,13 +6962,14 @@
         ]
       }
     },
-    "unique_id": "Wanna-Ranee_1919_1919-wana.png"
+    "unique_id": "Wanna-Ranee_1919_1919-wana.png",
+    "url": "https://www.parfumo.com/Perfumes/Grossmith/WanaRanee"
   },
   {
     "name": "Imperial Leather Cologne",
     "year": 1949,
     "gender": "men",
-    "brand": "Goya",
+    "brand": "Cussons",
     "ad-image": "images/aa/1949-cussons.png",
     "copy": "",
     "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1949-cussons.png",
@@ -4933,10 +7015,29 @@
         ]
       }
     },
-    "unique_id": "Imperial Leather Cologne_1949_1949-cussons.png"
+    "unique_id": "Imperial Leather Cologne_1949_1949-cussons.png",
+    "url": "https://www.fragrantica.com/perfume/Cussons/Imperial-Leather-73663.html",
+    "Top":[
+      "lavender",
+      "bergamot",
+      "lemon"
+    ],
+    "Middle":[
+      "cedar",
+      "patchouli",
+      "geranium",
+      "fern"
+    ],
+    "Base":[
+      "moss",
+      "tonka bean",
+      "amber",
+      "musk",
+      "vanilla"
+    ]
   },
   {
-    "name": "L'aimant",
+    "name": "L'Aimant",
     "year": 1970,
     "gender": "women",
     "brand": "Coty",
@@ -4985,7 +7086,29 @@
         ]
       }
     },
-    "unique_id": "L'aimant_1970_1970-coty.png"
+    "unique_id": "L'aimant_1970_1970-coty.png",
+    "url": "https://www.fragrantica.com/perfume/Coty/L-Aimant-10934.html",
+    "Top":[
+      "bergamot",
+      "neroli",
+      "peach",
+      "aldehydes"
+    ],
+    "Middle":[
+      "geranium",
+      "rose",
+      "orchid",
+      "jasmine",
+      "ylang-ylang"
+    ],
+    "Base":[
+      "vetiver",
+      "musk",
+      "vanilla",
+      "sandalwood",
+      "tonka bean",
+      "cedar"
+    ]
   },
   {
     "name": "Wild Rose",
@@ -5038,7 +7161,8 @@
         ]
       }
     },
-    "unique_id": "Wild Rose_1940_1940-francesdenny.png"
+    "unique_id": "Wild Rose_1940_1940-francesdenny.png",
+    "url": "https://www.fragrantica.com/perfume/Frances-Denney/Wild-Rose-39522.html"
   },
   {
     "name": "Emeraude the Jewel Fragrance",
@@ -5065,7 +7189,27 @@
         ]
       }
     },
-    "unique_id": "Emeraude the Jewel Fragrance_1940_1940-coty-3.jpg"
+    "unique_id": "Emeraude the Jewel Fragrance_1940_1940-coty-3.jpg",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/coty\/emeraude-3945.html",
+    "Top":[
+      "bergamot",
+      "lemon",
+      "orange"
+    ],
+    "Middle":[
+      "brazilian rosewood",
+      "ylang-ylang",
+      "jasmine",
+      "rose"
+    ],
+    "Base":[
+      "opoponax",
+      "benzoin",
+      "vanilla",
+      "amber",
+      "sandalwood",
+      "patchouli"
+    ]
   },
   {
     "name": "Coty informal fragrance",
@@ -5105,7 +7249,29 @@
         ]
       }
     },
-    "unique_id": "Coty informal fragrance_1941_1941-coty-1.jpg"
+    "unique_id": "Coty informal fragrance_1941_1941-coty-1.jpg",
+    "url": "https://www.fragrantica.com/perfume/Coty/L-Aimant-10934.html",
+    "Top":[
+      "bergamot",
+      "neroli",
+      "peach",
+      "aldehydes"
+    ],
+    "Middle":[
+      "geranium",
+      "rose",
+      "orchid",
+      "jasmine",
+      "ylang-ylang"
+    ],
+    "Base":[
+      "vetiver",
+      "musk",
+      "vanilla",
+      "sandalwood",
+      "tonka bean",
+      "cedar"
+    ]
   },
   {
     "name": "Accomplice",
@@ -5157,7 +7323,31 @@
         ]
       }
     },
-    "unique_id": "Accomplice_1930_1930-coty.png"
+    "unique_id": "Accomplice_1930_1930-coty.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/coty\/complice-11790.html",
+    "Top":[
+      "aldehydes",
+      "african orange flower",
+      "bergamot",
+      "peach",
+      "spices"
+    ],
+    "Middle":[
+      "lily-of-the-valley",
+      "rose",
+      "lilac",
+      "narcissus",
+      "orris root",
+      "carnation"
+    ],
+    "Base":[
+      "oak moss",
+      "vetiver",
+      "musk",
+      "benzoin",
+      "civetta",
+      "sandalwood"
+    ]
   },
   {
     "name": "Le Vertige",
@@ -5197,11 +7387,12 @@
         ]
       }
     },
-    "unique_id": "Le Vertige_1938_1938-coty.png"
+    "unique_id": "Le Vertige_1938_1938-coty.png",
+    "url": "https://www.parfumo.com/Perfumes/Coty/Le_Vertige"
   },
   {
-    "name": "The Magnet",
-    "year": 1950,
+    "name": "L'Aimant",
+    "year": 1990,
     "gender": "women",
     "brand": "Coty",
     "ad-image": "images/aa/1990-coty.png",
@@ -5237,7 +7428,29 @@
         ]
       }
     },
-    "unique_id": "The Magnet_1950_1990-coty.png"
+    "unique_id": "The Magnet_1950_1990-coty.png",
+    "url": "https://www.fragrantica.com/perfume/Coty/L-Aimant-10934.html",
+    "Top":[
+      "bergamot",
+      "neroli",
+      "peach",
+      "aldehydes"
+    ],
+    "Middle":[
+      "geranium",
+      "rose",
+      "orchid",
+      "jasmine",
+      "ylang-ylang"
+    ],
+    "Base":[
+      "vetiver",
+      "musk",
+      "vanilla",
+      "sandalwood",
+      "tonka bean",
+      "cedar"
+    ]
   },
   {
     "name": "Chanel No.19",
@@ -5289,7 +7502,26 @@
         ]
       }
     },
-    "unique_id": "Chanel No.19_1979_1979-chanel19-1.png"
+    "unique_id": "Chanel No.19_1979_1979-chanel19-1.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/chanel\/chanel-no-19-parfum-12346.html",
+    "Top":[
+      "galbanum",
+      "neroli"
+    ],
+    "Middle":[
+      "orris",
+      "may rose",
+      "narcissus",
+      "jasmine",
+      "hedione",
+      "ylang-ylang"
+    ],
+    "Base":[
+      "oakmoss",
+      "vetiver",
+      "cedar",
+      "musk"
+    ]
   },
   {
     "name": "Chanel No.19",
@@ -5365,7 +7597,26 @@
         ]
       }
     },
-    "unique_id": "Chanel No.19_1979_1979-chanel19-2.png"
+    "unique_id": "Chanel No.19_1979_1979-chanel19-2.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/chanel\/chanel-no-19-parfum-12346.html",
+    "Top":[
+      "galbanum",
+      "neroli"
+    ],
+    "Middle":[
+      "orris",
+      "may rose",
+      "narcissus",
+      "jasmine",
+      "hedione",
+      "ylang-ylang"
+    ],
+    "Base":[
+      "oakmoss",
+      "vetiver",
+      "cedar",
+      "musk"
+    ]
   },
   {
     "name": "Divine",
@@ -5392,7 +7643,8 @@
         ]
       }
     },
-    "unique_id": "Divine_1950_1950-dorsay.png"
+    "unique_id": "Divine_1950_1950-dorsay.png",
+    "url": "https://www.parfumo.com/Perfumes/d_Orsay/divine-eau-de-cologne"
   },
   {
     "name": "Intoxication",
@@ -5444,7 +7696,19 @@
         ]
       }
     },
-    "unique_id": "Intoxication_1940_1940-dorsay.png"
+    "unique_id": "Intoxication_1940_1940-dorsay.png",
+    "url": "https://www.fragrantica.com/perfume/D-ORSAY/Intoxication-Vintage-39378.html",
+    "Top":[
+      "styrax",
+      "citruses"
+    ],
+    "Middle":[
+      "floral notes"
+    ],
+    "Base":[
+      "amber",
+      "oakmoss"
+    ]
   },
   {
     "name": "Intoxication",
@@ -5544,7 +7808,19 @@
         ]
       }
     },
-    "unique_id": "Intoxication_1950_1950-dorsay-2.png"
+    "unique_id": "Intoxication_1950_1950-dorsay-2.png",
+    "url": "https://www.fragrantica.com/perfume/D-ORSAY/Intoxication-Vintage-39378.html",
+    "Top":[
+      "styrax",
+      "citruses"
+    ],
+    "Middle":[
+      "floral notes"
+    ],
+    "Base":[
+      "amber",
+      "oakmoss"
+    ]
   },
   {
     "name": "Cherie Miss Dior",
@@ -5584,14 +7860,33 @@
         ]
       }
     },
-    "unique_id": "Cherie Miss Dior_2009_2009-dior.jpg"
+    "unique_id": "Cherie Miss Dior_2009_2009-dior.jpg",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/dior\/miss-dior-cherie-213.html",
+    "Top":[
+      "cherry",
+      "strawberry",
+      "pineapple",
+      "mandarin orange"
+    ],
+    "Middle":[
+      "popcorn",
+      "caramel",
+      "rose",
+      "jasmine",
+      "violet"
+    ],
+    "Base":[
+      "patchouli",
+      "musk",
+      "amber"
+    ]
   },
   {
     "name": "Florient",
-    "year": 1990,
+    "year": 1912,
     "gender": "unisex",
     "brand": "Colgate",
-    "ad-image": "images/aa/1990-colgate.png",
+    "ad-image": "images/aa/1912-colgate.png",
     "copy": "The rare oriental fragrance of Colgate's florient won first place in a famous perfume contest. This marvelous perfume may be had also in Toilet water, face poweder, talc powder, and soap",
     "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1990-colgate.png",
     "analysis": {
@@ -5611,7 +7906,8 @@
         ]
       }
     },
-    "unique_id": "Florient_1990_1990-colgate.png"
+    "unique_id": "Florient_1912_1912-colgate.png",
+    "url": "https://www.parfumo.com/Perfumes/Colgate_Company/Florient"
   },
   {
     "name": "Chanel No.22",
@@ -5651,7 +7947,23 @@
         ]
       }
     },
-    "unique_id": "Chanel No.22_1967_1967-chanel.png"
+    "unique_id": "Chanel No.22_1967_1967-chanel.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/chanel\/les-exclusifs-de-chanel-no-22-7142.html",
+    "Top":[
+      "aldehydes",
+      "neroli",
+      "lily-of-the-valley"
+    ],
+    "Middle":[
+      "ylang-ylang",
+      "jasmine",
+      "rose",
+      "tuberose"
+    ],
+    "Base":[
+      "vanille",
+      "vetyver"
+    ]
   },
   {
     "name": "muguet des bois",
@@ -5691,7 +8003,25 @@
         ]
       }
     },
-    "unique_id": "muguet des bois_1940_1940-coty.png"
+    "unique_id": "muguet des bois_1940_1940-coty.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/coty\/muguet-des-bois-2998.html",
+    "Top":[
+      "green leaves",
+      "aldehydes",
+      "bergamot",
+      "orange"
+    ],
+    "Middle":[
+      "lily-of-the-valley",
+      "lilac",
+      "cyclamen",
+      "jasmine",
+      "rose"
+    ],
+    "Base":[
+      "musk",
+      "sandalwood"
+    ]
   },
   {
     "name": "Paris",
@@ -5743,13 +8073,20 @@
         ]
       }
     },
-    "unique_id": "Paris_1940_1940-coty-2.png"
+    "unique_id": "Paris_1940_1940-coty-2.png",
+    "url":"https://www.fragrantica.com/perfume/Coty/Paris-26758.html",
+    "Top":[
+      "floral",
+      "powdery notes",
+      "musk",
+      "vanilla"
+    ]
   },
   {
     "name": "Fleurs De Mousse",
     "year": 1920,
     "gender": "women",
-    "brand": "Fleurs De Mousse",
+    "brand": "Sauzé",
     "ad-image": "images/aa/1920-fleurs.png",
     "copy": "",
     "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1920-fleurs.png",
@@ -5783,7 +8120,8 @@
         ]
       }
     },
-    "unique_id": "Fleurs De Mousse_1920_1920-fleurs.png"
+    "unique_id": "Fleurs De Mousse_1920_1920-fleurs.png",
+    "url": "https://www.parfumo.com/Perfumes/Sauze_Freres/Fleurs_de_Mousse"
   },
   {
     "name": "Femmes De France",
@@ -5823,7 +8161,8 @@
         ]
       }
     },
-    "unique_id": "Femmes De France_1910_1910-femmes.png"
+    "unique_id": "Femmes De France_1910_1910-femmes.png",
+    "url": "https://www.parfumo.com/Perfumes/Viville"
   },
   {
     "name": "Tigress",
@@ -5863,7 +8202,15 @@
         ]
       }
     },
-    "unique_id": "Tigress_1970_1970-faberge.png"
+    "unique_id": "Tigress_1970_1970-faberge.png",
+    "url": "https://www.fragrantica.com/perfume/Brut-Parfums-Prestige/Faberge-Tigress-9986.html",
+    "Top":[
+      "vanilla",
+      "amber",
+      "floral",
+      "spicy",
+      "aldehydes"
+    ]
   },
   {
     "name": "m7",
@@ -5903,7 +8250,21 @@
         ]
       }
     },
-    "unique_id": "m7_2002_2002-ysl.png"
+    "unique_id": "m7_2002_2002-ysl.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/yves-saint-laurent\/m7-1031.html",
+    "Top":[
+      "rosemary",
+      "mandarin orange",
+      "bergamot"
+    ],
+    "Middle":[
+      "agarwood (oud)",
+      "vetiver"
+    ],
+    "Base":[
+      "amber",
+      "musk"
+    ]
   },
   {
     "name": "Envy",
@@ -5955,7 +8316,28 @@
         ]
       }
     },
-    "unique_id": "Envy_2000_2000-gucci.png"
+    "unique_id": "Envy_2000_2000-gucci.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/gucci\/gucci-envy-eau-de-parfum-27085.html",
+    "Top":[
+      "bergamot",
+      "freesia",
+      "peach",
+      "magnolia",
+      "pineapple"
+    ],
+    "Middle":[
+      "hyacinth",
+      "lily-of-the-valley",
+      "jasmine",
+      "rose",
+      "violet",
+      "iris"
+    ],
+    "Base":[
+      "cedar",
+      "musk",
+      "sandalwood"
+    ]
   },
   {
     "name": "Envy",
@@ -6007,7 +8389,28 @@
         ]
       }
     },
-    "unique_id": "Envy_2000_2000-gucci-2.png"
+    "unique_id": "Envy_2000_2000-gucci-2.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/gucci\/gucci-envy-eau-de-parfum-27085.html",
+    "Top":[
+      "bergamot",
+      "freesia",
+      "peach",
+      "magnolia",
+      "pineapple"
+    ],
+    "Middle":[
+      "hyacinth",
+      "lily-of-the-valley",
+      "jasmine",
+      "rose",
+      "violet",
+      "iris"
+    ],
+    "Base":[
+      "cedar",
+      "musk",
+      "sandalwood"
+    ]
   },
   {
     "name": "Shocking",
@@ -6059,7 +8462,28 @@
         ]
       }
     },
-    "unique_id": "Shocking_1940_1940-schiaparelli.png"
+    "unique_id": "Shocking_1940_1940-schiaparelli.png",
+    "url": "https://www.fragrantica.com/perfume/Schiaparelli/Shocking-4876.html",
+    "Top":[
+      "tarragon",
+      "aldehydes",
+      "bergamot"
+    ],
+    "Middle":[
+      "honey",
+      "narcissus",
+      "ylang-ylang",
+      "jasmine",
+      "rose"
+    ],
+    "Base":[
+      "civetta",
+      "musk",
+      "sandalwood",
+      "amber",
+      "clove",
+      "patchouli"
+    ]
   },
   {
     "name": "Shocking",
@@ -6099,7 +8523,28 @@
         ]
       }
     },
-    "unique_id": "Shocking_1950_1950-schiaparelli.png"
+    "unique_id": "Shocking_1950_1950-schiaparelli.png",
+    "url": "https://www.fragrantica.com/perfume/Schiaparelli/Shocking-4876.html",
+    "Top":[
+      "tarragon",
+      "aldehydes",
+      "bergamot"
+    ],
+    "Middle":[
+      "honey",
+      "narcissus",
+      "ylang-ylang",
+      "jasmine",
+      "rose"
+    ],
+    "Base":[
+      "civetta",
+      "musk",
+      "sandalwood",
+      "amber",
+      "clove",
+      "patchouli"
+    ]
   },
   {
     "name": "Paris",
@@ -6151,7 +8596,39 @@
         ]
       }
     },
-    "unique_id": "Paris_2000_2000-ysl.png"
+    "unique_id": "Paris_2000_2000-ysl.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/yves-saint-laurent\/paris-94.html",
+    "Top":[
+      "rose",
+      "mimosa",
+      "hiacynth",
+      "geranium",
+      "green notes",
+      "nasturtium",
+      "orange blossom",
+      "hawthorn",
+      "cassia",
+      "bergamot"
+    ],
+    "Middle":[
+      "rose",
+      "violet",
+      "lily",
+      "lime blossom",
+      "ylang-ylang",
+      "lily-of-the-valley",
+      "jasmine",
+      "orris root"
+    ],
+    "Base":[
+      "iris",
+      "musk",
+      "heliotrope",
+      "sandalwood",
+      "oakmoss",
+      "amber",
+      "cedar"
+    ]
   },
   {
     "name": "Hoytes Cologne",
@@ -6231,7 +8708,26 @@
         ]
       }
     },
-    "unique_id": "Extreme Polo_2000_2000-ralph.png"
+    "unique_id": "Extreme Polo_2000_2000-ralph.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/ralph-lauren\/extreme-polo-sport-9740.html",
+    "Top":[
+      "pepper",
+      "mint",
+      "bergamot",
+      "nutmeg",
+      "coriander",
+      "juniper berries"
+    ],
+    "Middle":[
+      "cypress",
+      "clary sage",
+      "guaiac wood"
+    ],
+    "Base":[
+      "sandalwood",
+      "elemi resin",
+      "incense"
+    ]
   },
   {
     "name": "Irresistable",
@@ -6363,7 +8859,22 @@
         ]
       }
     },
-    "unique_id": "Emporio Armani For Him_2003_2003-armani.png"
+    "unique_id": "Emporio Armani For Him_2003_2003-armani.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/giorgio-armani\/emporio-armani-for-him-2008-2695.html",
+    "Top":[
+      "bergamot"
+    ],
+    "Middle":[
+      "vetiver",
+      "yuzu",
+      "sage",
+      "cardamom"
+    ],
+    "Base":[
+      "musk",
+      "cedar",
+      "tonka bean"
+    ]
   },
   {
     "name": "Opium Parfum",
@@ -6405,7 +8916,45 @@
         ]
       }
     },
-    "unique_id": "Opium Parfum_1977_2000-ysl.jpg"
+    "unique_id": "Opium Parfum_1977_2000-ysl.jpg",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/yves-saint-laurent\/opium-parfum-33772.html",
+    "Top":[
+      "cloves",
+      "pepper",
+      "mandarin orange",
+      "coriander",
+      "plum",
+      "west indian bay",
+      "citruses",
+      "jasmine",
+      "bergamot"
+    ],
+    "Middle":[
+      "carnation",
+      "cinnamon",
+      "rose",
+      "sandalwood",
+      "patchouli",
+      "orris root",
+      "peach",
+      "lily-of-the-valley"
+    ],
+    "Base":[
+      "myrrh",
+      "incense",
+      "tolu balsam",
+      "amber",
+      "vanilla",
+      "opoponax",
+      "castoreum",
+      "benzoin",
+      "sandalwood",
+      "labdanum",
+      "cedar",
+      "musk",
+      "vetyver",
+      "coconut"
+    ]
   },
   {
     "name": "Antaeus Pour Homme",
@@ -6446,7 +8995,28 @@
         ]
       }
     },
-    "unique_id": "Antaeus Pour Homme_1980_1980-chanel.png"
+    "unique_id": "Antaeus Pour Homme_1980_1980-chanel.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/chanel\/antaeus-616.html",
+    "Top":[
+      "myrhh",
+      "clary sage",
+      "coriander",
+      "bergamot",
+      "lime",
+      "amalfi lemon"
+    ],
+    "Middle":[
+      "rose",
+      "thyme",
+      "basil",
+      "jasmine"
+    ],
+    "Base":[
+      "castoreum",
+      "oakmoss",
+      "patchouli",
+      "french labdanum"
+    ]
   },
   {
     "name": "Diorama",
@@ -6487,7 +9057,37 @@
         ]
       }
     },
-    "unique_id": "Diorama_1950_1950-dior.png"
+    "unique_id": "Diorama_1950_1950-dior.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/dior\/diorama-2608.html",
+    "Top":[
+      "plum",
+      "peach",
+      "melon",
+      "bergamot"
+    ],
+    "Middle":[
+      "jasmine",
+      "gardenia",
+      "tuberose",
+      "rose",
+      "cinnamon",
+      "violet",
+      "caraway",
+      "pepper",
+      "nutmeg",
+      "lily-of-the-valley",
+      "clove"
+    ],
+    "Base":[
+      "oak moss",
+      "castoreum",
+      "civetta",
+      "leather",
+      "vetiver",
+      "sandalwood",
+      "musk",
+      "virginia cedar"
+    ]
   },
   {
     "name": "Youth-Dew",
@@ -6528,7 +9128,40 @@
         ]
       }
     },
-    "unique_id": "Youth-Dew_1993_1993-esteelauder.png"
+    "unique_id": "Youth-Dew_1993_1993-esteelauder.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/estee-lauder\/youth-dew-555.html",
+    "Top":[
+      "spices",
+      "aldehydes",
+      "narcissus",
+      "lavender",
+      "orange",
+      "peach",
+      "coca-cola",
+      "bergamot"
+    ],
+    "Middle":[
+      "spicy notes",
+      "cloves",
+      "cinnamon",
+      "rose",
+      "ylang-ylang",
+      "jasmine",
+      "lily-of-the-valley",
+      "cassia",
+      "orchid"
+    ],
+    "Base":[
+      "incense",
+      "tolu balsam",
+      "peru balsam",
+      "oakmoss",
+      "patchouli",
+      "amber",
+      "vetiver",
+      "vanilla",
+      "musk"
+    ]
   },
   {
     "name": "Miss Dior",
@@ -6568,7 +9201,34 @@
         ]
       }
     },
-    "unique_id": "Miss Dior_1970_1970-dior-3.png"
+    "unique_id": "Miss Dior_1970_1970-dior-3.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/dior\/miss-dior-223.html",
+    "Top":[
+      "aldehydes",
+      "galbanum",
+      "clary sage",
+      "gardenia",
+      "bergamot"
+    ],
+    "Middle":[
+      "narcissus",
+      "iris",
+      "carnation",
+      "orris root",
+      "lily-of-the-valley",
+      "jasmine",
+      "rose",
+      "neroli"
+    ],
+    "Base":[
+      "oakmoss",
+      "leather",
+      "vetiver",
+      "patchouli",
+      "labdanum",
+      "sandalwood",
+      "amber"
+    ]
   },
   {
     "name": "Emeraude",
@@ -6608,7 +9268,27 @@
         ]
       }
     },
-    "unique_id": "Emeraude_1960_1960-coty.png"
+    "unique_id": "Emeraude_1960_1960-coty.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/coty\/emeraude-3945.html",
+    "Top":[
+      "bergamot",
+      "lemon",
+      "orange"
+    ],
+    "Middle":[
+      "brazilian rosewood",
+      "ylang-ylang",
+      "jasmine",
+      "rose"
+    ],
+    "Base":[
+      "opoponax",
+      "benzoin",
+      "vanilla",
+      "amber",
+      "sandalwood",
+      "patchouli"
+    ]
   },
   {
     "name": "5th Avenue",
@@ -6660,7 +9340,34 @@
         ]
       }
     },
-    "unique_id": "5th Avenue_2000_2000-elizabeth.png"
+    "unique_id": "5th Avenue_2000_2000-elizabeth.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/elizabeth-arden\/5th-avenue-81.html",
+    "Top":[
+      "lime",
+      "lily-of-the-valley",
+      "lilac",
+      "magnolia",
+      "bergamot",
+      "mandarin orange"
+    ],
+    "Middle":[
+      "jasmine",
+      "tuberose",
+      "ylang-ylang",
+      "peach",
+      "bulgarian rose",
+      "violet",
+      "carnation",
+      "nutmeg"
+    ],
+    "Base":[
+      "musk",
+      "iris",
+      "sandalwood",
+      "amber",
+      "vanilla",
+      "cloves"
+    ]
   },
   {
     "name": "Emporio Armani For Her",
@@ -6712,7 +9419,25 @@
         ]
       }
     },
-    "unique_id": "Emporio Armani For Her_2003_2003-armani-2.png"
+    "unique_id": "Emporio Armani For Her_2003_2003-armani-2.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/giorgio-armani\/emporio-armani-for-her-2008-2694.html",
+    "Top":[
+      "bergamot",
+      "pear",
+      "pineapple",
+      "mandarin orange"
+    ],
+    "Middle":[
+      "iris",
+      "jasmine",
+      "heliotrope",
+      "violet"
+    ],
+    "Base":[
+      "vanilla",
+      "musk",
+      "cedar"
+    ]
   },
   {
     "name": "Estee",
@@ -6752,7 +9477,33 @@
         ]
       }
     },
-    "unique_id": "Estee_1960_1960-estee.png"
+    "unique_id": "Estee_1960_1960-estee.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/estee-lauder\/estee-544.html",
+    "Top":[
+      "aldehydes",
+      "coriander",
+      "lily",
+      "ylang-ylang",
+      "tuberose",
+      "lemon",
+      "raspberry",
+      "peach"
+    ],
+    "Middle":[
+      "honey",
+      "carnation",
+      "lily-of-the-valley",
+      "iris",
+      "orris root",
+      "jasmine",
+      "rose"
+    ],
+    "Base":[
+      "oakmoss",
+      "sandalwood",
+      "styrax",
+      "cedar"
+    ]
   },
   {
     "name": "Aliage",
@@ -6792,7 +9543,23 @@
         ]
       }
     },
-    "unique_id": "Aliage_1970_1970-estee.png"
+    "unique_id": "Aliage_1970_1970-estee.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/estee-lauder\/aliage-58595.html",
+    "Top":[
+      "green notes",
+      "citruses",
+      "jasmine"
+    ],
+    "Middle":[
+      "artemisia",
+      "rose",
+      "nutmeg"
+    ],
+    "Base":[
+      "oakmoss",
+      "vetiver",
+      "cedar"
+    ]
   },
   {
     "name": "Toiletries",
@@ -6844,7 +9611,8 @@
         ]
       }
     },
-    "unique_id": "Toiletries_1930_1930-oldsouth.png"
+    "unique_id": "Toiletries_1930_1930-oldsouth.png",
+    "url": "https://www.parfumo.com/Perfumes/Old_South/Virginia_Reel_Trio_Plantation_Garden_Bouquet"
   },
   {
     "name": "Hypnotique",
@@ -6884,7 +9652,20 @@
         ]
       }
     },
-    "unique_id": "Hypnotique_1960_1960-maxfactor.png"
+    "unique_id": "Hypnotique_1960_1960-maxfactor.png",
+    "url": "https://www.fragrantica.com/perfume/Max-Factor/Hypnotique-38409.html",
+    "Top":[
+      "aldehydes",
+      "spicy",
+      "citruses"
+    ],
+    "Middle":[
+      "floral notes"
+    ],
+    "Base":[
+      "oakmoss",
+      "animal notes"
+    ]
   },
   {
     "name": "That Man",
@@ -6948,7 +9729,26 @@
         ]
       }
     },
-    "unique_id": "That Man_1960_1960-revlon.png"
+    "unique_id": "That Man_1960_1960-revlon.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/revlon\/that-man-20404.html",
+    "Top":[
+      "bergamot",
+      "lemon",
+      "petitgrain",
+      "lavender"
+    ],
+    "Middle":[
+      "geranium",
+      "cedar",
+      "carnation",
+      "spices"
+    ],
+    "Base":[
+      "oakmoss",
+      "musk",
+      "tonka bean",
+      "amber"
+    ]
   },
   {
     "name": "Oriental Spice",
@@ -7000,7 +9800,21 @@
         ]
       }
     },
-    "unique_id": "Oriental Spice_1970_1970-oriental.png"
+    "unique_id": "Oriental Spice_1970_1970-oriental.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/esteban\/oriental-spice-18472.html",
+    "Top":[
+      "cardamom",
+      "ginger"
+    ],
+    "Middle":[
+      "cinnamon",
+      "lily"
+    ],
+    "Base":[
+      "sandalwood",
+      "benzoin",
+      "tolu balsam"
+    ]
   },
   {
     "name": "Morny",
@@ -7040,7 +9854,8 @@
         ]
       }
     },
-    "unique_id": "Morny_1960_1960-morny.png"
+    "unique_id": "Morny_1960_1960-morny.png",
+    "url": "https://www.parfumo.com/Perfumes/Morny"
   },
   {
     "name": "Boss",
@@ -7128,7 +9943,21 @@
         ]
       }
     },
-    "unique_id": "Boss_2000_2000-hugoboss.png"
+    "unique_id": "Boss_2000_2000-hugoboss.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/hugo-boss\/boss-pure-2642.html",
+    "Top":[
+      "lemon",
+      "fig",
+      "mandarin orange",
+      "grapefruit"
+    ],
+    "Middle":[
+      "hyacinth",
+      "lily"
+    ],
+    "Base":[
+      "massoia"
+    ]
   },
   {
     "name": "White Diamonds",
@@ -7168,7 +9997,24 @@
         ]
       }
     },
-    "unique_id": "White Diamonds_1990_1990-elizabeth.png"
+    "unique_id": "White Diamonds_1990_1990-elizabeth.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/elizabeth-taylor\/love-white-diamonds-44935.html",
+    "Top":[
+      "neroli",
+      "mandarin orange",
+      "petitgrain"
+    ],
+    "Middle":[
+      "gardenia",
+      "jasmine sambac",
+      "tuberose",
+      "turkish rose"
+    ],
+    "Base":[
+      "musk",
+      "cedar",
+      "sandalwood"
+    ]
   },
   {
     "name": "Secret Du Sphinx",
@@ -7195,7 +10041,8 @@
         ]
       }
     },
-    "unique_id": "Secret Du Sphinx_1920_1920-sphinx.png"
+    "unique_id": "Secret Du Sphinx_1920_1920-sphinx.png",
+    "url": "https://www.parfumo.com/Perfumes/Ramses/The_Secret_of_the_Sphinx_Le_Secret_du_Sphinx"
   },
   {
     "name": "Atkinsons Eau de Cologne",
@@ -7247,13 +10094,14 @@
         ]
       }
     },
-    "unique_id": "Atkinsons Eau de Cologne_1910_1910-atkinsons.png"
+    "unique_id": "Atkinsons Eau de Cologne_1910_1910-atkinsons.png",
+    "url": "https://www.parfumo.com/Perfumes/Atkinsons/White_Rose"
   },
   {
     "name": "Epris",
     "year": 1980,
     "gender": "women",
-    "brand": "Epris",
+    "brand": "Max Factor",
     "ad-image": "images/aa/1980-epris.png",
     "copy": "A most provocative fragrance. Jaclyn Smith",
     "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1980-epris.png",
@@ -7287,10 +10135,17 @@
         ]
       }
     },
-    "unique_id": "Epris_1980_1980-epris.png"
+    "unique_id": "Epris_1980_1980-epris.png",
+    "url": "https://www.fragrantica.com/perfume/Max-Factor/Epris-14468.html",
+    "Top":[
+      "moss",
+      "earthy",
+      "floral",
+      "woody"
+    ]
   },
   {
-    "name": "djier kiss",
+    "name": "djer kiss",
     "year": 1910,
     "gender": "women",
     "brand": "Kerkoff",
@@ -7327,7 +10182,8 @@
         ]
       }
     },
-    "unique_id": "djier kiss_1910_1910-kerkoff.png"
+    "unique_id": "djier kiss_1910_1910-kerkoff.png",
+    "url": "https://www.parfumo.com/Perfumes/Kerkoff/DjerKiss"
   },
   {
     "name": "273",
@@ -7354,7 +10210,27 @@
         ]
       }
     },
-    "unique_id": "273_1991_1991-fred.png"
+    "unique_id": "273_1991_1991-fred.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/fred-hayman\/273-rodeo-drive-5875.html",
+    "Top":[
+      "tuberose",
+      "peach",
+      "gardenia",
+      "plum",
+      "jasmine"
+    ],
+    "Middle":[
+      "apricot",
+      "ylang-ylang",
+      "orris root"
+    ],
+    "Base":[
+      "amber",
+      "spices",
+      "sandalwood",
+      "vetiver",
+      "cedar"
+    ]
   },
   {
     "name": "La Nuit De L'Homme",
@@ -7418,7 +10294,23 @@
         ]
       }
     },
-    "unique_id": "La Nuit De L'Homme_2009_2009-ysl.png"
+    "unique_id": "La Nuit De L'Homme_2009_2009-ysl.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/yves-saint-laurent\/la-nuit-de-l-homme-le-parfum-10206.html",
+    "Top":[
+      "pepper",
+      "anise",
+      "bergamot"
+    ],
+    "Middle":[
+      "fruity notes",
+      "lavender",
+      "french labdanum"
+    ],
+    "Base":[
+      "vanille",
+      "patchouli",
+      "vetyver"
+    ]
   },
   {
     "name": "Kingdom",
@@ -7494,7 +10386,29 @@
         ]
       }
     },
-    "unique_id": "Kingdom_2003_2003-mcqueen.png"
+    "unique_id": "Kingdom_2003_2003-mcqueen.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/alexander-mcqueen\/kingdom-1195.html",
+    "Top":[
+      "neroli",
+      "bergamot",
+      "orange",
+      "mint",
+      "lemon",
+      "mandarin orange"
+    ],
+    "Middle":[
+      "celery seeds",
+      "rhubarb",
+      "ginger",
+      "carnation",
+      "rose",
+      "jasmine"
+    ],
+    "Base":[
+      "musk",
+      "amber",
+      "oakmoss"
+    ]
   },
   {
     "name": "Vivacious",
@@ -7546,7 +10460,8 @@
         ]
       }
     },
-    "unique_id": "Vivacious_1960_1960-dorothy.png"
+    "unique_id": "Vivacious_1960_1960-dorothy.png",
+    "url": "https://www.parfumo.com/Perfumes/Dorothy_Gray/Vivacious"
   },
   {
     "name": "Jolie Madame",
@@ -7586,7 +10501,38 @@
         ]
       }
     },
-    "unique_id": "Jolie Madame_1940_1940-balmain.png"
+    "unique_id": "Jolie Madame_1940_1940-balmain.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/pierre-balmain\/jolie-madame-3817.html",
+    "Top":[
+      "artemisia",
+      "coriander",
+      "gardenia",
+      "neroli",
+      "bergamot",
+      "petitgrain",
+      "cloves"
+    ],
+    "Middle":[
+      "violet leaf",
+      "narcissus",
+      "orris root",
+      "rose",
+      "tuberose",
+      "jasmine",
+      "lilac",
+      "orange blossom"
+    ],
+    "Base":[
+      "leather",
+      "oakmoss",
+      "vetiver",
+      "tobacco",
+      "civet",
+      "patchouli",
+      "musk",
+      "cedar",
+      "coconut"
+    ]
   },
   {
     "name": "Joy Eau de Toilette",
@@ -7626,7 +10572,21 @@
         ]
       }
     },
-    "unique_id": "Joy Eau de Toilette_1940_1940-joy-1.png"
+    "unique_id": "Joy Eau de Toilette_1940_1940-joy-1.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/jean-patou\/joy-1436.html",
+    "Top":[
+      "bulgarian rose",
+      "ylang-ylang",
+      "tuberose"
+    ],
+    "Middle":[
+      "jasmine",
+      "may rose"
+    ],
+    "Base":[
+      "musk",
+      "sandalwood"
+    ]
   },
   {
     "name": "Joy Eau de Toilette",
@@ -7653,7 +10613,21 @@
         ]
       }
     },
-    "unique_id": "Joy Eau de Toilette_1940_1940-joy-2.png"
+    "unique_id": "Joy Eau de Toilette_1940_1940-joy-2.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/jean-patou\/joy-1436.html",
+    "Top":[
+      "bulgarian rose",
+      "ylang-ylang",
+      "tuberose"
+    ],
+    "Middle":[
+      "jasmine",
+      "may rose"
+    ],
+    "Base":[
+      "musk",
+      "sandalwood"
+    ]
   },
   {
     "name": "Glow",
@@ -7693,7 +10667,25 @@
         ]
       }
     },
-    "unique_id": "Glow_2003_2003-jlo.png"
+    "unique_id": "Glow_2003_2003-jlo.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/jennifer-lopez\/glow-869.html",
+    "Top":[
+      "neroli",
+      "orange blossom",
+      "grapefruit"
+    ],
+    "Middle":[
+      "jasmine",
+      "rose",
+      "tuberose"
+    ],
+    "Base":[
+      "musk",
+      "sandalwood",
+      "orris root",
+      "amber",
+      "vanilla"
+    ]
   },
   {
     "name": "Omar Sharif Pour Femme",
@@ -7733,7 +10725,27 @@
         ]
       }
     },
-    "unique_id": "Omar Sharif Pour Femme_1991_1991-omar.png"
+    "unique_id": "Omar Sharif Pour Femme_1991_1991-omar.png",
+    "url": "https://www.fragrantica.com/perfume/Omar-Sharif/Pour-Femme-15818.html",
+    "Top":[
+      "orange blossom",
+      "oalisander rosewood",
+      "green notes",
+      "bergamot"
+    ],
+    "Middle":[
+      "tuberose",
+      "jasmine",
+      "ylang-ylang",
+      "narcissus",
+      "rose",
+      "orris"
+    ], 
+    "Base":[
+      "amber",
+      "musk",
+      "sandalwood"
+    ]
   },
   {
     "name": "Rive Gauche",
@@ -7785,7 +10797,34 @@
         ]
       }
     },
-    "unique_id": "Rive Gauche_1990_1990-ysl.png"
+    "unique_id": "Rive Gauche_1990_1990-ysl.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/yves-saint-laurent\/rive-gauche-96.html",
+    "Top":[
+      "aldehydes",
+      "green notes",
+      "honeysuckle",
+      "bergamot",
+      "peach",
+      "lemon"
+    ],
+    "Middle":[
+      "rose",
+      "iris",
+      "geranium",
+      "ylang-ylang",
+      "lily-of-the-valley",
+      "jasmine",
+      "magnolia",
+      "gardenia"
+    ],
+    "Base":[
+      "oakmoss",
+      "tahitian vetiver",
+      "musk",
+      "sandalwood",
+      "tonka bean",
+      "amber"
+    ]
   },
   {
     "name": "CK One",
@@ -7897,7 +10936,35 @@
         ]
       }
     },
-    "unique_id": "CK One_1994_1994-ckone-1.png"
+    "unique_id": "CK One_1994_1994-ckone-1.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/calvin-klein\/ck-one-276.html",
+    "Top":[
+      "lemon",
+      "green notes",
+      "bergamot",
+      "mandarin orange",
+      "pineapple",
+      "cardamom",
+      "papaya"
+    ],
+    "Middle":[
+      "lily-of-the-valley",
+      "jasmine",
+      "violet",
+      "rose",
+      "nutmeg",
+      "orris root",
+      "freesia"
+    ],
+    "Base":[
+      "green accord",
+      "musk",
+      "cedar",
+      "sandalwood",
+      "oakmoss",
+      "green tea",
+      "amber"
+    ]
   },
   {
     "name": "CK One",
@@ -7937,7 +11004,35 @@
         ]
       }
     },
-    "unique_id": "CK One_1994_1994-ckone-2.png"
+    "unique_id": "CK One_1994_1994-ckone-2.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/calvin-klein\/ck-one-276.html",
+    "Top":[
+      "lemon",
+      "green notes",
+      "bergamot",
+      "mandarin orange",
+      "pineapple",
+      "cardamom",
+      "papaya"
+    ],
+    "Middle":[
+      "lily-of-the-valley",
+      "jasmine",
+      "violet",
+      "rose",
+      "nutmeg",
+      "orris root",
+      "freesia"
+    ],
+    "Base":[
+      "green accord",
+      "musk",
+      "cedar",
+      "sandalwood",
+      "oakmoss",
+      "green tea",
+      "amber"
+    ]
   },
   {
     "name": "CK One",
@@ -7989,7 +11084,35 @@
         ]
       }
     },
-    "unique_id": "CK One_2002_2002-ckone-3.png"
+    "unique_id": "CK One_2002_2002-ckone-3.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/calvin-klein\/ck-one-276.html",
+    "Top":[
+      "lemon",
+      "green notes",
+      "bergamot",
+      "mandarin orange",
+      "pineapple",
+      "cardamom",
+      "papaya"
+    ],
+    "Middle":[
+      "lily-of-the-valley",
+      "jasmine",
+      "violet",
+      "rose",
+      "nutmeg",
+      "orris root",
+      "freesia"
+    ],
+    "Base":[
+      "green accord",
+      "musk",
+      "cedar",
+      "sandalwood",
+      "oakmoss",
+      "green tea",
+      "amber"
+    ]
   },
   {
     "name": "Beat",
@@ -8041,7 +11164,8 @@
         ]
       }
     },
-    "unique_id": "Beat_2003_2003-rimmel.png"
+    "unique_id": "Beat_2003_2003-rimmel.png",
+    "url": "https://www.parfumo.com/Perfumes/Rimmel_Eugene_Rimmel/Beat"
   },
   {
     "name": "Miracle Homme",
@@ -8081,13 +11205,29 @@
         ]
       }
     },
-    "unique_id": "Miracle Homme_2002_2002-lancome.png"
+    "unique_id": "Miracle Homme_2002_2002-lancome.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/lancome\/miracle-homme-189.html",
+    "Top":[
+      "pimento",
+      "oakmoss"
+    ],
+    "Middle":[
+      "coffee",
+      "cedar",
+      "brazilian rosewood"
+    ],
+    "Base":[
+      "maple",
+      "vetiver",
+      "guaiac wood",
+      "mahogany"
+    ]
   },
   {
     "name": "Lance Perfumes",
     "year": 1890,
     "gender": "women",
-    "brand": "Lancome",
+    "brand": "Lance",
     "ad-image": "images/aa/1890-lance.png",
     "copy": "LANCE Perfumes. These concentrated perfume sprays give a delightful refreshing coolness and every lady ought to have them.",
     "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1890-lance.png",
@@ -8185,7 +11325,22 @@
         ]
       }
     },
-    "unique_id": "So...?_1990_1990-so.png"
+    "unique_id": "So...?_1990_1990-so.png",
+    "url" :"https://www.fragrantica.com/perfume/So/So-8045.html",
+    "Top":[
+      "tangerine",
+      "orange blossom"
+    ],
+    "Middle":[
+      "jasmine",
+      "ylang-ylang",
+      "rose"
+    ],
+    "Base":[
+      "amber",
+      "sandalwood",
+      "vanilla"
+    ]
   },
   {
     "name": "Royal Vinolia Perfume",
@@ -8225,12 +11380,13 @@
         ]
       }
     },
-    "unique_id": "Royal Vinolia Perfume_1912_1912-royal.png"
+    "unique_id": "Royal Vinolia Perfume_1912_1912-royal.png",
+    "url": "https://www.parfumo.com/Perfumes/vinolia/Royal_Vinolia_Perfume"
   },
   {
     "name": "Tommy",
     "year": 2003,
-    "gender": "unisex",
+    "gender": "men",
     "brand": "Tommy Hilfiger",
     "ad-image": "images/aa/2003-tommy.png",
     "copy": "Twice as tempting. for her, for him.",
@@ -8277,7 +11433,13 @@
         ]
       }
     },
-    "unique_id": "Tommy_2003_2003-tommy.png"
+    "unique_id": "Tommy_2003_2003-tommy.png",
+    "url": "https://www.fragrantica.com/perfume/Tommy-Hilfiger/T-1391.html",
+    "Top":[
+      "citrus",
+      "woody",
+      "green notes"
+    ]
   },
   {
     "name": "Potter & Moore",
@@ -8317,7 +11479,13 @@
         ]
       }
     },
-    "unique_id": "Potter & Moore_1960_1960-potter.png"
+    "unique_id": "Potter & Moore_1960_1960-potter.png",
+    "url": "https://www.fragrantica.com/perfume/Potter-Moore/Bergamot-and-Green-Ginger-8540.html",
+    "Top":[
+      "citrus",
+      "spicy",
+      "fresh"
+    ]
   },
   {
     "name": "Gucci",
@@ -8357,7 +11525,24 @@
         ]
       }
     },
-    "unique_id": "Gucci_2009_2009-gucci.png"
+    "unique_id": "Gucci_2009_2009-gucci.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/gucci\/gucci-by-gucci-pour-homme-3792.html",
+    "Top":[
+      "cypress",
+      "violet",
+      "bergamot"
+    ],
+    "Middle":[
+      "tobacco",
+      "jasmine"
+    ],
+    "Base":[
+      "patchouli",
+      "leather",
+      "amber",
+      "elemi resin",
+      "olibanum"
+    ]
   },
   {
     "name": "Evening in Paris",
@@ -8409,7 +11594,28 @@
         ]
       }
     },
-    "unique_id": "Evening in Paris_1950_1950-bourjois.png"
+    "unique_id": "Evening in Paris_1950_1950-bourjois.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/bourjois\/soir-de-paris-evening-in-paris-3604.html",
+    "Top":[
+      "violet",
+      "peach",
+      "apricot",
+      "bergamot"
+    ],
+    "Middle":[
+      "iris",
+      "heliotrope",
+      "rose",
+      "ylang-ylang",
+      "lily-of-the-valley",
+      "jasmine"
+    ],
+    "Base":[
+      "amber",
+      "sandalwood",
+      "vanilla",
+      "musk"
+    ]
   },
   {
     "name": "Command Performance",
@@ -8461,7 +11667,8 @@
         ]
       }
     },
-    "unique_id": "Command Performance_1940_1940-helena.png"
+    "unique_id": "Command Performance_1940_1940-helena.png",
+    "url": "https://www.parfumo.com/Perfumes/Helena_Rubinstein/command-performance-eau-de-parfum"
   },
   {
     "name": "Cachet",
@@ -8585,7 +11792,28 @@
         ]
       }
     },
-    "unique_id": "Cachet_1970_1970-cachet-1.png"
+    "unique_id": "Cachet_1970_1970-cachet-1.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/prince-matchabelli\/cachet-3339.html",
+    "Top":[
+      "aldehydes",
+      "galbanum",
+      "green grass",
+      "spices"
+    ],
+    "Middle":[
+      "vetiver",
+      "jasmine",
+      "orris root",
+      "patchouli",
+      "rose"
+    ],
+    "Base":[
+      "oakmoss",
+      "leather",
+      "civet",
+      "amber",
+      "musk"
+    ]
   },
   {
     "name": "Cachet",
@@ -8649,7 +11877,28 @@
         ]
       }
     },
-    "unique_id": "Cachet_1970_1970-cachet-2.png"
+    "unique_id": "Cachet_1970_1970-cachet-2.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/prince-matchabelli\/cachet-3339.html",
+    "Top":[
+      "aldehydes",
+      "galbanum",
+      "green grass",
+      "spices"
+    ],
+    "Middle":[
+      "vetiver",
+      "jasmine",
+      "orris root",
+      "patchouli",
+      "rose"
+    ],
+    "Base":[
+      "oakmoss",
+      "leather",
+      "civet",
+      "amber",
+      "musk"
+    ]
   },
   {
     "name": "Un Air Embaume",
@@ -8725,7 +11974,15 @@
         ]
       }
     },
-    "unique_id": "Un Air Embaume_1920_1920-rigaud.png"
+    "unique_id": "Un Air Embaume_1920_1920-rigaud.png",
+    "url": "https://www.parfumo.com/Perfumes/Rigaud/Un_Air_Embaume",
+    "Top":[
+      "spicy",
+      "woody",
+      "floral",
+      "powdery notes",
+      "sweet"
+    ]
   },
   {
     "name": "Un Air Embaume",
@@ -8765,7 +12022,15 @@
         ]
       }
     },
-    "unique_id": "Un Air Embaume_1920_1920-rigaud-2.png"
+    "unique_id": "Un Air Embaume_1920_1920-rigaud-2.png",
+    "url": "https://www.parfumo.com/Perfumes/Rigaud/Un_Air_Embaume",
+    "Top":[
+      "spicy",
+      "woody",
+      "floral",
+      "powdery notes",
+      "sweet"
+    ]
   },
   {
     "name": "Curious",
@@ -8817,7 +12082,25 @@
         ]
       }
     },
-    "unique_id": "Curious_2004_2004-britney.png"
+    "unique_id": "Curious_2004_2004-britney.png",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/britney-spears\/curious-141.html",
+    "Top":[
+      "ylang-ylang",
+      "narcissus",
+      "pepper"
+    ],
+    "Middle":[
+      "gardenia",
+      "jasmine",
+      "lime (linden) blossom",
+      "orris root"
+    ],
+    "Base":[
+      "musk",
+      "oak",
+      "vetiver",
+      "oak moss"
+    ]
   },
   {
     "name": "Jontue",
@@ -8857,7 +12140,29 @@
         ]
       }
     },
-    "unique_id": "Jontue_1980_1980-revlon.jpg"
+    "unique_id": "Jontue_1980_1980-revlon.jpg",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/revlon\/jontue-4599.html",
+    "Top":[
+      "chamomile",
+      "gardenia",
+      "cypress",
+      "bergamot",
+      "rose"
+    ],
+    "Middle":[
+      "mimosa",
+      "tuberose",
+      "ylang-ylang",
+      "sage",
+      "geranium"
+    ],
+    "Base":[
+      "oakmoss",
+      "vetiver",
+      "benzoin",
+      "musk",
+      "patchouli"
+    ]
   },
   {
     "name": "Charlie",
@@ -8897,7 +12202,30 @@
         ]
       }
     },
-    "unique_id": "Charlie_1990_1990-revlon.jpg"
+    "unique_id": "Charlie_1990_1990-revlon.jpg",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/revlon\/charlie-3141.html",
+    "Top":[
+      "aldehydes",
+      "hiacynth",
+      "galbanum",
+      "jasmine",
+      "gardenia"
+    ],
+    "Middle":[
+      "geranium",
+      "lily-of-the-valley",
+      "jasmine",
+      "coriander",
+      "white lily",
+      "violet"
+    ],
+    "Base":[
+      "oakmoss",
+      "sandalwood",
+      "vetiver",
+      "musk",
+      "vanilla"
+    ]
   },
   {
     "name": "Charlie",
@@ -8949,7 +12277,30 @@
         ]
       }
     },
-    "unique_id": "Charlie_1990_1990-charlie.jpg"
+    "unique_id": "Charlie_1990_1990-charlie.jpg",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/revlon\/charlie-3141.html",
+    "Top":[
+      "aldehydes",
+      "hiacynth",
+      "galbanum",
+      "jasmine",
+      "gardenia"
+    ],
+    "Middle":[
+      "geranium",
+      "lily-of-the-valley",
+      "jasmine",
+      "coriander",
+      "white lily",
+      "violet"
+    ],
+    "Base":[
+      "oakmoss",
+      "sandalwood",
+      "vetiver",
+      "musk",
+      "vanilla"
+    ]
   },
   {
     "name": "Bond Street",
@@ -8989,7 +12340,13 @@
         ]
       }
     },
-    "unique_id": "Bond Street_1958_1958-newyardley.jpg"
+    "unique_id": "Bond Street_1958_1958-newyardley.jpg",
+    "url": "https://www.fragrantica.com/perfume/Yardley/Bond-St-38193.html",
+    "Top":[
+      "floal",
+      "woody",
+      "musk"
+    ]
   },
   {
     "name": "Lauren",
@@ -9041,7 +12398,29 @@
         ]
       }
     },
-    "unique_id": "Lauren_1987_1987-lauren.jpg"
+    "unique_id": "Lauren_1987_1987-lauren.jpg",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/ralph-lauren\/lauren-891.html",
+    "Top":[
+      "green notes",
+      "clary sage",
+      "brazilian rosewood",
+      "pineapple"
+    ],
+    "Middle":[
+      "lilac",
+      "lily-of-the-valley",
+      "bulgarian rose",
+      "cyclamen",
+      "jasmine",
+      "violet"
+    ],
+    "Base":[
+      "carnation",
+      "oakmoss",
+      "sandalwood",
+      "cedar",
+      "vetiver"
+    ]
   },
   {
     "name": "Tosca",
@@ -9081,7 +12460,14 @@
         ]
       }
     },
-    "unique_id": "Tosca_1962_1962-4711.jpg"
+    "unique_id": "Tosca_1962_1962-4711.jpg",
+    "url": "https://www.fragrantica.com/news/Tosca-by-4711-German-Value-and-Class-16021.html",
+    "Top":[
+      "floral",
+      "aldehydes",
+      "ylang-ylang",
+      "jasmine"
+    ]
   },
   {
     "name": "Irresistable",
@@ -9185,10 +12571,31 @@
         ]
       }
     },
-    "unique_id": "Prince Matchabelli_1958_1958-princematchabelli.jpg"
+    "unique_id": "Prince Matchabelli_1958_1958-princematchabelli.jpg",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/prince-matchabelli\/cachet-3339.html",
+    "Top":[
+      "aldehydes",
+      "galbanum",
+      "green grass",
+      "spices"
+    ],
+    "Middle":[
+      "vetiver",
+      "jasmine",
+      "orris root",
+      "patchouli",
+      "rose"
+    ],
+    "Base":[
+      "oakmoss",
+      "leather",
+      "civet",
+      "amber",
+      "musk"
+    ]
   },
   {
-    "name": "Sunflower",
+    "name": "Sunflowers",
     "year": 1990,
     "gender": "women",
     "brand": "Elizabeth Arden",
@@ -9237,7 +12644,31 @@
         ]
       }
     },
-    "unique_id": "Sunflower_1990_1990-sunflowers.jpg"
+    "unique_id": "Sunflower_1990_1990-sunflowers.jpg",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/elizabeth-arden\/sunflowers-1701.html",
+    "Top":[
+      "melon",
+      "peach",
+      "orange blossom",
+      "lemon",
+      "mandarin orange",
+      "bergamot",
+      "brazilian rosewood"
+    ],
+    "Middle":[
+      "cyclamen",
+      "osmanthus",
+      "rose",
+      "jasmine",
+      "orris root"
+    ],
+    "Base":[
+      "sandalwood",
+      "musk",
+      "amber",
+      "oakmoss",
+      "cedar"
+    ]
   },
   {
     "name": "Nuance",
@@ -9277,7 +12708,28 @@
         ]
       }
     },
-    "unique_id": "Nuance_1976_1976-nuance.jpg"
+    "unique_id": "Nuance_1976_1976-nuance.jpg",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/coty\/nuance-14469.html",
+    "Top":[
+      "aldehydes",
+      "citruses",
+      "plum",
+      "peach",
+      "cinnamon"
+    ],
+    "Middle":[
+      "rose",
+      "african orange flower",
+      "violet",
+      "lavender",
+      "spices"
+    ],
+    "Base":[
+      "oak moss",
+      "woodsy notes",
+      "musk",
+      "vanille"
+    ]
   },
   {
     "name": "Lilac Time",
@@ -9329,7 +12781,8 @@
         ]
       }
     },
-    "unique_id": "Lilac Time_1940_1940-lilactime.jpg"
+    "unique_id": "Lilac Time_1940_1940-lilactime.jpg",
+    "url": "https://www.parfumo.com/Perfumes/Houbigant/Lilac_Time"
   },
   {
     "name": "Chanel No.5",
@@ -9369,7 +12822,32 @@
         ]
       }
     },
-    "unique_id": "Chanel No.5_1921_1921-chanelno5.jpg"
+    "unique_id": "Chanel No.5_1921_1921-chanelno5.jpg",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/chanel\/chanel-no-5-parfum-28711.html",
+    "Top":[
+      "aldehydes",
+      "ylang-ylang",
+      "neroli",
+      "bergamot",
+      "lemon"
+    ],
+    "Middle":[
+      "iris",
+      "jasmine",
+      "rose",
+      "orris root",
+      "lily-of-the-valley"
+    ],
+    "Base":[
+      "civet",
+      "musk",
+      "sandalwood",
+      "amber",
+      "moss",
+      "vanilla",
+      "vetiver",
+      "patchouli"
+    ]
   },
   {
     "name": "Houbigant",
@@ -9409,7 +12887,8 @@
         ]
       }
     },
-    "unique_id": "Houbigant_1926_1926-hou.jpg"
+    "unique_id": "Houbigant_1926_1926-hou.jpg",
+    "url": "https://www.fragrantica.com/designers/Houbigant.html"
   },
   {
     "name": "Evening in Paris",
@@ -9461,7 +12940,28 @@
         ]
       }
     },
-    "unique_id": "Evening in Paris_1948_1948-bourjois.jpg"
+    "unique_id": "Evening in Paris_1948_1948-bourjois.jpg",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/bourjois\/soir-de-paris-evening-in-paris-3604.html",
+    "Top":[
+      "violet",
+      "peach",
+      "apricot",
+      "bergamot"
+    ],
+    "Middle":[
+      "iris",
+      "heliotrope",
+      "rose",
+      "ylang-ylang",
+      "lily-of-the-valley",
+      "jasmine"
+    ],
+    "Base":[
+      "amber",
+      "sandalwood",
+      "vanilla",
+      "musk"
+    ]
   },
   {
     "name": "Violet Imperiale",
@@ -9528,7 +13028,32 @@
         ]
       }
     },
-    "unique_id": "Chanel No.5_1985_1985-chanelno5.jpg"
+    "unique_id": "Chanel No.5_1985_1985-chanelno5.jpg",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/chanel\/chanel-no-5-parfum-28711.html",
+    "Top":[
+      "aldehydes",
+      "ylang-ylang",
+      "neroli",
+      "bergamot",
+      "lemon"
+    ],
+    "Middle":[
+      "iris",
+      "jasmine",
+      "rose",
+      "orris root",
+      "lily-of-the-valley"
+    ],
+    "Base":[
+      "civet",
+      "musk",
+      "sandalwood",
+      "amber",
+      "moss",
+      "vanilla",
+      "vetiver",
+      "patchouli"
+    ]
   },
   {
     "name": "Obsession",
@@ -9568,7 +13093,35 @@
         ]
       }
     },
-    "unique_id": "Obsession_1994_1994-obsession.jpeg"
+    "unique_id": "Obsession_1994_1994-obsession.jpeg",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/calvin-klein\/obsession-for-men-249.html",
+    "Top":[
+      "cinnamon",
+      "lavender",
+      "coriander",
+      "mandarin orange",
+      "lime",
+      "bergamot",
+      "grapefruit"
+    ],
+    "Middle":[
+      "myrhh",
+      "nutmeg",
+      "carnation",
+      "brazilian rosewood",
+      "pine tree",
+      "sage",
+      "jasmine",
+      "red berries"
+    ],
+    "Base":[
+      "amber",
+      "vanilla",
+      "sandalwood",
+      "musk",
+      "patchouli",
+      "vetiver"
+    ]
   },
   {
     "name": "Intimate",
@@ -9608,10 +13161,32 @@
         ]
       }
     },
-    "unique_id": "Intimate_1965_1965-intimate.jpg"
+    "unique_id": "Intimate_1965_1965-intimate.jpg",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/revlon\/intimate-10339.html",
+    "Top":[
+      "aldehydes",
+      "rose",
+      "gardenia",
+      "coriander",
+      "bergamot"
+    ],
+    "Middle":[
+      "sandalwood",
+      "patchouli",
+      "orris root",
+      "jasmine",
+      "virginia cedar"
+    ],
+    "Base":[
+      "oak moss",
+      "civetta",
+      "castoreum",
+      "musk",
+      "amber"
+    ]
   },
   {
-    "name": "Royal Hub",
+    "name": "Royal Pub",
     "year": 1973,
     "gender": "men",
     "brand": "Revlon",
@@ -9648,7 +13223,27 @@
         ]
       }
     },
-    "unique_id": "Royal Hub_1973_1973-royalpub.jpg"
+    "unique_id": "Royal Hub_1973_1973-royalpub.jpg",
+    "url": "https://www.fragrantica.com/perfume/Revlon/Pub-11496.html",
+    "Top":[
+      "geranium",
+      "star anise",
+      "amalfi lemon",
+      "tarragon",
+      "basil"
+    ],
+    "Middle":[
+      "heliotrope",
+      "lavendar",
+      "lily-of-the-valley"
+    ],
+    "Base":[
+      "vanille",
+      "musk",
+      "sandalwood",
+      "patchouli",
+      "oakmoss"
+    ]
   },
   {
     "name": "Poison",
@@ -9688,6 +13283,983 @@
         ]
       }
     },
-    "unique_id": "Poison_1986_1986-poison.jpg"
-  }
+    "unique_id": "Poison_1986_1986-poison.jpg",
+    "url":"https:\/\/www.fragrantica.com\/perfume\/dior\/poison-218.html",
+    "Top":[
+      "plum",
+      "wild berries",
+      "coriander",
+      "anise",
+      "brazilian rosewood"
+    ],
+    "Middle":[
+      "tuberose",
+      "incense",
+      "white honey",
+      "cinnamon",
+      "opoponax",
+      "carnation",
+      "jasmine",
+      "african orange flower",
+      "rose"
+    ],
+    "Base":[
+      "vanille",
+      "amber",
+      "sandalwood",
+      "heliotrope",
+      "musk",
+      "vetiver",
+      "virginia cedar"
+    ]
+  },
+  {
+    "name": "Comme des Garçons 2",
+    "year": 1999,
+    "gender": "unisex",
+    "brand": "Comme des Garcons",
+    "ad-image": "images/aa/1999-cdg.png",
+    "copy": "Comme des Garçons 2 plays with complements and contrasts... with reflection and opacity... with mirrors and brilliance... with light and shadow... with earth and the energy of the sun.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1999-cdg.png",
+    "analysis": {
+      "vision": {
+        "description": "The advertisement features two Comme des Garçons perfume bottles against a textured black surface—one labeled 'MAN' in bold, angular type, and the other metallic and reflective, both marked with abstract question mark-like graphics.",
+        "people": [],
+        "people_count": 0,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "none",
+        "mood_tags": [
+          "bold",
+          "mysterious",
+          "modern",
+          "minimalist",
+          "avant-garde"
+        ]
+      }
+    },
+    "url":"https://www.fragrantica.com/perfume/Comme-des-Garcons/Comme-des-Garcons-2-390.html",
+    "Top":[
+      "aldehydes",
+      "angelica tea",
+      "mandarin orange",
+      "mate"
+    ],
+    "Middle":[
+      "ink",
+      "magnolia",
+      "white honey",
+      "nutmeg",
+      "west indian bay",
+      "coriander",
+      "caraway",
+      "cinnamon"
+    ],
+    "Base":[
+      "incense",
+      "patchouli",
+      "cedar",
+      "vetiver",
+      "amber",
+      "labdanum"
+    ]
+  },
+  {
+    "name": "Ma Griffe",
+    "year": 1946,
+    "gender": "women",
+    "brand": "Carven",
+    "ad-image": "images/aa/1946-carven.jpg",
+    "copy": "Leave your mark on a man.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/1946-carven.jpg",
+    "analysis": {
+      "vision": {
+        "description": "A black-and-white image shows a woman’s hand clawing the bare back of a man, with green scratch marks added in post-production. The tagline provocatively invites women to make an impression.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "unseen",
+            "pose_action": "clawing a man’s back",
+            "emotion_tags": [
+              "dominant",
+              "assertive",
+              "provocative",
+              "bold",
+              "seductive"
+            ]
+          },
+          {
+            "gender": "man",
+            "facial_expression": "unseen",
+            "pose_action": "standing with back exposed",
+            "emotion_tags": [
+              "vulnerable",
+              "submissive",
+              "neutral",
+              "passive",
+              "sensual"
+            ]
+          }
+        ],
+        "people_count": 2,
+        "nudity": "partial",
+        "sexual_suggestiveness": "suggestive",
+        "interaction_type": "intimate",
+        "mood_tags": [
+          "provocative",
+          "feminine power",
+          "sensual",
+          "striking",
+          "bold"
+        ]
+      }
+    },
+    "unique_id": "MaGriffe_1946_1946-carven.jpg",
+    "url": "https://www.fragrantica.com/perfume/Carven/Ma-Griffe-Parfum-65235.html",
+    "Top": [
+      "aldehydes",
+      "galbanum",
+      "clary sage",
+      "bergamot"
+    ],
+    "Middle": [
+      "gardenia",
+      "rose",
+      "ylang-ylang",
+      "jasmine"
+    ],
+    "Base": [
+      "tonka bean",
+      "vetiver",
+      "cinnamon"
+    ]
+  },
+  {
+    "name": "Another 13",
+    "year": 2017,
+    "gender": "unisex",
+    "brand": "Le Labo",
+    "ad-image": "images/aa/2017-another13.png",
+    "copy": "As the whole world knows, colette closed their doors forever. Seven years ago, Sarah of colette initiated a creative collaboration between Jefferson, editor in chief of AnOther Magazine and Le Labo. The result was Another 13, an addictive scent that was exclusively available at colette. We are grateful to welcome Another 13 as a new addition to our fragrance collection in our labs worldwide.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/2017-another13.png",
+    "analysis": {
+      "vision": {
+        "description": "A flat lay composition features the Le Labo 'Another 13' perfume bottle surrounded by natural ingredients, handwritten tags, a pipette, moss, wood, and delicate white flowers, evoking craftsmanship and artisanal purity.",
+        "people": [],
+        "people_count": 0,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "none",
+        "mood_tags": [
+          "artisanal",
+          "earthy",
+          "minimalist",
+          "natural",
+          "intentional"
+        ]
+      }
+    },
+    "unique_id": "Another13_2017_2017-another13.png",
+    "url": "https://www.fragrantica.com/perfume/Le-Labo/Another-13-10131.html",
+    "Top": [
+      "pear",
+      "apple",
+      "citruses"
+    ],
+    "Middle": [
+      "ambrette",
+      "amyl salicylate",
+      "moss",
+      "jasmine"
+    ],
+    "Base": [
+      "iso e super",
+      "cetalox",
+      "ambrettolide",
+      "helvetolide"
+    ]
+  },
+  {
+    "name": "Gaiac 10",
+    "year": 2018,
+    "gender": "unisex",
+    "brand": "Le Labo",
+    "ad-image": "images/aa/2018-gaiac10.png",
+    "copy": "",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/2018-gaiac10.png",
+    "analysis": {
+      "vision": {
+        "description": "Gaiac is a very hard, greenish wood that isn’t as dry as cedar, but is as subtle, profound, and stable. GAIAC 10 is a tense formula built on gaiac wood and surrounded by musk notes ,4 different types in all, on’t expect this woody musk to leave a perfuming trail from where you are to Hokkaido (unless you are already in Hokkaido), but it will stick on you and with you, despite your mood, for days and days, nights and nights... GAIAC 10 is only available in our Tokyo labs.",
+        "people": [],
+        "people_count": 0,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "none",
+        "mood_tags": [
+          "exclusive",
+          "minimalist",
+          "global",
+          "introspective",
+          "refined"
+        ]
+      }
+    },
+    "unique_id": "Gaiac10_2018_2018-gaiac10.png",
+    "url": "https://www.fragrantica.com/perfume/Le-Labo/Gaiac-10-Tokyo-6335.html",
+    "Top": [
+      "woody"
+    ]
+  },
+  {
+    "name": "Winter 25",
+    "year": 2024,
+    "gender": "unisex",
+    "brand": "Ffern",
+    "ad-image": "images/aa/2024-ffern.png",
+    "copy": "For Winter 25, we have imagined a figure skating through a moonlit landscape of wild ice and frozen forests - notes of rose, Sicilian lemon, pink peppercorn and saffron revealing themselves as she glides.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/2024-ffern.png",
+    "analysis": {
+      "vision": {
+        "description": "A dreamlike winter scene illustrated in rich textures and colors shows a full moon above frosted trees, birds, deer, and woodland details, evoking the enchantment and quiet of the season.",
+        "people": [],
+        "people_count": 0,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "none",
+        "mood_tags": [
+          "seasonal",
+          "magical",
+          "natural",
+          "calm",
+          "illustrative"
+        ]
+      }
+    },
+    "unique_id": "Winter24_2024_2024-ffern.png",
+    "url": "https://www.fragrantica.com/perfume/Ffern/Winter-25-101149.html",
+    "Top": [
+      "key lime",
+      "lemon",
+      "green mandarin",
+      "saffron",
+      "pink pepper",
+      "peppermint"
+    ],
+    "Middle": [
+      "bergamot",
+      "neroli",
+      "palmarosa",
+      "eucalyptus",
+      "rose"
+    ],
+    "Base": [
+      "red cedar",
+      "jasmine",
+      "rock rose",
+      "lavender",
+      "vetiver"
+    ]
+  },
+  {
+    "name": "English Pear & Freesia",
+    "year": 2010,
+    "gender": "unisex",
+    "brand": "Jo Malone",
+    "ad-image": "images/aa/2024-jomalone.png",
+    "copy": "Pears with everything: there’s an English Pear & Freesia Cologne to fit in your pocket or keep on your dressing table. Tap to shop the size to fit your needs",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/2024-jomalone.png",
+    "analysis": {
+      "vision": {
+        "description": "Bottles of Jo Malone perfume are arranged on a rustic wooden ladder surrounded by pear trees and freesia flowers, evoking freshness, abundance, and a countryside orchard setting.",
+        "people": [],
+        "people_count": 0,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "none",
+        "mood_tags": [
+          "fresh",
+          "natural",
+          "elegant",
+          "wholesome",
+          "seasonal"
+        ]
+      }
+    },
+    "unique_id": "EnglishPearFreesia_2024_2024-jomalone.png",
+    "url": "https://www.fragrantica.com/perfume/Jo-Malone-London/English-Pear-Freesia-10314.html",
+    "Top": [
+      "pear",
+      "melon"
+    ],
+    "Middle": [
+      "freesia",
+      "rose"
+    ],
+    "Base": [
+      "musk",
+      "patchouli",
+      "rhuburb",
+      "amber"
+    ]
+  },
+  {
+    "name": "Blossoms Collection",
+    "year": 2024,
+    "gender": "unisex",
+    "brand": "Jo Malone",
+    "ad-image": "images/aa/2024-beachblossom.png",
+    "copy": "A summer escape to the idyllic palm-fringed beaches of the Seychelles to encounter the rare coco de mer. Basking in tropical sunlight, the sea coconut’s sculptural form inspires a fresh solar scent. A refreshing twist of coconut water is carried on the breeze, meeting the sparkling clarity of lime and mint, wrapped in the allure of tonka bean.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/2024-beachblossom.png",
+    "analysis": {
+      "vision": {
+        "description": "Three diverse women at the beach hold up brightly colored Jo Malone bottles with turquoise caps under clear skies, showcasing vibrancy, inclusivity, and carefree joy.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "confident",
+            "pose_action": "posing with perfume bottle",
+            "emotion_tags": [
+              "playful",
+              "bold",
+              "joyful",
+              "fashionable",
+              "confident"
+            ]
+          },
+          {
+            "gender": "woman",
+            "facial_expression": "neutral",
+            "pose_action": "holding perfume stack",
+            "emotion_tags": [
+              "calm",
+              "serene",
+              "chic",
+              "composed",
+              "elegant"
+            ]
+          },
+          {
+            "gender": "woman",
+            "facial_expression": "smiling",
+            "pose_action": "holding perfume",
+            "emotion_tags": [
+              "sunny",
+              "friendly",
+              "relaxed",
+              "stylish",
+              "fresh"
+            ]
+          }
+        ],
+        "people_count": 3,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "group",
+        "mood_tags": [
+          "vibrant",
+          "inclusive",
+          "summery",
+          "youthful",
+          "fashion-forward"
+        ]
+      }
+    },
+    "unique_id": "BlossomsCollection_2024_2024-beachblossom.png",
+    "url": "https://www.fragrantica.com/perfume/Jo-Malone-London/Beach-Blossom-Limited-Edition-103305.html",
+    "Top": [
+      "lime",
+      "mint"
+    ],
+    "Middle": [
+      "coconut water"
+    ],
+    "Base": [
+      "tonka bean"
+    ]
+  },
+  {
+    "name": "Missing Person",
+    "year": 2025,
+    "gender": "unisex",
+    "brand": "Phlur",
+    "ad-image": "images/aa/2025-phlur.png",
+    "copy": "Missing Person Eau de Parfum is a true celebration of musk. Drawing inspiration from feelings of nostalgia and yearning, it embraces all of the creamy, sweaty facets of skin…",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/2025-phlur.png",
+    "analysis": {
+      "vision": {
+        "description": "A close-up of a woman in a white tank top, eyes closed, smelling her wrist with a serene, emotional expression. The image is soft and intimate, suggesting memory, closeness, and vulnerability.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "peaceful",
+            "pose_action": "smelling wrist",
+            "emotion_tags": [
+              "introspective",
+              "vulnerable",
+              "soft",
+              "calm",
+              "sensual"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "subtle",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "intimate",
+          "emotive",
+          "minimal",
+          "soft-focus",
+          "personal"
+        ]
+      }
+    },
+    "unique_id": "MissingPerson_2025_2025-phlur.png",
+    "url": "https://www.fragrantica.com/perfume/Phlur/Missing-Person-72665.html",
+    "Top": [
+      "musk",
+      "bergamot",
+      "jasmine"
+    ],
+    "Middle": [
+      "neroli",
+      "orange blossom",
+      "cyclamen"
+    ],
+    "Base": [
+      "white musk",
+      "sandalwood",
+      "white wood"
+    ]
+  },
+  {
+    "name": "Vanilla Smoke",
+    "year": 2025,
+    "gender": "unisex",
+    "brand": "Phlur",
+    "ad-image": "images/aa/2025-vanillasmoke.png",
+    "copy": "Your new Woody Gourmand obsession starts with Vanilla Smoke, an androgynous scent that adds intrigue to your fragrance wardrobe.⁠",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/2025-vanillasmoke.png",
+    "analysis": {
+      "vision": {
+        "description": "A man with visible tattoos holds a bottle of Vanilla Smoke while a woman leans in intimately, eyes closed. The lighting is moody and the scene evokes warmth, sensuality, and quiet intensity.",
+        "people": [
+          {
+            "gender": "man",
+            "facial_expression": "calm",
+            "pose_action": "holding perfume, facing forward",
+            "emotion_tags": [
+              "intense",
+              "confident",
+              "mysterious",
+              "warm",
+              "cool"
+            ]
+          },
+          {
+            "gender": "woman",
+            "facial_expression": "serene",
+            "pose_action": "nuzzling close to man",
+            "emotion_tags": [
+              "sensual",
+              "soft",
+              "intimate",
+              "affectionate",
+              "relaxed"
+            ]
+          }
+        ],
+        "people_count": 2,
+        "nudity": "partial",
+        "sexual_suggestiveness": "intimate",
+        "interaction_type": "romantic",
+        "mood_tags": [
+          "moody",
+          "intimate",
+          "sensual",
+          "bold",
+          "edgy"
+        ]
+      }
+    },
+    "unique_id": "VanillaSmoke_2025_2025-vanillasmoke.png",
+    "url": "https://www.fragrantica.com/perfume/Phlur/Vanilla-Smoke-103871.html",
+    "Top": [
+      "bergamot",
+      "pink pepper",
+      "birch"
+    ],
+    "Middle": [
+      "cacao blanc",
+      "cashmere vanilla",
+      "tonka bean"
+    ],
+    "Base": [
+      "incense",
+      "peru balsam",
+      "amber"
+    ]
+  },
+  {
+    "name": "Crush Balls",
+    "year": 2023,
+    "gender": "unisex",
+    "brand": "DS&Durga",
+    "ad-image": "images/aa/2023-crushballs.png",
+    "copy": "Introducing Crush Balls. Get out on the court you ace!",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/2023-crushballs.png",
+    "analysis": {
+      "vision": {
+        "description": "Set on a tennis court, a close-up shows a player’s tattooed legs, sporty sneakers, tennis balls, and a bottle of 'Crush Balls' fragrance being dramatically placed on the court, with tongue-in-cheek visual humor and bold, high-contrast styling.",
+        "people": [
+          {
+            "gender": "man",
+            "facial_expression": "not visible",
+            "pose_action": "bending to place bottle",
+            "emotion_tags": [
+              "playful",
+              "bold",
+              "confident",
+              "mischievous",
+              "stylized"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "humorous",
+        "interaction_type": "none",
+        "mood_tags": [
+          "sporty",
+          "cheeky",
+          "vibrant",
+          "irreverent",
+          "pop-art"
+        ]
+      }
+    },
+    "unique_id": "CrushBalls_2023_2023-crushballs.png",
+    "url": "https://www.fragrantica.com/perfume/DS-Durga/Crush-Balls-84120.html",
+    "Top": [
+      "green grass",
+      "rosemarin"
+    ],
+    "Middle": [
+      "yellow fuzz",
+      "hedge flowers",
+      "white cotton"
+    ],
+    "Base": [
+      "sporty accord",
+      "hard court"
+    ]
+  },
+  {
+    "name": "Chance",
+    "year": 2023,
+    "gender": "women",
+    "brand": "Chanel",
+    "ad-image": "images/aa/2023-chance.png",
+    "copy": "4 scents, 4 ways to take your CHANCE. Discover the CHANCE fragrance line, embodied by 4 bold young women brought together by a lighthearted love for the game. Experience energizing CHANCE EAU FRAÎCHE, delicate CHANCE EAU TENDRE, bold CHANCE, and optimistic CHANCE EAU VIVE.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/2023-chance.png",
+    "analysis": {
+      "vision": {
+        "description": "Four women dressed in bright, coordinated Chanel outfits playfully pose atop oversized bottles of Chance perfume, set against a clean white background with golden poles—blending glamour, whimsy, and fashion-forward fun.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "smiling",
+            "pose_action": "sitting on bottle, playful gesture",
+            "emotion_tags": [
+              "joyful",
+              "playful",
+              "confident",
+              "fun",
+              "glamorous"
+            ]
+          },
+          {
+            "gender": "woman",
+            "facial_expression": "smiling",
+            "pose_action": "posing with raised arm",
+            "emotion_tags": [
+              "flirty",
+              "expressive",
+              "charming",
+              "cheeky",
+              "energetic"
+            ]
+          },
+          {
+            "gender": "woman",
+            "facial_expression": "smiling",
+            "pose_action": "leaning with arm on bottle",
+            "emotion_tags": [
+              "carefree",
+              "stylish",
+              "friendly",
+              "lighthearted",
+              "youthful"
+            ]
+          },
+          {
+            "gender": "woman",
+            "facial_expression": "smiling",
+            "pose_action": "tilted pose on perfume bottle",
+            "emotion_tags": [
+              "fun",
+              "elegant",
+              "vibrant",
+              "chic",
+              "radiant"
+            ]
+          }
+        ],
+        "people_count": 4,
+        "nudity": "no",
+        "sexual_suggestiveness": "playful",
+        "interaction_type": "group",
+        "mood_tags": [
+          "fashionable",
+          "youthful",
+          "vibrant",
+          "glam-pop",
+          "playful"
+        ]
+      }
+    },
+    "unique_id": "Chance_2023_2023-chance.png",
+    "url": "https://www.fragrantica.com/perfume/Chanel/Chance-Eau-de-Toilette-610.html",
+    "Top": [
+      "pink pepper",
+      "patchouli",
+      "pineapple",
+      "hiacynth",
+      "iris"
+    ],
+    "Middle": [
+      "lemon",
+      "jasmine",
+      "rose"
+    ],
+    "Base": [
+      "patchouli",
+      "vanilla",
+      "musk",
+      "vetiver"
+    ]
+  },
+  {
+    "name": "Bleu de Chanel",
+    "year": 2023,
+    "gender": "men",
+    "brand": "Chanel",
+    "ad-image": "images/aa/2023-bleu.png",
+    "copy": "For the new BLEU DE CHANEL campaign, Timothée Chalamet embodies the man who is deeply himself. Willing to dive into the unknown in pursuit of a vision that takes him to new heights. BLEU DE CHANEL is the essence of that vision, the color that knows no bounds.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/2023-bleu.png",
+    "analysis": {
+      "vision": {
+        "description": "In a cinematic, blue-tinged black-and-white frame, a man sits in a leather booth wearing a sleek black jacket, gazing pensively while holding a vivid blue card—blending mystery, masculinity, and introspection.",
+        "people": [
+          {
+            "gender": "man",
+            "facial_expression": "contemplative",
+            "pose_action": "sitting, holding a card, looking forward",
+            "emotion_tags": [
+              "brooding",
+              "cool",
+              "mysterious",
+              "confident",
+              "thoughtful"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "cinematic",
+          "moody",
+          "modern",
+          "sophisticated",
+          "enigmatic"
+        ]
+      }
+    },
+    "unique_id": "BleuDeChanel_2023_2023-bleu.png",
+    "url": "https://www.fragrantica.com/perfume/Chanel/Bleu-de-Chanel-Eau-de-Parfum-25967.html",
+    "Top": [
+      "lemon",
+      "mint",
+      "pink pepper",
+      "grapefruit",
+      "bergamot",
+      "aldehydes",
+      "coriander"
+    ],
+    "Middle": [
+      "ginger",
+      "nutmeg",
+      "jasmine",
+      "melon"
+    ],
+    "Base": [
+      "incense",
+      "vetiver",
+      "cedar",
+      "sandalwood",
+      "patchouli",
+      "labdanum",
+      "amberwood"
+    ]
+  },
+  {
+    "name": "Glossier You",
+    "year": 2017,
+    "gender": "unisex",
+    "brand": "Glossier",
+    "ad-image": "images/aa/2017-glossier.png",
+    "copy": "A soft, warm and familiar fragrance formulated to be a skin-scent enhancer–meaning it smells a little different on everyone. With sparkling Pink Pepper, earthy Iris, and a warm, musky base of Ambrox and Ambrette, it leaves a scent impact that is uniquely you.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/2017-glossier.png",
+    "analysis": {
+      "vision": {
+        "description": "Softly lit bottles of Glossier You in pale pink glass with bold red caps are arranged in a glowing, minimal composition that highlights sensuality, simplicity, and modern intimacy.",
+        "people": [],
+        "people_count": 0,
+        "nudity": "no",
+        "sexual_suggestiveness": "subtle",
+        "interaction_type": "none",
+        "mood_tags": [
+          "minimal",
+          "intimate",
+          "soft",
+          "modern",
+          "sensory"
+        ]
+      }
+    },
+    "unique_id": "GlossierYou_2017_2017-glossieryou.png",
+    "url": "https://www.fragrantica.com/perfume/Glossier/You-46885.html",
+    "Top": [
+      "pink pepper",
+      "iris"
+    ],
+    "Middle": [
+      "ambroxan"
+    ],
+    "Base": [
+      "ambrette"
+    ]
+  },
+  {
+    "name": "Gaultier Divine Eau de Parfum",
+    "year": 2023,
+    "gender": "women",
+    "brand": "Jean Paul Gaultier",
+    "ad-image": "images/aa/2023-divine.png",
+    "copy": "An homage to women, Gaultier Divine proudly shows off her curves. Gaultier's famous corset is much more than an item of lingerie, it is a precious jewel that honors women’s bodies and showcases their diversity: covered in gold, conical, and already iconic.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/2023-divine.png",
+    "analysis": {
+      "vision": {
+        "description": "A woman in a sculptural gold corset confidently holds a bottle of Jean Paul Gaultier Divine against a glowing pink backdrop. Her posture and styling exude strength, glamour, and modern femininity.",
+        "people": [
+          {
+            "gender": "woman",
+            "facial_expression": "confident",
+            "pose_action": "standing and presenting perfume",
+            "emotion_tags": [
+              "empowered",
+              "fierce",
+              "glamorous",
+              "regal",
+              "bold"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "confident",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "feminine power",
+          "high fashion",
+          "opulent",
+          "bold",
+          "divine"
+        ]
+      }
+    },
+    "unique_id": "Divine_2023_2023-divine.png",
+    "url": "https://www.fragrantica.com/perfume/Jean-Paul-Gaultier/Gaultier-Divine-83889.html",
+    "Top": [
+      "calypsone",
+      "red berries",
+      "bergamot"
+    ],
+    "Middle": [
+      "lily",
+      "jasmine",
+      "ylang-ylang"
+    ],
+    "Base": [
+      "meringue",
+      "musk",
+      "patchouli"
+    ]
+  },
+  {
+    "name": "Jazz Club",
+    "year": 2013,
+    "gender": "unisex",
+    "brand": "Maison Margiela",
+    "ad-image": "images/aa/2013-jazzclub.png",
+    "copy": "The exhilarating and intimate ambiance of a confidential jazz club. Replica Jazz Club Eau de Toilette evokes the exhilarating atmosphere of a private club where the music and scent of cocktails permeate late into the night.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/2013-jazzclub.png",
+    "analysis": {
+      "vision": {
+        "description": "A dimly lit scene features a bottle of Replica Jazz Club alongside a cocktail glass, a stirring stick, and scattered dried leaves—evoking an atmosphere of smoky elegance and moody sophistication.",
+        "people": [],
+        "people_count": 0,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "none",
+        "mood_tags": [
+          "moody",
+          "boozy",
+          "smoky",
+          "elegant",
+          "masculine-feminine blend"
+        ]
+      }
+    },
+    "unique_id": "JazzClub_2013_2013-jazzclub.png",
+    "url": "https://www.fragrantica.com/perfume/Maison-Martin-Margiela/Jazz-Club-20541.html",
+    "Top": [
+      "pink pepper",
+      "neroli",
+      "lemon"
+    ],
+    "Middle": [
+      "rum",
+      "clary sage",
+      "vetiver"
+    ],
+    "Base": [
+      "tobacco leaf",
+      "vanilla bean",
+      "styrax"
+    ]
+  },
+  {
+    "name": "Luna Rossa Ocean",
+    "year": 2021,
+    "gender": "men",
+    "brand": "Prada",
+    "ad-image": "images/aa/2021-prada.png",
+    "copy": "A magnetic call for new discoveries is built on Prada’s conviction that with technology as an extension of yourself, you can push beyond limits, reimagine what’s possible, and open new horizons to create one of the most complimented fragrances.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/2021-prada.png",
+    "analysis": {
+      "vision": {
+        "description": "A close-up of a man in a sleek grey Prada athletic top holding the blue bottle of Luna Rossa Ocean, set against a moody, blue-toned background that evokes performance, technology, and cool masculinity.",
+        "people": [
+          {
+            "gender": "man",
+            "facial_expression": "not visible",
+            "pose_action": "holding perfume near chest",
+            "emotion_tags": [
+              "focused",
+              "confident",
+              "cool",
+              "dynamic",
+              "modern"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "subtle",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "futuristic",
+          "performance-driven",
+          "tech-sleek",
+          "cool",
+          "masculine"
+        ]
+      }
+    },
+    "unique_id": "LunaRossaOcean_2021_2021-prada.png",
+    "url": "https://www.fragrantica.com/perfume/Prada/Luna-Rossa-Ocean-68753.html",
+    "Top": [
+      "bergamot",
+      "pink pepper",
+      "artemisia"
+    ],
+    "Middle": [
+      "lavender",
+      "iris",
+      "sage",
+      "suede",
+      "saffron"
+    ],
+    "Base": [
+      "musk",
+      "patchouli",
+      "caramel",
+      "vetiver"
+    ]
+  },
+  {
+    "name": "Santal 33",
+    "year": 2011,
+    "gender": "unisex",
+    "brand": "Le Labo",
+    "ad-image": "images/aa/2011-santal33.png",
+    "copy": "Imagine sitting in solitude on the rugged, wide plains of the American West, firelight on your face, indigo-blue night skies above. There is nothing around save for the soft, desert wind. You. Are. Free.",
+    "public_url": "https://raw.githubusercontent.com/annielee0313/fragrance-images/main/2011-santal33.png",
+    "analysis": {
+      "vision": {
+        "description": "A minimal bottle of Santal 33 is held by two hands, accompanied by its signature custom-printed label, lit dramatically to emphasize raw materials, intimacy, and artisan quality.",
+        "people": [
+          {
+            "gender": "unclear",
+            "facial_expression": "not visible",
+            "pose_action": "holding label in front of bottle",
+            "emotion_tags": [
+              "intentional",
+              "thoughtful",
+              "understated",
+              "crafted",
+              "personal"
+            ]
+          }
+        ],
+        "people_count": 1,
+        "nudity": "no",
+        "sexual_suggestiveness": "neutral",
+        "interaction_type": "alone",
+        "mood_tags": [
+          "minimalist",
+          "intimate",
+          "artisanal",
+          "mysterious",
+          "timeless"
+        ]
+      }
+    },
+    "unique_id": "Santal33_2011_2011-santal33.png",
+    "url": "https://www.fragrantica.com/perfume/Le-Labo/Santal-33-12201.html",
+    "Top": [
+      "sandalwood",
+      "leather",
+      "papyrus",
+      "cedar",
+      "cardamom",
+      "violet",
+      "iris",
+      "amber"
+    ]
+  }  
 ]
