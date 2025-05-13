@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fluid Notes</title>
+  <meta name="viewport" content="width=1.0, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.typekit.net/ina4ngi.css">
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      width: 100%;
+      overflow: hidden;
+      font-family: "instrument-sans-variable", sans-serif;
+      background-color: #F8F8F8;
+    }
+
+    .landing-container {
+      position: relative;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      z-index: 1;
+    }
+
+    .logo {
+      width: 200px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .tagline {
+      font-family: "instrument-sans-variable", sans-serif;
+      font-size: 1.2rem;
+      color: #6D7084;
+      text-align: center;
+      max-width: 600px;
+      position: relative;
+      z-index: 2;
+      border-radius: 10px;
+      padding-bottom: 4rem;
+      padding-top: 1rem;
+      line-height: 1.6;
+    }
+
+    .cta-button {
+      color: #6D7084;
+      background-color: rgba(248, 248, 248, 0.5);
+      font-size: 1rem;
+      padding: 10px 36px;
+      border: none;
+      cursor: pointer;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+      font-family: "instrument-sans-variable", sans-serif;
+      position: relative;
+      z-index: 2;
+    }
+
+    .cta-button:hover {
+      transform: translateY(-2px);
+      background-color: rgba(248, 248, 248, 0.8);
+    }
+
+    /* Notes animation container */
+    .notes-animation {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    .note-cell {
+      position: absolute;
+      opacity: 0.85;
+      transition: transform 0.5s ease;
+      will-change: transform, opacity;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    
+    .year-label {
+      white-space: nowrap;
+    }
+
+    .year-value {
+      display: inline-block;
+      min-width: 40px; /* Fixed width for the year number */
+      text-align: left;
+    }
+
+    .header {
+      position: absolute;
+      top: 15%;
+      left: 0;
+      right: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      z-index: 10;
+    }
+
+    .year-container {
+      display: flex;
+      min-width: 140px; /* Fixed minimum width to prevent layout shifts */
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      font-family: "instrument-sans-variable", sans-serif;
+      font-size: 1rem;
+      color: #6D7084;
+    }
+
+    .play-pause-button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      opacity: 0.7;
+      transition: opacity 0.2s ease;
+    }
+
+    .play-pause-button:hover {
+      opacity: 1;
+    }
+
+    .play-pause-button img {
+      width: 14px;
+      height: 14px;
+    }
+
+    .show-notes-toggle {
+      font-family: "instrument-sans-variable", sans-serif;
+      font-size: 1rem;
+      color: #6D7084;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .show-notes-toggle input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 14px;
+    height: 14px;
+    margin: 0;
+    border: 1px solid #6D7084;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.2s;
+  }
+
+  .show-notes-toggle input[type="checkbox"]:checked {
+    background-color: #6D7084;
+  }
+
+  .show-notes-toggle input[type="checkbox"]:checked::after {
+    content: "";
+    position: absolute;
+    left: 4px;
+    top: 1px;
+    width: 3px;
+    height: 7px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+
+    .show-notes-toggle input {
+      margin: 0;
+    }
+
+    .tagline-char {
+      display: inline-block;
+      transform-origin: center bottom;
+    }
+
+    .tagline-word {
+      display: inline-block;
+      margin-right: 0.3em;
+    }
+
+    .tagline br {
+      display: block;
+      content: "";
+      margin-top: 0.5em;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <button id="play-pause-button" class="play-pause-button">
+      <img src="assets/pause.svg" alt="Pause" id="play-pause-icon">
+    </button>
+    <div class="year-container">
+      <span class="year-label">Current Year:</span>
+      <span id="year-label" class="year-value">1900</span>
+    </div>
+    <label class="show-notes-toggle">
+      <input type="checkbox" id="show-notes"> Show Notes
+    </label>
+  </div>
+  
+  <div class="notes-animation" id="notes-animation"></div>
+  
+  <div class="landing-container">
+    <img src="assets/logo-landing.svg" alt="Fluid Notes" class="logo">
+    <p class="tagline">Over 25,000 Perfumes. 100 years of Gender. </br> Mapped through Scent.</p>
+    <button class="cta-button" onclick="window.location.href='app.html'">Explore →</button>
+  </div>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/SplitText.min.js"></script>
+  <script>
+
+    function addFadeOverlays() {
+      // Create left fade overlay (entering)
+      const leftFade = document.createElement('div');
+      leftFade.className = 'fade-overlay left-fade';
+      leftFade.style.cssText = `
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 15%;
+        height: 100%;
+        background: linear-gradient(90deg, #F8F8F8 0%, rgba(248, 248, 248, 0) 100%);
+        pointer-events: none;
+        z-index: 1;
+      `;
+      
+      // Create right fade overlay (exiting)
+      const rightFade = document.createElement('div');
+      rightFade.className = 'fade-overlay right-fade';
+      rightFade.style.cssText = `
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 15%;
+        height: 100%;
+        background: linear-gradient(90deg, rgba(248, 248, 248, 0) 0%, #F8F8F8 100%);
+        pointer-events: none;
+        z-index: 1;
+      `;
+      
+      // Add to the DOM
+      document.body.appendChild(leftFade);
+      document.body.appendChild(rightFade);
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+      // Add the fade overlays
+      addFadeOverlays();
+      
+      // Animation container
+      const container = document.getElementById('notes-animation');
+      const yearLabel = document.getElementById('year-label');
+      const showNotesCheckbox = document.getElementById('show-notes');
+      const playPauseButton = document.getElementById('play-pause-button');
+      const playPauseIcon = document.getElementById('play-pause-icon');
+      const containerWidth = window.innerWidth;
+      const containerHeight = window.innerHeight;
+      
+      // Animation control variables
+      let animationPaused = false;
+      let timeInterval;
+      
+      // Global variable to track note text visibility
+      let showNoteText = false;
+
+      // Play/Pause button functionality
+      playPauseButton.addEventListener('click', function() {
+        animationPaused = !animationPaused;
+        
+        if (animationPaused) {
+          // Update icon to Play when paused
+          playPauseIcon.src = 'assets/play.svg';
+          playPauseIcon.alt = 'Play';
+          
+          // Clear the interval if it exists
+          if (timeInterval) {
+            clearInterval(timeInterval);
+            timeInterval = null;
+          }
+        } else {
+          // Update icon to Pause when playing
+          playPauseIcon.src = 'assets/pause.svg';
+          playPauseIcon.alt = 'Pause';
+          
+          // Restart the animation if we have data
+          if (!timeInterval && window.fragrancesByYearData) {
+            startTimeAnimation(window.fragrancesByYearData);
+          }
+        }
+      });
+
+      // Event listener for the checkbox
+      showNotesCheckbox.addEventListener('change', function() {
+        // Update the global visibility state
+        showNoteText = this.checked;
+        
+        // Apply to all existing notes
+        const noteCells = document.querySelectorAll('.note-cell');
+        noteCells.forEach(cell => {
+          updateNoteVisibility(cell);
+        });
+      });
+      
+      // Helper function to update note visibility based on global state
+      function updateNoteVisibility(cell) {
+        if (showNoteText) {
+          // Get background color for contrast calculation
+          const bg = cell.style.backgroundColor || cell.style.background;
+          cell.style.color = getBrightness(bg) < 128 ? '#fff' : '#B1B2BC';
+        } else {
+          cell.style.color = 'transparent';
+        }
+      }
+      
+      // Default color system (as fallback)
+      const defaultNoteCategories = {
+        "Floral": "#B19897",
+        "Woody": "#72869B",
+        "Citrus": "#D3CFBE",
+        "Fruity": "#BF9783",
+        "Green": "#92A287",
+        "Spicy": "#A15C4B",
+        "Oriental": "#9D7F86",
+        "Aquatic": "#86A9B3"
+      };
+      
+      // Default color for unknown notes
+      const defaultColor = "#ADB7BE";
+      
+      // First load notes_mapping.json to get the correct color mappings
+      let notesMap;
+      
+      // Time-based variables
+      let currentYear = 1900;
+      const endYear = 2023;
+      const yearIncrement = 1; // Years per step
+      const yearInterval = 500; // Milliseconds per year
+      
+      // Cell variables
+      const cellSize = 8; // Size of each note cell
+      const cellLifespan = 15000; // How long a cell stays on screen (ms)
+      
+      // Load note mappings first, then fragrance data
+      Promise.all([
+        fetch(window.getCorrectPath('data/notes_mapping.json')).then(response => response.json()),
+        fetch(window.getCorrectPath('data/fragrantica.json')).then(response => response.json())
+      ])
+      .then(([mapping, fragranceData]) => {
+        notesMap = mapping;
+        
+        // Process and organize the data by year
+        const fragrancesByYear = {};
+        
+        fragranceData.forEach(fragrance => {
+          if (fragrance.Year) {
+            const year = Math.floor(fragrance.Year);
+            if (!fragrancesByYear[year]) {
+              fragrancesByYear[year] = [];
+            }
+            fragrancesByYear[year].push(fragrance);
+          }
+        });
+        
+        // Start the time-based animation
+        startTimeAnimation(fragrancesByYear);
+      })
+      .catch(error => {
+        console.error('Error loading data:', error);
+        // Fallback to random notes if data fails to load
+        startRandomAnimation();
+      });
+      
+      function getCategory(note) {
+        if (!notesMap || !notesMap.categories) return "Others";
+        
+        const noteLower = note.toLowerCase();
+        for (const [category, data] of Object.entries(notesMap.categories)) {
+          if (data.notes && data.notes.includes(noteLower)) {
+            return category;
+          }
+        }
+        return "Others";
+      }
+      
+      function getColor(note) {
+        const category = getCategory(note);
+        return notesMap?.categories[category]?.color || defaultColor;
+      }
+      
+      // Modified startTimeAnimation function to store timeInterval
+      function startTimeAnimation(fragrancesByYear) {
+        // Store data globally for pause/resume functionality
+        window.fragrancesByYearData = fragrancesByYear;
+        
+        // Clear existing interval if any
+        if (timeInterval) {
+          clearInterval(timeInterval);
+        }
+        
+        // Start the time progression
+        timeInterval = setInterval(() => {
+          // Only proceed if not paused
+          if (!animationPaused) {
+            // Update the year label
+            yearLabel.textContent = currentYear;
+            
+            // Get fragrances for the current year
+            const fragrances = fragrancesByYear[currentYear] || [];
+            
+            // Process notes for this year
+            processYearNotes(fragrances, currentYear);
+            
+            // Increment the year
+            currentYear += yearIncrement;
+            
+            // Loop back if we've reached the end
+            if (currentYear > endYear) {
+              currentYear = 1900;
+            }
+          }
+        }, yearInterval);
+      }
+      
+      // Modified to track which year's notes are in the middle
+      function processYearNotes(fragrances, year) {
+        // Extract and count all notes from this year's fragrances
+        const noteCounts = {};
+        const noteGenders = {};
+        const noteLevels = {};
+        
+        fragrances.forEach(fragrance => {
+          // Process Top, Middle, Base notes
+          ['Top', 'Middle', 'Base'].forEach(level => {
+            if (Array.isArray(fragrance[level])) {
+              fragrance[level].forEach(note => {
+                // Count occurrences
+                noteCounts[note] = (noteCounts[note] || 0) + 1;
+                
+                // Track gender associations (for potential future use)
+                if (!noteGenders[note]) noteGenders[note] = {};
+                const gender = fragrance.Gender?.toLowerCase() || 'unisex';
+                noteGenders[note][gender] = (noteGenders[note][gender] || 0) + 1;
+                
+                // Track note levels
+                noteLevels[note] = level;
+              });
+            }
+          });
+        });
+        
+        // Convert to array of objects for easier processing
+        let allNotes = Object.entries(noteCounts).map(([name, count]) => ({
+          name,
+          count,
+          level: noteLevels[name],
+          genders: noteGenders[name]
+        }));
+        
+        // Sort by frequency (most common first)
+        allNotes.sort((a, b) => b.count - a.count);
+        
+        // Calculate total frequency for percentage calculations
+        const totalCount = allNotes.reduce((sum, note) => sum + note.count, 0);
+        
+        // Limit to max 30 notes, but ensure they're representative
+        const maxNotesToShow = 30;
+        let notesToShow = [];
+        
+        if (allNotes.length <= maxNotesToShow) {
+          // If we have fewer notes than max, show them all
+          notesToShow = allNotes;
+        } else {
+          // For representative sampling, take the top notes that cover most occurrences
+          // but ensure diversity by including at least one from each category if possible
+          
+          // First, add the most common notes until we reach 70% of our max
+          const primaryCount = Math.floor(maxNotesToShow * 0.7);
+          notesToShow = allNotes.slice(0, primaryCount);
+          
+          // Get remaining slots
+          const remainingSlots = maxNotesToShow - notesToShow.length;
+          
+          // Group remaining notes by category
+          const notesByCategory = {};
+          allNotes.slice(primaryCount).forEach(note => {
+            const category = getCategory(note.name);
+            if (!notesByCategory[category]) notesByCategory[category] = [];
+            notesByCategory[category].push(note);
+          });
+          
+          // Take at least one note from each category
+          const categories = Object.keys(notesByCategory);
+          let categoryIndex = 0;
+          
+          while (notesToShow.length < maxNotesToShow && categoryIndex < categories.length) {
+            const category = categories[categoryIndex];
+            if (notesByCategory[category].length > 0) {
+              notesToShow.push(notesByCategory[category].shift());
+            }
+            categoryIndex = (categoryIndex + 1) % categories.length;
+          }
+        }
+        
+        // Create cells for these representative notes
+        notesToShow.forEach(note => {
+          // Determine how many instances of this note to show based on its proportion
+          // (minimum 1, but for very common notes could be multiple)
+          const proportion = note.count / totalCount;
+          const instances = Math.max(1, Math.round(proportion * maxNotesToShow / 3)); // Divide by 3 to avoid too many of the same
+          
+          // Create multiple instances of common notes
+          for (let i = 0; i < instances && i < 3; i++) { // Cap at 3 instances per note
+            createNoteCell({
+              name: note.name,
+              level: note.level,
+              gender: getTopGender(note.genders),
+              year: year // Pass the year info
+            });
+          }
+        });
+      }
+
+      // Helper function to determine the most associated gender for a note
+      function getTopGender(genderCounts) {
+        if (!genderCounts) return 'unisex';
+        
+        let maxCount = 0;
+        let topGender = 'unisex';
+        
+        for (const [gender, count] of Object.entries(genderCounts)) {
+          if (count > maxCount) {
+            maxCount = count;
+            topGender = gender;
+          }
+        }
+        
+        return topGender;
+      }
+      
+      // Modified to track year information
+      function createNoteCell(note) {
+        // Create cell element
+        const cell = document.createElement('div');
+        cell.className = 'note-cell';
+        
+        // Get note name and color
+        const color = getColor(note.name);
+        
+        // Style as a elongated pill shape with gradient edges
+        const pillWidth = Math.max(note.name.length * 8 + 40, 120); // Longer pills, minimum width
+        const pillHeight = 20; // Thinner height for more elegant look
+        
+        // Create base pill styling
+        cell.style.width = `${pillWidth}px`;
+        cell.style.height = `${pillHeight}px`;
+        cell.style.borderRadius = `${pillHeight}px`; // Fully rounded ends
+        
+        // Instead of solid background, create gradient fade effect - symmetrical on both sides
+        const baseRgb = hexToRgb(color);
+        cell.style.background = `linear-gradient(90deg, 
+          rgba(${baseRgb.r},${baseRgb.g},${baseRgb.b},0) 0%, 
+          rgba(${baseRgb.r},${baseRgb.g},${baseRgb.b},0.8) 20%, 
+          rgba(${baseRgb.r},${baseRgb.g},${baseRgb.b},0.8) 80%, 
+          rgba(${baseRgb.r},${baseRgb.g},${baseRgb.b},0) 100%)`;
+        
+        // Text styling
+        cell.style.color = getBrightness(color) < 128 ? '#fff' : '#B1B2BC';
+        cell.style.fontSize = '9px';
+        cell.style.display = 'flex';
+        cell.style.alignItems = 'center';
+        cell.style.justifyContent = 'center';
+        cell.style.textTransform = 'capitalize';
+        cell.style.fontFamily = '"instrument-sans-variable", sans-serif';
+        cell.style.padding = '0 8px';
+        cell.style.boxSizing = 'border-box';
+        cell.style.letterSpacing = '0.5px';
+        cell.style.fontWeight = '300';
+        cell.textContent = note.name;
+        
+        // Update visibility based on global state
+        updateNoteVisibility(cell);
+        
+        // Store the note name as data attribute
+        cell.dataset.noteName = note.name;
+        
+        // Remove box shadow
+        cell.style.boxShadow = 'none';
+        
+        // Store the year this note belongs to
+        cell.dataset.year = note.year;
+        
+        // Start positions
+        const startX = -pillWidth;
+        const verticalPos = 50 + Math.random() * (containerHeight - 100);
+        
+        cell.style.left = `${startX}px`;
+        cell.style.top = `${verticalPos}px`;
+        
+        // Store the speed directly on the cell element to ensure consistency
+        const speed = 2 + Math.random() * 2;
+        cell.dataset.speed = speed;
+        
+        // Calculate accurate travel time with a sufficient buffer
+        const travelDistance = containerWidth + pillWidth * 2;
+        const estimatedTravelTime = (travelDistance / speed) * (1000 / 60);
+        const dynamicLifespan = estimatedTravelTime * 1.2; // 20% buffer
+        
+        // Add to container
+        container.appendChild(cell);
+        
+        // Animate the cell - pass the speed directly
+        animateNoteCell(cell, pillWidth, speed);
+      }
+
+      // Modified animateNoteCell function to properly handle pausing
+      function animateNoteCell(cell, pillWidth, speed) {
+        let lastTimestamp = null;
+        let currentX = parseFloat(cell.style.left) || -pillWidth;
+        
+        function moveCell(timestamp) {
+          // If cell is no longer in DOM, exit animation loop
+          if (!container.contains(cell)) return;
+          
+          if (!animationPaused) {
+            // Handle the first animation frame or resuming from pause
+            if (!lastTimestamp) {
+              lastTimestamp = timestamp;
+            }
+            
+            // Calculate time delta
+            const delta = timestamp - lastTimestamp;
+            lastTimestamp = timestamp;
+            
+            // Update position only when not paused
+            currentX += speed * (delta / 16.67);
+            cell.style.left = `${currentX}px`;
+            
+            // If moved off screen, remove the cell
+            if (currentX > window.innerWidth + pillWidth) {
+              if (container.contains(cell)) {
+                container.removeChild(cell);
+              }
+              return; // Exit the animation loop
+            }
+          } else {
+            // When paused, we simply don't update the timestamp or position
+            // This effectively freezes the animation in place
+            lastTimestamp = null; // Reset timestamp so we don't get a huge jump when resuming
+          }
+          
+          // Continue the animation loop regardless of pause state
+          requestAnimationFrame(moveCell);
+        }
+
+        requestAnimationFrame(moveCell);
+      }
+
+      // Helper function to convert hex to RGB for gradient creation
+      function hexToRgb(hex) {
+        const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+        return result ? {
+          r: parseInt(result[1], 16),
+          g: parseInt(result[2], 16),
+          b: parseInt(result[3], 16)
+        } : {r: 173, g: 183, b: 190}; // Default gray if conversion fails
+      }
+
+      // Add helper function for text color contrast
+      function getBrightness(color) {
+        // Handle rgba format
+        if (color.startsWith('rgba')) {
+          const rgba = color.match(/[\d.]+/g);
+          if (rgba && rgba.length >= 3) {
+            return 0.299 * rgba[0] + 0.587 * rgba[1] + 0.114 * rgba[2];
+          }
+        }
+        
+        // Handle hex format
+        if (color.startsWith('#')) {
+          const hex = color.substring(1);
+          const r = parseInt(hex.substr(0, 2), 16);
+          const g = parseInt(hex.substr(2, 2), 16);
+          const b = parseInt(hex.substr(4, 2), 16);
+          return 0.299 * r + 0.587 * g + 0.114 * b;
+        }
+        
+        // Default
+        return 255;
+      }
+
+      // Modify createRandomNote to also track years
+      function createRandomNote() {
+        // Use default categories for fallback
+        const categories = Object.keys(defaultNoteCategories);
+        const category = categories[Math.floor(Math.random() * categories.length)];
+        
+        // Create a random note cell
+        const note = {
+          name: category,
+          level: ['Top', 'Middle', 'Base'][Math.floor(Math.random() * 3)],
+          gender: ['women', 'men', 'unisex'][Math.floor(Math.random() * 3)]
+        };
+        
+        // Create a cell with a fallback color from our hardcoded values
+        const cell = document.createElement('div');
+        cell.className = 'note-cell';
+        
+        let size = cellSize;
+        if (note.level === 'Top') size = cellSize * 1.2;
+        if (note.level === 'Base') size = cellSize * 1.5;
+        
+        cell.style.width = `${size}px`;
+        cell.style.height = `${size}px`;
+        cell.style.backgroundColor = defaultNoteCategories[category] || defaultColor;
+        
+        // Gender-based appearance
+        if (note.gender === 'women') {
+          cell.style.borderRadius = '50%';
+        } else if (note.gender === 'men') {
+          cell.style.borderRadius = '2px'; 
+        } else {
+          cell.style.borderRadius = '4px';
+        }
+        
+        // Add text content but hide by default
+        cell.textContent = category;
+        cell.style.textAlign = 'center';
+        cell.style.lineHeight = `${size}px`;
+        cell.dataset.noteName = category;
+        
+        // Update visibility based on global state
+        updateNoteVisibility(cell);
+        
+        // Random position along left edge
+        const startX = -size;
+        const verticalPos = Math.random() * containerHeight;
+        
+        cell.style.left = `${startX}px`;
+        cell.style.top = `${verticalPos}px`;
+        
+        // Add mock year data for consistency when in random mode
+        const randomYear = 1900 + Math.floor(Math.random() * 123); // 1900-2023
+        cell.dataset.year = randomYear;
+        
+        container.appendChild(cell);
+        animateNoteCell(cell, size, 2 + Math.random() * 2);
+      }
+      
+      // Handle resize
+      window.addEventListener('resize', function() {
+        // Update container dimensions
+        const newWidth = window.innerWidth;
+        const newHeight = window.innerHeight;
+      });
+
+      // Logo and tagline animations - simplified without SplitText
+      function animateEntrance() {
+        const logo = document.querySelector('.logo');
+        const tagline = document.querySelector('.tagline');
+        const ctaButton = document.querySelector('.cta-button');
+        
+        // Create a GSAP timeline
+        const tl = gsap.timeline({defaults: {ease: "power3.out"}});
+        
+        // Set initial states
+        gsap.set(logo, {autoAlpha: 0, y: -30});
+        gsap.set(tagline, {autoAlpha: 0, y: 30});
+        gsap.set(ctaButton, {autoAlpha: 0, y: 20});
+        
+        // Animate logo first with a bounce effect
+        tl.to(logo, {
+          duration: 1.5,
+          autoAlpha: 1,
+          y: 0,
+          ease: "elastic.out(1, 0.5)"
+        });
+        
+        // Animate tagline with a smooth float-up effect
+        tl.to(tagline, {
+          duration: 1,
+          autoAlpha: 1,
+          y: 0,
+          ease: "back.out(1.7)"
+        }, "-=0.7");
+        
+        // Animate button last
+        tl.to(ctaButton, {
+          duration: 0.8,
+          autoAlpha: 1,
+          y: 0
+        }, "-=0.3");
+      }
+
+      // Add subtle hover animation for the logo
+      function setupLogoHover() {
+        const logo = document.querySelector('.logo');
+        
+        logo.addEventListener('mouseenter', () => {
+          gsap.to(logo, {
+            duration: 0.5,
+            scale: 1.05,
+            rotation: 2,
+            ease: "power1.out"
+          });
+        });
+        
+        logo.addEventListener('mouseleave', () => {
+          gsap.to(logo, {
+            duration: 0.5,
+            scale: 1,
+            rotation: 0,
+            ease: "power1.inOut"
+          });
+        });
+      }
+      
+      // Call with a slight delay to ensure DOM is ready
+      setTimeout(function() {
+        animateEntrance();
+        setupLogoHover();
+      }, 500);
+    });
+  </script>
+</body>
+</html>
