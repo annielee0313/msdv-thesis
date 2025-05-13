@@ -48,12 +48,12 @@ function getAggregatedNoteDataForDecade(noteCountsByYear, decadeStart) {
 }
 
 Promise.all([
-  d3.json('../data/release_year.json'),
-  d3.json('../data/fragrantica.json'),
-  d3.json('../data/notes_mapping.json'),
-  d3.json('../data/gender_milestone.json'),
-  d3.json('../ad/ad_analysis.json'),
-  d3.json('../data/summary.json') // Add this line to load summary data
+  d3.json(window.getCorrectPath('../data/release_year.json')),
+  d3.json(window.getCorrectPath('../data/fragrantica.json')),
+  d3.json(window.getCorrectPath('../data/notes_mapping.json')),
+  d3.json(window.getCorrectPath('../data/gender_milestone.json')),
+  d3.json(window.getCorrectPath('../ad/ad_analysis.json')),
+  d3.json(window.getCorrectPath('../data/summary.json'))
 ]).then(([releaseData, fragranceData, notesMap, milestoneData, adArchive, summaryData]) => {
   // Make release data global so scrollama.js can access it
   window.releaseData = releaseData;

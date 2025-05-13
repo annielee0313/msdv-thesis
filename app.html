@@ -278,6 +278,35 @@
         </div>
       </div>
 
+  <!-- Add this script before your other scripts -->
+  <script>
+    // Detect if we're on GitHub Pages and set the base path accordingly
+    const isGitHubPages = window.location.hostname === 'annielee0313.github.io';
+    const basePath = isGitHubPages ? '/msdv-thesis' : '';
+    
+    // Create a function to dynamically fix all fetch/resource URLs
+    window.getCorrectPath = function(path) {
+      // If the path already starts with the base path or is an absolute URL, return it as is
+      if (path.startsWith(basePath) || path.startsWith('http') || path.startsWith('//')) {
+        return path;
+      }
+      
+      // If path starts with '/', ensure we don't double up slashes
+      if (path.startsWith('/')) {
+        return `${basePath}${path}`;
+      }
+      
+      // For relative paths
+      return `${basePath}/${path}`;
+    }
+    
+    // Override fetch to automatically fix URLs
+    const originalFetch = window.fetch;
+    window.fetch = function(url, options) {
+      return originalFetch(window.getCorrectPath(url), options);
+    };
+  </script>
+
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <script type="module" src="./js/adDetailModal.js"></script>
   <script type="module" src="./js/adsTreemap.js"></script>

@@ -362,8 +362,8 @@
       
       // Load note mappings first, then fragrance data
       Promise.all([
-        fetch('data/notes_mapping.json').then(response => response.json()),
-        fetch('data/fragrantica.json').then(response => response.json())
+        fetch(window.getCorrectPath('data/notes_mapping.json')).then(response => response.json()),
+        fetch(window.getCorrectPath('data/fragrantica.json')).then(response => response.json())
       ])
       .then(([mapping, fragranceData]) => {
         notesMap = mapping;
