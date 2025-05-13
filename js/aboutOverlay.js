@@ -31,34 +31,4 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 
-  // Add logo hover animation similar to landing.html
-  const logo = document.querySelector('.fluidnotes-logo');
-  
-  logo.addEventListener('mouseenter', () => {
-    // If GSAP is available, use it for the animation
-    if (window.gsap) {
-      gsap.to(logo, {
-        duration: 0.5,
-        scale: 1.05,
-        rotation: 2,
-        ease: "power1.out"
-      });
-    } else {
-      // Fallback to CSS transitions if GSAP isn't loaded
-      logo.style.transform = 'scale(1.05) rotate(2deg)';
-    }
-  });
-  
-  logo.addEventListener('mouseleave', () => {
-    if (window.gsap) {
-      gsap.to(logo, {
-        duration: 0.5,
-        scale: 1,
-        rotation: 0,
-        ease: "power1.inOut"
-      });
-    } else {
-      logo.style.transform = 'scale(1) rotate(0)';
-    }
-  });
 });

@@ -101,7 +101,7 @@ export function renderStackedBarChart(noteData, notesMap, noteTypeFilter = 'all'
   background
     .attr("width", width)
     .attr("height", totalHeight + margin.top + margin.bottom)
-    .attr("fill", "#F8F8F8");
+    .attr("fill", "#ffffff");
 
   // Create x scale
   const x = d3.scaleLinear()
@@ -324,7 +324,7 @@ export function renderStackedBarChart(noteData, notesMap, noteTypeFilter = 'all'
         d3.select("#bar-chart-tooltip")
           .style("display", "none")
           // Reset styles to default when tooltip disappears
-          .style("background-color", "#f8f8f8") 
+          .style("background-color", "#ffffff") 
           .style("border", "none");
       });
     
@@ -349,7 +349,7 @@ export function renderStackedBarChart(noteData, notesMap, noteTypeFilter = 'all'
       .attr("y", 0)
       .attr("alignment-baseline", "middle")
       .attr("font-family", "Instrument Sans, sans-serif")
-      .attr("font-size", "0.7rem")
+      .attr("font-size", "0.85rem")
       .attr("fill", "#6D7084")
       .text(toTitleCase(d.note))
       // Add tooltip behavior to the text
@@ -375,7 +375,7 @@ export function renderStackedBarChart(noteData, notesMap, noteTypeFilter = 'all'
         d3.select("#bar-chart-tooltip")
           .style("display", "none")
           // Reset styles to default when tooltip disappears
-          .style("background-color", "#f8f8f8") 
+          .style("background-color", "#ffffff") 
           .style("border", "none");
       });
 
@@ -499,7 +499,7 @@ function renderNoteDetailView(noteName, parentElement, dataArray, yPosition) {
   detailContainer.append("rect")
     .attr("width", detailWidth)
     .attr("height", detailHeight)
-    .attr("fill", "#f8f8f8")
+    .attr("fill", "#ffffff")
     .attr("rx", 5);
   
   // Setup chart dimensions

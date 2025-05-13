@@ -83,7 +83,7 @@ function populateNotesRow(type, notes) {
     const message = messagesByType[type.toLowerCase()] || 'No notes available';
     
     // Add the message with styling
-    container.innerHTML = `<em>${message}</em>`;
+    container.innerHTML = `<em style="color: #6D7084;">${message}</em>`;
     return;
   }
   
