@@ -49,27 +49,27 @@ function getAggregatedNoteDataForDecade(noteCountsByYear, decadeStart) {
 
 // Helper function to handle paths safely
 function safeGetPath(path) {
-  // If getCorrectPath exists, use it
-  if (typeof window.getCorrectPath === 'function') {
-    return window.getCorrectPath(path);
-  } 
-  // Otherwise use a simple path correction for GitHub Pages
-  else {
-    const isGitHubPages = window.location.hostname === 'annielee0313.github.io';
-    const basePath = isGitHubPages ? '/msdv-thesis' : '';
-    
-    // Remove leading '../' from path which causes issues on GitHub Pages
-    let cleanPath = path;
-    if (cleanPath.startsWith('../')) {
-      cleanPath = cleanPath.substring(3);
-    }
-    
-    // Ensure path starts with '/' for proper joining
-    if (!cleanPath.startsWith('/')) {
-      cleanPath = '/' + cleanPath;
-    }
-    
-    return basePath + cleanPath;
+  const isGitHubPages = window.location.hostname === 'annielee0313.github.io';
+  
+  // Extract the file path without the relative part
+  let fileName = path;
+  if (path.includes('/')) {
+    fileName = path.split('/').pop();
+  }
+  
+  // Determine directory from the original path
+  let directory = '';
+  if (path.includes('data/')) {
+    directory = 'data/';
+  } else if (path.includes('ad/')) {
+    directory = 'ad/';
+  }
+  
+  // Construct the appropriate path
+  if (isGitHubPages) {
+    return `/msdv-thesis/${directory}${fileName}`;
+  } else {
+    return path; // Keep original path for local development
   }
 }
 
