@@ -57,7 +57,19 @@ function safeGetPath(path) {
   else {
     const isGitHubPages = window.location.hostname === 'annielee0313.github.io';
     const basePath = isGitHubPages ? '/msdv-thesis' : '';
-    return `${basePath}${path.startsWith('/') ? path : '/' + path}`;
+    
+    // Remove leading '../' from path which causes issues on GitHub Pages
+    let cleanPath = path;
+    if (cleanPath.startsWith('../')) {
+      cleanPath = cleanPath.substring(3);
+    }
+    
+    // Ensure path starts with '/' for proper joining
+    if (!cleanPath.startsWith('/')) {
+      cleanPath = '/' + cleanPath;
+    }
+    
+    return basePath + cleanPath;
   }
 }
 
