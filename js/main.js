@@ -47,13 +47,27 @@ function getAggregatedNoteDataForDecade(noteCountsByYear, decadeStart) {
   return result;
 }
 
+// Helper function to handle paths safely
+function safeGetPath(path) {
+  // If getCorrectPath exists, use it
+  if (typeof window.getCorrectPath === 'function') {
+    return window.getCorrectPath(path);
+  } 
+  // Otherwise use a simple path correction for GitHub Pages
+  else {
+    const isGitHubPages = window.location.hostname === 'annielee0313.github.io';
+    const basePath = isGitHubPages ? '/msdv-thesis' : '';
+    return `${basePath}${path.startsWith('/') ? path : '/' + path}`;
+  }
+}
+
 Promise.all([
-  d3.json('../data/release_year.json'),
-  d3.json('../data/fragrantica.json'),
-  d3.json('../data/notes_mapping.json'),
-  d3.json('../data/gender_milestone.json'),
-  d3.json('../ad/ad_analysis.json'),
-  d3.json('../data/summary.json')
+  d3.json(safeGetPath('../data/release_year.json')),
+  d3.json(safeGetPath('../data/fragrantica.json')),
+  d3.json(safeGetPath('../data/notes_mapping.json')),
+  d3.json(safeGetPath('../data/gender_milestone.json')),
+  d3.json(safeGetPath('../ad/ad_analysis.json')),
+  d3.json(safeGetPath('../data/summary.json'))
 ]).then(([releaseData, fragranceData, notesMap, milestoneData, adArchive, summaryData]) => {
   // Make release data global so scrollama.js can access it
   window.releaseData = releaseData;
