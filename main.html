@@ -6,6 +6,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://use.typekit.net/ina4ngi.css">
+  
+  <script>
+    // Detect if we're on GitHub Pages and set the base path accordingly
+    const isGitHubPages = window.location.hostname === 'annielee0313.github.io';
+    const basePath = isGitHubPages ? '/msdv-thesis' : '';
+    
+    // Create a function to dynamically fix all fetch/resource URLs
+    window.getCorrectPath = function(path) {
+      // If the path already starts with the base path or is an absolute URL, return it as is
+      if (path.startsWith(basePath) || path.startsWith('http') || path.startsWith('//')) {
+        return path;
+      }
+      
+      // If path starts with '/', ensure we don't double up slashes
+      if (path.startsWith('/')) {
+        return `${basePath}${path}`;
+      }
+      
+      // For relative paths
+      return `${basePath}/${path}`;
+    }
+  </script>
 </head>
 <body>
     <div id="container">
